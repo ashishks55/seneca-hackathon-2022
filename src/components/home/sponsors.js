@@ -31,27 +31,27 @@ const Sponsors = () => {
         {
             title: 'Corporate Social Responsibility',
             logos: [csr_1, csr_2, csr_3, csr_4, csr_5],
-            width: ['120px', '70px', '120px', '110px', '120px']
+            width: ['140px', '90px', '130px', '120px', '130px']
         },
         {
             title: 'Cities and Municipalities',
             logos: [cm_1, cm_2, cm_3, cm_4],
-            width: ['160px', '160px', '120px', '110px']
+            width: ['170px', '170px', '130px', '120px']
         },
         {
             title: 'Global Causes and Organizations',
             logos: [gco_1, gco_2],
-            width: ['100px', '140px']
+            width: ['100px', '170px']
         },
         {
             title: 'Net-Zero Goals',
             logos: [nzc_1, nzc_2, nzc_3, nzc_4, nzc_5],
-            width: ['120px', '130px', '90px', '130px', '130px']
+            width: ['130px', '140px', '100px', '140px', '140px']
         },
         {
             title: 'Technology and Supporters',
             logos: [ts_1, ts_2, ts_3, ts_4],
-            width: ['90px', '120px', '120px', '150px']
+            width: ['100px', '130px', '150px', '180px']
         }
     ]
 

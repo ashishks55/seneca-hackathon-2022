@@ -686,6 +686,10 @@ div.about-question-item:last-child {
   border-bottom: 0px;
 }
 
+div.sponsor-list:last-child {
+  border-bottom: 0px;
+}
+
 .about-question-item .icon{
   margin-right: 0.6rem;
 }
