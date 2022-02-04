@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Seneca Hackathon`,
-    description: `Let's build a sustainable future, together in this SUSTAINABILITY HACKATHON!`,
+    description: `Let's build a sustainable future, together in this Sustainability Hackathon!`,
     author: ``,
     siteUrl: `https://www.senecahackathon.com/`,
   },
