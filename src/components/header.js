@@ -12,8 +12,8 @@ const Header = () => {
       is_selected: false
     },
     {
-      title: 'Keynotes',
-      link: '#keynotes',
+      title: 'Timeline',
+      link: '#timeline',
       is_selected: false
     },
     {
@@ -22,22 +22,22 @@ const Header = () => {
       is_selected: false
     },
     {
-      title: 'Organizers',
-      link: '#organizers',
-      is_selected: false
-    },
-    {
       title: 'Sponsors',
       link: '#sponsors',
       is_selected: false
     },
     {
-      title: 'Spotlight',
-      link: '#spotlight',
+      title: 'Organizers',
+      link: '#organizers',
       is_selected: false
-    }
+    },
+    // {
+    //   title: 'Spotlight',
+    //   link: '#spotlight',
+    //   is_selected: false
+    // }
   ]
-  
+
   return (
     <header className="has-navbar-fixed-top">
       <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
@@ -56,7 +56,7 @@ const Header = () => {
           <div className="navbar-end">
             {
               menu_items.map(item => (
-                <Link key={item.link} to={item.link} className="navbar-item">
+                <Link key={item.link} to={item.link} className="navbar-item has-text-weight-semibold">
                   {item.title}
                 </Link>
               ))
