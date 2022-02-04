@@ -1,35 +1,72 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import logo from '../images/logo.svg';
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+const Header = () => {
+
+  const menu_items = [
+    {
+      title: 'About',
+      link: '#about',
+      is_selected: false
+    },
+    {
+      title: 'Keynotes',
+      link: '#keynotes',
+      is_selected: false
+    },
+    {
+      title: 'Challenge Sets',
+      link: '#challenge-sets',
+      is_selected: false
+    },
+    {
+      title: 'Organizers',
+      link: '#organizers',
+      is_selected: false
+    },
+    {
+      title: 'Sponsors',
+      link: '#sponsors',
+      is_selected: false
+    },
+    {
+      title: 'Spotlight',
+      link: '#spotlight',
+      is_selected: false
+    }
+  ]
+  
+  return (
+    <header className="has-navbar-fixed-top">
+      <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div className="navbar-brand">
+          <Link className="navbar-item navbar-icon" to="/">
+            <img src={logo} alt="seneca hackathon" width="100%"/>
+          </Link>
+          <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" className="navbar-menu">
+          <div className="navbar-end">
+            {
+              menu_items.map(item => (
+                <Link key={item.link} to={item.link} className="navbar-item">
+                  {item.title}
+                </Link>
+              ))
+            }
+          </div>
+        </div>
+      </nav>
+    </header>
+  )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
