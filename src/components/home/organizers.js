@@ -77,12 +77,12 @@ const Organizers = () => {
     ]
 
     return (
-        <section class="hero is-medium is-white">
+        <section className="hero is-medium is-white">
             <div className="hero-body hero-body-2">
                 <div className='columns'>
                     <div className='column is-10 is-offset-1'>
-                        <h1 class="title">Organizers</h1>
-                        <h2 class="subtitle has-text-grey is-size-6 has-text-weight-normal">
+                        <h1 className="title">Organizers</h1>
+                        <h2 className="subtitle has-text-grey is-size-6 has-text-weight-normal">
                         Check our awesome organizing committee
                         </h2>
                         <div className='organizers columns flex-wrap'>
@@ -90,13 +90,13 @@ const Organizers = () => {
                                 organizers.map((organizer, index) => (
                                     <div key={index} className='column is-3'>
                                         <div className="card">
-                                            <div class="card-image">
-                                                <figure class="image is-1by1">
+                                            <div className="card-image">
+                                                <figure className="image is-1by1">
                                                     <img src={organizer.image} alt="organizer"/>
                                                 </figure>
                                             </div>
                                             <div className="card-content">
-                                                <div class="content organizer-card-content">
+                                                <div className="content organizer-card-content">
                                                     <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{organizer.name}</p>
                                                     <p className='subtitle designation has-text-grey is-size-6 has-text-weight-normal line-height-1'>{organizer.title}</p>
                                                     <a target='_blank' rel="noopener noreferrer" href={organizer.linkedin_url}><img src={linkedin_icon} alt="linkedin" className='linkedin-icon'/></a>

@@ -37,12 +37,10 @@ const hero = () => {
                         <p className="subtitle has-text-grey is-size-6">
                             *registrations have started
                         </p>
-                        <p>
                         <Countdown
                             date={date}
                             renderer={renderer}
                         />
-                        </p>
                         <img src={hero_logo} alt="Sustainable Planet" width="100%" className='is-hidden-tablet'/>
                     </div>
                     <div className='column is-5 is-hidden-touch hero-img'>
