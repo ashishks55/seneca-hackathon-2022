@@ -851,3 +851,7 @@ div.sponsor-list:last-child {
 .floating-left .social-media-icon{
   margin: 0.5rem;
 }
+
+.mg-bottom-100{
+  margin-bottom: 300px;
+}
