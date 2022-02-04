@@ -68,7 +68,7 @@ const About = () => {
                             {
                                 questions.map((question, index) => (
                                     <div key={index} className='about-question-item'>
-                                        <h1 className="title is-size-5"><span className='icon'><FontAwesomeIcon icon={question.icon} size="1x"/></span>{question.title}</h1>
+                                        <h1 className="title is-size-5"><span className='icon is-hidden-mobile'><FontAwesomeIcon icon={question.icon} size="1x"/></span>{question.title}</h1>
                                         <p className="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">{parse(question.info)}</p>
                                     </div>
                                 ))
