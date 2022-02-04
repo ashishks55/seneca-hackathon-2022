@@ -7,6 +7,9 @@ const hero = () => {
     const date = new Date("February 28, 2022 23:59:59");
 
     const renderer = (time_left) => {
+        if(time_left.completed){
+            return '';
+        }
         return <div className='time-left'>
             <span className='value'>{time_left.days}<br/><span className='unit'>Days</span></span>
             <span className='value'>{time_left.hours}<br/><span className='unit'>Hours</span></span>
