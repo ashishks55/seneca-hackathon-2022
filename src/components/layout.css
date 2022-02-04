@@ -3,6 +3,7 @@ html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -645,6 +646,10 @@ a.navbar-item:hover, a.navbar-item:focus{
   background-color: #059669;
 }
 
+.line-height-1{
+  line-height: 1.5rem;
+}
+
 .line-height-2{
   line-height: 2rem;
 }
@@ -676,6 +681,9 @@ a.navbar-item:hover, a.navbar-item:focus{
 .about-question-item{
   border-bottom: 1px solid lightgray;
   padding: 2rem 0rem 1rem 0rem;
+}
+div.about-question-item:last-child {
+  border-bottom: 0px;
 }
 
 .about-question-item .icon{
@@ -720,4 +728,57 @@ a.navbar-item:hover, a.navbar-item:focus{
 .sponsor-list{
   border-bottom: 1px solid lightgray;
   margin-bottom: 15px;
+}
+
+.organizers{
+  justify-content: center;
+}
+
+.organizers .card{
+  height: 100%;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.organizers img{
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+
+.card-image .image{
+  margin-bottom: 0px;
+}
+
+.designation{
+  margin-bottom: 10px !important;
+}
+
+.name{
+  margin-bottom: 5px !important;
+}
+
+.organizer-card-content .subtitle{
+  padding-top: 0px;
+}
+
+.linkedin-icon{
+  width: 30px;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  cursor: pointer;
+}
+
+.section-break{
+  padding-top: 50px;
+  margin: 0px 48%;
+}
+
+.section-break hr{
+  display: block; height: 1px;
+  border: 0; 
+  border-top: 6px solid #059669;
+  border-radius: 8px;
+  padding: 0;
+  background-color: transparent;
 }

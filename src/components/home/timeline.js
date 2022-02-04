@@ -31,7 +31,7 @@ const Timeline = () => {
     ]
 
     return (
-        <section class="hero is-medium is-white" id="timeline">
+        <section class="hero is-medium is-white">
             <div className="hero-body hero-body-2">
                 <div className='columns flex-wrap'>
                     <div className='column is-10 is-offset-1'>

@@ -37,7 +37,9 @@ const Layout = ({ children }) => {
           style={{
             marginTop: `2rem`,
             marginBottom: `2rem`,
-            textAlign: 'center'
+            textAlign: 'center',
+            borderTop: '4px solid #059669',
+            paddingTop: '3rem'
           }}
         >
           © {new Date().getFullYear()}, All rights reserved.

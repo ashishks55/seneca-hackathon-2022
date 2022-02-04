@@ -33,7 +33,7 @@ const About = () => {
     ]
 
     return (
-        <section className="hero is-medium is-white" id="about">
+        <section className="hero is-medium is-white">
             <div className="hero-body hero-body-2">
                 <div className='columns'>
                     <div className='column is-10 is-offset-1'>

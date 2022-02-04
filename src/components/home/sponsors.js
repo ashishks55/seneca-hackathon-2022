@@ -65,26 +65,22 @@ const Sponsors = () => {
                         Sponsors who are helping us make this Hackathon a success.
                         </h2>
                         <div className='sponsors'>
-                            {/* <div className="card">
-                                <div className="card-content"> */}
-                                {
-                                    sponsors.map((sponsor, index) => (
-                                        <div key={index} className='sponsor-list'>
-                                                    <h2 className='subtitle has-text-weight-bold'>{sponsor.title}</h2>
-                                                    <div className='sponsor-logos'>
-                                                        {
-                                                            sponsor.logos.map((logo, index) => (
-                                                                <div key={index} className='sponsor-logo'>
-                                                                    <img src={logo} alt="sponsor" width={sponsor.width[index]}/>
-                                                                </div>
-                                                            ))
-                                                        }
-                                                    </div>
+                            {
+                                sponsors.map((sponsor, index) => (
+                                    <div key={index} className='sponsor-list'>
+                                                <h2 className='subtitle has-text-weight-bold'>{sponsor.title}</h2>
+                                                <div className='sponsor-logos'>
+                                                    {
+                                                        sponsor.logos.map((logo, index) => (
+                                                            <div key={index} className='sponsor-logo'>
+                                                                <img src={logo} alt="sponsor" width={sponsor.width[index]}/>
+                                                            </div>
+                                                        ))
+                                                    }
                                                 </div>
-                                    ))
-                                }
-                                {/* </div>
-                            </div> */}
+                                            </div>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>
