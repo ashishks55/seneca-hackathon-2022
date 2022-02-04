@@ -831,3 +831,14 @@ div.about-question-item:last-child {
   margin-right: 5px;
   border-radius: 4px;
 }
+
+.floating-left{
+  position: fixed;
+  left: 2rem;
+  top: calc(60vh - 146px);
+  flex-direction: column;
+}
+
+.floating-left .social-media-icon{
+  margin: 0.5rem;
+}

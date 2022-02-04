@@ -4,7 +4,7 @@ import facebook from '../../images/social/facebook.svg'
 import instagram from '../../images/social/instagram.svg'
 import twitter from '../../images/social/twitter.svg'
 
-const SocialMedia = () => {
+const SocialMedia = ({classes}) => {
 
     const social_media = [
         {
@@ -26,7 +26,7 @@ const SocialMedia = () => {
     ]
 
     return (
-        <div className='social-media'>
+        <div className={`social-media ${classes ? classes : ''}`}>
             {
                 social_media.map((platform, index) => (
                     <div key={index} className="social-media-icon">
