@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
           <SocialMedia/>
           © {new Date().getFullYear()}, All rights reserved.
         </footer>
-        <a className='button is-success static-button' target='_blank' rel="noopener noreferrer" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277'>
+        <a className='button is-success static-button is-hidden-mobile' target='_blank' rel="noopener noreferrer" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277'>
             <span>Register Now!</span>
         </a>
         <SocialMedia classes={'floating-left is-hidden-mobile'}/>
