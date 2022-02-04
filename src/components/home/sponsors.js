@@ -69,7 +69,7 @@ const Sponsors = () => {
                                 sponsors.map((sponsor, index) => (
                                     <div key={index} className='sponsor-list'>
                                                 <h2 className='subtitle has-text-weight-bold'>{sponsor.title}</h2>
-                                                <div className='sponsor-logos'>
+                                                <div className='sponsor-logos  is-flex-tablet '>
                                                     {
                                                         sponsor.logos.map((logo, index) => (
                                                             <div key={index} className='sponsor-logo'>
