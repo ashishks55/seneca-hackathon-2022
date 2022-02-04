@@ -49,8 +49,8 @@ const Timeline = () => {
                                         <div className='number'>{index + 1}</div>
                                         <div className='subtitle'>{event.title}</div>
                                         <div className='date'>{event.start_date} {event.end_date ? 'to' : null}</div>
-                                        
                                         {event.end_date ? <div className='date'>{event.end_date}</div> : null}
+                                        {index === timeline.length - 1 ? null : <hr className='is-hidden-tablet timeline-hr'/>}
                                     </div>
                                 ))
                             }

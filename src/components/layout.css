@@ -694,6 +694,11 @@ div.sponsor-list:last-child {
   margin-right: 0.6rem;
 }
 
+.timeline-hr{
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
 .timeline .timeline-item .number{
   background-color: #059669;
   color: white;
