@@ -1,9 +1,12 @@
-import * as React from "react"
+import React, { useState } from 'react'
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import classnames from 'classnames';
 import logo from '../images/logo.svg';
 
 const Header = () => {
+
+  const [is_active, changeActiveStatus] = useState(false);
 
   const menu_items = [
     {
@@ -37,7 +40,7 @@ const Header = () => {
     //   is_selected: false
     // }
   ]
-
+  
   return (
     <header className="has-navbar-fixed-top">
       <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
@@ -45,18 +48,18 @@ const Header = () => {
           <Link className="navbar-item navbar-icon" to="/">
             <img src={logo} alt="seneca hackathon" width="100%"/>
           </Link>
-          <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a role="button" onClick={() => {changeActiveStatus(!is_active)}} className={classnames("navbar-burger", {'is-active': is_active})} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
 
-        <div id="navbarBasicExample" className="navbar-menu">
+        <div id="navbarBasicExample" className={classnames("navbar-menu", {'is-active': is_active})}>
           <div className="navbar-end">
             {
               menu_items.map(item => (
-                <Link key={item.link} to={item.link} className="navbar-item has-text-weight-semibold">
+                <Link key={item.link} to={item.link} className="navbar-item has-text-weight-semibold"  onClick={() => {changeActiveStatus(false)}}>
                   {item.title}
                 </Link>
               ))

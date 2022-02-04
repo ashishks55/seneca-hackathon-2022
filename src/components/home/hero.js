@@ -1,8 +1,21 @@
-import React from 'react';
-import hero_logo from '../../images/hero-banner.svg';
+import React from 'react'
+import Countdown from 'react-countdown'
+import hero_logo from '../../images/hero-banner.svg'
 
 const hero = () => {
-  return (
+
+    const date = new Date("February 28, 2022 23:59:59");
+
+    const renderer = (time_left) => {
+        return <div className='time-left'>
+            <span className='value'>{time_left.days}<br/><span className='unit'>Days</span></span>
+            <span className='value'>{time_left.hours}<br/><span className='unit'>Hours</span></span>
+            <span className='value'>{time_left.minutes}<br/><span className='unit'>Mins</span></span>
+            <span className='value'>{time_left.seconds}<br/><span className='unit'>Secs</span></span>
+        </div>;
+    };
+
+    return (
         <section className="hero is-medium is-white">
             <div className="hero-body">
                 <div className='columns'>
@@ -20,6 +33,12 @@ const hero = () => {
                         </p>
                         <p className="subtitle has-text-grey is-size-6">
                             *registrations have started
+                        </p>
+                        <p>
+                        <Countdown
+                            date={date}
+                            renderer={renderer}
+                        />
                         </p>
                         <img src={hero_logo} alt="Sustainable Planet" width="100%" className='is-hidden-tablet'/>
                     </div>
