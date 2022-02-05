@@ -694,6 +694,15 @@ div.sponsor-list:last-child {
   margin-right: 0.6rem;
 }
 
+.about-question-item img{
+  margin: 0px;
+  margin-right: 0.6rem;
+}
+
+.about-question-item .title-text{
+  align-self: center;
+}
+
 .timeline-hr{
   margin-bottom: 20px;
   margin-top: 40px;
