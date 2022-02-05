@@ -20,12 +20,12 @@ const About = () => {
         {
             title: 'I am a first time hacker, what should I do?',
             info: `No worries, we love to welcome first time hackers and start their journey. We have help them start their hackathon journey. We have some awesome workshops and events which will help you strengthen your problem solving skills.`,
-            image: image_2
+            image: image_3
         },
         {
             title: 'Who can attend?',
             info: `Early registration is open to Seneca students. This will be opened up for additional colleges and universities by <b>Jan 21, 2022</b>. Participating colleges and universities will be listed. If you are NOT a student in any of the qualifying institutions, you may still participate, but MUST be assigned to a team anchored by Seneca Students. The Student Success Team will help you accomplish this.`,
-            image: image_3
+            image: image_2
         },
         {
             title: 'How team formation works?',
