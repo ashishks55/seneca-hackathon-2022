@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import parse from 'html-react-parser'
 import ReactPlayer from "react-player"
 import video_thumbnail from '../../images/video-thumbnail.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPen, faCode, faUsers, faUsersCog } from '@fortawesome/free-solid-svg-icons'
 import image_1 from '../../images/about/1.png'
 import image_2 from '../../images/about/2.png'
 import image_3 from '../../images/about/3.png'
@@ -16,25 +14,21 @@ const About = () => {
     const questions = [
         {
             title: 'How do I register myself in the hackathon?',
-            icon: faPen,
             info: `All you need to do is click on the <a target='_blank' rel="noopener noreferrer" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' class='has-text-bold is-underlined has-text-success'>registration link</a> and register using our eventbrite page.`,
             image: image_1
         },
         {
             title: 'I am a first time hacker, what should I do?',
-            icon: faCode,
             info: `No worries, we love to welcome first time hackers and start their journey. We have help them start their hackathon journey. We have some awesome workshops and events which will help you strengthen your problem solving skills.`,
             image: image_2
         },
         {
             title: 'Who can attend?',
-            icon: faUsers,
             info: `Early registration is open to Seneca students. This will be opened up for additional colleges and universities by <b>Jan 21, 2022</b>. Participating colleges and universities will be listed. If you are NOT a student in any of the qualifying institutions, you may still participate, but MUST be assigned to a team anchored by Seneca Students. The Student Success Team will help you accomplish this.`,
             image: image_3
         },
         {
             title: 'How team formation works?',
-            icon: faUsersCog,
             info: `You can form team of a maximum of <b>5 members</b>. If you don't have a team, there'll be plenty of opportunities for you to meet other peer hackers across the globe and form a team!`,
             image: image_4
         }
@@ -78,7 +72,6 @@ const About = () => {
                                     <div key={index} className='about-question-item'>
                                         <div className='is-flex'>
                                             <img src={question.image} alt="about" width={'60px'}/>
-                                            {/* <span className='icon is-hidden-mobile'><FontAwesomeIcon icon={question.icon} size="1x"/></span> */}
                                             <span className="title is-size-5 title-text">{question.title}</span>
                                         </div>
                                         <p className="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">{parse(question.info)}</p>
