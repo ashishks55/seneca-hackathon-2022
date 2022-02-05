@@ -24,10 +24,10 @@ const hero = () => {
                 <div className='columns'>
                     <div className='column is-12-tablet is-5-desktop is-offset-1 hero-content'>
                         <p className="title">
-                            From Industrial Revolution
+                            <span className='has-text-grey'>from</span> Industrial Revolution
                         </p>
                         <p className="title">
-                            to <span className='has-text-green'>Sustainable Planet</span>
+                            <span className='has-text-grey'>to</span> <span className='has-text-green'>Sustainable Planet</span>
                         </p>
                         <p className="title">
                             <a className='button is-success' target='_blank' rel="noopener noreferrer" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277'>
