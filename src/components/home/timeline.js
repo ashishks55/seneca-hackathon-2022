@@ -1,4 +1,5 @@
 import React from 'react';
+import timeline_icon from '../../images/timeline.png'
 
 const Timeline = () => {
 
@@ -47,6 +48,7 @@ const Timeline = () => {
                                 timeline.map((event, index) => (
                                     <div key={index} className='timeline-item column has-text-centered'>
                                         <div className='number'>{index + 1}</div>
+                                        <div className='is-flex is-justify-content-center'><div className='timeline-icon'><img src={timeline_icon} alt="timeline"/></div></div>
                                         <div className='subtitle'>{event.title}</div>
                                         <div className='date'>{event.start_date} {event.end_date ? 'to' : null}</div>
                                         {event.end_date ? <div className='date'>{event.end_date}</div> : null}
