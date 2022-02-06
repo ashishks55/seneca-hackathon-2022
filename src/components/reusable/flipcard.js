@@ -21,15 +21,15 @@ const FlipCardComponent = ({front_content, back_content}) => {
     const [isFlipped, setFlipped] = useState(false);
  
     const front = (
-        <div onClick={() => setFlipped(x => !x)} style={{ ...cardStyle, background: "#fff" }}>
+        <div onMouseEnter={() => setFlipped(true)} onClick={() => setFlipped(x => !x)} style={{ ...cardStyle, background: "#fff" }}>
             {parse(front_content)}
-            <div className='right-icon'><FontAwesomeIcon icon={faArrowRight} /></div>
+            <div className='right-icon is-hidden-tablet'><FontAwesomeIcon icon={faArrowRight} /></div>
         </div>
     );
  
     const back = (
-        <div onClick={() => setFlipped(x => !x)} style={{ ...cardStyle, background: "#fff" }}>
-             <div className='left-icon'><FontAwesomeIcon icon={faArrowLeft} /></div>
+        <div onMouseLeave={() => setFlipped(false)} onClick={() => setFlipped(x => !x)} style={{ ...cardStyle, background: "#fff" }}>
+             <div className='left-icon is-hidden-tablet'><FontAwesomeIcon icon={faArrowLeft} /></div>
              {parse(back_content)}
         </div>
     );
