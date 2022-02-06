@@ -41,23 +41,19 @@ const Timeline = () => {
                         Tentative Roadmap for the Hackathon
                         </h2>
                     </div>
-                    <div className='timeline column is-10 is-offset-1'>
-                        <div className="card">
-                            <div className="card-content columns">
-                            {
-                                timeline.map((event, index) => (
-                                    <div key={index} className='timeline-item column has-text-centered'>
-                                        <div className='number'>{index + 1}</div>
-                                        <div className='is-flex is-justify-content-center'><div className='timeline-icon'><img src={timeline_icon} alt="timeline"/></div></div>
-                                        <div className='subtitle'>{event.title}</div>
-                                        <div className='date'>{event.start_date} {event.end_date ? 'to' : null}</div>
-                                        {event.end_date ? <div className='date'>{event.end_date}</div> : null}
-                                        {index === timeline.length - 1 ? null : <hr className='is-hidden-tablet timeline-hr'/>}
-                                    </div>
-                                ))
-                            }
+                    <div className='timeline columns column is-10 is-offset-1'>
+                    {
+                        timeline.map((event, index) => (
+                            <div key={index} className='timeline-item column has-text-centered'>
+                                <div className='number'>{index + 1}</div>
+                                <div className='is-flex is-justify-content-center'><div className='timeline-icon'><img src={timeline_icon} alt="timeline"/></div></div>
+                                <div className='subtitle'>{event.title}</div>
+                                <div className='date'>{event.start_date} {event.end_date ? 'to' : null}</div>
+                                {event.end_date ? <div className='date'>{event.end_date}</div> : null}
+                                {index === timeline.length - 1 ? null : <hr className='is-hidden-tablet timeline-hr'/>}
                             </div>
-                        </div>
+                        ))
+                    }
                     </div>
                 </div>
             </div>
