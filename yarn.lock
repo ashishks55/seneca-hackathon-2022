@@ -4710,6 +4710,11 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.5.tgz#76c8584f4fc843db64702a6bd04ab7a8bd666da3"
   integrity sha512-WIWGi2L3DyTUvUrwRKgGi9TwxQMUEqPOPQBVi71R96jZXJdFskXEmf54BoZaS1kknGODoIGASGEzBUYdyMCBJg==
 
+flip-card-react@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/flip-card-react/-/flip-card-react-1.1.0.tgz#5c0e2fac5ed450161896a249c27a731c8a087af3"
+  integrity sha512-y9zryNExd8ItfQatFjjLIgRURacJzKGDPlyUcibsKrvL6UqgTXlM929K9ZsFnzG5FUrlzCqN88Luq9iJNQKdlw==
+
 follow-redirects@^1.0.0, follow-redirects@^1.14.0:
   version "1.14.7"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"

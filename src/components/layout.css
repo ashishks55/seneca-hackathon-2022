@@ -864,3 +864,32 @@ div.sponsor-list:last-child {
 .mg-bottom-100{
   margin-bottom: 300px;
 }
+
+.card-front img{
+  width: 70px;
+  margin-top: 20px;
+}
+
+.card-front{
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-front .title{
+  line-height: 2rem !important;
+  margin-bottom: 0px;
+}
+
+.right-icon{
+  position: absolute;
+  text-align: right;
+  bottom: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.left-icon{
+  text-align: left;
+  cursor: pointer;
+}

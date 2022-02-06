@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import parse from 'html-react-parser'
 import ReactPlayer from "react-player"
+import FlipCard from '../reusable/flipcard'
 import video_thumbnail from '../../images/video-thumbnail.png'
 import image_1 from '../../images/about/1.png'
 import image_2 from '../../images/about/2.png'
@@ -13,12 +13,12 @@ const About = () => {
 
     const questions = [
         {
-            title: 'How do I register myself in the hackathon?',
+            title: 'How to Register?',
             info: `All you need to do is click on the <a target='_blank' rel="noopener noreferrer" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' class='has-text-bold is-underlined has-text-success'>registration link</a> and register using our eventbrite page.`,
             image: image_1
         },
         {
-            title: 'I am a first time hacker, what should I do?',
+            title: 'First Time Hackers?',
             info: `No worries, we love to welcome first time hackers and start their journey. We have help them start their hackathon journey. We have some awesome workshops and events which will help you strengthen your problem solving skills.`,
             image: image_3
         },
@@ -28,7 +28,7 @@ const About = () => {
             image: image_2
         },
         {
-            title: 'How team formation works?',
+            title: 'Team Formation?',
             info: `You can form team of a maximum of <b>5 members</b>. If you don't have a team, there'll be plenty of opportunities for you to meet other peer hackers across the globe and form a team!`,
             image: image_4
         }
@@ -66,15 +66,29 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='about-questions'>
+                        <div className='about-questions columns'>
                             {
                                 questions.map((question, index) => (
-                                    <div key={index} className='about-question-item'>
-                                        <div className='is-flex'>
+                                    <div key={index} className='column'>
+                                        {/* <div className='is-flex'>
                                             <img src={question.image} alt="about" width={'60px'}/>
                                             <span className="title is-size-5 title-text">{question.title}</span>
                                         </div>
-                                        <p className="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">{parse(question.info)}</p>
+                                        <p className="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">{parse(question.info)}</p> */}
+                                        <FlipCard
+                                            front_content={`
+                                                <div class="card-front">
+                                                    <img src=${question.image} alt="about" width={'60px'}/>
+                                                    <p class="title is-size-5 title-text">${question.title}</p>
+                                                    <div><span></span></div>
+                                                </div>`
+                                            }
+                                            back_content={`
+                                                <p class="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">
+                                                    ${question.info}
+                                                </p>`
+                                            }
+                                        />
                                     </div>
                                 ))
                             }
