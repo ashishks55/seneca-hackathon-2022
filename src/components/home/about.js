@@ -9,7 +9,8 @@ import image_4 from '../../images/about/4.png'
 
 const About = () => {
 
-    const [video_clicked, playVideoOnClick] = useState(false);
+    const [video_clicked_desktop, playVideoOnClickDesktop] = useState(false);
+    const [video_clicked_mobile, playVideoOnClickMobile] = useState(false);
 
     const questions = [
         {
@@ -48,7 +49,7 @@ const About = () => {
                                     <br/>
                                 </div>
                                 <div className='video-container is-hidden-touch'> 
-                                    {video_clicked 
+                                    {video_clicked_desktop 
                                     ? 
                                         <ReactPlayer
                                             url="https://www.youtube.com/watch?v=foA8JE2WcJk"
@@ -58,11 +59,11 @@ const About = () => {
                                             playing={true}
                                         />
                                     : 
-                                        <img src={video_thumbnail} alt="What is a Hackathon?" className='pointer is-marginless' width="100%" onClick={() => {playVideoOnClick(true)}}/>
+                                        <img src={video_thumbnail} alt="What is a Hackathon?" className='pointer is-marginless' width="100%" onClick={() => {playVideoOnClickDesktop(true)}}/>
                                     }
                                 </div>
                                 <div className='video-container-2 is-hidden-desktop'> 
-                                    {video_clicked 
+                                    {video_clicked_mobile 
                                     ? 
                                         <ReactPlayer
                                             url="https://www.youtube.com/watch?v=foA8JE2WcJk"
@@ -72,7 +73,7 @@ const About = () => {
                                             playing={true}
                                         />
                                     : 
-                                        <img src={video_thumbnail} alt="What is a Hackathon?" className='pointer is-marginless' height={'300px'} onClick={() => {playVideoOnClick(true)}}/>
+                                        <img src={video_thumbnail} alt="What is a Hackathon?" className='pointer is-marginless' height={'300px'} onClick={() => {playVideoOnClickMobile(true)}}/>
                                     }
                                 </div>
                         <div className='about-questions columns flex-wrap'>
