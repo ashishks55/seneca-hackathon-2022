@@ -30,7 +30,7 @@ const Challengesets = () => {
         <div className="hero-body hero-body-2">
             <div className='columns'>
                 <div className='column is-10 is-offset-1'>
-                    <h1 className="title">Challenge sets</h1>
+                    <h1 className="title">Challenge sets</h1><br/>
                         <div className='challengesets columns flex-wrap'>
                             {
                                 challengesets.map((challengeset, index) => (
