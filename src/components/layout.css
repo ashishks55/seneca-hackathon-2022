@@ -619,13 +619,13 @@ pre tt:after {
 }
 
 a.navbar-item, a.navbar-item{
-  color: #1C444C;
+  color: black;
   background-color: #F3EAEA;
 }
 
 
 a.navbar-item:hover, a.navbar-item:focus{
-  color: #1C444C;
+  color: black;
   text-decoration: underline;
   background-color: #F3EAEA;
 }
