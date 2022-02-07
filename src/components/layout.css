@@ -747,6 +747,7 @@ div.sponsor-list:last-child {
   color: white;
   font-size: 1.5rem;
   border-radius: 50%;
+  border: 3px solid #459888;
   width: 100px;
   height: 100px;
   margin: 0px;
