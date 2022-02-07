@@ -81,15 +81,12 @@ const Organizers = () => {
             <div className="hero-body hero-body-2">
                 <div className='columns'>
                     <div className='column is-10 is-offset-1'>
-                        <h1 className="title">Organizers</h1>
-                        <h2 className="subtitle has-text-grey is-size-6 has-text-weight-normal">
-                        Check our awesome organizing committee
-                        </h2>
+                        <h1 className="title">Our Organizing Committee</h1><br/>
                         <div className='organizers columns flex-wrap'>
                             {
                                 organizers.map((organizer, index) => (
                                     <div key={index} className='column is-3'>
-                                        <div className="card">
+                                        <div className="card card-3">
                                             <div className="card-image">
                                                 <figure className="image is-1by1">
                                                     <img src={organizer.image} alt="organizer"/>
@@ -98,7 +95,7 @@ const Organizers = () => {
                                             <div className="card-content">
                                                 <div className="content organizer-card-content">
                                                     <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{organizer.name}</p>
-                                                    <p className='subtitle designation has-text-grey is-size-6 has-text-weight-normal line-height-1'>{organizer.title}</p>
+                                                    <p className='subtitle designation is-size-6 has-text-weight-normal line-height-1'>{organizer.title}</p>
                                                     <a target='_blank' rel="noopener noreferrer" href={organizer.linkedin_url}><img src={linkedin_icon} alt="linkedin" className='linkedin-icon'/></a>
                                                 </div>
                                             </div>

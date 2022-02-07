@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
             marginBottom: `2rem`,
             textAlign: 'center',
-            borderTop: '4px solid #059669',
+            borderTop: '4px solid #1C444C',
             paddingTop: '3rem'
           }}
         >

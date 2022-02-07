@@ -14,7 +14,7 @@ const About = () => {
     const questions = [
         {
             title: 'How to Register?',
-            info: `All you need to do is click on the <a target='_blank' rel="noopener noreferrer" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' class='has-text-bold is-underlined has-text-success'>registration link</a> and register using our eventbrite page.`,
+            info: `All you need to do is click on the <a target='_blank' rel="noopener noreferrer" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' class='has-text-bold is-underlined has-text-green'>registration link</a> and register using our eventbrite page.`,
             image: image_1
         },
         {
@@ -39,33 +39,42 @@ const About = () => {
             <div className="hero-body hero-body-2">
                 <div className='columns'>
                     <div className='column is-10 is-offset-1'>
-                        <h1 className="title">What is a Hackathon?</h1>
-                        <div className="card">
-                            <div className="card-content min-height-365">
-                                <div className="content columns flex-wrap">
-                                    <div className='column is-6-desktop is-12-tablet video-container'> 
-                                        {video_clicked 
-                                        ? 
-                                            <ReactPlayer
-                                                url="https://www.youtube.com/watch?v=foA8JE2WcJk"
-                                                controls={true}
-                                                width="100%"
-                                                height="316px"
-                                                playing={true}
-                                            />
-                                        : 
-                                            <img src={video_thumbnail} alt="What is a Hackathon?" className='pointer is-marginless' width="100%" onClick={() => {playVideoOnClick(true)}}/>
-                                        }
-                                    </div>
-                                    <div className='column text-container'> 
-                                        <p className="has-text-green has-text-weight-bold">A call for everyone who is interested in solving the problem!</p>
-                                        <p className="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">
-                                        A hackathon is a problem-solving competition in which a diverse group of people form a team and decide to collaborate intensively to develop solutions to given problems or “challenge sets”. A cause hackathon, such as this Sustainability hackathon, is an event focussed on increasing awareness of global causes and providing avenues for participation to become engaged and involved in making the world a better place.
-                                        </p>
-                                    </div>
+                        <h1 className="title is-marginless">What is a Hackathon?</h1>
+                                <div className='text-container'> 
+                                    {/* <p className="has-text-green has-text-weight-bold">A call for everyone who is interested in solving the problem!</p> */}
+                                    <p className="subtitle is-size-6 has-text-weight-normal line-height-2">
+                                    A hackathon is a problem-solving competition in which a diverse group of people form a team and decide to collaborate intensively to develop solutions to given problems or “challenge sets”. A cause hackathon, such as this Sustainability hackathon, is an event focussed on increasing awareness of global causes and providing avenues for participation to become engaged and involved in making the world a better place.
+                                    </p>
+                                    <br/>
                                 </div>
-                            </div>
-                        </div>
+                                <div className='video-container is-hidden-touch'> 
+                                    {video_clicked 
+                                    ? 
+                                        <ReactPlayer
+                                            url="https://www.youtube.com/watch?v=foA8JE2WcJk"
+                                            controls={true}
+                                            width="100%"
+                                            height="450px"
+                                            playing={true}
+                                        />
+                                    : 
+                                        <img src={video_thumbnail} alt="What is a Hackathon?" className='pointer is-marginless' width="100%" onClick={() => {playVideoOnClick(true)}}/>
+                                    }
+                                </div>
+                                <div className='video-container-2 is-hidden-desktop'> 
+                                    {video_clicked 
+                                    ? 
+                                        <ReactPlayer
+                                            url="https://www.youtube.com/watch?v=foA8JE2WcJk"
+                                            controls={true}
+                                            width="100%"
+                                            height="300px"
+                                            playing={true}
+                                        />
+                                    : 
+                                        <img src={video_thumbnail} alt="What is a Hackathon?" className='pointer is-marginless' height={'300px'} onClick={() => {playVideoOnClick(true)}}/>
+                                    }
+                                </div>
                         <div className='about-questions columns'>
                             {
                                 questions.map((question, index) => (
@@ -78,7 +87,6 @@ const About = () => {
                                         <FlipCard
                                             front_content={`
                                                 <div class="card-front">
-                                                    <img src=${question.image} alt="about" width={'60px'}/>
                                                     <p class="title is-size-5 title-text">${question.title}</p>
                                                     <div><span></span></div>
                                                 </div>`

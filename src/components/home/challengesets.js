@@ -35,7 +35,7 @@ const Challengesets = () => {
                             {
                                 challengesets.map((challengeset, index) => (
                                     <div key={index} className='column'>
-                                        <div className="card">
+                                        <div className="card card-2">
                                             <div className="card-image">
                                                 <figure className="image is-2by1">
                                                     <img src={challengeset.image} alt="organizer"/>
