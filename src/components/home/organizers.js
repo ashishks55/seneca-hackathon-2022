@@ -9,7 +9,7 @@ import gabriela from '../../images/people/gabriela.jpeg';
 import kartik from '../../images/people/kartik.jpg';
 import leslie from '../../images/people/leslie.jpg';
 import benjamin from '../../images/people/benjamin.jpeg';
-import linkedin_icon from '../../images/linkedin.svg';
+import linkedin_icon from '../../images/linkedin.jpg';
 
 const Organizers = () => {
 
