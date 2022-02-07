@@ -31,14 +31,13 @@ const Challengesets = () => {
             <div className='columns'>
                 <div className='column is-10 is-offset-1'>
                     <h1 className="title">Challenge sets</h1>
-                        {/* <h2 className="subtitle">like the one you're currently reading.</h2> */}
-                        <div className='organizers columns flex-wrap'>
+                        <div className='challengesets columns flex-wrap'>
                             {
                                 challengesets.map((challengeset, index) => (
-                                    <div key={index} className='column is-3'>
+                                    <div key={index} className='column'>
                                         <div className="card">
                                             <div className="card-image">
-                                                <figure className="image is-1by1">
+                                                <figure className="image is-2by1">
                                                     <img src={challengeset.image} alt="organizer"/>
                                                 </figure>
                                             </div>
@@ -46,7 +45,6 @@ const Challengesets = () => {
                                                 <div className="content organizer-card-content">
                                                     <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{challengeset.title}</p>
                                                     <p className='subtitle designation has-text-grey is-size-6 has-text-weight-normal line-height-1'>{challengeset.details}</p>
-                                                    <a class="text-green-600 hover:text-green-700 font-bold" href={challengeset.link} >Learn More</a>
                                                 </div>
                                             </div>
                                         </div>

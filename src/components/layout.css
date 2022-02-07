@@ -902,3 +902,7 @@ div.sponsor-list:last-child {
   text-align: left;
   cursor: pointer;
 }
+
+.challengesets .card{
+  height: 100%;
+}
