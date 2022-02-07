@@ -669,14 +669,14 @@ body, html{
 }
 
 .card-2{
-  border: 1px solid #1C444C;
+  border: 2px solid #1C444C;
   box-shadow: none;
   border-radius: 5px;
 }
 
 .card-3{
   box-shadow: none;
-  border: 1px solid #1C444C;
+  border: 2px solid #1C444C;
   border-radius: 5px;
 }
 
