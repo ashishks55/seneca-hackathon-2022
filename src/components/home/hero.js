@@ -34,8 +34,8 @@ const hero = () => {
                                 <span>Register here</span>
                             </a>
                         </p>
-                        <p className="subtitle has-text-grey is-size-6">
-                            *registrations have started
+                        <p className="subtitle is-size-6 mg-top-1">
+                            Last day to register is in
                         </p>
                         <Countdown
                             date={date}

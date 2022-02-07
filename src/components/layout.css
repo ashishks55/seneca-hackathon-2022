@@ -906,6 +906,10 @@ div.sponsor-list:last-child {
   margin-bottom: 300px;
 }
 
+.mg-top-1{
+  margin-top: 0.8rem !important;
+}
+
 .card-front img{
   width: 70px;
   margin-top: 40px;
