@@ -70,7 +70,7 @@ const Sponsors = () => {
                                             {
                                                 sponsor.logos.map((logo, index) => (
                                                     <div key={index} className='sponsor-logo'>
-                                                        <img src={logo} alt="sponsor" width={sponsor.width[index]}/>
+                                                        <img src={logo} alt="sponsor" width={sponsor.width[index] ? sponsor.width[index] : '130px'}/>
                                                     </div>
                                                 ))
                                             }
