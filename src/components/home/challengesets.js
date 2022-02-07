@@ -34,7 +34,7 @@ const Challengesets = () => {
                         <div className='challengesets columns flex-wrap'>
                             {
                                 challengesets.map((challengeset, index) => (
-                                    <div key={index} className='column'>
+                                    <div key={index} className='column is-12-tablet is-4-desktop'>
                                         <div className="card card-2">
                                             <div className="card-image">
                                                 <figure className="image is-2by1">

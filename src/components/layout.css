@@ -670,14 +670,21 @@ body, html{
 
 .card-2{
   border: 2px solid #1C444C;
-  box-shadow: none;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   border-radius: 5px;
 }
 
 .card-3{
+  background-color: transparent;
   box-shadow: none;
+}
+
+.card-3 .card-image{
   border: 2px solid #1C444C;
-  border-radius: 5px;
+}
+
+.card-3 .card-content{
+  text-align: center;
 }
 
 .text-container {
@@ -777,6 +784,7 @@ div.sponsor-list:last-child {
   border: 2px solid #1C444C;
   border-radius: 10px;
   padding-top: 15px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
 }
 
 .sponsor-logo{
@@ -825,6 +833,13 @@ div.sponsor-list:last-child {
   bottom: 1.2rem;
   left: 1.5rem;
   cursor: pointer;
+}
+
+.linkedin-icon-inline{
+  width: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  vertical-align: bottom;
 }
 
 .section-break{
@@ -906,6 +921,10 @@ div.sponsor-list:last-child {
   margin-bottom: 300px;
 }
 
+.mg-top-1{
+  margin-top: 0.5rem !important;
+}
+
 .card-front img{
   width: 70px;
   margin-top: 40px;
@@ -948,9 +967,16 @@ div.sponsor-list:last-child {
   height: 450px;
   border: 2px solid #1C444C;
   border-radius: 4px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
 }
 
 .video-container-2 img{
   border: 2px solid #1C444C;
   border-radius: 4px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.is-rounded-container{
+  border-radius: 50% !important;
+  overflow: hidden;
 }
