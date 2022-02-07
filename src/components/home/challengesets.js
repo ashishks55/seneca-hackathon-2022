@@ -1,15 +1,59 @@
 import React from 'react';
+import nature from '../../images/challengesets/nature-challenge.png';
+import sustainability from '../../images/challengesets/sustainability-challenge.png';
+import tech from '../../images/challengesets/tech-challenge.png';
 
-const challengesets = () => {
-  return (
-        <section className="hero is-medium is-white">
-            <div className="hero-body">
-                <div className='columns'>
-                    <div className='column is-10 is-offset-1'>
-                        <h1 className="title">challengesets section</h1>
-                        <h2 className="subtitle">
-                        like the one you're currently reading.
-                        </h2>
+
+const Challengesets = () => {
+    const challengesets = [
+        {
+            title: 'Sustainability in Curriculum',
+            details: 'Integrate sustainability into curriculum regardless of area of study.', 
+            image: sustainability,
+            link: '#'
+        },
+        {
+            title: 'Technology-Based Challenge Set​',
+            details: 'How can we leverage from existing technologies to promote reforestation, increase canopy cover, and enhance biodiversity within the school grounds?​', 
+            image: tech,
+            link: '#'
+        },
+        {
+            title: 'Nature-Based Challenge Set​',
+            details: 'A project with TDSB EcoSchools to help propagate the seeds that can be used in the tree planting.', 
+            image: nature,
+            link: '#'
+        },
+    ]
+    return (
+    <section className="hero is-medium is-white">
+        <div className="hero-body">
+            <div className='columns'>
+                <div className='column is-10 is-offset-1'>
+                    <h1 className="title">Challenge sets</h1>
+                        {/* <h2 className="subtitle">like the one you're currently reading.</h2> */}
+                        <div className='organizers columns flex-wrap'>
+                            {
+                                challengesets.map((challengeset, index) => (
+                                    <div key={index} className='column is-3'>
+                                        <div className="card">
+                                            <div className="card-image">
+                                                <figure className="image is-1by1">
+                                                    <img src={challengeset.image} alt="organizer"/>
+                                                </figure>
+                                            </div>
+                                            <div className="card-content">
+                                                <div className="content organizer-card-content">
+                                                    <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{challengeset.title}</p>
+                                                    <p className='subtitle designation has-text-grey is-size-6 has-text-weight-normal line-height-1'>{challengeset.details}</p>
+                                                    <a class="text-green-600 hover:text-green-700 font-bold" href={challengeset.link} >Learn More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))
+                            }
+                        </div>
                     </div>
                 </div>
             </div>
@@ -17,4 +61,4 @@ const challengesets = () => {
     );
 };
 
-export default challengesets;
+export default Challengesets;
