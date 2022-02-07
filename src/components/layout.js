@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
       <div>
         <main
           style={{
-            marginTop: `150px`,
+            marginTop: `50px`,
           }}
         >{children}</main>
         <footer
