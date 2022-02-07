@@ -763,7 +763,8 @@ div.sponsor-list:last-child {
 }
 
 .timeline .timeline-item .date{
-  color: gray;
+  color: black;
+  font-size: 14px;
 }
 
 .sponsor-logos{
