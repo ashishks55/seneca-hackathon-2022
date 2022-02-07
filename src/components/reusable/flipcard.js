@@ -12,7 +12,7 @@ const FlipCardComponent = ({front_content, back_content}) => {
         borderRadius: 5,
         backgroundColor: "#fff",
         width: '100%',
-        height: '250px',
+        height: '300px',
         overflow: 'auto',
         position: 'relative',
         boxShadow: `0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02)`

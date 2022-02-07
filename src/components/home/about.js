@@ -19,17 +19,17 @@ const About = () => {
         },
         {
             title: 'Who can attend?',
-            info: `Early registration is open to Seneca students. This will be opened up for additional colleges and universities by <b>Jan 21, 2022</b>. Participating colleges and universities will be listed. If you are NOT a student in any of the qualifying institutions, you may still participate, but MUST be assigned to a team anchored by Seneca Students. The Student Success Team will help you accomplish this.`,
+            info: `Registration are open to Seneca students and for additional colleges and universities from <b>Jan 21, 2022</b>. Participating colleges and universities will be listed. If you are NOT a student in any of the qualifying institutions, you may still participate, but MUST be assigned to a team anchored by Seneca Students. The Student Success Team will help you accomplish this.`,
             image: image_2
         },
         {
             title: 'First Time Hackers?',
-            info: `No worries, we love to welcome first time hackers and start their journey. We have help them start their hackathon journey. We have some awesome workshops and events which will help you strengthen your problem solving skills.`,
+            info: `No worries, We will help start your hackathon journey with awesome workshops and events which will help strengthen your problem solving skills.`,
             image: image_3
         },
         {
             title: 'Team Formation?',
-            info: `You can form team of a maximum of <b>5 members</b>. If you don't have a team, there'll be plenty of opportunities for you to meet other peer hackers across the globe and form a team!`,
+            info: `You can form team of a maximum of <b>5 members</b>. If you don't have a team, you can meet other peer hackers from across the globe at the event and form a team!`,
             image: image_4
         }
     ]
