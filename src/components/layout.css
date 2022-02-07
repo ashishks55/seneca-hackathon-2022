@@ -634,6 +634,10 @@ a.navbar-item:hover, a.navbar-item:focus{
   color: #1C444C !important;
 }
 
+.has-text-green-light{
+  color: #459888 !important
+}
+
 .hero-body{
   padding-bottom: 2rem !important;
   background-color: #F3EAEA;
@@ -647,13 +651,20 @@ body, html{
   padding-bottom: 3rem !important;
   padding-top: 3rem !important;
 }
+.hero-body-3 .title{
+  margin-bottom: 10px;
+}
+
+.hero-body-3 .button{
+  margin-top: 20px;
+}
 
 .hero-body .subtitle{
   padding-top: 10px;
 }
 
 .hero-img img{
-  margin-top: -8rem;
+  margin-top: -2rem;
 }
 
 .button.is-success, .button.is-success:hover, .button.is-success.is-hovered{
