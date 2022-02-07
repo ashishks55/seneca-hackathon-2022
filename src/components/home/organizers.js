@@ -85,7 +85,7 @@ const Organizers = () => {
                         <div className='organizers columns flex-wrap'>
                             {
                                 organizers.map((organizer, index) => (
-                                    <div key={index} className='column is-3'>
+                                    <div key={index} className='column is-4-tablet is-3-desktop'>
                                         <div className="card card-3">
                                             <div className="card-image">
                                                 <figure className="image is-1by1">

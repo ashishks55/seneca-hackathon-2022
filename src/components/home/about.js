@@ -75,10 +75,10 @@ const About = () => {
                                         <img src={video_thumbnail} alt="What is a Hackathon?" className='pointer is-marginless' height={'300px'} onClick={() => {playVideoOnClick(true)}}/>
                                     }
                                 </div>
-                        <div className='about-questions columns'>
+                        <div className='about-questions columns flex-wrap'>
                             {
                                 questions.map((question, index) => (
-                                    <div key={index} className='column'>
+                                    <div key={index} className='column is-6-tablet is-3-desktop'>
                                         {/* <div className='is-flex'>
                                             <img src={question.image} alt="about" width={'60px'}/>
                                             <span className="title is-size-5 title-text">{question.title}</span>
