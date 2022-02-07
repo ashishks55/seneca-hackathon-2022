@@ -15,7 +15,7 @@ const FlipCardComponent = ({front_content, back_content}) => {
         height: '250px',
         overflow: 'auto',
         position: 'relative',
-        border: `3px solid #1C444C`,
+        border: `2px solid #1C444C`,
         boxShadow: `0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02)`
     };
     
