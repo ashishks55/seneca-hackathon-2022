@@ -87,7 +87,7 @@ const Organizers = () => {
                                 organizers.map((organizer, index) => (
                                     <div key={index} className='column is-4-tablet is-3-desktop'>
                                         <div className="card card-3">
-                                            <div className="card-image">
+                                            <div className="card-image is-rounded-container">
                                                 <figure className="image is-1by1">
                                                     <img src={organizer.image} alt="organizer"/>
                                                 </figure>
@@ -95,8 +95,8 @@ const Organizers = () => {
                                             <div className="card-content">
                                                 <div className="content organizer-card-content">
                                                     <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{organizer.name}</p>
-                                                    <p className='subtitle designation is-size-6 has-text-weight-normal line-height-1'>{organizer.title}</p>
-                                                    <a target='_blank' rel="noopener noreferrer" href={organizer.linkedin_url}><img src={linkedin_icon} alt="linkedin" className='linkedin-icon'/></a>
+                                                    <p className='subtitle designation is-size-6 has-text-weight-normal line-height-1'>{organizer.title}<a target='_blank' rel="noopener noreferrer" href={organizer.linkedin_url}><img src={linkedin_icon} alt="linkedin" className='linkedin-icon-inline'/></a></p>
+                                                    {/* <a target='_blank' rel="noopener noreferrer" href={organizer.linkedin_url}><img src={linkedin_icon} alt="linkedin" className='linkedin-icon'/></a> */}
                                                 </div>
                                             </div>
                                         </div>

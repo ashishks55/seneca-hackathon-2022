@@ -675,9 +675,16 @@ body, html{
 }
 
 .card-3{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.card-3 .card-image{
   border: 2px solid #1C444C;
-  border-radius: 5px;
-  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.card-3 .card-content{
+  text-align: center;
 }
 
 .text-container {
@@ -828,6 +835,13 @@ div.sponsor-list:last-child {
   cursor: pointer;
 }
 
+.linkedin-icon-inline{
+  width: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  vertical-align: bottom;
+}
+
 .section-break{
   padding-top: 50px;
   margin: 0px 48%;
@@ -960,4 +974,9 @@ div.sponsor-list:last-child {
   border: 2px solid #1C444C;
   border-radius: 4px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.is-rounded-container{
+  border-radius: 50% !important;
+  overflow: hidden;
 }
