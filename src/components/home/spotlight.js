@@ -5,37 +5,37 @@ import winner_img from '../../images/winners.png';
 const Spotlight = () => {
     const winners = [
         {
-            title: 'Duets: A Healthy Social Media Alternative',
+            project_title: 'Duets: A Healthy Social Media Alternative',
             description: 'Duets is a mental health-conscious goal-setting social media platform where users can pair up with like-minded individuals to support and hold each other accountable for achieving their goals without feeling the need to compete with others. ',
         },
         {
-            title: 'Vassport',
+            project_title: 'Vassport',
             description: 'Our mobile application Vassport makes it easy for individuals, parent, and guardians to verify themselves as well as their family member’s vaccination status and view their vaccination information.',
         },
         {
-            title: 'DeLight',
+            project_title: 'DeLight',
             description: 'DeLight is a smart lamp that connects elderly and their family by allowing them to change each others’ light colours remotely. The smart lamp uses existing technology to bring a simple premise to life. The change in colour represents thoughts and emotions that people far away may want to share with the elderly and vice versa. Different colours can signal different emotions and these messages can be adapted over time. Alone in your apartment, it’s a warm glow signalling someone far away cares about you, cutting through your lonely moment. ',
         },
         {
-            title: 'Decissio: Clinical Diagnostic Support Tool',
+            project_title: 'Decissio: Clinical Diagnostic Support Tool',
             description: 'Our team collaborated to create a dashboard based on a simple framework for our clinical decision tool (Decissio). We conducted a variety of data analyses and visualization through Python and Tableau to create a proof-of-concept of our solution vision. Furthermore, we created a business proposal along with other documentation to support our approach.',
         },
-        {
-            title: 'Telemedicine Solution – Centralized Healthcare Data System',
+        /* {
+            project_title: 'Telemedicine Solution – Centralized Healthcare Data System',
             description: 'By proposing a centralized healthcare data system, we solved the dilemma of decentralized private patient data. This allows for easy and quick access by any physician or patient and will lessen the burden on any healthcare worker or provider when they require valuable patient data history on the spot right away.',
         },
         {
-            title: 'Night Wolf',
+            project_title: 'Night Wolf',
             description: 'Business Case, main use case diagram & class diagram, use case demo, example code with demo surrounding blockchain / AI solution.',
         },
         {
-            title: 'CONTIENT',
+            project_title: 'CONTIENT',
             description: 'Designed an adoptable, easy to use, user-friendly web portal that ensures what medical data can be viewed or blocked to ensure the user’s privacy.',
         },
         {
-            title: 'Hospital Expert HR System',
+            project_title: 'Hospital Expert HR System',
             description: 'We created a web app, mobile app, a chatbot and referenced a similar open source project that can be used to drive in the business case proposal for Octochain\'s Blockchain system. We solved the problem by creating an interactive and informative way for employees to view their benefits information and also created a business case model for Octochain\'s Blockchain system',
-        },
+        }, */
     ]
     return (
     <section className="hero is-medium is-white">
@@ -55,26 +55,22 @@ const Spotlight = () => {
                                 <input type="radio" name="slides" id="radio-7"/>
                                 <input type="radio" name="slides" id="radio-8"/> */}
                                 <ul class="slides">
-                                  {/*   {
+                                  {
                                         winners.map((win, index) => (
-                                            <li key={index} class="slide">
+                                        <li key={index} class="slide">
                                         <div class="spotlight-column-left">
-                                        <h2>{win.title}</h2>
+                                        <h1>{win.project_title}</h1>
                                         <p>{win.description}</p>
+                                        <a class="button is-success" target="_blank" rel="noopener noreferrer" href="http://digitalhealth.senecahackathon.com/"><span>Learn More</span></a>
                                         </div>
                                         <div class="spotlight-column-right">
-                                        <p>
-                                            <q>It was a pleasure to work with him</q> 
-                                            <span class="author">
-                                                <img src="https://th.thgim.com/news/international/m1m01s/article26984481.ece/alternates/FREE_300/30TH-TOLKIEN"/>JR Tolkien
-                                            </span>
-                                        </p>
+                                            <img src={winner_img}/>
                                         </div>
-                                    </li>  
+                                        </li>  
                                         ))
-                                    } */}
+                                    } 
                                     
-                                    <li class="slide">
+                                    {/*<li class="slide">
                                         <div class="spotlight-column-left">
                                         <h1>Duets: A Healthy Social Media Alternative</h1>
                                         <p>Duets is a mental health-conscious goal-setting social media platform where users can pair up with like-minded individuals to support and hold each other accountable for achieving their goals without feeling the need to compete with others.</p>
@@ -118,7 +114,7 @@ const Spotlight = () => {
                                         </div>
                                     </li>
 
-                                    {/* <li class="slide">
+                                    <li class="slide">
                                         <div class="spotlight-column-left">
                                         <h1>Telemedicine Solution – Centralized Healthcare Data System</h1>
                                         <p>By proposing a centralized healthcare data system, we solved the dilemma of decentralized private patient data. This allows for easy and quick access by any physician or patient and will lessen the burden on any healthcare worker or provider when they require valuable patient data history on the spot right away.</p>
