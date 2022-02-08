@@ -8,7 +8,7 @@ import reeti from '../../images/people/reeti.jpeg';
 import gabriela from '../../images/people/gabriela.jpeg';
 import kartik from '../../images/people/kartik.jpg';
 import leslie from '../../images/people/leslie.jpg';
-import benjamin from '../../images/people/benjamin.jpeg';
+import benjamin from '../../images/people/benjamin.jpg';
 import linkedin_icon from '../../images/linkedin.jpg';
 
 const Organizers = () => {
