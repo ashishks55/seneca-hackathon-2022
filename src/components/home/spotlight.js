@@ -42,7 +42,7 @@ const Spotlight = () => {
         <div className="hero-body hero-body-2">
             <div className='columns'>
                 <div className='column is-10 is-offset-1'>
-                    <h1 className="title">Spotlight</h1><br/>
+                    <h1 className="title">Previous Hackathon Winners</h1><br/>
                     <div className='spotlight columns flex-wrap'>
                             <div class="carrousel">
                                 				<h2>Hackathon 2021</h2>	
