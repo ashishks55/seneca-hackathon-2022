@@ -20,21 +20,28 @@ const hero = () => {
 
     return (
         <section className="hero is-medium is-white">
-            <div className="hero-body">
+            <div className="hero-body hero-body-3">
                 <div className='columns'>
                     <div className='column is-12-tablet is-5-desktop is-offset-1 hero-content'>
+                        <div className='is-hidden-desktop'><br/><br/></div>
                         <p className="title">
-                            <span>From</span> Industrial Revolution
+                            <span>From</span>
+                        </p>
+                        <p className="title has-text-green-light">
+                            Industrial Revolution
                         </p>
                         <p className="title">
-                            <span className='has-text-green'>To</span> <span className='has-text-green'>Sustainable Planet</span>
+                            <span>To</span>
+                        </p>
+                        <p className="title">
+                           <span className='has-text-green-light'>Sustainable Planet</span>
                         </p>
                         <p className="title">
                             <a className='button is-success' target='_blank' rel="noopener noreferrer" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277'>
                                 <span>Register here</span>
                             </a>
                         </p>
-                        <p className="subtitle is-size-6 mg-top-1">
+                        <p className="subtitle is-size-6 mg-top-1 has-text-weight-semibold">
                             Last day to register is in
                         </p>
                         <Countdown

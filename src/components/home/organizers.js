@@ -81,7 +81,7 @@ const Organizers = () => {
             <div className="hero-body hero-body-2">
                 <div className='columns'>
                     <div className='column is-10 is-offset-1'>
-                        <h1 className="title">Our Organizing Committee</h1><br/>
+                    <h1 className="title">Our Organizing Committee</h1><br/>
                         <div className='organizers columns flex-wrap'>
                             {
                                 organizers.map((organizer, index) => (

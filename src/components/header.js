@@ -34,11 +34,11 @@ const Header = () => {
       link: '#organizers',
       is_selected: false
     },
-    // {
-    //   title: 'Spotlight',
-    //   link: '#spotlight',
-    //   is_selected: false
-    // }
+    {
+      title: 'Spotlight',
+      link: '#spotlight',
+      is_selected: false
+    }
   ]
   
   return (
