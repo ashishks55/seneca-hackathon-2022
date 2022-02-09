@@ -88,7 +88,7 @@ const About = () => {
                                                 <div className='is-flex'>
                                                     <span className="title is-size-5 title-text">{question.title}</span>
                                                 </div>
-                                                <p className="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">{parse(question.info)}</p>
+                                                <p className="subtitle is-size-6 has-text-weight-normal line-height-2">{parse(question.info)}</p>
                                             </div>
                                         </div>
                                         <div className='column is-hidden-touch is-6-tablet is-3-desktop'>
@@ -100,7 +100,7 @@ const About = () => {
                                                         </div>`
                                                     }
                                                     back_content={`
-                                                        <p class="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">
+                                                        <p class="subtitle is-size-6 has-text-weight-normal line-height-2">
                                                             ${question.info}
                                                         </p>`
                                                     }

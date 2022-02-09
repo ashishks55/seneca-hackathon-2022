@@ -1,6 +1,7 @@
 import React from 'react'
 import Countdown from 'react-countdown'
 import hero_logo from '../../images/hero-banner.svg'
+import home_image from '../../images/home_image.png'
 
 const hero = () => {
 

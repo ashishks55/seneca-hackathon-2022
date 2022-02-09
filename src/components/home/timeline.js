@@ -37,9 +37,6 @@ const Timeline = () => {
                 <div className='columns flex-wrap'>
                     <div className='column is-10 is-offset-1'>
                         <h1 className="title">Timeline</h1>
-                        <h2 className="subtitle has-text-grey is-size-6 has-text-weight-normal">
-                        Tentative Roadmap for the Hackathon
-                        </h2>
                     </div>
                     <div className='timeline columns column is-10 is-offset-1'>
                     {
