@@ -72,7 +72,7 @@ const Spotlight = () => {
                                                     <h2>WINNING APP {index+1}</h2>
                                                     <h3>{winner.title}</h3>
                                                     <p>{winner.description}</p>
-                                                    <p className='has-text-centered'><a href='http://digitalhealth.senecahackathon.com'  rel="noopener noreferrer" target="_blank" className='button is-success'>Learn More</a></p>
+                                                    <p className='has-text-centered'><a href='http://digitalhealth.senecahackathon.com'  rel="noopener noreferrer" target="_blank" className='button is-success has-text-weight-semibold'>Learn More</a></p>
                                                 </div>
                                                 <div className='column winner-image is-hidden-mobile'>
                                                     <img src={winner.image} width="100%" alt='winner'/>
