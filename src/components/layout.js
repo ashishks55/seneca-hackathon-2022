@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import 'bulma/css/bulma.css'
 import Footer from "./footer"
 import Header from "./header"
+import SocialMedia from '../components/reusable/socialmedia';
 import "./layout.css"
 
 
@@ -38,6 +39,7 @@ const Layout = ({ children }) => {
                 <a className='button is-success static-button is-hidden-mobile' target='_blank' rel="noopener noreferrer" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277'>
                     <span>Register Now!</span>
                 </a>
+                <SocialMedia classes="floating-left"/>
             </div>
         </>
     )
