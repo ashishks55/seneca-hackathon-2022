@@ -36,8 +36,8 @@ const Footer = () => {
                 backgroundColor: 'transparent',
                 color: '#1C444C'
             }}>
-                <p className='has-text-centered'>Contact us at <a href='mailto:info@senecahackathon.com' rel="noopener noreferrer" target="_blank" className='has-text-green is-underlined'>info@senecahackathon.com</a></p>
-                <p className='has-text-centered'>Copyright © {new Date().getFullYear()} Seneca Hackathon 2022. All rights reserved.<br/><br/></p>
+                <p className='has-text-centered has-text-weight-semibold'>Contact us at <a href='mailto:info@senecahackathon.com' rel="noopener noreferrer" target="_blank" className='has-text-green is-underlined'>info@senecahackathon.com</a></p>
+                <p className='has-text-centered'>Copyright © Seneca Hackathon {new Date().getFullYear()}. All rights reserved.<br/><br/></p>
             </div>
         </footer>
     );
