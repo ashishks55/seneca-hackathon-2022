@@ -998,3 +998,60 @@ div.sponsor-list:last-child {
   border-radius: 50% !important;
   overflow: hidden;
 }
+
+.carousel-1{
+  overflow: hidden;
+}
+.carousel-1 > div > div{
+  overflow: hidden;
+}
+
+.carousel-1 .winner-details{
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: white;
+  min-height: 350px;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.winner-details h2{
+  text-align: center;
+  color: #459888;
+}
+
+.winner-details h3{
+  text-align: center;
+  color: #1C444C;
+}
+
+.winner-details p{
+  text-align: center;
+}
+
+.carousel-1 .winner-item{
+  
+}
+
+.carousel-1 .winner-image{
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.carousel-1 .winner-image img{
+  margin-bottom: 0px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.carousel-1 .c-button{
+  background-color: #1C444C;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 0px;
+  font-weight: 600;
+  padding: 5px;
+}
