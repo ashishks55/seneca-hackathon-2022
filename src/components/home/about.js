@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ReactPlayer from "react-player"
+import parse from 'html-react-parser'
 import FlipCard from '../reusable/flipcard'
 import video_thumbnail from '../../images/video-thumbnail.png'
 import image_1 from '../../images/about/1.png'
@@ -40,7 +41,7 @@ const About = () => {
             <div className="hero-body hero-body-2">
                 <div className='columns'>
                     <div className='column is-10 is-offset-1'>
-                        <h1 className="title is-marginless">What is a Hackathon?</h1>
+                                <h1 className="title is-marginless">What is a Hackathon?</h1>
                                 <div className='text-container'> 
                                     {/* <p className="has-text-green has-text-weight-bold">A call for everyone who is interested in solving the problem!</p> */}
                                     <p className="subtitle is-size-6 has-text-weight-normal line-height-2">
@@ -49,6 +50,7 @@ const About = () => {
                                     <br/>
                                 </div>
                                 <div className='video-container is-hidden-touch'> 
+                                    <div className='video-container-content'>
                                     {video_clicked_desktop 
                                     ? 
                                         <ReactPlayer
@@ -59,8 +61,9 @@ const About = () => {
                                             playing={true}
                                         />
                                     : 
-                                        <img src={video_thumbnail} alt="What is a Hackathon?" className='pointer is-marginless' width="100%" onClick={() => {playVideoOnClickDesktop(true)}}/>
+                                        <img src={video_thumbnail} alt="What is a Hackathon?" className='pointer is-marginless video-image' width="100%" onClick={() => {playVideoOnClickDesktop(true)}}/>
                                     }
+                                    </div>
                                 </div>
                                 <div className='video-container-2 is-hidden-desktop'> 
                                     {video_clicked_mobile 
@@ -79,26 +82,31 @@ const About = () => {
                         <div className='about-questions columns flex-wrap'>
                             {
                                 questions.map((question, index) => (
-                                    <div key={index} className='column is-6-tablet is-3-desktop'>
-                                        {/* <div className='is-flex'>
-                                            <img src={question.image} alt="about" width={'60px'}/>
-                                            <span className="title is-size-5 title-text">{question.title}</span>
+                                    <>
+                                    <div key={index} className='column is-hidden-desktop is-12'>
+                                        <div className='card card-2 has-background-white card-content'>
+                                            <div className='is-flex'>
+                                                <span className="title is-size-5 title-text">{question.title}</span>
+                                            </div>
+                                            <p className="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">{parse(question.info)}</p>
                                         </div>
-                                        <p className="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">{parse(question.info)}</p> */}
-                                        <FlipCard
-                                            front_content={`
-                                                <div class="card-front">
-                                                    <p class="title is-size-5 title-text">${question.title}</p>
-                                                    <div><span></span></div>
-                                                </div>`
-                                            }
-                                            back_content={`
-                                                <p class="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">
-                                                    ${question.info}
-                                                </p>`
-                                            }
-                                        />
                                     </div>
+                                    <div key={index} className='column is-hidden-touch is-6-tablet is-3-desktop'>
+                                            <FlipCard
+                                                front_content={`
+                                                    <div class="card-front">
+                                                        <p class="title is-size-5 title-text">${question.title}</p>
+                                                        <div><span></span></div>
+                                                    </div>`
+                                                }
+                                                back_content={`
+                                                    <p class="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">
+                                                        ${question.info}
+                                                    </p>`
+                                                }
+                                            />
+                                    </div>
+                                    </>
                                 ))
                             }
                         </div>

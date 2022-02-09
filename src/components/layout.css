@@ -972,6 +972,13 @@ div.sponsor-list:last-child {
 
 .video-container{
   margin: 1rem 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.video-container-content{
+  width: 100%;
+  max-width: 800px;
 }
 
 .video-container img{
