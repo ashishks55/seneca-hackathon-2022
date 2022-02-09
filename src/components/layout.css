@@ -1023,14 +1023,11 @@ div.sponsor-list:last-child {
 .winner-details h3{
   text-align: center;
   color: #1C444C;
+  line-height: 2rem;
 }
 
 .winner-details p{
   text-align: center;
-}
-
-.carousel-1 .winner-item{
-  
 }
 
 .carousel-1 .winner-image{
