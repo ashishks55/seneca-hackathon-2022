@@ -82,31 +82,31 @@ const About = () => {
                         <div className='about-questions columns flex-wrap'>
                             {
                                 questions.map((question, index) => (
-                                    <>
-                                    <div key={index} className='column is-hidden-desktop is-12'>
-                                        <div className='card card-2 has-background-white card-content'>
-                                            <div className='is-flex'>
-                                                <span className="title is-size-5 title-text">{question.title}</span>
+                                    <React.Fragment key={index}>
+                                        <div className='column is-hidden-desktop is-12'>
+                                            <div className='card card-2 has-background-white card-content'>
+                                                <div className='is-flex'>
+                                                    <span className="title is-size-5 title-text">{question.title}</span>
+                                                </div>
+                                                <p className="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">{parse(question.info)}</p>
                                             </div>
-                                            <p className="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">{parse(question.info)}</p>
                                         </div>
-                                    </div>
-                                    <div key={index} className='column is-hidden-touch is-6-tablet is-3-desktop'>
-                                            <FlipCard
-                                                front_content={`
-                                                    <div class="card-front">
-                                                        <p class="title is-size-5 title-text">${question.title}</p>
-                                                        <div><span></span></div>
-                                                    </div>`
-                                                }
-                                                back_content={`
-                                                    <p class="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">
-                                                        ${question.info}
-                                                    </p>`
-                                                }
-                                            />
-                                    </div>
-                                    </>
+                                        <div className='column is-hidden-touch is-6-tablet is-3-desktop'>
+                                                <FlipCard
+                                                    front_content={`
+                                                        <div class="card-front">
+                                                            <p class="title is-size-5 title-text">${question.title}</p>
+                                                            <div><span></span></div>
+                                                        </div>`
+                                                    }
+                                                    back_content={`
+                                                        <p class="subtitle has-text-grey is-size-6 has-text-weight-normal line-height-2">
+                                                            ${question.info}
+                                                        </p>`
+                                                    }
+                                                />
+                                        </div>
+                                    </React.Fragment>
                                 ))
                             }
                         </div>
