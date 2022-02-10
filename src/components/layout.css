@@ -601,6 +601,7 @@ pre tt:after {
 
 .navbar-menu{
   padding-right: 2rem;
+  background-color: transparent;
 }
 
 .navbar-icon{
