@@ -2,9 +2,9 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Hero from "../components/home/hero"
 import About from "../components/home/about"
-import KeyNotes from "../components/home/keynotes"
+import KeyNotes from "../components/home/keynote"
 import Timeline from "../components/home/timeline"
-import Challengesets from "../components/home/challengesets"
+// import Challengesets from "../components/home/challengesets"
 import Sponsors from "../components/home/sponsors"
 import Organizers from "../components/home/organizers"
 import Spotlight from "../components/home/spotlight"
@@ -16,13 +16,13 @@ const IndexPage = () => (
     <Seo title="Home" />
     <Hero/>
     <SectionBreak id={'about'}/>
-        <About />
-        <SectionBreak id={'keynotes'} />
-        <KeyNotes />
+    <About />
+    <SectionBreak id={'keynotes'} />
+    <KeyNotes />
     <SectionBreak id={'timeline'}/>
     <Timeline/>
-    <SectionBreak id={'challengesets'}/>
-    <Challengesets/> 
+    {/* <SectionBreak id={'challengesets'}/> */}
+    {/* <Challengesets/>  */}
     <SectionBreak id={'sponsors'}/>
     <Sponsors/>
     <SectionBreak id={'organizers'}/>

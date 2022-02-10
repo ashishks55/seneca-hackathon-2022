@@ -1050,3 +1050,55 @@ div.sponsor-list:last-child {
   font-weight: 600;
   padding: 5px;
 }
+
+.card-play{
+  min-height: 150px;
+  text-align: center;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-play .card-content{
+  min-height: 100%;
+}
+
+.play-button{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  font-size: 40px;
+  color: #1C444C;
+}
+
+.play-button:hover{
+  opacity: 1;
+}
+
+.opacity-1{
+  opacity: 1;
+}
+
+.keynotes{
+  margin-top: 2rem;
+  padding: 0rem 0rem 1rem 0rem;
+  background-color: #1C444C;
+  border-radius: 5px;
+}
+
+.keynote-card-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mg-mob-1{
+  margin-left: 10px;
+  margin-right: 10px;
+}
