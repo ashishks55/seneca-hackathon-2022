@@ -1,4 +1,15 @@
+.challenge-div-5
+{
+  width: 20%;
+  flex: none;
+}
 
+@media screen and (min-width: 769px){
+.column.challenge-12, .column.challenge-12-tablet {
+    flex: none;
+    width: 100%;
+}
+}
   
   /*Carousel*/
   .carrousel {

@@ -43,7 +43,7 @@ const Spotlight = () => {
             title: 'Hospital Expert HR System',
             image: winner_img,
             description: 'We created a web app, mobile app, a chatbot and referenced a similar open source project that can be used to drive in the business case proposal for Octochain\'s Blockchain system. We solved the problem by creating an interactive and informative way for employees to view their benefits information and also created a business case model for Octochain\'s Blockchain system',
-        },
+        }, 
     ]
     const [activeItemIndex, setActiveItemIndex] = useState(0);
     const chevronWidth = 25;
