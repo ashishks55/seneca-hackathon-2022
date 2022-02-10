@@ -13,17 +13,22 @@ const Header = () => {
       title: 'About',
       link: '#about',
       is_selected: false
-    },
+      },
+      {
+          title: 'Keynotes',
+          link: '#keynotes',
+          is_selected: false
+      },
     {
       title: 'Timeline',
       link: '#timeline',
       is_selected: false
     },
-    // {
-    //    title: 'Challenge Sets',
-    //    link: '#challengesets',
-    //    is_selected: false
-    // },
+    {
+       title: 'Challenge Sets',
+       link: '#challengesets',
+       is_selected: false
+    },
     {
       title: 'Sponsors',
       link: '#sponsors',
