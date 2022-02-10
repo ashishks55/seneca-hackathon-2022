@@ -14,15 +14,15 @@ const Timeline = () => {
             start_date: 'February 7, 2022',
             end_date: ''
         },
-        // {
-        //     title: 'Qualifier',
-        //     start_date: 'February 28, 2022',
-        //     end_date: 'March 3, 2022'
-        // },
+         //{
+         //    title: 'Qualifiers',
+         //    start_date: 'March 2, 2022',
+         //    end_date: ''
+         //},
         {
             title: 'Hackathon',
-            start_date: 'March 5, 2022',
-            end_date: 'March 6, 2022'
+            start_date: 'February 28, 2022',
+            end_date: 'March 4, 2022'
         },
         {
             title: 'Venture',

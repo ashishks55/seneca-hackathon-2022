@@ -4,16 +4,14 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import video_thumbnail from '../../images/keynotes/KeyNote_Image1.jpg';
 import keynote2image from '../../images/keynotes/KeyNote_Image2.jpg';
-import keynote3image from '../../images/keynotes/KeyNote_Image3.png';
-import keynote4image from '../../images/keynotes/KeyNote_Image4.png';
-import keynote5image from '../../images/keynotes/KeyNote_Image5.jpg';
-import playicon from '../../images/keynotes/play_button.svg'
+import keynote3image from '../../images/keynotes/KeyNote_Image3.jpg';
+import keynote4image from '../../images/keynotes/KeyNote_Image4.jpg';
 
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
-        items: 5
+        items: 4
     },
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
@@ -41,20 +39,16 @@ const Keynotes = () => {
     const videos = [
         {
             image: keynote2image,
-            url: 'https://www.youtube.com/embed/HKAKsz3-vXI?autoplay=0&mute=0&controls=1&playsinline=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1'
+            url: 'https://www.youtube.com/embed/6JUx9QfOj9o?autoplay=0&mute=0&controls=1&playsinline=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1'
         },
         {
             image: keynote3image,
-            url: 'https://www.youtube.com/embed/jzPLtHiHQWI?autoplay=0&mute=0&controls=1&playsinline=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1'            
+            url: 'https://www.youtube.com/embed/3jFy11Mn9Vk?autoplay=0&mute=0&controls=1&playsinline=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1'
         },
         {
             image: keynote4image,
-            url: 'https://www.youtube.com/embed/pOfY2kiEohY?autoplay=0&mute=0&controls=1&playsinline=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1'            
+            url: 'https://www.youtube.com/embed/yFmsSgDN6-E?autoplay=0&mute=0&controls=1&playsinline=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1'
         },
-        {
-            image: keynote5image,
-            url: 'https://www.youtube.com/embed/DwtAwLTnnMU?autoplay=0&mute=0&controls=1&playsinline=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1'            
-        }
     ];
 
     return (
@@ -66,7 +60,7 @@ const Keynotes = () => {
                         <div className= 'is-hidden-touch defaultVideoView'>
                             
                                 <ReactPlayer                                    
-                                    url="https://youtu.be/YCQJVoaOeqQ"
+                                url="https://youtu.be/jrMhTRNDYwM"
                                     controls={true}
                                     width="100%"
                                     height="450px"
@@ -76,7 +70,7 @@ const Keynotes = () => {
                         </div>
                         <div className='video-container-2 is-hidden-desktop defaultVideoView'>
                                 <ReactPlayer
-                                url="https://youtu.be/YCQJVoaOeqQ"
+                                url="https://youtu.be/jrMhTRNDYwM"
                                     controls={true}
                                     width="100%"
                                     height="300px"
@@ -89,7 +83,7 @@ const Keynotes = () => {
                                     videos.map((video, index) => (
                                         <div key={index}>
                                             {
-                                                <img src={video.image} onClick={() => { displayVideo(video.url) }}></img>
+                                                <img src={video.image} onClick={() => { displayVideo(video.url) }} style={{ cursor: 'pointer' }}></img>
                                             }
                                         </div>
                                     ))
