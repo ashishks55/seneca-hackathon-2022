@@ -13,7 +13,12 @@ const Header = () => {
       title: 'About',
       link: '#about',
       is_selected: false
-    },
+      },
+      {
+          title: 'Keynotes',
+          link: '#keynotes',
+          is_selected: false
+      },
     {
       title: 'Timeline',
       link: '#timeline',
