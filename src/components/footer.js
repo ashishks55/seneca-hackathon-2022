@@ -6,17 +6,16 @@ import SocialMedia from './reusable/socialmedia';
 const Footer = () => {
     return (
         <footer style={{
+            marginBottom: `2rem`,
             borderTop: '4px solid #1C444C',
             paddingTop: '3rem'
         }}>
-            <div style={{ width: '100%', marginBottom: '2%' }}>
+            {/* <div style={{ width: '100%', marginBottom: '5%' }}>
                 <div className="has-text-centered" style={{
                     width: '50%', display: 'inline-block', verticalAlign: 'top'
                 }}>
-                    <div style={{ textAlign: 'left', display: 'inherit' }}>
-                        <span style={{ color: '#1C444C', textAlign: 'left', }}><b>Need more information?</b></span><br />
-                        <span style={{ color: '#459888', textAlign: 'left' }}><b>Contact us at <a href='mailto:info@senecahackathon.com' rel="noopener noreferrer" target="_blank" className='has-text-green is-underlined'>info@senecahackathon.com</a></b></span>                        
-                    </div>
+                    <span style={{ color: '#1C444C', textAlign: 'left',  }}><b>Need more information?</b></span><br />
+                    <span style={{ color: '#459888', textAlign: 'left' }}><b>Contact us at <u>info@senecahackathon.com</u></b></span>
                 </div>
                 <div style={{
                     width: '50%', display: 'inline-block'
@@ -25,28 +24,21 @@ const Footer = () => {
                     <div style={{
                         background: 'url(' + PastEventsBackgroundImage + ')', backgroundPosition: 'left',
                         backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat', width: '70%'
+                        backgroundRepeat: 'no-repeat'
                     }}><a href="http://digitalhealth.senecahackathon.com/"><img src={Hackathon2021Logo} style={{ backgroundColor: 'white', width: '20%', height: '20%', verticalAlign: 'right', marginLeft: '80%' }}></img></a></div>
                 </div>
-            </div>
+            </div> */}
+            <SocialMedia classes={'is-hidden-tablet'} />
             <div style={{
                 marginBottom: '0rem',
-                border: '10px solid rgb(28, 68, 76)',
                 width: '100%',
-                backgroundColor: 'rgb(28, 68, 76)',
-                color: 'white'
+                height: '3rem',
+                backgroundColor: 'transparent',
+                color: '#1C444C'
             }}>
-                <span>Copyright © {new Date().getFullYear()} Seneca Hackathon 2022. All rights reserved.</span>
+                <p className='has-text-centered has-text-weight-semibold'>Contact us at <a href='mailto:info@senecahackathon.com' rel="noopener noreferrer" target="_blank" className='has-text-green is-underlined'>info@senecahackathon.com</a></p>
+                <p className='has-text-centered'>Copyright © Seneca Hackathon {new Date().getFullYear()}. All rights reserved.<br /><br /></p>
             </div>
-            <SocialMedia classes={'is-hidden-tablet'}/>
-            {/*<div style={{*/}
-            {/*    marginBottom: '0rem',*/}
-            {/*    width: '100%',*/}
-            {/*    height: '3rem',*/}
-            {/*    backgroundColor: 'transparent',*/}
-            {/*    color: '#1C444C'*/}
-            {/*}}>  */}
-            {/*</div>*/}
         </footer>
     );
 };
