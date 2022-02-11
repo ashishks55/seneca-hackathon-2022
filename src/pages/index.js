@@ -17,7 +17,7 @@ const IndexPage = () => (
     <Hero/>
     <SectionBreak id={'about'}/>
     <About />
-    <SectionBreak id={'keynotes'} />
+    <SectionBreak id={'videos'} />
     <KeyNotes />
     <SectionBreak id={'timeline'}/>
     <Timeline/>
