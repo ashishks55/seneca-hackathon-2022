@@ -44,7 +44,7 @@ const About = () => {
                                 <h1 className="title is-marginless">What is a Hackathon?</h1>
                                 <div className='text-container'> 
                                     {/* <p className="has-text-green has-text-weight-bold">A call for everyone who is interested in solving the problem!</p> */}
-                                    <p className="subtitle is-size-6 has-text-weight-normal line-height-2">
+                                    <p className="subtitle is-size-6 has-text-weight-normal line-height-2 font-2">
                                     A hackathon is a problem-solving competition in which a diverse group of people form a team and decide to collaborate intensively to develop solutions to given problems or “challenge sets”. A cause hackathon, such as this Sustainability hackathon, is an event focussed on increasing awareness of global causes and providing avenues for participation to become engaged and involved in making the world a better place.
                                     </p>
                                     <br/>

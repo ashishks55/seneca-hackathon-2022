@@ -30,7 +30,7 @@ const Keynote = () => {
             <div className="hero-body hero-body-2">
                 <div className='columns'>
                     <div className='column is-10 is-offset-1'>
-                        <h1 className="title is-marginless">Keynote Sessions</h1>
+                        <h1 className="title is-marginless">Videos</h1>
                         <div className='keynotes'>
                             <div className='main-video'>
                                 <ReactPlayer

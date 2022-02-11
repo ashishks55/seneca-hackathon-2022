@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react'
 import Icon1 from '../../images/challengesets/Icon3.png';
 import Icon2 from '../../images/challengesets/Icon4.png';
 import Icon3 from '../../images/challengesets/Icon2.png';
 import Icon4 from '../../images/challengesets/Icon1.png';
 import "./challengesets"
+import { Link } from 'gatsby';
 
 
 const Challengesets = () => {
@@ -12,25 +13,25 @@ const Challengesets = () => {
             title: 'Corporate Social Responsibility',
             //details: 'Integrate sustainability into curriculum regardless of area of study.', 
             image: Icon1,
-            link: '#' 
+            link: '/challenge-set/corporate-social-responsibility' 
         },
         {
             title: 'Global Causes',
             //details: 'How can we leverage from existing technologies to promote reforestation, increase canopy cover, and enhance biodiversity within the school grounds?​', 
             image: Icon2,
-            link: '#' 
+            link: '/challenge-set/global-cause' 
         },
         {
             title: 'Net Zero Goals​',
             //details: 'A project with TDSB EcoSchools to help propagate the seeds that can be used in the tree planting.', 
             image: Icon3,
-            link: '#' 
+            link: '/challenge-set/net-zero-goals' 
         },
         {
             title: 'Cities and Municipalities',
             //details: 'A project with TDSB EcoSchools to help propagate the seeds that can be used in the tree planting.', 
             image: Icon4,
-            link: '#' 
+            link: '/challenge-set/cities-and-municipalities' 
         }
     ]
     return (
@@ -43,7 +44,7 @@ const Challengesets = () => {
                             {
                                 challengesets.map((challengeset, index) => (
                                     <div key={index} className='column is-12-tablet is-3-desktop'>
-                                        <a href={challengeset.link}  rel="noopener noreferrer" target="_blank" >
+                                        <Link to={challengeset.link}  rel="noopener noreferrer" target="_blank" >
                                         <div className="card card-2">
                                             <div className="card-image">
                                                 <div className='card-content'>
@@ -59,7 +60,7 @@ const Challengesets = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        </a>
+                                        </Link>
                                     </div>
                                 ))
                             }
