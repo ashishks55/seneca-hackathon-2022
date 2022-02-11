@@ -22,28 +22,17 @@ const FlipCardComponent = ({front_content, back_content}) => {
     const [isFlipped, setFlipped] = useState(false);
  
     const front = (
-        <>
-            {/* <div className='is-hidden-touch' onMouseEnter={() => setFlipped(true)} onClick={() => setFlipped(x => !x)} style={{ ...cardStyle, background: "#fff" }}>
-                {parse(front_content)}
-            </div> */}
-            <div onClick={() => setFlipped(x => !x)} style={{ ...cardStyle, background: "#fff" }}>
-                {parse(front_content)}
-                <div className='right-icon'><FontAwesomeIcon icon={faArrowRight} /></div>
-            </div>
-        </>
+        <div onClick={() => setFlipped(x => !x)} style={{ ...cardStyle, background: "#fff" }}>
+            {parse(front_content)}
+            <div className='right-icon'><FontAwesomeIcon icon={faArrowRight} /></div>
+        </div>
     );
  
     const back = (
-        <>
-            {/* <div className='is-hidden-touch' onMouseLeave={() => setFlipped(false)} onClick={() => setFlipped(x => !x)} style={{ ...cardStyle, background: "#fff" }}>
-                <div className='left-icon is-hidden-tablet'><FontAwesomeIcon icon={faArrowLeft} /></div>
-                {parse(back_content)}
-            </div> */}
-            <div onClick={() => setFlipped(x => !x)} style={{ ...cardStyle, background: "#fff" }}>
-                <div className='left-icon'><FontAwesomeIcon icon={faArrowLeft} /></div>
-                {parse(back_content)}
-            </div>
-        </>
+        <div onClick={() => setFlipped(x => !x)} style={{ ...cardStyle, background: "#fff" }}>
+            <div className='left-icon'><FontAwesomeIcon icon={faArrowLeft} /></div>
+            {parse(back_content)}
+        </div>
     );
  
     return (
