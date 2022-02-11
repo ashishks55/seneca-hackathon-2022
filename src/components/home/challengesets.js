@@ -47,9 +47,9 @@ const Challengesets = () => {
                                         <div className="card card-2">
                                             <div className="card-image">
                                                 <div className='card-content'>
-                                                    <figure className="image is-1by1">
+                                                    {/* <figure className=""> */}
                                                         <img src={challengeset.image} alt="organizer"/>
-                                                    </figure>
+                                                    {/* </figure> */}
                                                 </div>
                                             </div>
                                             <div className="card-content">
