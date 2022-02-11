@@ -1,8 +1,8 @@
 import React from 'react';
-import Icon1 from '../../images/challengesets/Icon1.png';
-import Icon2 from '../../images/challengesets/Icon2.png';
-import Icon3 from '../../images/challengesets/Icon3.png';
-import Icon4 from '../../images/challengesets/Icon4.png';
+import Icon1 from '../../images/challengesets/Icon3.png';
+import Icon2 from '../../images/challengesets/Icon4.png';
+import Icon3 from '../../images/challengesets/Icon2.png';
+import Icon4 from '../../images/challengesets/Icon1.png';
 import "./challengesets"
 
 
