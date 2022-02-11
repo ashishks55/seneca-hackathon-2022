@@ -19,6 +19,7 @@ import nzc_3 from '../../images/logos/nzc-3.png'
 import nzc_4 from '../../images/logos/nzc-4.png'
 import nzc_5 from '../../images/logos/nzc-5.svg'
 import nzc_6 from '../../images/logos/nzc-6.jpg'
+import nzc_7 from '../../images/logos/nzc-7.jpg'
 
 import ts_1 from '../../images/logos/ts-1.png'
 import ts_2 from '../../images/logos/ts-2.png'
@@ -46,8 +47,8 @@ const Sponsors = () => {
         },
         {
             title: 'Net-Zero Goals',
-            logos: [nzc_1, nzc_2, nzc_3, nzc_4, nzc_5, nzc_6],
-            width: ['130px', '140px', '100px', '140px', '140px', '70px']
+            logos: [nzc_1, nzc_2, nzc_3, nzc_4, nzc_5, nzc_6, nzc_7],
+            width: ['130px', '140px', '100px', '140px', '140px', '70px', '120px']
         },
         {
             title: 'Technology and Supporters',
