@@ -11,25 +11,25 @@ const Challengesets = () => {
         {
             title: 'Corporate Social Responsibility',
             //details: 'Integrate sustainability into curriculum regardless of area of study.', 
-            image: Icon1,
+            image: Icon3,
             link: '#' 
         },
         {
             title: 'Global Causes',
             //details: 'How can we leverage from existing technologies to promote reforestation, increase canopy cover, and enhance biodiversity within the school grounds?​', 
-            image: Icon2,
+            image: Icon4,
             link: '#' 
         },
         {
             title: 'Net Zero Goals​',
             //details: 'A project with TDSB EcoSchools to help propagate the seeds that can be used in the tree planting.', 
-            image: Icon3,
+            image: Icon2,
             link: '#' 
         },
         {
             title: 'Cities and Municipalities',
             //details: 'A project with TDSB EcoSchools to help propagate the seeds that can be used in the tree planting.', 
-            image: Icon4,
+            image: Icon1,
             link: '#' 
         }
     ]
