@@ -4,7 +4,7 @@ import Hero from "../components/home/hero"
 import About from "../components/home/about"
 import KeyNotes from "../components/home/keynote"
 import Timeline from "../components/home/timeline"
-// import Challengesets from "../components/home/challengesets"
+import Challengesets from "../components/home/challengesets"
 import Sponsors from "../components/home/sponsors"
 import Organizers from "../components/home/organizers"
 import Spotlight from "../components/home/spotlight"
@@ -21,8 +21,8 @@ const IndexPage = () => (
     <KeyNotes />
     <SectionBreak id={'timeline'}/>
     <Timeline/>
-    {/* <SectionBreak id={'challengesets'}/> */}
-    {/* <Challengesets/>  */}
+    <SectionBreak id={'challengesets'}/> 
+    <Challengesets/>
     <SectionBreak id={'sponsors'}/>
     <Sponsors/>
     <SectionBreak id={'organizers'}/>

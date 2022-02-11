@@ -24,11 +24,11 @@ const Header = () => {
       link: '#timeline',
       is_selected: false
     },
-    // {
-    //    title: 'Challenge Sets',
-    //    link: '#challengesets',
-    //    is_selected: false
-    // },
+    {
+       title: 'Challenge Sets',
+       link: '#challengesets',
+       is_selected: false
+    },
     {
       title: 'Sponsors',
       link: '#sponsors',
