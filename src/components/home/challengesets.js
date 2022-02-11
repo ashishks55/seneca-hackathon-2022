@@ -12,22 +12,26 @@ const Challengesets = () => {
         {
             title: 'Corporate Social Responsibility',
             image: Icon1,
-            link: '/challenge-set/corporate-social-responsibility' 
+            link: '/challenge-set/corporate-social-responsibility',
+            disable: false
         },
         {
             title: 'Global Causes',
             image: Icon2,
-            link: '/challenge-set/global-cause' 
+            link: '/challenge-set/global-cause',
+            disable: true
         },
         {
             title: 'Net Zero Goals​',
             image: Icon3,
-            link: '/challenge-set/net-zero-goals' 
+            link: '/challenge-set/net-zero-goals',
+            disable: false
         },
         {
             title: 'Cities and Municipalities',
             image: Icon4,
-            link: '/challenge-set/cities-and-municipalities' 
+            link: '/challenge-set/cities-and-municipalities',
+            disable: true
         }
     ]
 
@@ -41,22 +45,41 @@ const Challengesets = () => {
                             {
                                 challengesets.map((challengeset, index) => (
                                     <div key={index} className='column is-12-tablet is-3-desktop'>
-                                        <Link to={challengeset.link}  rel="noopener noreferrer" target="_blank" >
-                                        <div className="card card-2">
-                                            <div className="card-image">
-                                                <div className='card-content'>
-                                                    <figure className="image is-1by1">
-                                                        <img src={challengeset.image} alt="organizer"/>
-                                                    </figure>
+                                        {
+                                            challengeset.disable 
+                                            ?
+                                                <div className="card card-2">
+                                                    <div className="card-image">
+                                                        <div className='card-content'>
+                                                            <figure className="image is-1by1">
+                                                                <img src={challengeset.image} alt="organizer"/>
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div className="card-content">
+                                                        <div className="content card-front">
+                                                            <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{challengeset.title}</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="card-content">
-                                                <div className="content card-front">
-                                                    <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{challengeset.title}</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        </Link>
+                                            :
+                                                <Link to={challengeset.link}  rel="noopener noreferrer" target="_blank" >
+                                                    <div className="card card-2">
+                                                        <div className="card-image">
+                                                            <div className='card-content'>
+                                                                <figure className="image is-1by1">
+                                                                    <img src={challengeset.image} alt="organizer"/>
+                                                                </figure>
+                                                            </div>
+                                                        </div>
+                                                        <div className="card-content">
+                                                            <div className="content card-front">
+                                                                <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{challengeset.title}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                        }
                                     </div>
                                 ))
                             }
