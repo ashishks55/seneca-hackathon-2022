@@ -25,7 +25,7 @@ const Challengesets = () => {
             title: 'Net Zero Goals​',
             image: Icon3,
             link: '/challenge-set/net-zero-goals',
-            disable: false
+            disable: true
         },
         {
             title: 'Cities and Municipalities',
@@ -50,8 +50,8 @@ const Challengesets = () => {
                                             ?
                                                 <div className="card card-2">
                                                     <div className="card-image">
-                                                        <div className='card-content'>
-                                                            <figure className="image is-1by1">
+                                                        <div className='card-content pd-bottom-0'>
+                                                            <figure className="image-challenge">
                                                                 <img src={challengeset.image} alt="organizer"/>
                                                             </figure>
                                                         </div>
@@ -66,8 +66,8 @@ const Challengesets = () => {
                                                 <Link to={challengeset.link}  rel="noopener noreferrer" target="_blank" >
                                                     <div className="card card-2">
                                                         <div className="card-image">
-                                                            <div className='card-content'>
-                                                                <figure className="image is-1by1">
+                                                            <div className='card-content pd-bottom-0'>
+                                                                <figure className="image-challenge">
                                                                     <img src={challengeset.image} alt="organizer"/>
                                                                 </figure>
                                                             </div>

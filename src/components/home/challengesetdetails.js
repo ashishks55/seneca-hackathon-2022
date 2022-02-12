@@ -30,21 +30,21 @@ const ChallengeSetsDetails = ({id}) => {
                     <p><a class="has-text-green is-underlined" href="https://stats.oecd.org/Index.aspx?ThemeTreeId=9" target="_blank">Click here</a> for resources/data.</p>
                     `
                 },
-                {
-                    title: 'The Electronic Products Recycling Association of Canada reports that there is 1,000,000 metric tons of e-waste is landfilled every year[1]. In 2019 only 17.4% of e-waste was recycled[2] Lead and Mercury in e-waste can lead to anemia, nausea, and other diseases to humans and other organisms.',
-                    info: 
-                    `
-                    <h4>Background & Context</h4>
-                    <ul>
-                        <li>Recycling e-waste in a sustainable manner</li>
-                        <li>Quantify landfill usage and carbon emission usage that is used by recycling and present it in a dashboard.</li>
-                        <li>Develop design systems that will make it easier to recycle electronics at end of life.</li>
-                    </ul>
-                    <h4>Resources/Data</h4>
-                    <p>1. The story of Canada's Digital Dumping Ground. The story of Canada's digital dumping ground | Open Case Studies. (n.d.). Retrieved January 27, 2022, from <a class="has-text-green is-underlined" href="https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15" target="_blank">https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15</a></p>
-                    <p>2. Mckenzie, K. H. & R. (n.d.). Waste reduction week in Canada: E-waste. Environment 911. Retrieved January 27, 2022, from <a class="has-text-green is-underlined" href="https://www.environment911.org/Waste-Reduction-Week-in-Canada-E-Waste" target="_blank">https://www.environment911.org/Waste-Reduction-Week-in-Canada-E-Waste</a></p>
-                    `
-                }
+                // {
+                //     title: 'The Electronic Products Recycling Association of Canada reports that there is 1,000,000 metric tons of e-waste is landfilled every year[1]. In 2019 only 17.4% of e-waste was recycled[2] Lead and Mercury in e-waste can lead to anemia, nausea, and other diseases to humans and other organisms.',
+                //     info: 
+                //     `
+                //     <h4>Background & Context</h4>
+                //     <ul>
+                //         <li>Recycling e-waste in a sustainable manner</li>
+                //         <li>Quantify landfill usage and carbon emission usage that is used by recycling and present it in a dashboard.</li>
+                //         <li>Develop design systems that will make it easier to recycle electronics at end of life.</li>
+                //     </ul>
+                //     <h4>Resources/Data</h4>
+                //     <p>1. The story of Canada's Digital Dumping Ground. The story of Canada's digital dumping ground | Open Case Studies. (n.d.). Retrieved January 27, 2022, from <a class="has-text-green is-underlined" href="https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15" target="_blank">https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15</a></p>
+                //     <p>2. Mckenzie, K. H. & R. (n.d.). Waste reduction week in Canada: E-waste. Environment 911. Retrieved January 27, 2022, from <a class="has-text-green is-underlined" href="https://www.environment911.org/Waste-Reduction-Week-in-Canada-E-Waste" target="_blank">https://www.environment911.org/Waste-Reduction-Week-in-Canada-E-Waste</a></p>
+                //     `
+                // }
             ]
         },
         'global-cause' : {
@@ -69,36 +69,36 @@ const ChallengeSetsDetails = ({id}) => {
             title: 'Net Zero Goals​',
             details: 'A project with TDSB EcoSchools to help propagate the seeds that can be used in the tree planting.', 
             info_items:  [
-                {
-                    title: 'International Travelers Carbon footprint reduction and credit management',
-                    info: 
-                    `
-                    <h4>Background & Context</h4>
-                    <p>Recommender systems for individual travelers to help them select chose most sustainable travel plans b. Carbon footprint data aggregator, reward system, and credit management</p>
-                    <h4>Resources/Data</h4>
-                    <p>Sponsor website about Sustainable Development <a class="has-text-green is-underlined" href="https://www.gpcanada.ca/nos-actions/" target="_blank">https://www.gpcanada.ca/nos-actions/</a></p>
-                    `
-                },
-                {
-                    title: 'Food waste reduction',
-                    info: `
-                    <h4>Background & Context</h4>
-                    <p>a. Awareness and research.</p>
-                    <p>b. Recommender and reward systems.</p>
-                    <h4>Resources/Data</h4>
-                    <p>Sponsor website about Sustainable Development <a class="has-text-green is-underlined" href="https://www.gpcanada.ca/nos-actions/" target="_blank">https://www.gpcanada.ca/nos-actions/</a></p>
-                    `
-                },
-                {
-                    title: 'Develop affordable solutions to automate reduction of food wastage in restaurants',
-                    info: 
-                    `
-                    <h4>Background & Context</h4>
-                    <p>According to CBC and Canada.ca, 58% of food produced in Canada is either lost or wasted. 86% of that wastage comes directly from the food industry. Over $31 billion is lost in revenue each year to food wastage. Methane is 25 times more potent than Carbon dioxide.</p>
-                    <h4>Resources/Data</h4>
-                    <p><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:w:/s/SustainabilityHackathon2022/EYBrlXJQmWJHqMv11hpS1YYBOlOIOuCzM7t8DkyvZ0zaHA" target="_blank">How Students Can Contribute?</a></p>
-                    `
-                }
+                // {
+                //     title: 'International Travelers Carbon footprint reduction and credit management',
+                //     info: 
+                //     `
+                //     <h4>Background & Context</h4>
+                //     <p>Recommender systems for individual travelers to help them select chose most sustainable travel plans b. Carbon footprint data aggregator, reward system, and credit management</p>
+                //     <h4>Resources/Data</h4>
+                //     <p>Sponsor website about Sustainable Development <a class="has-text-green is-underlined" href="https://www.gpcanada.ca/nos-actions/" target="_blank">https://www.gpcanada.ca/nos-actions/</a></p>
+                //     `
+                // },
+                // {
+                //     title: 'Food waste reduction',
+                //     info: `
+                //     <h4>Background & Context</h4>
+                //     <p>a. Awareness and research.</p>
+                //     <p>b. Recommender and reward systems.</p>
+                //     <h4>Resources/Data</h4>
+                //     <p>Sponsor website about Sustainable Development <a class="has-text-green is-underlined" href="https://www.gpcanada.ca/nos-actions/" target="_blank">https://www.gpcanada.ca/nos-actions/</a></p>
+                //     `
+                // },
+                // {
+                //     title: 'Develop affordable solutions to automate reduction of food wastage in restaurants',
+                //     info: 
+                //     `
+                //     <h4>Background & Context</h4>
+                //     <p>According to CBC and Canada.ca, 58% of food produced in Canada is either lost or wasted. 86% of that wastage comes directly from the food industry. Over $31 billion is lost in revenue each year to food wastage. Methane is 25 times more potent than Carbon dioxide.</p>
+                //     <h4>Resources/Data</h4>
+                //     <p><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:w:/s/SustainabilityHackathon2022/EYBrlXJQmWJHqMv11hpS1YYBOlOIOuCzM7t8DkyvZ0zaHA" target="_blank">How Students Can Contribute?</a></p>
+                //     `
+                // }
             ]
         },
         'cities-and-municipalities' :{

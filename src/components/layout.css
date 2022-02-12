@@ -1130,3 +1130,20 @@ div.sponsor-list:last-child {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
+
+.image-challenge img{
+  max-width: 200px !important;
+  max-height: 200px !important;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px !important;
+}
+
+.image-challenge{
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+
+.pd-bottom-0{
+  padding-bottom: 0px;
+}
