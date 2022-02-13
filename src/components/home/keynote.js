@@ -23,6 +23,7 @@ const Keynote = () => {
 
     const [selectedIndex, setVideoIndex] = useState(0);
     const [activeItemIndex, setActiveItemIndex] = useState(0);
+    const [playing, setPlaying] = useState(false);
     const chevronWidth = 25;
     
     return (
@@ -38,7 +39,7 @@ const Keynote = () => {
                                     controls={true}
                                     width="100%"
                                     height="450px"
-                                    playing={true}
+                                    playing={playing}
                                 />
                             </div>
                             <div className='carousel-1 is-hidden-mobile' style={{ padding: `0 ${chevronWidth}px` }}>
@@ -54,7 +55,7 @@ const Keynote = () => {
                                 >
                                     {
                                         keynotes.map((keynote, index) => (
-                                            <div className="card card-2 card-play" key={index} onClick={() => {setVideoIndex(index)}}>
+                                            <div className="card card-2 card-play" key={index} onClick={() => {setVideoIndex(index); setPlaying(true)}}>
                                                 <div className={`play-button ${selectedIndex === index ? 'opacity-1' : ''}`}><FontAwesomeIcon icon={faPlayCircle} /></div>
                                                 <div className="card-content">
                                                     <div className="content keynote-card-content">
@@ -79,7 +80,7 @@ const Keynote = () => {
                                 >
                                     {
                                         keynotes.map((keynote, index) => (
-                                            <div className="card card-2 card-play mg-mob-1" key={index} onClick={() => {setVideoIndex(index)}}>
+                                            <div className="card card-2 card-play mg-mob-1" key={index} onClick={() => {setVideoIndex(index); setPlaying(true)}}>
                                                 <div className={`play-button ${selectedIndex === index ? 'opacity-1' : ''}`}><FontAwesomeIcon icon={faPlayCircle} /></div>
                                                 <div className="card-content">
                                                     <div className="content keynote-card-content">

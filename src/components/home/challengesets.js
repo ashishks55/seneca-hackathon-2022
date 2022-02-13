@@ -1,39 +1,40 @@
 import React, { useState } from 'react'
-import Icon1 from '../../images/challengesets/Icon3.png';
-import Icon2 from '../../images/challengesets/Icon4.png';
-import Icon3 from '../../images/challengesets/Icon2.png';
-import Icon4 from '../../images/challengesets/Icon1.png';
-import "./challengesets"
+import Icon1 from '../../images/challengesets/Icon3-white.png';
+import Icon2 from '../../images/challengesets/Icon4-white.png';
+import Icon3 from '../../images/challengesets/Icon2-white.png';
+import Icon4 from '../../images/challengesets/Icon1-white.png';
 import { Link } from 'gatsby';
 
 
 const Challengesets = () => {
+
     const challengesets = [
         {
             title: 'Corporate Social Responsibility',
-            //details: 'Integrate sustainability into curriculum regardless of area of study.', 
             image: Icon1,
-            link: '/challenge-set/corporate-social-responsibility' 
+            link: '/challenge-set/corporate-social-responsibility',
+            disable: false
         },
         {
             title: 'Global Causes',
-            //details: 'How can we leverage from existing technologies to promote reforestation, increase canopy cover, and enhance biodiversity within the school grounds?​', 
             image: Icon2,
-            link: '/challenge-set/global-cause' 
+            link: '/challenge-set/global-cause',
+            disable: true
         },
         {
             title: 'Net Zero Goals​',
-            //details: 'A project with TDSB EcoSchools to help propagate the seeds that can be used in the tree planting.', 
             image: Icon3,
-            link: '/challenge-set/net-zero-goals' 
+            link: '/challenge-set/net-zero-goals',
+            disable: true
         },
         {
             title: 'Cities and Municipalities',
-            //details: 'A project with TDSB EcoSchools to help propagate the seeds that can be used in the tree planting.', 
             image: Icon4,
-            link: '/challenge-set/cities-and-municipalities' 
+            link: '/challenge-set/cities-and-municipalities',
+            disable: true
         }
     ]
+
     return (
     <section className="hero is-medium is-white">
         <div className="hero-body hero-body-2">
@@ -44,6 +45,7 @@ const Challengesets = () => {
                             {
                                 challengesets.map((challengeset, index) => (
                                     <div key={index} className='column is-12-tablet is-3-desktop'>
+<<<<<<< HEAD
                                         <Link to={challengeset.link}  rel="noopener noreferrer" target="_blank" >
                                         <div className="card card-2">
                                             <div className="card-image">
@@ -51,16 +53,43 @@ const Challengesets = () => {
                                                     {/* <figure className=""> */}
                                                         <img src={challengeset.image} alt="organizer"/>
                                                     {/* </figure> */}
+=======
+                                        {
+                                            challengeset.disable 
+                                            ?
+                                                <div className="card card-2">
+                                                    <div className="card-image">
+                                                        <div className='card-content pd-bottom-0'>
+                                                            <figure className="image-challenge">
+                                                                <img src={challengeset.image} alt="organizer"/>
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div className="card-content">
+                                                        <div className="content card-front">
+                                                            <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{challengeset.title}</p>
+                                                        </div>
+                                                    </div>
+>>>>>>> 30683cf991c7fb9087932fc06a5734ce5eed19f0
                                                 </div>
-                                            </div>
-                                            <div className="card-content">
-                                                <div className="content card-front">
-                                                    <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{challengeset.title}</p>
-                                                    {/* <p className='subtitle designation has-text-grey is-size-6 has-text-weight-normal line-height-1'>{challengeset.details}</p> */}
-                                                </div>
-                                            </div>
-                                        </div>
-                                        </Link>
+                                            :
+                                                <Link to={challengeset.link}  rel="noopener noreferrer" target="_blank" >
+                                                    <div className="card card-2">
+                                                        <div className="card-image">
+                                                            <div className='card-content pd-bottom-0'>
+                                                                <figure className="image-challenge">
+                                                                    <img src={challengeset.image} alt="organizer"/>
+                                                                </figure>
+                                                            </div>
+                                                        </div>
+                                                        <div className="card-content">
+                                                            <div className="content card-front">
+                                                                <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{challengeset.title}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                        }
                                     </div>
                                 ))
                             }

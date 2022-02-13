@@ -11,39 +11,39 @@ const Header = () => {
   const menu_items = [
     {
       title: 'About',
-      link: '#about',
+      link: '/#about',
       is_selected: false
-      },
-      {
-          title: 'Videos',
-          link: '#videos',
-          is_selected: false
-      },
+    },
     {
       title: 'Timeline',
-      link: '#timeline',
+      link: '/#timeline',
       is_selected: false
     },
     {
        title: 'Challenge Sets',
-       link: '#challengesets',
+       link: '/#challengesets',
        is_selected: false
     },
     {
-      title: 'Sponsors',
-      link: '#sponsors',
-      is_selected: false
+        title: 'Videos',
+        link: '/#videos',
+        is_selected: false
     },
     {
-      title: 'Organizers',
-      link: '#organizers',
+      title: 'Sponsors',
+      link: '/#sponsors',
       is_selected: false
     },
     {
       title: 'Spotlight',
-      link: '#spotlight',
+      link: '/#spotlight',
       is_selected: false
-    }
+    },
+    {
+      title: 'Organizers',
+      link: '/#organizers',
+      is_selected: false
+    },
   ]
   
   return (

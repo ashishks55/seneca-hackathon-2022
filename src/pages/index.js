@@ -17,18 +17,18 @@ const IndexPage = () => (
     <Hero/>
     <SectionBreak id={'about'}/>
     <About />
-    <SectionBreak id={'videos'} />
-    <KeyNotes />
     <SectionBreak id={'timeline'}/>
     <Timeline/>
     <SectionBreak id={'challengesets'}/> 
     <Challengesets/>
+    <SectionBreak id={'videos'} />
+    <KeyNotes />
     <SectionBreak id={'sponsors'}/>
     <Sponsors/>
-    <SectionBreak id={'organizers'}/>
-    <Organizers/>
     <SectionBreak id={'spotlight'}/>
     <Spotlight/>
+    <SectionBreak id={'organizers'}/>
+    <Organizers/>
   </Layout>
 )
 

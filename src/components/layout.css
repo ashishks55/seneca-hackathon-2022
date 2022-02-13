@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -80,12 +82,15 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Didot', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
   color: #1C444C !important;
+}
+.title, .subtitle, p, .navbar-item{
+  font-family: 'Open Sans', sans-serif;
 }
 mark {
   background-color: #ff0;
@@ -259,7 +264,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Bookman', 'URW Bookman L', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -275,7 +280,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Bookman', 'URW Bookman L', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -291,7 +296,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Bookman', 'URW Bookman L', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -307,7 +312,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Bookman', 'URW Bookman L', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -323,7 +328,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: 'Bookman', 'URW Bookman L', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -1103,6 +1108,42 @@ div.sponsor-list:last-child {
 }
 
 .font-2{
-  font-family: 'Bookman', 'URW Bookman L', serif;
-  font-size: 1.3rem !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem !important;
+}
+
+.accordion-list .accordion-item{
+  border: 2px solid #1C444C;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.accordion-item .a-title{
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.accordion-item .a-info{
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.image-challenge img{
+  max-width: 200px !important;
+  max-height: 200px !important;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px !important;
+}
+
+.image-challenge{
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+
+.pd-bottom-0{
+  padding-bottom: 0px;
 }
