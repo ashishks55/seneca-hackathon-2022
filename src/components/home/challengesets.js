@@ -45,15 +45,6 @@ const Challengesets = () => {
                             {
                                 challengesets.map((challengeset, index) => (
                                     <div key={index} className='column is-12-tablet is-3-desktop'>
-<<<<<<< HEAD
-                                        <Link to={challengeset.link}  rel="noopener noreferrer" target="_blank" >
-                                        <div className="card card-2">
-                                            <div className="card-image">
-                                                <div className='card-content'>
-                                                    {/* <figure className=""> */}
-                                                        <img src={challengeset.image} alt="organizer"/>
-                                                    {/* </figure> */}
-=======
                                         {
                                             challengeset.disable 
                                             ?
@@ -70,7 +61,6 @@ const Challengesets = () => {
                                                             <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{challengeset.title}</p>
                                                         </div>
                                                     </div>
->>>>>>> 30683cf991c7fb9087932fc06a5734ce5eed19f0
                                                 </div>
                                             :
                                                 <Link to={challengeset.link}  rel="noopener noreferrer" target="_blank" >
