@@ -130,7 +130,7 @@ const ChallengeSetsDetails = ({id}) => {
                     <h1 className="title">{challengesets[id].title}</h1>
                     <div className='accordion-list'>
                         {
-                            challengesets[id] && challengesets[id].length ? 
+                            challengesets[id] && challengesets[id].info_items.length ? 
                                 challengesets[id].info_items.map((item, index) => (
                                     <Accordion title={item.title} info={item.info} key={index}/>
                                 ))
