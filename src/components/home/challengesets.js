@@ -19,19 +19,19 @@ const Challengesets = () => {
             title: 'Global Causes',
             image: Icon2,
             link: '/challenge-set/global-cause',
-            disable: true
+            disable: false
         },
         {
             title: 'Net Zero Goals​',
             image: Icon3,
             link: '/challenge-set/net-zero-goals',
-            disable: true
+            disable: false
         },
         {
             title: 'Cities and Municipalities',
             image: Icon4,
             link: '/challenge-set/cities-and-municipalities',
-            disable: true
+            disable: false
         }
     ]
 
@@ -58,7 +58,7 @@ const Challengesets = () => {
                                                     </div>
                                                     <div className="card-content">
                                                         <div className="content card-front">
-                                                            <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{challengeset.title}</p>
+                                                            <p className='subtitle name is-size-5 has-text-weight-bold line-height-1'>{challengeset.title}</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -74,7 +74,7 @@ const Challengesets = () => {
                                                         </div>
                                                         <div className="card-content">
                                                             <div className="content card-front">
-                                                                <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{challengeset.title}</p>
+                                                                <p className='subtitle name is-size-5 has-text-weight-bold line-height-1'>{challengeset.title}</p>
                                                             </div>
                                                         </div>
                                                     </div>

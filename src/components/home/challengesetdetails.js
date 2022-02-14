@@ -1,5 +1,6 @@
 import React from 'react';
 import Accordion from '../reusable/accordion';
+import coming_soon from '../../images/coming-soon.png';
 
 
 const ChallengeSetsDetails = ({id}) => {
@@ -51,18 +52,18 @@ const ChallengeSetsDetails = ({id}) => {
             title: 'Global Causes',
             details: 'How can we leverage from existing technologies to promote reforestation, increase canopy cover, and enhance biodiversity within the school grounds?​', 
             info_items:  [
-                {
-                    title: 'Background and Context',
-                    info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
-                },
-                {
-                    title: 'Objective/Solutions',
-                    info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
-                },
-                {
-                    title: 'Resources/Data',
-                    info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
-                }
+                // {
+                //     title: 'Background and Context',
+                //     info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
+                // },
+                // {
+                //     title: 'Objective/Solutions',
+                //     info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
+                // },
+                // {
+                //     title: 'Resources/Data',
+                //     info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
+                // }
             ]
         },
         'net-zero-goals' : {
@@ -105,18 +106,18 @@ const ChallengeSetsDetails = ({id}) => {
             title: 'Cities and Municipalities',
             details: 'A project with TDSB EcoSchools to help propagate the seeds that can be used in the tree planting.', 
             info_items:  [
-                {
-                    title: 'Background and Context',
-                    info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
-                },
-                {
-                    title: 'Objective/Solutions',
-                    info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
-                },
-                {
-                    title: 'Resources/Data',
-                    info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
-                }
+                // {
+                //     title: 'Background and Context',
+                //     info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
+                // },
+                // {
+                //     title: 'Objective/Solutions',
+                //     info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
+                // },
+                // {
+                //     title: 'Resources/Data',
+                //     info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
+                // }
             ]
         }
     }
@@ -129,9 +130,16 @@ const ChallengeSetsDetails = ({id}) => {
                     <h1 className="title">{challengesets[id].title}</h1>
                     <div className='accordion-list'>
                         {
-                            challengesets[id].info_items.map((item, index) => (
-                                <Accordion title={item.title} info={item.info} key={index}/>
-                            ))
+                            challengesets[id] && challengesets[id].length ? 
+                                challengesets[id].info_items.map((item, index) => (
+                                    <Accordion title={item.title} info={item.info} key={index}/>
+                                ))
+                            :
+                            <div className='coming-soon'>
+                                {
+                                    <div className='has-text-centered'><img src={coming_soon} alt="coming soon" width={'250px'}/></div>
+                                }
+                            </div>
                         }
                     </div>
                 </div>
