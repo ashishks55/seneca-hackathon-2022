@@ -15,20 +15,38 @@ const ChallengeSetsDetails = ({id}) => {
                     info: 
                     `
                     <h4>Background & Context</h4>
-                    <p>The Organisation for Economic Co-operation and Development (OECD) maintains a comprehensive database of health and health systems statistics across many different countries (including Canada). These statistics relate to health care expenditure, resources, utilization, quality indicators and many others. This extensive database has the potential to reveal parts of the health system where sustainability efforts could be impactful. However, there is limited literature on how this data has been used to improve the sustainability of the Canadian Healthcare System.</p>
+                    <p>The Organisation for Economic Co-operation and Development (OECD) maintains a comprehensive database of health and health systems statistics across many different countries (including Canada). These statistics relate to health care expenditure, resources, utilization, quality indicators and many others. This extensive database has the potential to reveal parts of the health system where sustainability efforts could be impactful. There is an opportunity for us to better use this data to improve the sustainability of the Canadian Healthcare System.</p>
+                    <p>Key Question: How can we best use the OECD Health Data to help inform healthcare sustainability initiatives in Canada? </p>
                     <h4>Objective/Solutions</h4>
                     <ul>
                         <li>Your team’s solution should encompass one of the following: </li>
                         <li><b>Sustainability Insights:</b> Based on the OECD data, can your team find insights that reveal a potential healthcare sustainability issue(s) in Canada. What would your team’s recommendation be on a potential area(s) that needs a healthcare sustainability initiative?  </li>
                         <ul>
-                            <li>Solutions should be able to clearly explain the rationale on why a selected area(s) was chosen </li>
+                            <li>Solutions should be able to clearly explain the rationale on why a selected area(s) was chosen  </li>
                             <li>Identifying an area for a healthcare sustainability initiative would already be a good solution, but if your team is feeling ambitious, teams are welcome to propose ideas to address any sustainability challenges uncovered </li>
                         </ul>
                         <li><b>Tool Development:</b> Can we build a data tool to more easily identify and extract insights from the OECD data set? This tool should be able to help easily flag potential healthcare sustainability issues from the data set. </li>
                         <li>Teams are welcome to include both insights and tool development in their solutions, but this is not an expectation due to time limitations </li>
                     </ul>
+                    <h4>Thought starters:</h4>
+                    <ul>
+                        <li>Can we identify trends in the data that might pose a sustainability issue (e.g. hospital bed numbers going down, decreasing long term care workers for the older population)?</li>
+                        <li>Can we identify correlations between different healthcare statistics that signify a potential sustainability issue in the healthcare system (e.g. Hospital average length of stay for cataract increasing while number of cataract surgeries are also increasing)?</li>
+                        <li>Are there data trends that highlight challenges in our healthcare system to sustainability manage potential future waves of COVID-19?</li>
+                        <li>Does the data from other countries help reveal sustainability issues in Canada’s healthcare system?</li>
+                        <li>Are there any improvements that can be made to better visualize and analyze the available OECD data?</li>
+                        <li>Feel free to explore public examples on how the OECD data (in health and other areas) has been used. For example, Canadian Institute for Health Information (CIHI)’s interactive web tool: <a class="has-text-green is-underlined" href="https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons" target="_blank">https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons</a></li>
+                        <li>Teams are also welcome to explore other topics in the OECD data set if helpful (e.g. environment, demography and population etc.): <a class="has-text-green is-underlined" href="https://stats.oecd.org/" target="_blank">https://stats.oecd.org/</a> </li>
+                    </ul>
                     <h4>Resources/Data</h4>
                     <p><a class="has-text-green is-underlined" href="https://stats.oecd.org/Index.aspx?ThemeTreeId=9" target="_blank">Click here</a> for resources/data.</p>
+                    <p>The OECD Health Database is comprehensive source of comparable statistics on health and health systems across OECD countries </p>
+                    <p>
+                    Includes statistics around Health Expenditure and Financing, Health Care Resources, Health Care Utilization, Health Care Quality Indicators, Pharmaceutical Market, Long-term Care Resources and Utilization and others 
+                    <ul>
+                        <li>Data Dictionary: <a class="has-text-green is-underlined" href="https://www.oecd.org/els/health-systems/Table-of-Content-Metadata-OECD-Health-Statistics-2021.pdf" target="_blank">https://www.oecd.org/els/health-systems/Table-of-Content-Metadata-OECD-Health-Statistics-2021.pdf</a> </li>
+                    </ul>
+                    </p>
                     `
                 },
                 // {
