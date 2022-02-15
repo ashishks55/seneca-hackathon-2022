@@ -1151,3 +1151,113 @@ div.sponsor-list:last-child {
 .coming-soon{
   margin: 6rem 0rem;
 }
+
+.has-text-dark-green {
+    color: #01354D !important;
+}
+
+.has-text-orange {
+    color: #EB4B00 !important;
+}
+
+.has-text-red {
+    color: #B8251B !important;
+}
+
+.prize-title {
+    font-size: 3rem;
+    font-weight: bold !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.prize-trophy-section {
+    font-size: 1.5rem;
+    font-weight: bold !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.mg-top-3 {
+    margin-top: 3.5rem !important;
+}
+
+.right-text{
+    text-align: right !important;
+}
+
+.prizes-trophy-right-div{
+    width: 70% !important;
+    float:right;
+    margin-bottom:1%;
+}
+
+.prizes-trophy-left-div {
+    width: 70% !important;
+    float: left;
+    margin-bottom: 1%;
+}
+
+.prizes-trophy-40-right-div {
+    width: 40% !important;
+    float: right;
+    margin-bottom: 1%;
+}
+
+.fi-car-tr {
+    height: 8px;
+}
+
+.f1-car-td-white {
+    width: 25%;
+    background-color:#ffffff;
+}
+
+.f1-car-td-red {
+    width: 25%;
+    background-color: #B8251B;
+}
+
+    .diagonal-image {
+    transform: rotate(10deg);
+}
+
+.f1-div {
+    display: inline-block;
+    width: 100%;
+    height: 280px;   
+}
+
+@media (min-width:321px) and (max-width:1180px) {
+    .f1-car {
+        width: 30%;
+        height: 280px;
+        display: inline-block;
+        vertical-align:bottom;
+    }
+}
+.f1-car {
+    width: 30%;
+    height: 280px;
+    display: inline-block;
+}
+
+.f1-content {
+    text-align: right;
+    width: 70%;
+    height: 280px;
+    display: inline-block;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.no-bottom-margin{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
