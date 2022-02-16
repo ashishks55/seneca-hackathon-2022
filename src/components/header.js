@@ -51,7 +51,7 @@ const Header = () => {
     },
     {
       title: 'FAQ',
-      link: '/faq',
+      link: '/#faq',
       is_selected: false
     },
   ]
