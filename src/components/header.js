@@ -23,7 +23,12 @@ const Header = () => {
        title: 'Challenge Sets',
        link: '/#challengesets',
        is_selected: false
-    },
+      },
+      {
+          title: 'Prizes',
+          link: '#prizes',
+          is_selected: false
+      },
     {
         title: 'Videos',
         link: '/#videos',

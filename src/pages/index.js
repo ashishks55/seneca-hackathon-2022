@@ -10,6 +10,7 @@ import Organizers from "../components/home/organizers"
 import Spotlight from "../components/home/spotlight"
 import SectionBreak from "../components/reusable/sectionbreak"
 import Seo from "../components/seo"
+import Prizes from "../components/home/prizes"
 
 const IndexPage = () => (
   <Layout>
@@ -20,7 +21,9 @@ const IndexPage = () => (
     <SectionBreak id={'timeline'}/>
     <Timeline/>
     <SectionBreak id={'challengesets'}/> 
-    <Challengesets/>
+    <Challengesets />
+    <SectionBreak id={'prizes'} />
+    <Prizes />
     <SectionBreak id={'videos'} />
     <KeyNotes />
     <SectionBreak id={'sponsors'}/>
