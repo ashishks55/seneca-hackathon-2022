@@ -1214,62 +1214,129 @@ div.sponsor-list:last-child {
     margin-right: 8.333%;
 }
 
-.f1-car-table{
+@media (min-width:321px) and (max-width:768px) {
+.prize-title{
+    font-size:1.5rem;
+}
+    .f1-car {
+        width: 100% !important;
+    }
+
+    .f1-content {
+        text-align: center !important;
+        width: 100% !important;
+        font-size: 2rem !important;
+        vertical-align: auto !important;
+        margin-top: 0 !important;
+        display: block !important;
+    }
+}
+
+    @media (min-width:321px) and (max-width:1180px) {
+        .prizes-trophy-left-div {
+            margin-left: 0;
+        }
+
+        .prizes-trophy-right-div {
+            margin-right: 0;
+        }
+    }
+
+    .f1-car-table {
+        width: 83.333%;
+        margin-left: 8.3333%;
+        flex: 0 0 auto;
+    }
+
+.f1-car-table-bottom {
     width: 83.333%;
     margin-left: 8.3333%;
     flex: 0 0 auto;
+    margin-bottom:3.45rem;
 }
 
-.f1-car-tr {
-    height: 8px;
-}
+    @media (min-width:321px) and (max-width:1180px) {
+        .f1-car-table {
+            width: 100%;
+            margin-left: 0%;
+            flex: 0 0 auto;
+        }
 
-.f1-car-td-white {
-    width: 20%;
-    background-color:#ffffff;
-}
+        .prizes-trophy-40-right-div {
+            margin-right: 0;
+        }
 
-.f1-car-td-red {
-    width: 20%;
-    background-color: #B8251B;
-}
+        .f1-car-table-bottom {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    .f1-car-tr {
+        height: 8px;
+    }
+
+    .f1-car-td-white {
+        width: 20%;
+        background-color: #ffffff;
+    }
+
+    .f1-car-td-red {
+        width: 20%;
+        background-color: #B8251B;
+    }
 
     .diagonal-image {
-    transform: rotate(10deg);
-}
+        transform: rotate(10deg);
+    }
 
-.f1-div {
-    display: inline-block;
-    width: 100%;
-    height: 280px;   
-}
+    .f1-div {
+        display: inline-block;
+        width: 83.333%;
+        height: 280px;
+        margin-left: 8.333%;
+    }
 
-@media (min-width:321px) and (max-width:1180px) {
+    @media (min-width:768px) and (max-width:1180px) {
+        .f1-div {
+            width: 100%;
+            margin-left: 0%;
+        }
+    }
+
+    @media (min-width:768px) and (max-width:1180px) {
+        .f1-car {
+            width: 30%;
+            height: 280px;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+    }
+
     .f1-car {
         width: 30%;
         height: 280px;
         display: inline-block;
-        vertical-align:bottom;
     }
-}
-.f1-car {
-    width: 30%;
-    height: 280px;
-    display: inline-block;
-}
 
-.f1-content {
-    text-align: center;
-    width: 70%;
-    height: 280px;
-    display: inline-block;
-}
+    .f1-content {
+        text-align: center;
+        width: 70%;
+        height: 280px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 3%;
+    }
 
-.full-width {
-    width: 100%;
-}
+    .full-width {
+        width: 100%;
+    }
 
-.no-bottom-margin{
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-}
+    .no-bottom-margin {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .no-padding {
+        padding-top: 0rem !important;
+    }
