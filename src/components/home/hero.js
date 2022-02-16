@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactPlayer from "react-player"
 import Countdown from 'react-countdown'
 import hero_logo from '../../images/hero-banner.svg'
 import home_image from '../../images/home_image.png'
@@ -49,10 +50,25 @@ const hero = () => {
                             date={date}
                             renderer={renderer}
                         />
-                        <img src={hero_logo} alt="Sustainable Planet" width="100%" className='is-hidden-tablet'/>
+                        {/*<img src={hero_logo} alt="Sustainable Planet" width="100%" className='is-hidden-tablet'/>*/}
+                        <ReactPlayer
+                            url="https://www.youtube.com/embed/ytPY3CRvmO8?autoplay=1&mute=0&controls=1&origin=https%3A%2F%2Fwww.senecahackathon.com&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=5"
+                            controls={true}
+                            width="100%"
+                            height="450px"
+                            playing={true}
+                            className='is-hidden-tablet'
+                        />
                     </div>
-                    <div className='column is-5 is-hidden-touch hero-img'>
-                        <img src={hero_logo} alt="Sustainable Planet" width="100%"/>
+                    <div className='column is-hidden-touch hero-img'>
+                        {/*<img src={hero_logo} alt="Sustainable Planet" width="100%"/>*/}
+                        <ReactPlayer
+                            url="https://www.youtube.com/embed/ytPY3CRvmO8?autoplay=1&mute=0&controls=1&origin=https%3A%2F%2Fwww.senecahackathon.com&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=5"
+                            controls={true}
+                            width="100%"
+                            height="450px"
+                            playing={true}
+                        />
                     </div>
                 </div>
             </div>
