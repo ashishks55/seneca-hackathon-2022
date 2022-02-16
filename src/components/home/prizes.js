@@ -10,8 +10,7 @@ const prizes = () => {
             <div className="hero-body hero-body-3 no-padding">
                 <div className='columns'>
                     <div className='column is-12-tablet is-5-desktop is-offset-1 hero-content no-padding'>
-                        <h1 className="title">Prizes</h1><br />
-                        <p className="prize-title has-text-dark-green">
+                        <p className="prize-title main-title has-text-dark-green">
                             <span>GRAND PRIZE</span>
                         </p>
                         <p className="prize-title has-text-orange">
