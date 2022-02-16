@@ -49,6 +49,11 @@ const Header = () => {
       link: '/#organizers',
       is_selected: false
     },
+    {
+      title: 'FAQ',
+      link: '/#faq',
+      is_selected: false
+    },
   ]
   
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import Accordion from '../components/reusable/accordion';
+//import Layout from "../layout"
+//import Seo from "../seo"
+import Accordion from '../reusable/accordion';
 import "./faq.css"
 
 
@@ -39,20 +39,21 @@ const IndexPage = () => {
             ans: `The event is scheduled to run during reading week: From Feb 28 to Mar 4. An official event schedule will be available soon.`
         },
         {
-            qn: 'What are the requirements to get a micro-credential?',
-            ans: `You will be awarded with one of two micro-credentials: Participant or Winner. Winner micro-credentials are reserved for challenge set winners, category winners, and the best-in-show. Participant micro-credentials will be awarded to teams that document their daily progress and make a submission. More detailed micro-credential information will be available soon. `
-        },
-        {
             qn: 'Will I get free stuff?  ',
             ans: `Our social media is the best place to win free stuff. Check out our social media for the latest hackathon giveaways! `
-        } 
+        }, 
+        {
+            qn: 'What are the requirements to get a micro-credential?',
+            ans: `You will be awarded with one of two micro-credentials: Participant or Winner. Winner micro-credentials are reserved for challenge set winners, category winners, and the best-in-show. Participant micro-credentials will be awarded to teams that document their daily progress and make a submission. More detailed micro-credential information will be available soon. `
+        }
     ]
     return (
-        <Layout>
-            <Seo title="FAQ" />
-            <section className="hero is-medium is-white">
-                <div className="hero-body hero-body">
-                    <h1 className="faq-title">Frequently Asked Questions</h1>
+
+            <section className="hero is-medium is-white"> 
+                <div className="hero-body hero-body-2">
+                <div className='columns'>
+                <div className='column is-10 is-offset-1'>
+                    <h1 className="title">Frequently Asked Questions</h1>
                     {/* <div className='columns'>
                         <div className='column is-10 is-offset-1'>
                             <h1 className="title">Frequently Asked Questions</h1>
@@ -83,8 +84,10 @@ const IndexPage = () => {
                         </div>
                     </div>
                 </div>
+                </div>
+                </div>
             </section>
-        </Layout>
+
     );
 };
 

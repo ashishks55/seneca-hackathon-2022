@@ -8,6 +8,7 @@ import Challengesets from "../components/home/challengesets"
 import Sponsors from "../components/home/sponsors"
 import Organizers from "../components/home/organizers"
 import Spotlight from "../components/home/spotlight"
+import FAQ from "../components/home/faq"
 import SectionBreak from "../components/reusable/sectionbreak"
 import Seo from "../components/seo"
 import Prizes from "../components/home/prizes"
@@ -32,6 +33,8 @@ const IndexPage = () => (
     <Spotlight/>
     <SectionBreak id={'organizers'}/>
     <Organizers/>
+    <SectionBreak id={'faq'}/>
+    <FAQ/>
   </Layout>
 )
 
