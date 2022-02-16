@@ -1214,7 +1214,7 @@ div.sponsor-list:last-child {
     margin-right: 8.333%;
 }
 
-@media (min-width:321px) and (max-width:768px) {
+@media (min-width:321px) and (max-width:767px) {
 .prize-title{
     font-size:1.5rem;
 }
@@ -1227,21 +1227,32 @@ div.sponsor-list:last-child {
         width: 100% !important;
         font-size: 2rem !important;
         vertical-align: auto !important;
-        margin-top: 0 !important;
         display: block !important;
     }
 }
 
-    @media (min-width:321px) and (max-width:1180px) {
-        .prizes-trophy-left-div {
-            margin-left: 0;
-        }
+.main-title {
+    font-size: 2rem !important;
+}
 
-        .prizes-trophy-right-div {
-            margin-right: 0;
-        }
+@media (min-width:321px) and (max-width:1180px) {
+
+    .main-title{
+        font-size:1.5rem !important;
     }
 
+    .prizes-trophy-left-div {
+        margin-left: 0;
+    }
+
+    .prizes-trophy-right-div {
+        margin-right: 0;
+    }
+
+    .prize-trophy-section {
+        font-size: 1.3rem !important;
+    }
+}
     .f1-car-table {
         width: 83.333%;
         margin-left: 8.3333%;
@@ -1267,8 +1278,11 @@ div.sponsor-list:last-child {
         }
 
         .f1-car-table-bottom {
-            margin-top: 0;
-            margin-bottom: 0;
+            margin-top: 3.45rem;
+            margin-bottom: 3.45rem;
+            width: 100% !important;
+            margin-left: 0% !important;
+            flex: 0 0 auto;
         }
     }
 
@@ -1325,7 +1339,6 @@ div.sponsor-list:last-child {
         height: 280px;
         display: inline-block;
         vertical-align: top;
-        margin-top: 3%;
     }
 
     .full-width {
