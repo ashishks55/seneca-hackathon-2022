@@ -1151,3 +1151,230 @@ div.sponsor-list:last-child {
 .coming-soon{
   margin: 6rem 0rem;
 }
+
+.has-text-dark-green {
+    color: #01354D !important;
+}
+
+.has-text-orange {
+    color: #EB4B00 !important;
+}
+
+.has-text-red {
+    color: #B8251B !important;
+}
+
+.prize-title {
+    font-size: 1.5rem;
+    font-weight: bold !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.prize-trophy-section {
+    font-size: 1.5rem;
+    font-weight: bold !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.mg-top-3 {
+    margin-top: 3.5rem !important;
+}
+
+.right-text{
+    text-align: right !important;
+}
+
+.prizes-trophy-right-div {
+    width: 60% !important;
+    float: right;
+    margin-bottom: 1%;
+    margin-right: 8.333%;
+    margin-left: 8.333%;
+}
+
+.prizes-trophy-left-div {
+    width: 60% !important;
+    margin-bottom: 1%;
+    margin-right: 8.333%;
+    margin-left: 8.333%;
+    float: left;
+    margin-bottom: 1%;
+}
+
+.prizes-trophy-40-right-div {
+    width: 40% !important;
+    float: right;
+    margin-bottom: 1%;
+    margin-right: 8.333%;
+}
+
+@media (min-width:321px) and (max-width:767px) {
+.prize-title{
+    font-size:1.5rem;
+}
+    .f1-car {
+        width: 100% !important;
+    }
+
+    .f1-content {
+        text-align: center !important;
+        width: 100% !important;
+        font-size: 2rem !important;
+        vertical-align: auto !important;
+        display: block !important;
+    }
+
+    .hero-video-margin{
+        margin-top: 8%;
+    }
+}
+
+.main-title {
+    font-size: 2rem !important;
+}
+
+@media (min-width:321px) and (max-width:1180px) {
+
+    .main-title{
+        font-size:1.5rem !important;
+    }
+
+    .prizes-trophy-left-div {
+        margin-left: 0;
+    }
+
+    .prizes-trophy-right-div {
+        margin-right: 0;
+    }
+
+    .prize-trophy-section {
+        font-size: 1.3rem !important;
+    }
+
+    .f1-car-table {
+        width: 100%;
+        margin-left: 0%;
+        flex: 0 0 auto;
+    }
+
+    .prizes-trophy-40-right-div {
+        margin-right: 0;
+    }
+
+    .f1-car-table-bottom {
+        margin-top: 3.45rem;
+        margin-bottom: 3.45rem;
+        width: 100% !important;
+        margin-left: 0% !important;
+        flex: 0 0 auto;
+    }
+
+    .hero-custom-width {
+        width: 100% !important;
+    }
+}
+    .f1-car-table {
+        width: 83.333%;
+        margin-left: 8.3333%;
+        flex: 0 0 auto;
+    }
+
+.f1-car-table-bottom {
+    width: 83.333%;
+    margin-left: 8.3333%;
+    flex: 0 0 auto;
+    margin-bottom:3.45rem;
+}
+   
+    .f1-car-tr {
+        height: 8px;
+    }
+
+    .f1-car-td-white {
+        width: 20%;
+        background-color: #ffffff;
+    }
+
+    .f1-car-td-red {
+        width: 20%;
+        background-color: #B8251B;
+    }
+
+    .diagonal-image {
+        transform: rotate(10deg);
+    }
+
+    .f1-div {
+        display: inline-block;
+        width: 83.333%;
+        height: 280px;
+        margin-left: 8.333%;
+    }
+    
+
+    @media (min-width:768px) and (max-width:1180px) {
+        .f1-car {
+            width: 30%;
+            height: 280px;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+        .f1-div {
+            width: 100%;
+            margin-left: 0%;
+        }
+
+        .hero-video-margin {
+            margin-top: 4%;
+        }
+    }
+
+    .f1-car {
+        width: 30%;
+        height: 280px;
+        display: inline-block;
+    }
+
+    .f1-content {
+        text-align: center;
+        width: 70%;
+        height: 280px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .full-width {
+        width: 100%;
+    }
+
+    .no-bottom-margin {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .no-padding {
+        padding-top: 0rem !important;
+    }
+
+ .hero-video-margin {
+    margin-right: 8.333% ;
+}
+
+@media (min-width:820px) {
+    .hero-video-margin {
+        padding-right: 18.333% !important;
+    }
+}
+
+    @media (min-width:1181px) {
+
+        .hero-custom-width {
+            width: 33% !important;
+        }
+    }
