@@ -57,7 +57,7 @@ const hero = () => {
                             controls={true}
                             width="100%"
                             height="355px"
-                            playing={true}
+                            playing={false}
                             style={{ marginTop: '50px' }}
                         />
                     </div>
