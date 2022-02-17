@@ -1138,6 +1138,13 @@ div.sponsor-list:last-child {
   margin-bottom: 0px;
 }
 
+.accordion-item .faq-title{
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
 .accordion-item .a-info{
   margin-top: 1.5rem;
   margin-bottom: 1rem;

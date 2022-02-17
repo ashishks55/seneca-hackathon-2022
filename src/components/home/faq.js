@@ -1,7 +1,7 @@
 import React from 'react';
 //import Layout from "../layout"
 //import Seo from "../seo"
-import Accordion from '../reusable/accordion';
+import Accordion from '../reusable/accordion-faq';
 import "./faq.css"
 
 
@@ -71,7 +71,7 @@ const IndexPage = () => {
                         <div class="flex-item-left">
                             {
                                 faqs.map((faq, index) => (
-                                    <div className='faq-list'><Accordion title={faq.qn} info={faq.ans} key={index}/></div>
+                                    <div className='faq-list'><Accordion className='faqtitle' title={faq.qn} style={{ fontSize: '1rem' }} info={faq.ans} key={index}/></div>
                                 ))
                             }
                         </div>

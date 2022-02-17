@@ -4,16 +4,20 @@
     /* font-size: 30px;
     text-align: center; */
   }
+
+  .faqtitle{
+    font-size: 1rem !important;
+  }
   
   .flex-item-left {
     
-    padding: 10px;
+    padding-right: 10px;
     flex: 50%;
   }
   
   .flex-item-right {
     
-    padding: 10px;
+    padding-left: 10px;
     flex: 50%;
   }
 
