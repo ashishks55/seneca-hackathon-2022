@@ -71,7 +71,7 @@ const IndexPage = () => {
                         <div class="flex-item-left">
                             {
                                 faqs.map((faq, index) => (
-                                    <div className='faq-list'><Accordion className='faqtitle' title={faq.qn} style={{ fontSize: '1rem' }} info={faq.ans} key={index}/></div>
+                                    <div className='faq-list'><Accordion title={faq.qn} style={{ fontSize: '1rem' }} info={faq.ans} key={index}/></div>
                                 ))
                             }
                         </div>
