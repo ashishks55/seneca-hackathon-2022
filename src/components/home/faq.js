@@ -1,10 +1,6 @@
 import React from 'react';
-//import Layout from "../layout"
-//import Seo from "../seo"
-import Accordion from '../reusable/accordion';
+import Accordion from '../reusable/accordion-faq';
 import "./faq.css"
-
-
 
 const IndexPage = () => {
     const faqs = [
@@ -48,46 +44,31 @@ const IndexPage = () => {
         }
     ]
     return (
-
-            <section className="hero is-medium is-white"> 
-                <div className="hero-body hero-body-2">
+        <section className="hero is-medium is-white"> 
+            <div className="hero-body hero-body-2">
                 <div className='columns'>
-                <div className='column is-10 is-offset-1'>
-                    <h1 className="title">Frequently Asked Questions</h1>
-                    {/* <div className='columns'>
-                        <div className='column is-10 is-offset-1'>
-                            <h1 className="title">Frequently Asked Questions</h1>
-                            <div className='accordion-list'>
+                    <div className='column is-10 is-offset-1'>
+                        <h1 className="title">Frequently Asked Questions</h1>                    
+                        <div class="flex-container">
+                            <div class="flex-item-left">
                                 {
                                     faqs.map((faq, index) => (
-                                        <Accordion title={faq.qn} info={faq.ans} key={index}/>
+                                        <div className='faq-list'><Accordion title={faq.qn} info={faq.ans} key={index}/></div>
+                                    ))
+                                }
+                            </div>
+                            <div class="flex-item-right">  
+                                {
+                                    faqsright.map((faql, index) => (
+                                        <div className='faq-list'><Accordion title={faql.qn} info={faql.ans} key={index}/></div>
                                     ))
                                 }
                             </div>
                         </div>
-                    </div> */}
-                    
-                    <div class="flex-container">
-                        <div class="flex-item-left">
-                            {
-                                faqs.map((faq, index) => (
-                                    <div className='faq-list'><Accordion title={faq.qn} info={faq.ans} key={index}/></div>
-                                ))
-                            }
-                        </div>
-                        <div class="flex-item-right">  
-                            {
-                                faqsright.map((faql, index) => (
-                                    <div className='faq-list'><Accordion title={faql.qn} info={faql.ans} key={index}/></div>
-                                ))
-                            }
-                        </div>
                     </div>
                 </div>
-                </div>
-                </div>
-            </section>
-
+            </div>
+        </section>
     );
 };
 
