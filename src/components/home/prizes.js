@@ -11,7 +11,7 @@ const prizes = () => {
                 <div className='columns'>
                     <div className='column is-12-tablet is-5-desktop is-offset-1 hero-content no-padding'>
                         <p className="prize-title main-title has-text-dark-green">
-                            <span>GRAND PRIZE</span>
+                            <br/><br/><span>GRAND PRIZE</span>
                         </p>
                         <p className="prize-title has-text-orange">
                             $2000

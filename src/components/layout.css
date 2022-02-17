@@ -626,9 +626,21 @@ a.navbar-item, a.navbar-item{
 
 
 a.navbar-item:hover, a.navbar-item:focus{
-  color: black;
-  text-decoration: underline;
   background-color: #F3EAEA;
+}
+
+a.navbar-item:focus .header-item{
+  border-bottom: 3px solid #01354D;
+}
+
+.header-item{
+  height: 35px;
+  color: #459888;
+  font-weight: 600 !important;
+}
+
+.header-item:hover, .header-item:focus{
+  border-bottom: 3px solid #01354D;
 }
 
 .has-text-green{
@@ -1372,9 +1384,8 @@ div.sponsor-list:last-child {
     }
 }
 
-    @media (min-width:1181px) {
-
-        .hero-custom-width {
-            width: 33% !important;
-        }
-    }
+@media (min-width:1181px) {
+  .hero-custom-width {
+      width: 33% !important;
+  }
+}

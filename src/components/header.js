@@ -75,7 +75,7 @@ const Header = () => {
             {
               menu_items.map(item => (
                 <Link key={item.link} to={item.link} className="navbar-item has-text-weight-semibold"  onClick={() => {changeActiveStatus(false)}}>
-                  {item.title}
+                  <span className='header-item'>{item.title}</span>
                 </Link>
               ))
             }
