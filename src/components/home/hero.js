@@ -67,9 +67,9 @@ const hero = () => {
                             url="https://www.youtube.com/embed/ytPY3CRvmO8?autoplay=1&mute=0&controls=1&origin=https%3A%2F%2Fwww.senecahackathon.com&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=5"
                             controls={true}
                             width="180%"
-                            height="355px"
+                            height="376px"
                             playing={true}
-                            style={{ marginTop: '50px' }}
+                            style={{ marginTop: '16px' }}
                         />
                     </div>
                 </div>
