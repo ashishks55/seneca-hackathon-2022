@@ -68,13 +68,13 @@ const Spotlight = () => {
                                     {
                                         winners.map((winner, index) => (
                                             <div className='winner-item columns' style={{ padding: `15px ${chevronWidth}px` }} key={index}>
-                                                <div className='column is-5 winner-details'>
+                                                <div className='column is-5-desktop is-12-touch winner-details'>
                                                     <h2>WINNING APP {index+1}</h2>
                                                     <h3>{winner.title}</h3>
                                                     <p>{winner.description}</p>
                                                     <p className='has-text-centered'><a href='http://digitalhealth.senecahackathon.com'  rel="noopener noreferrer" target="_blank" className='button is-success has-text-weight-semibold'>Learn More</a></p>
                                                 </div>
-                                                <div className='column winner-image is-hidden-mobile'>
+                                                <div className='column winner-image is-hidden-touch'>
                                                     <img src={winner.image} width="100%" alt='winner'/>
                                                 </div>
                                             </div>

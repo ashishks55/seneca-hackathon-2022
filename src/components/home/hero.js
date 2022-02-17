@@ -23,7 +23,7 @@ const hero = () => {
     return (
         <section className="hero is-medium is-white">
             <div className="hero-body hero-body-3">
-                <div className='columns'>
+                <div className='columns flex-wrap'>
                     <div className='column is-12-tablet is-5-desktop is-offset-1 hero-content hero-custom-width'>
                         <div className='is-hidden-desktop'><br/><br/></div>
                         <p className="title">
@@ -50,24 +50,13 @@ const hero = () => {
                             date={date}
                             renderer={renderer}
                         />
-                        {/*<img src={hero_logo} alt="Sustainable Planet" width="100%" className='is-hidden-tablet'/>*/}
+                    </div>
+                    <div className='column hero-img'>
                         <ReactPlayer
-                            url="https://www.youtube.com/embed/ytPY3CRvmO8?autoplay=1&mute=0&controls=1&origin=https%3A%2F%2Fwww.senecahackathon.com&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=5"
+                            url="https://www.youtube.com/embed/ytPY3CRvmO8"
                             controls={true}
                             width="100%"
-                            height="450px"
-                            playing={true}
-                            className='is-hidden-desktop hero-video-margin'
-                            style={{ marginRight: '8.333%' }}
-                        />
-                    </div>
-                    <div className='column is-hidden-touch hero-img hero-video-margin'>
-                        {/*<img src={hero_logo} alt="Sustainable Planet" width="100%"/>*/}
-                        <ReactPlayer
-                            url="https://www.youtube.com/embed/ytPY3CRvmO8?autoplay=1&mute=0&controls=1&origin=https%3A%2F%2Fwww.senecahackathon.com&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=5"
-                            controls={true}
-                            width="180%"
-                            height="376px"
+                            height="355px"
                             playing={true}
                             style={{ marginTop: '16px' }}
                         />
