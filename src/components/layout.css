@@ -1306,6 +1306,7 @@ div.sponsor-list:last-child {
         margin-top: 0 !important;
     }
 }
+
     .f1-car-table {
         width: 83.333%;
         margin-left: 8.3333%;
@@ -1368,9 +1369,9 @@ div.sponsor-list:last-child {
         display: inline-block;
     }
 
-        .f1-car img {
-            margin: 0 !important;
-        }
+    .f1-car img {
+        margin: 0 !important;
+    }
 
     .f1-content {
         text-align: center;
