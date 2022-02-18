@@ -14,10 +14,10 @@ const ChallengeSetsDetails = ({id}) => {
                     title: 'Using Health Data to Identify and Inform Healthcare Sustainability Initiatives in Canada',
                     info: 
                     `
-                    <h4>Background & Context</h4>
+                    <h3>Background & Context</h3>
                     <p>The Organisation for Economic Co-operation and Development (OECD) maintains a comprehensive database of health and health systems statistics across many different countries (including Canada). These statistics relate to health care expenditure, resources, utilization, quality indicators and many others. This extensive database has the potential to reveal parts of the health system where sustainability efforts could be impactful. There is an opportunity for us to better use this data to improve the sustainability of the Canadian Healthcare System.</p>
                     <p>Key Question: How can we best use the OECD Health Data to help inform healthcare sustainability initiatives in Canada? </p>
-                    <h4>Objective/Solutions</h4>
+                    <h3>Objective/Solutions</h3>
                     <ul>
                         <li>Your team’s solution should encompass one of the following: </li>
                         <li><b>Sustainability Insights:</b> Based on the OECD data, can your team find insights that reveal a potential healthcare sustainability issue(s) in Canada. What would your team’s recommendation be on a potential area(s) that needs a healthcare sustainability initiative?  </li>
@@ -38,7 +38,7 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>Feel free to explore public examples on how the OECD data (in health and other areas) has been used. For example, Canadian Institute for Health Information (CIHI)’s interactive web tool: <a class="has-text-green is-underlined" href="https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons" target="_blank">https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons</a></li>
                         <li>Teams are also welcome to explore other topics in the OECD data set if helpful (e.g. environment, demography and population etc.): <a class="has-text-green is-underlined" href="https://stats.oecd.org/" target="_blank">https://stats.oecd.org/</a> </li>
                     </ul>
-                    <h4>Resources/Data</h4>
+                    <h3>Resources/Data</h3>
                     <p><a class="has-text-green is-underlined" href="https://stats.oecd.org/Index.aspx?ThemeTreeId=9" target="_blank">Click here</a> for resources/data.</p>
                     <p>The OECD Health Database is comprehensive source of comparable statistics on health and health systems across OECD countries </p>
                     <p>
@@ -53,7 +53,7 @@ const ChallengeSetsDetails = ({id}) => {
                 //     title: 'The Electronic Products Recycling Association of Canada reports that there is 1,000,000 metric tons of e-waste is landfilled every year[1]. In 2019 only 17.4% of e-waste was recycled[2] Lead and Mercury in e-waste can lead to anemia, nausea, and other diseases to humans and other organisms.',
                 //     info: 
                 //     `
-                //     <h4>Background & Context</h4>
+                //     <h3>Background & Context</h3>
                 //     <ul>
                 //         <li>Recycling e-waste in a sustainable manner</li>
                 //         <li>Quantify landfill usage and carbon emission usage that is used by recycling and present it in a dashboard.</li>
@@ -88,46 +88,178 @@ const ChallengeSetsDetails = ({id}) => {
             title: 'Net Zero Goals​',
             details: 'A project with TDSB EcoSchools to help propagate the seeds that can be used in the tree planting.', 
             info_items:  [
-                // {
-                //     title: 'International Travelers Carbon footprint reduction and credit management',
-                //     info: 
-                //     `
-                //     <h4>Background & Context</h4>
-                //     <p>Recommender systems for individual travelers to help them select chose most sustainable travel plans b. Carbon footprint data aggregator, reward system, and credit management</p>
-                //     <h4>Resources/Data</h4>
-                //     <p>Sponsor website about Sustainable Development <a class="has-text-green is-underlined" href="https://www.gpcanada.ca/nos-actions/" target="_blank">https://www.gpcanada.ca/nos-actions/</a></p>
-                //     `
-                // },
-                // {
-                //     title: 'Food waste reduction',
-                //     info: `
-                //     <h4>Background & Context</h4>
-                //     <p>a. Awareness and research.</p>
-                //     <p>b. Recommender and reward systems.</p>
-                //     <h4>Resources/Data</h4>
-                //     <p>Sponsor website about Sustainable Development <a class="has-text-green is-underlined" href="https://www.gpcanada.ca/nos-actions/" target="_blank">https://www.gpcanada.ca/nos-actions/</a></p>
-                //     `
-                // },
-                // {
-                //     title: 'Develop affordable solutions to automate reduction of food wastage in restaurants',
-                //     info: 
-                //     `
-                //     <h4>Background & Context</h4>
-                //     <p>According to CBC and Canada.ca, 58% of food produced in Canada is either lost or wasted. 86% of that wastage comes directly from the food industry. Over $31 billion is lost in revenue each year to food wastage. Methane is 25 times more potent than Carbon dioxide.</p>
-                //     <h4>Resources/Data</h4>
-                //     <p><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:w:/s/SustainabilityHackathon2022/EYBrlXJQmWJHqMv11hpS1YYBOlOIOuCzM7t8DkyvZ0zaHA" target="_blank">How Students Can Contribute?</a></p>
-                //     `
-                // }
+                {
+                    title: 'International Travelers Carbon footprint reduction and credit management ',
+                    info: 
+                    `
+                    <h3>Background & Context</h3>
+                    <p>International Travelers Carbon footprint reduction and credit management.</p>
+                    <h3>Objective</h3>
+                    <p>The circuit is located on the island in middle of the St. Lawrence River.  Fans from all over the globe travel to experience this event by using different modes of travel suitable as per their convenience and distance, according to GPCanada, 98% of the fans travel by public transport for the race event which lasts three days, and they need help to offset and decrease the carbon footprint generated by the fan travelling to help environment being greener.</p>
+                    <h4>What we need to do </h4>
+                    <p>Recommender systems for individual travelers to help them select chose most sustainable travel plans.</p>
+                    <p>Carbon footprint data aggregator, reward system, and credit management.</p>
+                    <ul>
+                        <li>System which provides the amount of carbon emission, travelers helped them to reduce. </li>
+                        <li>Reward system, rewarding people to help reduce the carbon footprint. </li>
+                        <li>A system GPCanada can use to organize data related to fan travel.</li>
+                    </ul>
+                    <p>Example – No. of participants, origin of their city/state/country and many more.</p>
+                    `
+                },
+                {
+                    title: 'Food waste reduction',
+                    info: 
+                    `
+                    <h3>Objective</h3>
+                    <p>During the event, over 300,000 people from around the world gathered to be a part of this international event. There are two ways people can get food in the circuit, either bring their own food or buy it from inside the circuit. When it comes to food wastage, GP Canada contains the data of wastage done inside their premises, but they do not have any control over the data for the food wastage outside the premises. Regarding food wastage, they do not compose anything, so the food, which is not consumed, directly goes into trash. </p>
+                    <h4>What we need to do </h4>
+                    <p>To make the event eco-friendly and sustainable, bring new ways to reduce food wastage and build a platform which will make people aware about the possible ways to reduce it and reward them.</p>
+                    <ul>
+                        <li>Awareness and research. </li>
+                        <li>Recommender and reward systems. </li>
+                        <li>System which will help them to gather food logs as well as use that data to calculate food waste and help decrease it.</li>
+                    </ul>
+                    `
+                },
+                {
+                    title: 'Data mining and data analytics.',
+                    info: 
+                    `
+                    <h3>Objective</h3>
+                    <p>Being such a huge organization, they need a lot of data to improve the experience of the fans as well as make the event more exciting for Formula 1 too. And for that they need information which is difficult to gather all together. Whether it is about reducing the carbon footprint, collecting garbage data as well as another sustainability information, there is a need for data mining for GP Canada.</p>
+                    <h4>What we need to do </h4>
+                    <p>Use data publicly available from the Cities and Municipalities nearby as well as using satellite data like GIS (Geographic Information System).</p>
+                    `
+                },
+                {
+                    title: 'FUTURETEL CHALLENGE SET- One Stop E-Waste Bank',
+                    info: 
+                    `
+                    <h3>Background and Context</h3>
+                    <h4>ABOUT FUTURETEL</h4>
+                    <ul>
+                        <li>Since 1998, Authorized Electronics Service Center.</li>
+                        <li>Troubleshoot and fixing/refurbishment of cellular handsets, smartphones, laptops, tablets, and other portable data devices.</li>
+                        <li>Long Term Value-Fast Quality Service for providing consumer, retail, and business to business solutions.</li>
+                        <li>Long Term Value-Fast Quality Service for providing consumer, retail, and business to business solutions.</li>
+                        <li>FutureTel does refurbishment and repurpose on small scale and the e-waste generated are processed through a third-party organization.</li>
+                        <li>It is looking for a Carbon friendly service that can be provided to their customers.</li>
+                    </ul>
+                    <h4>PROBLEMS</h4>
+                    <ul>
+                        <li>Latest and Upgrade version of new devices release every year.</li>
+                        <li>Latest and Upgrade version of new devices release every year</li>
+                        <li>Less financial support for such small-scale organizations to collect all unused devices to repurpose or dispose.</li>
+                    </ul>
+                    <p>Within a blink of an eye, it is going to be really challenging if it has not been taken care of as soon as possible.</p>
+                    <h4>THOUGHT STARTERS</h4>
+                    <p>More carbon friendly solution to provide electronic services.</p>
+                    <p>Carbon footprint calculation for customers and organizations.</p>
+                    <p>Programming solutions that can upgrade/update the use of old devices that are kept aside. Minor modification in the motherboard or hardware of the CPU by using the latest technology can be useful in many ways. </p>
+                    <p><b>*Consumer awareness programs towards sustainable electronic consumption methods.</b></p>
+                    <p>Adding sustainability topics in curriculum [ Carbon Friendly, E-Waste etc.]</p>
+                    <p>Promoting consumers not to replace electronic devices unless it is necessary</p>
+                    <p>Promoting a habit of 'Charity' for the reuse of the products instead of decomposing into landfill.</p>
+                    <h3>Objective</h3>
+                    <p>The focus of this challenge set is to provide a one stop solution to FutureTel to overcome the above-mentioned problems. It depends on which part of the problem we are dealing with. There are several ways to get the solution and one of these is One Stop E-Waste Bank. This E-Waste Bank will be able to contribute to sustainability.</p>
+                    <p><b>What is a One Stop E-Waste Bank?</b></p>
+                    <p>One stop E-waste Bank will have three modules incorporated. Firstly, it will collect the E-waste either in working or non-working conditions. It can either act as a donation or collection centers. Secondly, a Comsumer awareness program will guide consumers towards sustainable electronic consumption methods and finally, a redesign analysis will support the longevity of technology. Let's discuss each module functionality in detail. </p>
+                    <p><b>E-waste Bank (EB)</b></p>
+                    <ul>
+                        <li>Collection of E-waste like cell phones, laptops, hard-drives etc.</li>
+                        <li>Organizing Repair/ Refurbish Via FutureTel.</li>
+                        <li>Distribute Repaired/ Refurbished products within Canada.</li>
+                        <li>Distribute Repaired/ Refurbished products outside Canada with the help of another organization.</li>
+                        <li>E-waste bank can be created to provide consumers for FutureTel.</li>
+                    </ul>
+                    <p><b>Note:</b> It will require project proposal, physical and IT (Information Technology) component.</p>
+                    <p><b>Consumer Awareness Program (CAP)</b></p>
+                    <ul>
+                        <li>Promoting consumers not to replace electronic devices unless it is necessary.</li>
+                        <li>Educate them with the benefits of eco-friendly concept.</li>
+                        <li>Add sustainability/eco-friendly in your leaflets and service center outlets.</li>
+                    </ul>
+                    <p><b>Note:</b> It will require research proposal and IT components.</p>
+                    <p><b>Redesign Analysis (RD)</b></p>
+                    <ul>
+                        <li>Enhancing the quality and longevity of the existing product with minor modification.</li>
+                        <li>Once the device is collected by E-waste Bank in Working/Non-working conditions a detailed analysis report is required to compute the cost and feasibility to redesign the product.</li>
+                        <li>This will require lots of physical analysis of the device component and answer that question that is it feasible to repair device.</li>
+                    </ul>
+                    <p><b>Note:</b> It will require physical, research, technical, IT and Patent Approval components.</p>
+                    <h3>Resources/Data</h3>
+                    <h4>INITIAL RESEARCH</h4>
+                    <ul>
+                        <li><b>Refurbish</b>: Solving/fixing the issues of existing devices by replacing the same type or similar components. Cost saving, reliable, eco-friendly, certified testing.</li>
+                        <li><b>Redesign</b>: Enhancing the quality and longevity of the existing product with minor modification. "Several Benefits".</li>
+                        <li><b>Repurpose</b>: Utilizing the same product or parts of the product for another purpose. Acts as an alternative between reuse and recycling.</li>
+                        <li><a class="has-text-green is-underlined" href="https://green.harvard.edu/news/exploring-three-r%E2%80%99s-e-waste-refurbish-redesign-and-repurpose" target="_blank">Exploring the Three R’s of E-Waste: Refurbish, Redesign, and Repurpose | Sustainability at Harvard</a></li>
+                    </ul>
+                    <p>For more information, please visit the company website - <a class="has-text-green is-underlined" href="https://www.futuretel.ca/" target="_blank">https://www.futuretel.ca/</a></p>
+                    <h3>FAQ</h3>
+                    <p>The first question that came to our mind while dealing with this problem is how can be done with such a One Stop E-waste Bank.</p>
+                    <p>There are some ways that it can be done which will be elaborated below, however those are just ideas and students can bring their own creativity to make a useful and efficient E-waste Bank.</p>
+                    <p><b>EXAMPLE SOLUTION FOR EB MODULE</b></p>
+                    <p>The basic idea for this challenge set is that the students need to create an innovative solution for opening an e-waste bank. We clearly know that Canada is a hub for international students who tend to buy new devices as their old devices do not work efficiently. In such case, students buy the new devices but for the old devices they just try to sell it or keep it with themselves for as long as they can and then discard It as waste.</p>
+                    <p>In this scenario, the bank will collect unused devices from the students and repair or refurbished them (with the help of FutureTel) as per their needs and return it to the bank. As Future Tel works on refurbished devices, it can take (buy or do some barter system) with the e-waste bank and collect such devices to refurbish them and sell it across Canada. This is possible where the devices are required in mass quantity. For example, school and colleges can use these products as loan to the students. Organisations can use these products as work devices for their employees. </p>
+                    <ul>
+                        <li>Students here can prepare some proposal ideas for several organizations or institutes with the help of some software application solutions, then this can be possible. However, it is still not limited to this idea only.</li>
+                        <li>Students can also collaborate with colleges depending on the data of international students per intake. They can create an application for the students to the nearest e-waste bank and can get some food coupons, loyalty points or some reward in return for donating/selling their old devices to the e-waste bank.</li>
+                        <li>Students can also collaborate with colleges depending on the data of international students per intake. They can create an application for the students to the nearest e-waste bank and can get some food coupons, loyalty points or some reward in return for donating/selling their old devices to the e-waste bank.</li>
+                    </ul>
+                    <p><b>EXAMPLE SOLUTION MODULE CAP</b></p>
+                    <p>Creating a loyalty program-Consumers can go to the website and read about the benefits of the reduction of e-waste. Based on which if they buy the refurbished devices, they get loyalty points (like 5points every 10$ purchase). These points can be redeemed on the next purchase. Also, a caping of points can be done in which consumers can only redeem the points if they are 50 in number.</p>
+                    <p>Another option is that students can do some research and find the best conceivable way to spread awareness among the consumers.</p>
+                    <p><b>EXAMPLE SOLUTION</b></p>
+                    <p>Analyzing the existing product and modifying according to the current or latest technology, hardware, and security needs so that the product is compatible for future use it one of the toughest questions.</p>
+                    <p>For this part students need to do technical evaluation of the product or its component and generate the report in terms of economical and feasible aspects.</p>
+                    <p>For this student can do some research of the industry and current scenarios in redesign so that this part can be achievable.</p>
+                    <p><b>Note:</b> It is highly encouraged that students select the combination of the parts they want to work on. It is not necessary that they work on all the parts of the challenge set.The content provided in the document will guide the students with the ideas, but they are not limited to the ideas provided. They can produce their own creative ideas and mind-sets to deal with the challenges provided.</p>
+                    `
+                },
+                {
+                    title: 'Restaurant Food Waste – Management and Reduction.',
+                    info: 
+                    `
+                    <h3>Background</h3>
+                    <p>According to CBC.ca and Canada.ca, food wastage is a huge problem. Around 58% of food produced in Canada is either lost or wasted. 86% of that wastage comes directly from the food industry. Over $31 billion is lost in revenue each year to food wastage. Apart from the loss in revenue, there is also a significant cost our planet needs to pay. The disposal of food waste generates powerful greenhouse gas called Methane. Methane is 25 times more potent than Carbon dioxide. UN environment programme (UNEP) states that exposure to methane causes 1 million premature death every year. UNEP is hopeful that we can reduce Human-caused methane emissions by 45% within the decade averting 0.3°C of global warming by 2045. Subsequent reduction of methane each year will prevent premature deaths, asthma-related hospitalizations and reduce a million tonnes of crops.</p>
+                    <h3>Objective & Solution</h3>
+                    <p><b>Challenge Statement 1: Rotating Inventory</b></p>
+                    <p>Imagine you went grocery shopping and bought fresh produce. By the time you returned home you were already tired and just dumped all the contents into the fridge pushing older items towards the back. Next day when you had to cook you simply grabbed items from the front and used them. Over time the items in the back of the fridge expired resulting in loss of product and revenue. This same issue occurs regularly at restaurants too. If a restaurant could smartly manage and detect items that are about to expire without human intervention it could reduce wastage and loss of revenue significantly.</p>
+                    <p>Hint: Inventory management with IoT sensor that detects which food is about to expire.</p>
+                    <p><b>Challenge Statement 1: Finding patterns</b></p>
+                    <p>Restaurants can get busy from time to time. Things thrown out regularly in thrash could have a pattern. Maybe the restaurant is buying more lettuce than it needs.   It’s not the product that got wasted. The business is losing money too.  A waste log could be a great source of data. These data could be mined, and patterns might emerge. This pattern of wastage will help restaurants predict future consumption and plan accordingly.</p>
+                    <p>Hint: Many restaurants already have a waste log. Many of them are handwritten. The data might be scarce in the beginning but planning the schema is awesome too.</p>
+                    <p><b>We are looking for solutions that are feasible, easy to deploy, affordable and shouldn’t hamper the restaurant's overall productivity. Automation of the entire process is highly desirable. Special pointers for being creative. The sky is the limit.</b></p>
+                    `
+                },
             ]
         },
         'cities-and-municipalities' :{
             title: 'Cities and Municipalities',
             details: 'A project with TDSB EcoSchools to help propagate the seeds that can be used in the tree planting.', 
             info_items:  [
-                // {
-                //     title: 'Background and Context',
-                //     info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
-                // },
+                {
+                    title: 'Quantifier/Recommender Mechanism for Urban Resilience',
+                    info: 
+                    `
+                    <h3>Background & Context</h3>
+                    <p><One of the best ways to revitalize the designated waterfront area in Toronto is by undertaking new development projects. This may include residential buildings, offices, and public spaces. These developments must be resilient enough to withstand any harm that extreme climate changes or man-made calamities may possess in far future for about 30-40 years. /p>
+                    <h4>Objective</h4>
+                    <p>How do we enable the organization to achieve higher degree of Urban Resilience and Green Building Requirements Compliance for upcoming development projects at the Toronto Waterfront Area? </p>
+                    <h4>Solution</h4>
+                    <p>Develop a tool / methodology / checklist to measure the degree of resilience and green building requirements (GBR) compliance. Also, a recommendation system to  
+                    achieve greater resilience and to meet GBRs. </p>
+                    <h3>Resources/Data </h3>
+                    <ul>
+                        <li>Future Weather File (at least up to 2050) – Available here.</li>
+                        <li>Canada Green Building Council Data – Available here</li>
+                        <li>Waterfront Toronto Resilience and Innovation Framework for Sustainability – Available here </li>
+                        <li>Waterfront Toronto Green Building Requirements v3.0 – Available here </li>
+                    </ul>
+                    `
+                },
                 // {
                 //     title: 'Objective/Solutions',
                 //     info: 'International Travelers carbon footprint reduction International Travelers carbon footprint reduction'
