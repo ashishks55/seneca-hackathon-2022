@@ -82,13 +82,13 @@ const prizes = () => {
                     <br/>
                     <div className='row prizes-trophy-left-div'>
                         <p className='width-60 prize-trophy-section'>
-                            <b>All rule abiding participants have chances to win over $1000 worth of prizes in social media - based content & receive a participant micro credential </b>
+                            <b>All rule abiding participants have chances to win over $1000 worth of prizes in social media - based contest & receive a participant micro credential </b>
                         </p>
                     </div>
                     <br/>
                     <div className='row prizes-trophy-40-right-div'>
-                        <p className='center-text width-60 is-hidden-touch' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className="diagonal-image" src={trophy} alt="Trophy" width="40%" /></p>
-                        <p className='center-text width-60 is-hidden-desktop' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className="diagonal-image" src={trophy} alt="Trophy" width="70%" /></p>
+                        <p className='center-text width-60 is-hidden-touch' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className='diagonal-image' src={trophy} alt="Trophy" width="40%" /></p>
+                        <p className='center-text width-60 is-hidden-desktop' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className='diagonal-image' src={trophy} alt="Trophy" width="70%" /></p>
                     </div>
                     <br/>
                         </div>
