@@ -1277,8 +1277,8 @@ div.sponsor-list:last-child {
     }
 
     .f1-car-table {
-        width: 100%;
-        margin-left: 0%;
+        width: 100% !important;
+        margin-left: 0% !important;
         flex: 0 0 auto;
     }
 
@@ -1296,6 +1296,10 @@ div.sponsor-list:last-child {
 
     .hero-custom-width {
         width: 100% !important;
+    }
+
+    .f1-content {
+        margin-top: 0 !important;
     }
 }
     .f1-car-table {
@@ -1360,12 +1364,21 @@ div.sponsor-list:last-child {
         display: inline-block;
     }
 
+        .f1-car img {
+            margin: 0 !important;
+        }
+
     .f1-content {
         text-align: center;
         width: 70%;
         height: 280px;
         display: inline-block;
         vertical-align: top;
+        margin-top:6rem;
+    }
+
+    .grand-prize-title{
+        font-size:3rem;
     }
 
     .full-width {
