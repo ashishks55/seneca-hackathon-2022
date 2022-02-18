@@ -6,7 +6,7 @@ import home_image from '../../images/home_image.png'
 
 const hero = () => {
 
-    const date = new Date("February 28, 2022 23:59:59");
+    const date = new Date("February 25, 2022 23:59:59");
 
     const renderer = (time_left) => {
         if(time_left.completed){
