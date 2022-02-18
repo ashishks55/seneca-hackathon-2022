@@ -87,8 +87,8 @@ const prizes = () => {
                     </div>
                     <br/>
                     <div className='row prizes-trophy-40-right-div'>
-                        <p className='center-text width-60 is-hidden-touch' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className="diagonal-image" src={trophy} alt="Trophy" width="40%" /></p>
-                        <p className='center-text width-60 is-hidden-desktop' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className="diagonal-image" src={trophy} alt="Trophy" width="70%" /></p>
+                        <p className='center-text width-60 is-hidden-touch' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className='diagonal-image' src={trophy} alt="Trophy" width="40%" /></p>
+                        <p className='center-text width-60 is-hidden-desktop' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className='diagonal-image' src={trophy} alt="Trophy" width="70%" /></p>
                     </div>
                     <br/>
                         </div>
