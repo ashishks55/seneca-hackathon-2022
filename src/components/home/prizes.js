@@ -3,6 +3,7 @@ import grand_prize from '../../images/prizes/Grand prize.png'
 import f1_car from '../../images/prizes/F1 Car.png'
 import trophy from '../../images/prizes/Trophy.png'
 import confetti from '../../images/prizes/Confetti.png'
+import trophySection from '../../images/prizes/TrophySection.png'
 
 const prizes = () => {
     return (
@@ -13,7 +14,7 @@ const prizes = () => {
                         <p className="prize-title main-title has-text-dark-green">
                             <br/><br/><span>GRAND PRIZE</span>
                         </p>
-                        <p className="prize-title has-text-orange">
+                        <p className="prize-title has-text-orange grand-prize-title">
                             $2000
                         </p>
                         <p className="subtitle b has-text-dark-green">
@@ -24,11 +25,11 @@ const prizes = () => {
                         <p className="subtitle is-size-6 mg-top-1 has-text-orange" style={{ marginRight: '8.333%' }}>
                             <b>All challenge set winners get WINNER Micro credential & sustainable Hacktahon Tees</b>
                         </p>
-                        <div className='column is-5 is-hidden-desktop hero-img' style={{paddingTop:'4%'}}>
+                        <div className='column is-5 is-hidden-desktop hero-img' style={{paddingTop:'6%'}}>
                             <img src={grand_prize} alt="Grand Prize" width="70%" />
                             </div>
                     </div>
-                    <div className='column is-5 is-hidden-touch hero-img' style={{ paddingTop: '4%' }}>
+                    <div className='column is-5 is-hidden-touch hero-img' style={{ paddingTop: '6%' }}>
                         <img src={grand_prize} alt="Grand Prize" width="80%" />
                     </div>
                 </div>
@@ -75,7 +76,7 @@ const prizes = () => {
                     <br/>
                     <div className='row prizes-trophy-right-div'>
                         <p className='right-text width-60 prize-trophy-section'>
-                            Extra $500 for challenge sets from Delloite, Roche, CPOS and FutureTel
+                            Extra $500 for challenge sets from Deloitte, Roche, CPOS and FutureTel
                         </p>
                     </div>
                     <br/>
@@ -87,10 +88,10 @@ const prizes = () => {
                     <br/>
                     <div className='row prizes-trophy-40-right-div'>
                         <p className='center-text width-60 is-hidden-touch' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className="diagonal-image" src={trophy} alt="Trophy" width="40%" /></p>
-                        <p className='center-text width-60 is-hidden-desktop is-hidden-tablet' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className="diagonal-image" src={trophy} alt="Trophy" width="70%" /></p>
+                        <p className='center-text width-60 is-hidden-desktop' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className="diagonal-image" src={trophy} alt="Trophy" width="70%" /></p>
                     </div>
                     <br/>
-                </div>                
+                        </div>
             </div>
         </section>
     );
