@@ -133,7 +133,7 @@ const ChallengeSetsDetails = ({id}) => {
                     `
                 },
                 {
-                    title: 'FUTURETEL CHALLENGE SET- One Stop E-Waste Bank',
+                    title: 'FutureTel-One Stop E-Waste Bank',
                     info: 
                     `
                     <h3>Background and Context</h3>
@@ -141,30 +141,20 @@ const ChallengeSetsDetails = ({id}) => {
                     <ul>
                         <li>Since 1998, Authorized Electronics Service Center.</li>
                         <li>Troubleshoot and fixing/refurbishment of cellular handsets, smartphones, laptops, tablets, and other portable data devices.</li>
-                        <li>Long Term Value-Fast Quality Service for providing consumer, retail, and business to business solutions.</li>
-                        <li>Long Term Value-Fast Quality Service for providing consumer, retail, and business to business solutions.</li>
-                        <li>FutureTel does refurbishment and repurpose on small scale and the e-waste generated are processed through a third-party organization.</li>
-                        <li>It is looking for a Carbon friendly service that can be provided to their customers.</li>
+                        <li>Long Term Value-Fast Quality Service for providing consumer, retail, and business-to-business solutions.</li>
+                        <li>It is a small-scale business for refurbishment and repurpose and the e-waste generated are processed through a third-party organization.</li>
+                        <li>They are looking for a Carbon friendly service that can be provided to their customers.</li>
                     </ul>
                     <h4>PROBLEMS</h4>
                     <ul>
                         <li>Latest and Upgrade version of new devices release every year.</li>
-                        <li>Latest and Upgrade version of new devices release every year</li>
-                        <li>Less financial support for such small-scale organizations to collect all unused devices to repurpose or dispose.</li>
+                        <li>Transportation/ Delivery of devices to the branch from all over Canada through different delivery methods.</li>
+                        <li>Less financial support for such small-scale organizations to collect all unused devices to repurpose or dispose of.</li>
                     </ul>
-                    <p>Within a blink of an eye, it is going to be really challenging if it has not been taken care of as soon as possible.</p>
-                    <h4>THOUGHT STARTERS</h4>
-                    <p>More carbon friendly solution to provide electronic services.</p>
-                    <p>Carbon footprint calculation for customers and organizations.</p>
-                    <p>Programming solutions that can upgrade/update the use of old devices that are kept aside. Minor modification in the motherboard or hardware of the CPU by using the latest technology can be useful in many ways. </p>
-                    <p><b>*Consumer awareness programs towards sustainable electronic consumption methods.</b></p>
-                    <p>Adding sustainability topics in curriculum [ Carbon Friendly, E-Waste etc.]</p>
-                    <p>Promoting consumers not to replace electronic devices unless it is necessary</p>
-                    <p>Promoting a habit of 'Charity' for the reuse of the products instead of decomposing into landfill.</p>
                     <h3>Objective</h3>
-                    <p>The focus of this challenge set is to provide a one stop solution to FutureTel to overcome the above-mentioned problems. It depends on which part of the problem we are dealing with. There are several ways to get the solution and one of these is One Stop E-Waste Bank. This E-Waste Bank will be able to contribute to sustainability.</p>
+                    <p>The focus of this challenge set is to provide a one stop solution to solve the above-mentioned problems. It depends on which part of the problem we are dealing with. There are several ways to get the solution and one of these is One Stop E-Waste Bank. This E-Waste Bank will be able to contribute to sustainability.</p>
                     <p><b>What is a One Stop E-Waste Bank?</b></p>
-                    <p>One stop E-waste Bank will have three modules incorporated. Firstly, it will collect the E-waste either in working or non-working conditions. It can either act as a donation or collection centers. Secondly, a Comsumer awareness program will guide consumers towards sustainable electronic consumption methods and finally, a redesign analysis will support the longevity of technology. Let's discuss each module functionality in detail. </p>
+                    <p>One stop E-waste Bank will have three modules incorporated. Firstly, it will collect the E-waste either in working or non-working conditions. It can either act as a donation or collection centres. Secondly, a Consumer awareness program will guide consumers towards sustainable electronic consumption methods and finally, a redesign analysis will support the longevity of technology. Let's discuss each module functionality in detail.</p>
                     <p><b>E-waste Bank (EB)</b></p>
                     <ul>
                         <li>Collection of E-waste like cell phones, laptops, hard-drives etc.</li>
@@ -173,7 +163,7 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>Distribute Repaired/ Refurbished products outside Canada with the help of another organization.</li>
                         <li>E-waste bank can be created to provide consumers for FutureTel.</li>
                     </ul>
-                    <p><b>Note:</b> It will require project proposal, physical and IT (Information Technology) component.</p>
+                    <p><b>Note:</b> It will require project proposal, physical and IT (Information Technology) components.</p>
                     <p><b>Consumer Awareness Program (CAP)</b></p>
                     <ul>
                         <li>Promoting consumers not to replace electronic devices unless it is necessary.</li>
@@ -187,35 +177,18 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>Once the device is collected by E-waste Bank in Working/Non-working conditions a detailed analysis report is required to compute the cost and feasibility to redesign the product.</li>
                         <li>This will require lots of physical analysis of the device component and answer that question that is it feasible to repair device.</li>
                     </ul>
-                    <p><b>Note:</b> It will require physical, research, technical, IT and Patent Approval components.</p>
                     <h3>Resources/Data</h3>
-                    <h4>INITIAL RESEARCH</h4>
                     <ul>
-                        <li><b>Refurbish</b>: Solving/fixing the issues of existing devices by replacing the same type or similar components. Cost saving, reliable, eco-friendly, certified testing.</li>
-                        <li><b>Redesign</b>: Enhancing the quality and longevity of the existing product with minor modification. "Several Benefits".</li>
-                        <li><b>Repurpose</b>: Utilizing the same product or parts of the product for another purpose. Acts as an alternative between reuse and recycling.</li>
-                        <li><a class="has-text-green is-underlined" href="https://green.harvard.edu/news/exploring-three-r%E2%80%99s-e-waste-refurbish-redesign-and-repurpose" target="_blank">Exploring the Three R’s of E-Waste: Refurbish, Redesign, and Repurpose | Sustainability at Harvard</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://www.futuretel.ca/" target="_blank">FutureTel</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://green.harvard.edu/news/exploring-three-r%E2%80%99s-e-waste-refurbish-redesign-and-repurpose" target="_blank">Exploring the Three R’s of E-Waste: Refurbish, Redesign, and Repurpose | Sustainability at Harvard </a></li>
                     </ul>
-                    <p>For more information, please visit the company website - <a class="has-text-green is-underlined" href="https://www.futuretel.ca/" target="_blank">https://www.futuretel.ca/</a></p>
                     <h3>FAQ</h3>
-                    <p>The first question that came to our mind while dealing with this problem is how can be done with such a One Stop E-waste Bank.</p>
-                    <p>There are some ways that it can be done which will be elaborated below, however those are just ideas and students can bring their own creativity to make a useful and efficient E-waste Bank.</p>
-                    <p><b>EXAMPLE SOLUTION FOR EB MODULE</b></p>
-                    <p>The basic idea for this challenge set is that the students need to create an innovative solution for opening an e-waste bank. We clearly know that Canada is a hub for international students who tend to buy new devices as their old devices do not work efficiently. In such case, students buy the new devices but for the old devices they just try to sell it or keep it with themselves for as long as they can and then discard It as waste.</p>
-                    <p>In this scenario, the bank will collect unused devices from the students and repair or refurbished them (with the help of FutureTel) as per their needs and return it to the bank. As Future Tel works on refurbished devices, it can take (buy or do some barter system) with the e-waste bank and collect such devices to refurbish them and sell it across Canada. This is possible where the devices are required in mass quantity. For example, school and colleges can use these products as loan to the students. Organisations can use these products as work devices for their employees. </p>
+                    <p>What are the 3 Rs of E-Waste?</p>
                     <ul>
-                        <li>Students here can prepare some proposal ideas for several organizations or institutes with the help of some software application solutions, then this can be possible. However, it is still not limited to this idea only.</li>
-                        <li>Students can also collaborate with colleges depending on the data of international students per intake. They can create an application for the students to the nearest e-waste bank and can get some food coupons, loyalty points or some reward in return for donating/selling their old devices to the e-waste bank.</li>
-                        <li>Students can also collaborate with colleges depending on the data of international students per intake. They can create an application for the students to the nearest e-waste bank and can get some food coupons, loyalty points or some reward in return for donating/selling their old devices to the e-waste bank.</li>
+                        <li><b>Refurbish</b>: Solving/fixing the issues of existing devices by replacing the same type or similar components. - Cost saving, reliable, eco-friendly, certified testing.</li>
+                        <li><b>Redesign</b>: Utilizing the same product or parts of the product for another purpose.</li>
+                        <li><b>Repurpose</b>: Utilizing the same product or parts of the product for another purpose.</li>
                     </ul>
-                    <p><b>EXAMPLE SOLUTION MODULE CAP</b></p>
-                    <p>Creating a loyalty program-Consumers can go to the website and read about the benefits of the reduction of e-waste. Based on which if they buy the refurbished devices, they get loyalty points (like 5points every 10$ purchase). These points can be redeemed on the next purchase. Also, a caping of points can be done in which consumers can only redeem the points if they are 50 in number.</p>
-                    <p>Another option is that students can do some research and find the best conceivable way to spread awareness among the consumers.</p>
-                    <p><b>EXAMPLE SOLUTION</b></p>
-                    <p>Analyzing the existing product and modifying according to the current or latest technology, hardware, and security needs so that the product is compatible for future use it one of the toughest questions.</p>
-                    <p>For this part students need to do technical evaluation of the product or its component and generate the report in terms of economical and feasible aspects.</p>
-                    <p>For this student can do some research of the industry and current scenarios in redesign so that this part can be achievable.</p>
-                    <p><b>Note:</b> It is highly encouraged that students select the combination of the parts they want to work on. It is not necessary that they work on all the parts of the challenge set.The content provided in the document will guide the students with the ideas, but they are not limited to the ideas provided. They can produce their own creative ideas and mind-sets to deal with the challenges provided.</p>
                     `
                 },
                 {
