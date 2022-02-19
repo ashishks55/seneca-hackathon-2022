@@ -133,7 +133,7 @@ const ChallengeSetsDetails = ({id}) => {
                     `
                 },
                 {
-                    title: 'FutureTel-One Stop E-Waste Bank',
+                    title: 'One Stop E-Waste Bank',
                     info: 
                     `
                     <h3>Background and Context</h3>
