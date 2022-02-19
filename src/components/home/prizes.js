@@ -3,7 +3,7 @@ import grand_prize from '../../images/prizes/Grand prize.png'
 import f1_car from '../../images/prizes/F1 Car.png'
 import trophy from '../../images/prizes/Trophy.png'
 import confetti from '../../images/prizes/Confetti.png'
-
+import blurredConfetti from '../../images/prizes/Confetti-Opacity.png'
 const prizes = () => {
     return (
         <section className="hero is-medium is-white">
@@ -53,7 +53,7 @@ const prizes = () => {
                         <p className="prize-title has-text-red">
                             <b>JUNE 17-19</b>
                         </p>
-                        <p className="prize-title mg-top-3">
+                        <p className="prize-title mg-top-2">
                             <b>Exclusively for F1 Challenge set winning team</b>
                         </p>
                     </div>
@@ -66,7 +66,8 @@ const prizes = () => {
                         <td className='f1-car-td-red'></td>
                     </tr>
                 </table>
-                <div className='rows is-12-tablet is-12-desktop hero-content has-text-dark-green'>
+                <div className='columns' id='main-prize-div' style={{ backgroundImage: 'url(' + blurredConfetti + ')' }}>
+                <div className='rows is-12-tablet is-12-desktop hero-content has-text-dark-green'>                   
                     <div className='row prizes-trophy-left-div'>
                         <p className='width-60 prize-trophy-section'>
                             <span>Category winners get $500 & an opportunity to present the idea to Thinking North Investor Network</span>
@@ -84,13 +85,8 @@ const prizes = () => {
                             <b>All rule abiding participants have chances to win over $1000 worth of prizes in social media - based content & receive a participant micro credential </b>
                         </p>
                     </div>
-                    <br />
-                    <div className='row prizes-trophy-40-right-div'>
-                        <p className='center-text width-60 is-hidden-touch' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className="diagonal-image" src={trophy} alt="Trophy" width="40%" /></p>
-                        <p className='center-text width-60 is-hidden-desktop' style={{ backgroundImage: 'url(' + confetti + ')' }}><img className="diagonal-image" src={trophy} alt="Trophy" width="70%" /></p>
+                        </div>
                     </div>
-                    <br />
-                </div>
             </div>
         </section>
     );
