@@ -845,6 +845,7 @@ div.sponsor-list:last-child {
 
 .name{
   margin-bottom: 5px !important;
+  font-size: 1.2rem;
 }
 
 .organizer-card-content .subtitle{

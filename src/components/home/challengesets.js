@@ -3,6 +3,7 @@ import Icon1 from '../../images/challengesets/Icon3-white.png';
 import Icon2 from '../../images/challengesets/Icon4-white.png';
 import Icon3 from '../../images/challengesets/Icon2-white.png';
 import Icon4 from '../../images/challengesets/Icon1-white.png';
+import Icon5 from '../../images/challengesets/Icon5-white.png';
 import { Link } from 'gatsby';
 
 
@@ -22,15 +23,21 @@ const Challengesets = () => {
             disable: false
         },
         {
+            title: 'Cities and Municipalities',
+            image: Icon4,
+            link: '/challenge-set/cities-and-municipalities',
+            disable: false
+        },
+        {
             title: 'Net Zero Goals​',
             image: Icon3,
             link: '/challenge-set/net-zero-goals',
             disable: false
         },
         {
-            title: 'Cities and Municipalities',
-            image: Icon4,
-            link: '/challenge-set/cities-and-municipalities',
+            title: 'Technology and Supporters',
+            image: Icon5,
+            link: '/challenge-set/technology-and-supporters',
             disable: false
         }
     ]
@@ -44,7 +51,7 @@ const Challengesets = () => {
                         <div className='challengesets columns flex-wrap'>
                             {
                                 challengesets.map((challengeset, index) => (
-                                    <div key={index} className='column is-12-tablet is-3-desktop'>
+                                    <div key={index} className='column is-12-touch'>
                                         {
                                             challengeset.disable 
                                             ?
@@ -58,7 +65,7 @@ const Challengesets = () => {
                                                     </div>
                                                     <div className="card-content">
                                                         <div className="content card-front">
-                                                            <p className='subtitle name is-size-5 has-text-weight-bold line-height-1'>{challengeset.title}</p>
+                                                            <p className='subtitle name has-text-weight-bold line-height-1'>{challengeset.title}</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -74,7 +81,7 @@ const Challengesets = () => {
                                                         </div>
                                                         <div className="card-content">
                                                             <div className="content card-front">
-                                                                <p className='subtitle name is-size-5 has-text-weight-bold line-height-1'>{challengeset.title}</p>
+                                                                <p className='subtitle name has-text-weight-bold line-height-1'>{challengeset.title}</p>
                                                             </div>
                                                         </div>
                                                     </div>
