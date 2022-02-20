@@ -410,35 +410,35 @@ const ChallengeSetsDetails = ({id}) => {
                     </ul>
                     `
                 },
-                {
-                    title: 'Drones, Image Processing and Solar Panels.',
-                    info: 
-                    `
-                    <h3>Background</h3>
-                    <p>Residential and manufacturing activity in North America has left polluted soils unoccupied, such as old gas stations, factories, and even defunct dry cleaners. With cities' land supply becoming scarce, property developers, planners, and governments are attempting to reclaim and remediate brownfields, or former industrial and commercial sites. Cities across Canada have conducted long-term environmental feedback to facilitate responsible brownfield redevelopment. </p>
-                    <p>Researchers have also developed a method to compare several options or assess the capacity of one option to generate renewable energy like solar energy; on a brownfield site with or without environmental cleanup.</p>
-                    <p>Seneca Hackathon’s association with Voltaire Power may assist the company in locating such brownfields that are feasible so that the company can provide services tailored to residential, commercial, and utility-scale solar plants in such locations.</p>
-                    <p>Students, through this challenge set, must demonstrate that the environmental site conditions are suitable for the intended use and qualify various criteria such as soil condition, solar exposure, and practicality and demand for power supply in that area.</p>
-                    <h3>Objective & Solution</h3>
-                    <p>To use Lidar ("light detection and ranging"), image processing and satellite photo analysis to evaluate suitable locations for solar panel installation.</p>
-                    <p>Imagine a brown field data image provided to you that needs to be assessed. By using LIDAR and image processing technology you can analyze the data for its feasibility and other criterions mentioned above and provide ranking to the locations. Further, you can divide the area based on the rankings and provide the location that is suitable for solar panel installation.</p>
-                    <p>Tools that can be used:</p>
-                    <ul>
-                        <li>1. Machine Learning</li>
-                        <li>2. LIDAR </li>
-                        <li>3. Artificial Intelligence</li>
-                        <li>4. Image processing</li>
-                        <li>5. Data Analytics</li>
-                    </ul>
-                    <h3>Resources /Data</h3>
-                    <ul>
-                        <li><a class="has-text-green is-underlined" href="https://d1wqtxts1xzle7.cloudfront.net/68421536/V10I7202117-with-cover-page-v2.pdf?Expires=1645168718&Signature=GVBh-ioirwl6y0XDuAVr2ydW2DCIAE75Ui2HWLgG9VnPCEnRrZh8UPzYhRUZdRUYjnIuIE5NBTA9sxzfvrE9pr~x7KPFLEMpgo3kovaMb2aXMFNhBSlBUfq18c4OWt8LZxvM1NehKQMcP67e1yJHd7a98NPjFO0IX4AUqhEFyTPxU-qYOUT8B-CkrSVNo5pWfxwJSrMfvJh65LqgoQMCVsmzzVGu1V4hIbdfFo-D7kgofF~6kn0B0aDnVwUAYlVpuNInRT1z6U-GSe60GAoCcKcB~m~SgVlcGxOgrXdHmqmaZKbPQu9WWK51XJVb~Qay6kurDrZfGU2NFR13BFMMZQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" target="_blank">MACHINE LEARNING BASED SEARCH ENGINE WITH CRAWLING, INDEXING AND RANKING </a></li>
-                        <li><a class="has-text-green is-underlined" href="https://link.springer.com/article/10.1007/s12525-021-00475-2" target="_blank">Machine learning and deep learning</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://oceanservice.noaa.gov/facts/lidar.html" target="_blank">What is lidar?</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://coast.noaa.gov/data/digitalcoast/pdf/lidar-101.pdf" target="_blank">Lidar 101:  An Introduction to Lidar Technology,   Data, and Applications</a></li>
-                    </ul>
-                    `
-                },
+                // {
+                //     title: 'Drones, Image Processing and Solar Panels.',
+                //     info: 
+                //     `
+                //     <h3>Background</h3>
+                //     <p>Residential and manufacturing activity in North America has left polluted soils unoccupied, such as old gas stations, factories, and even defunct dry cleaners. With cities' land supply becoming scarce, property developers, planners, and governments are attempting to reclaim and remediate brownfields, or former industrial and commercial sites. Cities across Canada have conducted long-term environmental feedback to facilitate responsible brownfield redevelopment. </p>
+                //     <p>Researchers have also developed a method to compare several options or assess the capacity of one option to generate renewable energy like solar energy; on a brownfield site with or without environmental cleanup.</p>
+                //     <p>Seneca Hackathon’s association with Voltaire Power may assist the company in locating such brownfields that are feasible so that the company can provide services tailored to residential, commercial, and utility-scale solar plants in such locations.</p>
+                //     <p>Students, through this challenge set, must demonstrate that the environmental site conditions are suitable for the intended use and qualify various criteria such as soil condition, solar exposure, and practicality and demand for power supply in that area.</p>
+                //     <h3>Objective & Solution</h3>
+                //     <p>To use Lidar ("light detection and ranging"), image processing and satellite photo analysis to evaluate suitable locations for solar panel installation.</p>
+                //     <p>Imagine a brown field data image provided to you that needs to be assessed. By using LIDAR and image processing technology you can analyze the data for its feasibility and other criterions mentioned above and provide ranking to the locations. Further, you can divide the area based on the rankings and provide the location that is suitable for solar panel installation.</p>
+                //     <p>Tools that can be used:</p>
+                //     <ul>
+                //         <li>1. Machine Learning</li>
+                //         <li>2. LIDAR </li>
+                //         <li>3. Artificial Intelligence</li>
+                //         <li>4. Image processing</li>
+                //         <li>5. Data Analytics</li>
+                //     </ul>
+                //     <h3>Resources /Data</h3>
+                //     <ul>
+                //         <li><a class="has-text-green is-underlined" href="https://d1wqtxts1xzle7.cloudfront.net/68421536/V10I7202117-with-cover-page-v2.pdf?Expires=1645168718&Signature=GVBh-ioirwl6y0XDuAVr2ydW2DCIAE75Ui2HWLgG9VnPCEnRrZh8UPzYhRUZdRUYjnIuIE5NBTA9sxzfvrE9pr~x7KPFLEMpgo3kovaMb2aXMFNhBSlBUfq18c4OWt8LZxvM1NehKQMcP67e1yJHd7a98NPjFO0IX4AUqhEFyTPxU-qYOUT8B-CkrSVNo5pWfxwJSrMfvJh65LqgoQMCVsmzzVGu1V4hIbdfFo-D7kgofF~6kn0B0aDnVwUAYlVpuNInRT1z6U-GSe60GAoCcKcB~m~SgVlcGxOgrXdHmqmaZKbPQu9WWK51XJVb~Qay6kurDrZfGU2NFR13BFMMZQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" target="_blank">MACHINE LEARNING BASED SEARCH ENGINE WITH CRAWLING, INDEXING AND RANKING </a></li>
+                //         <li><a class="has-text-green is-underlined" href="https://link.springer.com/article/10.1007/s12525-021-00475-2" target="_blank">Machine learning and deep learning</a></li>
+                //         <li><a class="has-text-green is-underlined" href="https://oceanservice.noaa.gov/facts/lidar.html" target="_blank">What is lidar?</a></li>
+                //         <li><a class="has-text-green is-underlined" href="https://coast.noaa.gov/data/digitalcoast/pdf/lidar-101.pdf" target="_blank">Lidar 101:  An Introduction to Lidar Technology,   Data, and Applications</a></li>
+                //     </ul>
+                //     `
+                // },
             ]
         },
         'cities-and-municipalities' :{
