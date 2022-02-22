@@ -163,11 +163,14 @@ const ChallengeSetsDetails = ({id}) => {
                     <p class="has-text-weight-bold">Thought starters:</p>
                     <ul>
                         <li>What are the recycling methods used at present?</li>
+                        <li>What are the electronic design principles and best practices that allows for more efficient recycling at end of life?</li>
+                        <li>What about the 'right to repair' this could be suggested policy framework?</li>
                         <li>What is leading the process of e-waste recycling to be a threat to the environment?</li>
                         <li>What are the side-effects/consequences of the current recycling process?</li>
                         <li>How can we get rid of the side-effects/consequences caused by the current recycling process?</li>
                         <li>How can we quantify the number of landfills and carbon emissions that is being prevented by the proposed system?</li>
                         <li>How can we recycle e-waste sustainably?</li>
+                        <li>Is there a way to fold this into a public awareness campaign?</li>
                     </ul>
                     <h3>References</h3>
                     <p>[1] <i>The story of Canada's Digital Dumping Ground.</i> The story of Canada's digital dumping ground | Open Case Studies. (n.d.). Retrieved January 27, 2022, from <a class="has-text-green is-underlined" href="https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15" target="_blank">https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15</a></p>
