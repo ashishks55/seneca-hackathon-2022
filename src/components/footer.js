@@ -37,7 +37,8 @@ const Footer = () => {
                 color: '#1C444C'
             }}>
                 <p className='has-text-centered has-text-weight-semibold'>Contact us at <a href='mailto:info@senecahackathon.com' rel="noopener noreferrer" target="_blank" className='has-text-green is-underlined'>info@senecahackathon.com</a></p>
-                <p className='has-text-centered'>Copyright © Seneca Hackathon {new Date().getFullYear()}. All rights reserved.<br /><br /></p>
+                <p className='has-text-centered'>Copyright © Seneca Hackathon {new Date().getFullYear()}. All rights reserved.</p><br /><br />
+                {/*<p className='has-text-centered'><a href="" className='has-text-black is-underlined'>Rules and Regulations</a><br /><br /></p>*/}
             </div>
         </footer>
     );

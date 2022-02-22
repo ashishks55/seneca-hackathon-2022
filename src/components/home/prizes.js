@@ -22,7 +22,7 @@ const prizes = () => {
                             <span className='has-text-dark-green'><b>a chance to present your idea to the investor</b></span>
                         </p>
                         <p className="subtitle is-size-6 mg-top-1 has-text-orange" style={{ marginRight: '8.333%' }}>
-                            <b>All challenge set winners get WINNER Micro credential & sustainable Hacktahon Tees</b>
+                            <b>All challenge set winners get WINNER Micro credential & sustainable Hackathon Tees</b>
                         </p>
                         <div className='column is-5 is-hidden-desktop hero-img' style={{ paddingTop: '6%' }}>
                             <img src={grand_prize} alt="Grand Prize" width="70%" />
@@ -82,7 +82,7 @@ const prizes = () => {
                     <br />
                     <div className='row prizes-trophy-left-div'>
                         <p className='width-60 prize-trophy-section'>
-                            <b>All rule abiding participants have chances to win over $1000 worth of prizes in social media - based content & receive a participant micro credential </b>
+                            <b>All rule abiding participants have chances to win over $1000 worth of prizes in social media - based contest & receive a participant micro credential </b>
                         </p>
                     </div>
                         </div>
