@@ -12,6 +12,7 @@ import csr_5 from '../../images/logos/csr-5.jpg'
 
 import gco_1 from '../../images/logos/gco-1.png'
 import gco_2 from '../../images/logos/gco-2.png'
+import gco_3 from '../../images/logos/gco-3.png'
 
 import nzc_1 from '../../images/logos/nzc-1.svg'
 import nzc_2 from '../../images/logos/nzc-2.png'
@@ -25,6 +26,7 @@ import ts_1 from '../../images/logos/ts-1.png'
 import ts_2 from '../../images/logos/ts-2.png'
 import ts_3 from '../../images/logos/ts-3.png'
 import ts_4 from '../../images/logos/ts-4.png'
+import ts_5 from '../../images/logos/ts-5.png'
 
 
 const Sponsors = () => {
@@ -42,8 +44,8 @@ const Sponsors = () => {
         },
         {
             title: 'Global Causes and Organizations',
-            logos: [gco_1, gco_2],
-            width: ['100px', '170px']
+            logos: [gco_1, gco_2, gco_3],
+            width: ['100px', '170px', '180px']
         },
         {
             title: 'Net-Zero Goals',
@@ -52,8 +54,8 @@ const Sponsors = () => {
         },
         {
             title: 'Technology and Supporters',
-            logos: [ts_1, ts_2, ts_3, ts_4],
-            width: ['100px', '130px', '150px', '180px']
+            logos: [ts_1, ts_2, ts_3, ts_4, ts_5],
+            width: ['100px', '130px', '150px', '180px', '180px']
         }
     ]
 

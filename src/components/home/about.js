@@ -21,7 +21,7 @@ const About = () => {
         },
         {
             title: 'Who can attend?',
-            info: `Registration are open to Seneca students. For additional colleges and universities open from <b>Jan 21, 2022</b>. Participating colleges and universities will be listed. If you are NOT a student in any of the qualifying institutions, you may still participate, but MUST be assigned to a team anchored by Seneca Students. The Student Success Team will help you accomplish this.`,
+            info: `Registrations are open to Seneca students. For additional colleges and universities open from <b>Jan 21, 2022</b>. Participating colleges and universities will be listed. If you are NOT a student in any of the qualifying institutions, you may still participate, but MUST be assigned to a team anchored by Seneca Students. The Student Success Team will help you accomplish this.`,
             image: image_2
         },
         {
