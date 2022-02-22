@@ -34,12 +34,12 @@ const Challengesets = () => {
             link: '/challenge-set/net-zero-goals',
             disable: false
         },
-        {
-            title: 'Technology and Supporters',
-            image: Icon5,
-            link: '/challenge-set/technology-and-supporters',
-            disable: false
-        }
+        // {
+        //     title: 'Technology and Supporters',
+        //     image: Icon5,
+        //     link: '/challenge-set/technology-and-supporters',
+        //     disable: false
+        // }
     ]
 
     return (

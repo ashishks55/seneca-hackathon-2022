@@ -1440,3 +1440,13 @@ div.sponsor-list:last-child {
       width: 33% !important;
   }
 }
+
+.acc-logo{
+  height: 50px;
+  margin-right: 10px;
+}
+
+.acc-wrapper{
+  display: flex;
+  align-items: center;
+}

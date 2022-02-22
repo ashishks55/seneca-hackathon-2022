@@ -2,79 +2,109 @@ import React from 'react';
 import Accordion from '../reusable/accordion';
 import coming_soon from '../../images/coming-soon.png';
 
+import cm_1 from '../../images/logos/cm-1.jpg'
+import cm_2 from '../../images/logos/cm-2.png'
+import cm_3 from '../../images/logos/cm-3.png'
+import cm_4 from '../../images/logos/cm-4.png'
+
+import csr_1 from '../../images/logos/csr-1.png'
+import csr_2 from '../../images/logos/csr-2.png'
+import csr_3 from '../../images/logos/csr-3.png'
+import csr_4 from '../../images/logos/csr-4.png'
+import csr_5 from '../../images/logos/csr-5.jpg'
+
+import gco_1 from '../../images/logos/gco-1.png'
+import gco_2 from '../../images/logos/gco-2.png'
+import gco_3 from '../../images/logos/gco-3.png'
+
+import nzc_1 from '../../images/logos/nzc-1.svg'
+import nzc_2 from '../../images/logos/nzc-2.png'
+import nzc_3 from '../../images/logos/nzc-3.png'
+import nzc_4 from '../../images/logos/nzc-4.png'
+import nzc_5 from '../../images/logos/nzc-5.svg'
+import nzc_6 from '../../images/logos/nzc-6.jpg'
+import nzc_7 from '../../images/logos/nzc-7.png'
+
+import ts_1 from '../../images/logos/ts-1.png'
+import ts_2 from '../../images/logos/ts-2.png'
+import ts_3 from '../../images/logos/ts-3.png'
+import ts_4 from '../../images/logos/ts-4.png'
+import ts_5 from '../../images/logos/ts-5.png'
 
 const ChallengeSetsDetails = ({id}) => {
 
     const challengesets = {
-        'technology-and-supporters' :{
-            title: 'Technology and Supporters',
-            details: 'Integrate sustainability into curriculum regardless of area of study.', 
-            info_items:  [
-                {
-                    title: 'Drones, Image Processing and Solar Panels.',
-                    info: 
-                    `
-                    <h3>Background</h3>
-                    <p>Residential and manufacturing activity in North America has left polluted soils unoccupied, such as old gas stations, factories, and even defunct dry cleaners. With cities' land supply becoming scarce, property developers, planners, and governments are attempting to reclaim and remediate brownfields, or former industrial and commercial sites. Cities across Canada have conducted long-term environmental feedback to facilitate responsible brownfield redevelopment. </p>
-                    <p>Researchers have also developed a method to compare several options or assess the capacity of one option to generate renewable energy like solar energy; on a brownfield site with or without environmental cleanup.</p>
-                    <p>Seneca Hackathon’s association with Voltaire Power may assist the company in locating such brownfields that are feasible so that the company can provide services tailored to residential, commercial, and utility-scale solar plants in such locations.</p>
-                    <p>Students, through this challenge set, must demonstrate that the environmental site conditions are suitable for the intended use and qualify various criteria such as soil condition, solar exposure, and practicality and demand for power supply in that area.</p>
-                    <h3>Objective & Solution</h3>
-                    <p>To use Lidar ("light detection and ranging"), image processing and satellite photo analysis to evaluate suitable locations for solar panel installation.</p>
-                    <p>Imagine a brown field data image provided to you that needs to be assessed. By using LIDAR and image processing technology you can analyze the data for its feasibility and other criterions mentioned above and provide ranking to the locations. Further, you can divide the area based on the rankings and provide the location that is suitable for solar panel installation.</p>
-                    <p>Tools that can be used:</p>
-                    <ul>
-                        <li>1. Machine Learning</li>
-                        <li>2. LIDAR </li>
-                        <li>3. Artificial Intelligence</li>
-                        <li>4. Image processing</li>
-                        <li>5. Data Analytics</li>
-                    </ul>
-                    <h3>Resources /Data</h3>
-                    <ul>
-                        <li><a class="has-text-green is-underlined" href="https://d1wqtxts1xzle7.cloudfront.net/68421536/V10I7202117-with-cover-page-v2.pdf?Expires=1645168718&Signature=GVBh-ioirwl6y0XDuAVr2ydW2DCIAE75Ui2HWLgG9VnPCEnRrZh8UPzYhRUZdRUYjnIuIE5NBTA9sxzfvrE9pr~x7KPFLEMpgo3kovaMb2aXMFNhBSlBUfq18c4OWt8LZxvM1NehKQMcP67e1yJHd7a98NPjFO0IX4AUqhEFyTPxU-qYOUT8B-CkrSVNo5pWfxwJSrMfvJh65LqgoQMCVsmzzVGu1V4hIbdfFo-D7kgofF~6kn0B0aDnVwUAYlVpuNInRT1z6U-GSe60GAoCcKcB~m~SgVlcGxOgrXdHmqmaZKbPQu9WWK51XJVb~Qay6kurDrZfGU2NFR13BFMMZQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" target="_blank">MACHINE LEARNING BASED SEARCH ENGINE WITH CRAWLING, INDEXING AND RANKING </a></li>
-                        <li><a class="has-text-green is-underlined" href="https://link.springer.com/article/10.1007/s12525-021-00475-2" target="_blank">Machine learning and deep learning</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://oceanservice.noaa.gov/facts/lidar.html" target="_blank">What is lidar?</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://coast.noaa.gov/data/digitalcoast/pdf/lidar-101.pdf" target="_blank">Lidar 101:  An Introduction to Lidar Technology,   Data, and Applications</a></li>
-                    </ul>
-                    `
-                },
-                {
-                    title: 'Drones, Satellite scans and image processing',
-                    info: `
-                    <h3>Background</h3>
-                    <p>Kingbridge is building a forest accelerator program linked to data collection and analytics to overcome some of the challenges in achieving the 2 billion tree goal.</p>
-                    <p>With an ambitious federal goal of planting 2 Billion trees, the challenges of supply chains, protecting native species and finding cost efficient ways to plant trees at scale, in areas other than northern and remote communities, there are many opportunities for innovation.</p>
-                    <p>They have developed a Forest Management plan for the 55+ acres of forested land onsite and is in the process of obtaining a Managed Forest designation with the Province of Ontario.</p>
-                    <h3>Objective & Solution </h3>
-                    <p>A typical tree can absorb around 21 kilograms of carbon dioxide (CO2) per year, however this figure is only achieved when the tree is fully grown - saplings will absorb significantly less than this. Over a lifetime of 100 years, one tree could absorb around a ton of CO2.</p>
-                    <p>On this account, our focus will be identifying opportunities of tree planting and areas in most need of it. Therefore, below challenge set has been introduced to tackle the challenge of scanning and presenting Kingbridge with suitable areas.</p>
-                    <p class="has-text-weight-bold">Challenge Set:</p>
-                    <p class="has-text-weight-bold">Image processing using drone and satellite images, as well as publicly available data, to identify canopy coverage, tree types and ages. </p>
-                    <p class="has-text-weight-bold">Possible approaches:</p>
-                    <p>A number of approaches can be applied in order to identify the canopy coverage, tree types and ages.</p>
-                    <ul>
-                        <li><b>Carbon Offsets:</b> in addition to identifying objects with the images, the amount of carbon offset happening due to the presence of the identified species can be calculated and reported for further analysis.</li>
-                        <li><b>Machine Learning:</b> This approach can include the use of machine learning to implement a training algorithm to identify the requested objects. Google Cloud has provided participants with access to machine learning workshops to familiarize themselves with the new technology surrounding it.  </li>
-                        <li><b>AppEngine:</b> This platform can be used to run the final version of your application. </li>
-                        <li><b>Google Cloud</b> has provided participants with recordings of related workshops.</li>
-                    </ul>
-                    <h3>Resources/Data </h3>
-                    <p>Carbon Budget model <a class="has-text-green is-underlined" href="https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 " target="_blank">https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 </a></p>
-                    <h3>FAQ</h3>
-                    <p><b>1. What type of data will be used for image processing?</b> <br><br>Image of drones, satellite images and publicly available data will be used for image processing. </p>
-                    <p><b>2. Where Can we find the images?</b> <br><br>The dataset is publicly available through the link provided. A simple registration is needed to access the data. Other resources may be added to the database from providers such as Esri.</p>
-                    <p><b>3. How should be approach the image processing technic?</b> <br><br>You are open to different approaches to implement your idea, as long as it serves towards the same objective.</p>
-                    `
-                }
-            ]
-        },
+        // 'technology-and-supporters' :{
+        //     title: 'Technology and Supporters',
+        //     details: 'Integrate sustainability into curriculum regardless of area of study.', 
+        //     info_items:  [
+        //         {
+        //             title: 'Drones, Image Processing and Solar Panels.',
+        //             info: 
+        //             `
+        //             <h3>Background</h3>
+        //             <p>Residential and manufacturing activity in North America has left polluted soils unoccupied, such as old gas stations, factories, and even defunct dry cleaners. With cities' land supply becoming scarce, property developers, planners, and governments are attempting to reclaim and remediate brownfields, or former industrial and commercial sites. Cities across Canada have conducted long-term environmental feedback to facilitate responsible brownfield redevelopment. </p>
+        //             <p>Researchers have also developed a method to compare several options or assess the capacity of one option to generate renewable energy like solar energy; on a brownfield site with or without environmental cleanup.</p>
+        //             <p>Seneca Hackathon’s association with Voltaire Power may assist the company in locating such brownfields that are feasible so that the company can provide services tailored to residential, commercial, and utility-scale solar plants in such locations.</p>
+        //             <p>Students, through this challenge set, must demonstrate that the environmental site conditions are suitable for the intended use and qualify various criteria such as soil condition, solar exposure, and practicality and demand for power supply in that area.</p>
+        //             <h3>Objective & Solution</h3>
+        //             <p>To use Lidar ("light detection and ranging"), image processing and satellite photo analysis to evaluate suitable locations for solar panel installation.</p>
+        //             <p>Imagine a brown field data image provided to you that needs to be assessed. By using LIDAR and image processing technology you can analyze the data for its feasibility and other criterions mentioned above and provide ranking to the locations. Further, you can divide the area based on the rankings and provide the location that is suitable for solar panel installation.</p>
+        //             <p>Tools that can be used:</p>
+        //             <ul>
+        //                 <li>1. Machine Learning</li>
+        //                 <li>2. LIDAR </li>
+        //                 <li>3. Artificial Intelligence</li>
+        //                 <li>4. Image processing</li>
+        //                 <li>5. Data Analytics</li>
+        //             </ul>
+        //             <h3>Resources /Data</h3>
+        //             <ul>
+        //                 <li><a class="has-text-green is-underlined" href="https://d1wqtxts1xzle7.cloudfront.net/68421536/V10I7202117-with-cover-page-v2.pdf?Expires=1645168718&Signature=GVBh-ioirwl6y0XDuAVr2ydW2DCIAE75Ui2HWLgG9VnPCEnRrZh8UPzYhRUZdRUYjnIuIE5NBTA9sxzfvrE9pr~x7KPFLEMpgo3kovaMb2aXMFNhBSlBUfq18c4OWt8LZxvM1NehKQMcP67e1yJHd7a98NPjFO0IX4AUqhEFyTPxU-qYOUT8B-CkrSVNo5pWfxwJSrMfvJh65LqgoQMCVsmzzVGu1V4hIbdfFo-D7kgofF~6kn0B0aDnVwUAYlVpuNInRT1z6U-GSe60GAoCcKcB~m~SgVlcGxOgrXdHmqmaZKbPQu9WWK51XJVb~Qay6kurDrZfGU2NFR13BFMMZQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" target="_blank">MACHINE LEARNING BASED SEARCH ENGINE WITH CRAWLING, INDEXING AND RANKING </a></li>
+        //                 <li><a class="has-text-green is-underlined" href="https://link.springer.com/article/10.1007/s12525-021-00475-2" target="_blank">Machine learning and deep learning</a></li>
+        //                 <li><a class="has-text-green is-underlined" href="https://oceanservice.noaa.gov/facts/lidar.html" target="_blank">What is lidar?</a></li>
+        //                 <li><a class="has-text-green is-underlined" href="https://coast.noaa.gov/data/digitalcoast/pdf/lidar-101.pdf" target="_blank">Lidar 101:  An Introduction to Lidar Technology,   Data, and Applications</a></li>
+        //             </ul>
+        //             `
+        //         },
+        //         {
+        //             title: 'Drones, Satellite scans and image processing',
+        //             info: `
+        //             <h3>Background</h3>
+        //             <p>Kingbridge is building a forest accelerator program linked to data collection and analytics to overcome some of the challenges in achieving the 2 billion tree goal.</p>
+        //             <p>With an ambitious federal goal of planting 2 Billion trees, the challenges of supply chains, protecting native species and finding cost efficient ways to plant trees at scale, in areas other than northern and remote communities, there are many opportunities for innovation.</p>
+        //             <p>They have developed a Forest Management plan for the 55+ acres of forested land onsite and is in the process of obtaining a Managed Forest designation with the Province of Ontario.</p>
+        //             <h3>Objective & Solution </h3>
+        //             <p>A typical tree can absorb around 21 kilograms of carbon dioxide (CO2) per year, however this figure is only achieved when the tree is fully grown - saplings will absorb significantly less than this. Over a lifetime of 100 years, one tree could absorb around a ton of CO2.</p>
+        //             <p>On this account, our focus will be identifying opportunities of tree planting and areas in most need of it. Therefore, below challenge set has been introduced to tackle the challenge of scanning and presenting Kingbridge with suitable areas.</p>
+        //             <p class="has-text-weight-bold">Challenge Set:</p>
+        //             <p class="has-text-weight-bold">Image processing using drone and satellite images, as well as publicly available data, to identify canopy coverage, tree types and ages. </p>
+        //             <p class="has-text-weight-bold">Possible approaches:</p>
+        //             <p>A number of approaches can be applied in order to identify the canopy coverage, tree types and ages.</p>
+        //             <ul>
+        //                 <li><b>Carbon Offsets:</b> in addition to identifying objects with the images, the amount of carbon offset happening due to the presence of the identified species can be calculated and reported for further analysis.</li>
+        //                 <li><b>Machine Learning:</b> This approach can include the use of machine learning to implement a training algorithm to identify the requested objects. Google Cloud has provided participants with access to machine learning workshops to familiarize themselves with the new technology surrounding it.  </li>
+        //                 <li><b>AppEngine:</b> This platform can be used to run the final version of your application. </li>
+        //                 <li><b>Google Cloud</b> has provided participants with recordings of related workshops.</li>
+        //             </ul>
+        //             <h3>Resources/Data </h3>
+        //             <p>Carbon Budget model <a class="has-text-green is-underlined" href="https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 " target="_blank">https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 </a></p>
+        //             <h3>FAQ</h3>
+        //             <p><b>1. What type of data will be used for image processing?</b> <br><br>Image of drones, satellite images and publicly available data will be used for image processing. </p>
+        //             <p><b>2. Where Can we find the images?</b> <br><br>The dataset is publicly available through the link provided. A simple registration is needed to access the data. Other resources may be added to the database from providers such as Esri.</p>
+        //             <p><b>3. How should be approach the image processing technic?</b> <br><br>You are open to different approaches to implement your idea, as long as it serves towards the same objective.</p>
+        //             `
+        //         }
+        //     ]
+        // },
         'corporate-social-responsibility' :{
             title: 'Corporate Social Responsibility',
             details: 'Integrate sustainability into curriculum regardless of area of study.', 
             info_items:  [
                 {
                     title: 'Using Health Data to Identify and Inform Healthcare Sustainability Initiatives in Canada',
+                    sponsor_logo: csr_1,
+                    logo_height: '40px',
                     info: 
                     `
                     <h3>Background & Context</h3>
@@ -114,6 +144,8 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Develop a design system which can be used to recycle the e-waste in a sustainable manner.',
+                    sponsor_logo: csr_3,
+                    logo_height: '20px',
                     info: 
                     `
                     <h3>Background & Context</h3>
@@ -152,6 +184,8 @@ const ChallengeSetsDetails = ({id}) => {
             info_items:  [
                 {
                     title: 'Developing a self-help gamified application for self-realization about gambling and social media addiction',
+                    sponsor_logo: gco_2,
+                    logo_height: '60px',
                     info: 
                     `
                     <h3>Background and Context</h3>  
@@ -202,6 +236,8 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Sustainability as part of the curriculum',
+                    sponsor_logo: nzc_5,
+                    logo_height: '30px',
                     info: 
                     `
                     <h3>Background and Context</h3>
@@ -251,6 +287,8 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Yoga – for the being',
+                    sponsor_logo: gco_1,
+                    logo_height: '60px',
                     info: 
                     `
                     <h3>Background and Context</h3>
@@ -269,6 +307,8 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Goal 11',
+                    sponsor_logo: gco_3,
+                    logo_height: '40px',
                     info: 
                     `
                     <h3>Background and Context </h3>
@@ -323,6 +363,7 @@ const ChallengeSetsDetails = ({id}) => {
             info_items:  [
                 {
                     title: 'International Travelers Carbon footprint reduction and credit management ',
+                    sponsor_logo: nzc_2,
                     info: 
                     `
                     <h3>Background & Context</h3>
@@ -342,6 +383,7 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Food waste reduction',
+                    sponsor_logo: nzc_2,
                     info: 
                     `
                     <h3>Objective</h3>
@@ -357,6 +399,7 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Data mining and data analytics.',
+                    sponsor_logo: nzc_2,
                     info: 
                     `
                     <h3>Objective</h3>
@@ -367,6 +410,8 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'One Stop E-Waste Bank',
+                    sponsor_logo: nzc_1,
+                    logo_height: '40px',
                     info: 
                     `
                     <h3>Background and Context</h3>
@@ -426,6 +471,7 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Restaurant Food Waste – Management and Reduction.',
+                    sponsor_logo: nzc_3,
                     info: 
                     `
                     <h3>Background</h3>
@@ -442,6 +488,7 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Rapid, efficient, automated processes',
+                    sponsor_logo: nzc_6,
                     info: 
                     `
                     <h3>Background</h3>
@@ -472,6 +519,66 @@ const ChallengeSetsDetails = ({id}) => {
                         <p>For more details, please visit: <a class="has-text-green is-underlined" href="https://faq.ridealike.com/" target="_blank">https://faq.ridealike.com/</a></p>
                     </ul>
                     `
+                },
+                {
+                    title: 'Drones, Image Processing and Solar Panels.',
+                    sponsor_logo: nzc_4,
+                    info: 
+                    `
+                    <h3>Background</h3>
+                    <p>Residential and manufacturing activity in North America has left polluted soils unoccupied, such as old gas stations, factories, and even defunct dry cleaners. With cities' land supply becoming scarce, property developers, planners, and governments are attempting to reclaim and remediate brownfields, or former industrial and commercial sites. Cities across Canada have conducted long-term environmental feedback to facilitate responsible brownfield redevelopment. </p>
+                    <p>Researchers have also developed a method to compare several options or assess the capacity of one option to generate renewable energy like solar energy; on a brownfield site with or without environmental cleanup.</p>
+                    <p>Seneca Hackathon’s association with Voltaire Power may assist the company in locating such brownfields that are feasible so that the company can provide services tailored to residential, commercial, and utility-scale solar plants in such locations.</p>
+                    <p>Students, through this challenge set, must demonstrate that the environmental site conditions are suitable for the intended use and qualify various criteria such as soil condition, solar exposure, and practicality and demand for power supply in that area.</p>
+                    <h3>Objective & Solution</h3>
+                    <p>To use Lidar ("light detection and ranging"), image processing and satellite photo analysis to evaluate suitable locations for solar panel installation.</p>
+                    <p>Imagine a brown field data image provided to you that needs to be assessed. By using LIDAR and image processing technology you can analyze the data for its feasibility and other criterions mentioned above and provide ranking to the locations. Further, you can divide the area based on the rankings and provide the location that is suitable for solar panel installation.</p>
+                    <p>Tools that can be used:</p>
+                    <ul>
+                        <li>1. Machine Learning</li>
+                        <li>2. LIDAR </li>
+                        <li>3. Artificial Intelligence</li>
+                        <li>4. Image processing</li>
+                        <li>5. Data Analytics</li>
+                    </ul>
+                    <h3>Resources /Data</h3>
+                    <ul>
+                        <li><a class="has-text-green is-underlined" href="https://d1wqtxts1xzle7.cloudfront.net/68421536/V10I7202117-with-cover-page-v2.pdf?Expires=1645168718&Signature=GVBh-ioirwl6y0XDuAVr2ydW2DCIAE75Ui2HWLgG9VnPCEnRrZh8UPzYhRUZdRUYjnIuIE5NBTA9sxzfvrE9pr~x7KPFLEMpgo3kovaMb2aXMFNhBSlBUfq18c4OWt8LZxvM1NehKQMcP67e1yJHd7a98NPjFO0IX4AUqhEFyTPxU-qYOUT8B-CkrSVNo5pWfxwJSrMfvJh65LqgoQMCVsmzzVGu1V4hIbdfFo-D7kgofF~6kn0B0aDnVwUAYlVpuNInRT1z6U-GSe60GAoCcKcB~m~SgVlcGxOgrXdHmqmaZKbPQu9WWK51XJVb~Qay6kurDrZfGU2NFR13BFMMZQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" target="_blank">MACHINE LEARNING BASED SEARCH ENGINE WITH CRAWLING, INDEXING AND RANKING </a></li>
+                        <li><a class="has-text-green is-underlined" href="https://link.springer.com/article/10.1007/s12525-021-00475-2" target="_blank">Machine learning and deep learning</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://oceanservice.noaa.gov/facts/lidar.html" target="_blank">What is lidar?</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://coast.noaa.gov/data/digitalcoast/pdf/lidar-101.pdf" target="_blank">Lidar 101:  An Introduction to Lidar Technology,   Data, and Applications</a></li>
+                    </ul>
+                    `
+                },
+                {
+                    title: 'Drones, Satellite scans and image processing',
+                    sponsor_logo: nzc_7,
+                    logo_height: '40px',
+                    info: `
+                    <h3>Background</h3>
+                    <p>Kingbridge is building a forest accelerator program linked to data collection and analytics to overcome some of the challenges in achieving the 2 billion tree goal.</p>
+                    <p>With an ambitious federal goal of planting 2 Billion trees, the challenges of supply chains, protecting native species and finding cost efficient ways to plant trees at scale, in areas other than northern and remote communities, there are many opportunities for innovation.</p>
+                    <p>They have developed a Forest Management plan for the 55+ acres of forested land onsite and is in the process of obtaining a Managed Forest designation with the Province of Ontario.</p>
+                    <h3>Objective & Solution </h3>
+                    <p>A typical tree can absorb around 21 kilograms of carbon dioxide (CO2) per year, however this figure is only achieved when the tree is fully grown - saplings will absorb significantly less than this. Over a lifetime of 100 years, one tree could absorb around a ton of CO2.</p>
+                    <p>On this account, our focus will be identifying opportunities of tree planting and areas in most need of it. Therefore, below challenge set has been introduced to tackle the challenge of scanning and presenting Kingbridge with suitable areas.</p>
+                    <p class="has-text-weight-bold">Challenge Set:</p>
+                    <p class="has-text-weight-bold">Image processing using drone and satellite images, as well as publicly available data, to identify canopy coverage, tree types and ages. </p>
+                    <p class="has-text-weight-bold">Possible approaches:</p>
+                    <p>A number of approaches can be applied in order to identify the canopy coverage, tree types and ages.</p>
+                    <ul>
+                        <li><b>Carbon Offsets:</b> in addition to identifying objects with the images, the amount of carbon offset happening due to the presence of the identified species can be calculated and reported for further analysis.</li>
+                        <li><b>Machine Learning:</b> This approach can include the use of machine learning to implement a training algorithm to identify the requested objects. Google Cloud has provided participants with access to machine learning workshops to familiarize themselves with the new technology surrounding it.  </li>
+                        <li><b>AppEngine:</b> This platform can be used to run the final version of your application. </li>
+                        <li><b>Google Cloud</b> has provided participants with recordings of related workshops.</li>
+                    </ul>
+                    <h3>Resources/Data </h3>
+                    <p>Carbon Budget model <a class="has-text-green is-underlined" href="https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 " target="_blank">https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 </a></p>
+                    <h3>FAQ</h3>
+                    <p><b>1. What type of data will be used for image processing?</b> <br><br>Image of drones, satellite images and publicly available data will be used for image processing. </p>
+                    <p><b>2. Where Can we find the images?</b> <br><br>The dataset is publicly available through the link provided. A simple registration is needed to access the data. Other resources may be added to the database from providers such as Esri.</p>
+                    <p><b>3. How should be approach the image processing technic?</b> <br><br>You are open to different approaches to implement your idea, as long as it serves towards the same objective.</p>
+                    `
                 }
             ]
         },
@@ -481,6 +588,8 @@ const ChallengeSetsDetails = ({id}) => {
             info_items:  [
                 {
                     title: 'Quantifier/Recommender Mechanism for Urban Resilience',
+                    sponsor_logo: cm_3,
+                    logo_height: '60px',
                     info: 
                     `
                     <h3>Background & Context</h3>
@@ -501,6 +610,7 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Building Connections for Brampton',
+                    sponsor_logo: cm_2,
                     info: 
                     `
                     <h3>Background & Context</h3>
@@ -551,6 +661,8 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Data Driven Water Conservation',
+                    sponsor_logo: cm_1,
+                    logo_height: '60px',
                     info: 
                     `
                     <h3>Background and Context</h3>
@@ -583,6 +695,8 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Effective Road Transport Management',
+                    sponsor_logo: cm_1,
+                    logo_height: '60px',
                     info: 
                     `
                     <h3>Background and Context</h3>
@@ -609,6 +723,8 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Promoting Natural Heritage',
+                    sponsor_logo: cm_1,
+                    logo_height: '60px',
                     info: 
                     `
                     <h3>Background and Context</h3>
@@ -625,6 +741,8 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'AI-Powered Recommender System',
+                    sponsor_logo: cm_4,
+                    logo_height: '60px',
                     info: 
                     `
                     <h3>Background and Context</h3>
@@ -726,7 +844,7 @@ const ChallengeSetsDetails = ({id}) => {
                         {
                             challengesets[id] && challengesets[id].info_items.length ? 
                                 challengesets[id].info_items.map((item, index) => (
-                                    <Accordion title={item.title} info={item.info} key={index}/>
+                                    <Accordion title={item.title} logo={item.sponsor_logo} logo_height={item.logo_height ? item.logo_height : ''} info={item.info} key={index}/>
                                 ))
                             :
                             <div className='coming-soon'>

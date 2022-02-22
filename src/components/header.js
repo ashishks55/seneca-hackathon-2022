@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import classnames from 'classnames';
-import logo from '../images/logo.svg';
+import logo from '../images/logo.png';
 
 const Header = () => {
 
@@ -61,7 +61,7 @@ const Header = () => {
       <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <Link className="navbar-item navbar-icon" to="/">
-            <img src={logo} alt="seneca hackathon" width="100%"/>
+            <img src={logo} alt="seneca hackathon" width="100%" style={{objectFit: 'contain'}}/>
           </Link>
           <a role="button" onClick={() => {changeActiveStatus(!is_active)}} className={classnames("navbar-burger", {'is-active': is_active})} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
