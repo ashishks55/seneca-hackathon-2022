@@ -10,8 +10,7 @@ import cm_4 from '../../images/logos/cm-4.png'
 import csr_1 from '../../images/logos/csr-1.png'
 import csr_2 from '../../images/logos/csr-2.png'
 import csr_3 from '../../images/logos/csr-3.png'
-import csr_4 from '../../images/logos/csr-4.png'
-import csr_5 from '../../images/logos/csr-5.jpg'
+import logo from '../../images/logo.png'
 
 import gco_1 from '../../images/logos/gco-1.png'
 import gco_2 from '../../images/logos/gco-2.png'
@@ -25,11 +24,9 @@ import nzc_5 from '../../images/logos/nzc-5.svg'
 import nzc_6 from '../../images/logos/nzc-6.jpg'
 import nzc_7 from '../../images/logos/nzc-7.png'
 
-import ts_1 from '../../images/logos/ts-1.png'
-import ts_2 from '../../images/logos/ts-2.png'
-import ts_3 from '../../images/logos/ts-3.png'
-import ts_4 from '../../images/logos/ts-4.png'
-import ts_5 from '../../images/logos/ts-5.png'
+import hp1 from '../../images/logos/hp1.png'
+import hp2 from '../../images/logos/hp2.png'
+import hp3 from '../../images/logos/hp3.png'
 
 const ChallengeSetsDetails = ({id}) => {
 
@@ -105,6 +102,7 @@ const ChallengeSetsDetails = ({id}) => {
                     title: 'Using Health Data to Identify and Inform Healthcare Sustainability Initiatives in Canada',
                     sponsor_logo: csr_1,
                     logo_height: '40px',
+                    video_link: 'https://youtu.be/Mvl6DRxVDt4',
                     info: 
                     `
                     <h3>Background & Context</h3>
@@ -175,6 +173,94 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>[1] <i>The story of Canada's Digital Dumping Ground.</i> The story of Canada's digital dumping ground | Open Case Studies. (n.d.). Retrieved January 27, 2022, from <a class="has-text-green is-underlined" href="https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15" target="_blank">https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15</a></p>
                     <p>[2] Mckenzie, K. H. & R. (n.d.). <i>Waste reduction week in Canada: E-waste</i>. Environment 911. Retrieved January 27, 2022, from <a class="has-text-green is-underlined" href="https://www.environment911.org/Waste-Reduction-Week-in-Canada-E-Waste" target="_blank">https://www.environment911.org/Waste-Reduction-Week-in-Canada-E-Waste</a></p>
                     `
+                },
+                {
+                    title: 'The Circular and net zero carbon economy',
+                    sponsor_logo: csr_2,
+                    logo_height: '32px',
+                    info: `
+                    <h3>Background & Context</h3>
+                    <div class="has-text-centered"><img src=${hp1} alt="hp" width="100%" class="inline-img-cc"></div>
+                    <p>From the latest CDP report  managing impacts from the supply chain is now the ONLY way to leverage change at the scale required (to prevent catastrophic climate change) From the report - the biggest takeaway is that the necessary cascade of action down the supply chain is not happening. With the majority of impacts (Climate Water Forests Biodiversity) lying in a company’s supply chian it is a key indicator of the efficacy of a company’s environmental strategies. The 2020 HP carbon footprint report shows that 64% of the carbon emissions are in the Supply Chain . ​</p>
+                    <p><b>HP’s sustainable Impact Goals: ​</b></p>
+                    <ul>
+                        <li>Reduce first-tier production supplier and product transportation-related GHG emissions intensity by 10% by 2025, compared to 2015.</li>
+                        <li>Help suppliers cut 2 million tonnes of CO2e by 2025​</li>
+                        <li>Reach 75% circularity for products and packaging by 2030.​</li>
+                        <li>Reduce absolute value chain GHG emissions by 50% by 2030​.</li>
+                    </ul>
+                    <p><b>​Current Goal Progress:</b> Through December 2019 (the most recent year data is available),</p>
+                    <ul>
+                        <li>GHG emissions intensity decreased 3%, compared to 2015.​</li>
+                        <li>Suppliers avoided 1.38 million tonnes of CO2e ​</li>
+                    </ul>
+                    <p><b>Key Question:​</b></p>
+                    <ul>
+                        <li>Implement a circular innovative solution that can help reduce the carbon emissions during the supply chain phase based on net zero carbon and circular economy baselines.</li>
+                        <li><b>NOTE:</b> The solution need not be a technology. It can be a business model as well that aims at circularity.​</li>
+                    </ul>
+                    <p><b>Barriers to Overcome:​</b></p>
+                    <ul>
+                        <li>Getting products back & recovering parts economically enough?​</li>
+                        <li>Circular models disrupts the status quo and new business models can destroy or cannibalize an existing value proposition.​</li>
+                    </ul>
+                    <h3>References</h3>
+                    <ul>
+                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c04945685.pdf" target="_blank">HP’s Supply Chain Responsibility</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://www.cdp.net/en/research/global-reports/engaging-the-chain" target="_blank">Engaging the chain: driving speed and scale​</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c04797682.pdf" target="_blank">HP Supply Chain Social and Environmental Responsibility Policy​</a></li>
+                    </ul>
+                    `
+                },
+                {
+                    title: 'Increasing Post-consumer Plastic consumption',
+                    sponsor_logo: csr_2,
+                    logo_height: '32px',
+                    info: `
+                    <h3>Background & Context</h3>
+                    <div class="has-text-centered"><img src=${hp2} alt="hp" width="100%" class="inline-img-cc"></div>
+                    <p>The Circular Economy requires the use of circualr inputs to services & goods. HP is both a supplier and user of recovered materials, incorporating increasing amounts of recycled and recyclable content into new HP products and packaging. Their Initial focus has been on post consumer (PCR) and ocean bound recycled plastics due to issues related to plastic waste and pollution. HP has steadily increased the % of PCR with a goal of 30% by 2025. (industry average is assumed to be <3%)​</p>
+                    <p><b>HP’s sustainable Impact Goal:</b> Use 30% postconsumer recycled content plastic across HP’s personal systems and print product portfolio by 2025.​</p>
+                    <p><b>Current Goal Progress:</b> During 2020, we used 27,490 tonnes of postconsumer recycled content plastic in HP personal systems and print products =11% of total plastic used​</p>
+                    <p><b>Key Question:</b> Propose an innovative solution that can help increase the post-consumer plastic consumption within and after the product lifecycle.​</p>
+                    <p><b>NOTE:</b> The solution need not be a technology. It can be a business model as well that aims at circularity.</p>
+                    <p><b>Barriers to Overcome:​</b></p>
+                    <ul>
+                        <li>Virgin plastic is typically cheaper than PCR. Why would the customer want to pay extra for the post-consumer plastic products?​​</li>
+                        <li>Material quality is essential to ensure technical performance in the Circular Economy​​</li>
+                    </ul>
+                    <h3>References</h3>
+                    <ul>
+                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c06614535.pdf" target="_blank">The battle against Plastic Pollution​</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020​</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://www.greenbiz.com/article/plastic-pollution-bad-how-exactly-it-linked-climate-change?utm_medium=email&utm_source=newsletter&utm_campaign=newsletter-template&utm_content=02-18-2022%20Circularity%20Weekly&mkt_tok=MjExLU5KWS0xNjUAAAGCrBwsRIEXB-z9JWPeAsz_x-DRxqsjjB7i92FpOrtoIFLxUS-I6hYRwsA_mj8rdEC_2frpnMNKlDG6KRbk9faKsgdpHXiqMVLlDp-W41HF" target="_blank">Plastic pollution is bad, but how exactly is it linked to climate change?</a></li>
+                    </ul>
+                    `
+                },
+                {
+                    title: 'Promoting Service Based Models​',
+                    sponsor_logo: csr_2,
+                    logo_height: '32px',
+                    info: `
+                    <h3>Background & Context</h3>
+                    <div class="has-text-centered"><img src=${hp3} alt="hp" width="100%" class="inline-img-cc"></div>
+                    <p>The Circular Economy requires offering product as a serivce (PaaS) . HP’s expanding Device as a Service (DaaS) offering provides customers the latest HP computer technology while improving cost predictability and enabling a better employee experience. In a LifeCycle Assessment (LCA) that HP conducted in 2019 showed that DaaS reduces GHG emissions by 25%, improves resource efficiency by 28%, decreases ecosystems impacts by 28%, and reduces human health impacts by 29% for a notebook PCs​</p>
+                    <p><b>Key Question:</b> Propose an innovative solution that can help enhance the usage of XaaS ( Everything as a service).</p>
+                    <p><b>NOTE:</b> The solution need not be a technology. It can be a business model as well that aims at circularity.​</p>
+                    <p><b>Barriers to Overcome:​</b></p>
+                    <ul>
+                        <li>Retail channels and salesforces are traditionally incentivized to sell products not services.​</li>
+                        <li>Will customers buy refurbished products?​​</li>
+                        <li>Customers typically want to own products & business finance systems are not flexible when shifting to a service (Capex moving to Opex) . (Capital expenditures (CAPEX) are major purchases a company makes that are designed to be used over the long term. Operating expenses (OPEX) are the day-to-day expenses a company incurs to keep its business operational)​</li>
+                    </ul>
+                    <h3>References</h3>
+                    <ul>
+                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c06646300.pdf" target="_blank">Assessment Shows Service-based Models Deliver Positive Environmental Impact​</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020​</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/4AA7-1229ENW.pdf" target="_blank">Take the hassle out of device management​</a></li>
+                    </ul>
+                    `
                 }
             ]
         },
@@ -185,7 +271,7 @@ const ChallengeSetsDetails = ({id}) => {
                 {
                     title: 'Developing a self-help gamified application for self-realization about gambling and social media addiction',
                     sponsor_logo: gco_2,
-                    logo_height: '60px',
+                    logo_height: '50px',
                     info: 
                     `
                     <h3>Background and Context</h3>  
@@ -236,8 +322,8 @@ const ChallengeSetsDetails = ({id}) => {
                 },
                 {
                     title: 'Sustainability as part of the curriculum',
-                    sponsor_logo: nzc_5,
-                    logo_height: '30px',
+                    sponsor_logo: logo,
+                    logo_height: '40px',
                     info: 
                     `
                     <h3>Background and Context</h3>
@@ -288,7 +374,7 @@ const ChallengeSetsDetails = ({id}) => {
                 {
                     title: 'Yoga – for the being',
                     sponsor_logo: gco_1,
-                    logo_height: '60px',
+                    logo_height: '50px',
                     info: 
                     `
                     <h3>Background and Context</h3>
@@ -308,7 +394,7 @@ const ChallengeSetsDetails = ({id}) => {
                 {
                     title: 'Goal 11',
                     sponsor_logo: gco_3,
-                    logo_height: '40px',
+                    logo_height: '30px',
                     info: 
                     `
                     <h3>Background and Context </h3>
@@ -844,7 +930,7 @@ const ChallengeSetsDetails = ({id}) => {
                         {
                             challengesets[id] && challengesets[id].info_items.length ? 
                                 challengesets[id].info_items.map((item, index) => (
-                                    <Accordion title={item.title} logo={item.sponsor_logo} logo_height={item.logo_height ? item.logo_height : ''} info={item.info} key={index}/>
+                                    <Accordion title={item.title} logo={item.sponsor_logo} logo_height={item.logo_height ? item.logo_height : ''} info={item.info} video_link={item.video_link ? item.video_link : ''} key={index}/>
                                 ))
                             :
                             <div className='coming-soon'>

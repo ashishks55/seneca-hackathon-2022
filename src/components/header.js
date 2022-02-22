@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import classnames from 'classnames';
-import logo from '../images/logo.png';
+import logo from '../images/logo.svg';
 
 const Header = () => {
 

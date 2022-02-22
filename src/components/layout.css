@@ -1450,3 +1450,7 @@ div.sponsor-list:last-child {
   display: flex;
   align-items: center;
 }
+
+.inline-img-cc{
+  max-width: 800px;
+}
