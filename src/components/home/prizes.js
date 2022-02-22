@@ -24,11 +24,11 @@ const prizes = () => {
                         <p className="subtitle is-size-6 mg-top-1 has-text-orange" style={{ marginRight: '8.333%' }}>
                             <b>All challenge set winners get WINNER Micro credential & sustainable Hackathon Tees</b>
                         </p>
-                        <div className='column is-5 is-hidden-desktop hero-img' style={{ paddingTop: '6%' }}>
+                        <div className='column is-5 is-hidden-desktop hero-img' style={{ paddingTop: '8%' }}>
                             <img src={grand_prize} alt="Grand Prize" width="70%" />
                         </div>
                     </div>
-                    <div className='column is-5 is-hidden-touch hero-img' style={{ paddingTop: '6%' }}>
+                    <div className='column is-5 is-hidden-touch hero-img' style={{ paddingTop: '8%' }}>
                         <img src={grand_prize} alt="Grand Prize" width="80%" />
                     </div>
                 </div>
