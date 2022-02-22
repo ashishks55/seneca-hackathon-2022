@@ -163,11 +163,14 @@ const ChallengeSetsDetails = ({id}) => {
                     <p class="has-text-weight-bold">Thought starters:</p>
                     <ul>
                         <li>What are the recycling methods used at present?</li>
+                        <li>What are the electronic design principles and best practices that allows for more efficient recycling at end of life?</li>
+                        <li>What about the 'right to repair' this could be suggested policy framework?</li>
                         <li>What is leading the process of e-waste recycling to be a threat to the environment?</li>
                         <li>What are the side-effects/consequences of the current recycling process?</li>
                         <li>How can we get rid of the side-effects/consequences caused by the current recycling process?</li>
                         <li>How can we quantify the number of landfills and carbon emissions that is being prevented by the proposed system?</li>
                         <li>How can we recycle e-waste sustainably?</li>
+                        <li>Is there a way to fold this into a public awareness campaign?</li>
                     </ul>
                     <h3>References</h3>
                     <p>[1] <i>The story of Canada's Digital Dumping Ground.</i> The story of Canada's digital dumping ground | Open Case Studies. (n.d.). Retrieved January 27, 2022, from <a class="has-text-green is-underlined" href="https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15" target="_blank">https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15</a></p>
@@ -679,18 +682,92 @@ const ChallengeSetsDetails = ({id}) => {
                     info: 
                     `
                     <h3>Background & Context</h3>
-                    <p><One of the best ways to revitalize the designated waterfront area in Toronto is by undertaking new development projects. This may include residential buildings, offices, and public spaces. These developments must be resilient enough to withstand any harm that extreme climate changes or man-made calamities may possess in far future for about 30-40 years. /p>
-                    <h4>Objective</h4>
+                    <p>One of the best ways to revitalize the designated waterfront area in Toronto is by undertaking new development projects. This may include residential buildings, offices, and public spaces. These developments must be resilient enough to withstand any harm that extreme climate changes or man-made calamities may possess in far future for about 30-40 years. </p>
+
+                    <h3>Objective</h3>
                     <p>How do we enable the organization to achieve higher degree of Urban Resilience and Green Building Requirements Compliance for upcoming development projects at the Toronto Waterfront Area? </p>
-                    <h4>Solution</h4>
+
+                    <h3>Solution</h3>
                     <p>Develop a tool / methodology / checklist to measure the degree of resilience and green building requirements (GBR) compliance. Also, a recommendation system to  
                     achieve greater resilience and to meet GBRs. </p>
+
                     <h3>Resources/Data </h3>
                     <ul>
-                        <li>Future Weather File (at least up to 2050) – Available here.</li>
-                        <li>Canada Green Building Council Data – Available here</li>
-                        <li>Waterfront Toronto Resilience and Innovation Framework for Sustainability – Available here </li>
-                        <li>Waterfront Toronto Green Building Requirements v3.0 – Available here </li>
+                        <li>1. Climate Data
+                            <ul>
+                                <li><a class="has-text-green is-underlined" href="https://services.pacificclimate.org/wx-files/app/" target="_blank">Wx Files (pacificclimate.org) </a></li>
+                                <li><a class="has-text-green is-underlined" href="https://climate.weather.gc.ca/prods_servs/engineering_e.html" target="_blank">Engineering Climate Datasets - Climate - Environment and Climate Change Canada (weather.gc.ca)  </a></li>
+                                <li><a class="has-text-green is-underlined" href="https://www.worldclim.org/data/cmip6/cmip6climate.html" target="_blank">Future climate data — WorldClim 1 documentation </a></li>
+                                <li><a class="has-text-green is-underlined" href="https://climatedata.ca/download/" target="_blank">Download — Climate Data Canada </a></li>
+                                <li><a class="has-text-green is-underlined" href="https://climate.onebuilding.org/WMO_Region_4_North_and_Central_America/CAN_Canada/" target="_blank">\climatewebsite\WMO_Region_4_North_and_Central_America\CAN_Canada (onebuilding.org) </a></li>
+                                <li><a class="has-text-green is-underlined" href="https://www.climate.gov/maps-data/all?listingMain=datasetgallery" target="_blank">Dataset Gallery | NOAA Climate.gov </a></li>
+                                <li><a class="has-text-green is-underlined" href="https://learn.arcgis.com/en/projects/explore-future-climate-projections/" target="_blank">Explore future climate projections | Learn ArcGIS  </a></li>
+                            </ul>
+                        </li>
+                        <li>2. Canada Green Building Council Data 
+                            <ul>
+                                <li><a class="has-text-green is-underlined" href="https://www.cagbc.org/CAGBC/projects/case_studies/CAGBC/Resources/Green_Building_Case_Studies.aspx?hkey=acde052d-fafd-4cce-9b41-cec06498e6bf" target="_blank">Green Building Case Studies (cagbc.org) </a></li>
+                                <li><a class="has-text-green is-underlined" href="https://leed.cagbc.org/LEED/projectprofile_EN.aspx" target="_blank">Canada Green Building Council – Project Database </a></li>
+                            </ul>
+                        </li>
+                        <li>3. Waterfront Toronto Resilience and Innovation Framework for Sustainability 
+                            <ul>
+                                <li><a class="has-text-green is-underlined" href="https://waterfrontoronto.ca/nbe/wcm/connect/waterfront/4a8f0eea-ad2c-44f6-85f8-0024c70dada2/WTRI-+Framework.20171013+FINAL.pdf?MOD=AJPERES" target="_blank">Framework </a></li>
+                                <li><a class="has-text-green is-underlined" href="https://waterfrontoronto.ca/nbe/wcm/connect/waterfront/fc11156b-5cad-4d96-95ed-b13f66e4a5d2/Resilience+and+Innovation+Framework+for+Sustainability+Action+Plan+-+September+2019.pdf?MOD=AJPERES" target="_blank">Action Plan </a></li>
+                            </ul>
+                        </li>
+                        <li>4. Green Living 
+                            <ul>
+                                <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/city-government/planning-development/official-plan-guidelines/toronto-green-standard/toronto-green-standard-version-3/mid-to-high-rise-residential-all-non-residential-version-3/" target="_blank">Mid to High-Rise Residential & all Non-Residential Version 3 – City of Toronto  </a></li>
+                                <li><a class="has-text-green is-underlined" href="https://waterfrontoronto.ca/nbe/wcm/connect/waterfront/db7b12c6-3155-4f55-a545-9ae0f24869f2/Waterfront+Toronto+Green+Building+Requirements+%28GBR%29+Version+3.0+-+January+2021.pdf?MOD=AJPERES" target="_blank">Waterfront Toronto Green Building Requirements (GBR) Version 3.0 - January 2021 (waterfrontoronto.ca)  </a></li>
+                            </ul>
+                        </li>
+                        <li>5. Waterfront Toronto Annual Reports and Strategic Plans 
+                            <ul>
+                                <li><a class="has-text-green is-underlined" href="https://www.waterfrontoronto.ca/nbe/portal/waterfront/bannerlinks/docs/documents/annual%20reports/annual%20reports/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOL9DF1cDQ39DbwNXF2MDBydfSyc_DxDjAyNjfQLsh0VAbwbhwQ!/?category=Waterfront_Content_Library/Waterfront%20Home/document%20library/documents/Annual%20Reports" target="_blank">Document Library (waterfrontoronto.ca) </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3>FAQ</h3>
+                    <p class="has-text-weight-bold">What is Urban Resilience? </p>
+                    <ul>
+                        <li>Urban resilience is the capacity of a city’s systems, businesses, institutions, communities, and individuals to survive, adapt, and grow, no matter what chronic stresses (such as recurrent flooding, high unemployment, limited social safety nets) and acute shocks (i.e., sudden, intense events that threaten a community, such as earthquakes, hurricanes) they experience. Urban resilience responds to three converging global megatrends: climate change, urbanization, and globalization.  </li>
+                    </ul>
+
+                    <p class="has-text-weight-bold">What are the factors that contribute to higher degree of Urban Resilience? </p>
+                    <ul>
+                        <li>Urban Resilience is assessed on multiple dimensions like Health & Wellbeing, Economy & Society, Infrastructure & Ecosystems, and Leadership & Strategy.  </li>
+                    </ul>
+
+                    <p class="has-text-weight-bold">Is this Challenge set for Computer programmers only? </p>
+                    <ul>
+                        <li>No. Student(s) from any academic background can participate in the challenge set. </li>
+                    </ul>
+
+                    <p class="has-text-weight-bold">Does the final deliverable have to be a software or computer program? </p>
+                    <ul>
+                        <li>No. The final deliverable can be anything that covers a detailed solution to the said challenge of quantifying/measuring the degree of urban resilience. It can be as simple as a descriptive checklist with a precise scoring mechanism or as complex as preparing a model/prototype and demonstrating resilience to various natural/man-made problems. </li>
+                    </ul>
+
+                    <p class="has-text-weight-bold">Do we need to confine our research based on just the data inputs made available with the challenge set? </p>
+                    <ul>
+                        <li>Not at all. In fact, the teams are expected to take this up as an exploratory work to bring on the table better ideas. At the same time, the datasets used must be relevant and verifiable. </li>
+                    </ul>
+
+                    <p class="has-text-weight-bold">Do we need to compulsorily address both the dimensions: Urban Resilience as well as Green Building Requirements (GBR) compliance? </p>
+                    <ul>
+                        <li>Despite both the topics overlapping up to certain extent, Urban Resilience must be addressed while GBR is optional to cover. </li>
+                    </ul>
+
+                    <p class="has-text-weight-bold">Can we model our response in the context of some other city/area for which more public data is available? </p>
+                    <ul>
+                        <li>We understand the scarcity of public data specific to the designated waterfront area of Toronto. Hence, you may choose to make submission by applying the model to a different city/area. However, the model must be reusable without many modifications for the waterfront area provided required data is made accessible. Also, it must be ensured that the chosen city/area resembles the geological conditions around Toronto Waterfront; for example, the fact that it is located at the shore of a large water body – Lake Ontario presents the requirement to mitigate situations like flooding. </li>
+                    </ul>
+
+                    <p class="has-text-weight-bold">Is there any rubric against which the submission will be assessed? </p>
+                    <ul>
+                        <li>While it can be a non-exhaustive list, some of the aspects to keep in mind are understanding of the problem statement, thoroughness of research done, relevance of the solution proposed, and feasibility and affordability in terms of real-world implementation. </li>
                     </ul>
                     `
                 },
@@ -700,27 +777,29 @@ const ChallengeSetsDetails = ({id}) => {
                     info: 
                     `
                     <h3>Background & Context</h3>
-                    <p>Our main goal is to highlight Brampton’s NHS (Natural Heritage System) as an important part of the city’s legacy for both current and future generations. Bbuilding awareness and providing residents with unique opportunities to engage with, value, and learn from the diverse natural landscapes and features that NHS has to offer.</p>
+                    <p>Our main goal is to highlight Brampton’s NHS (Natural Heritage System) as an important part of the city’s legacy for both current and future generations. Building awareness and providing residents with unique opportunities to engage with, value, and learn from the diverse natural landscapes and features that NHS has to offer.</p>
                     <p>To do so, Developing an innovative app that creates an interactive experience to encourage residents to explore, learn and connect with Brampton’s NHS.</p>
                     <p>This app should increase residents' connection to Brampton’s NHS by:</p>
                     <ul>
                         <li>Promoting various trails, sites and unique features in Brampton’s Natural Heritage System and green spaces;</li>
                         <li>Educate residents on the benefits of Brampton’s natural areas and features;</li>
-                        <li>Educate residents on the benefits of Brampton’s natural areas and features;</li>
-                        <li>Ensuring local interests and needs of Brampton’s population and demographics are reflected; and help empower and build a community around the Natural Heritage System by connecting people with similar interests.</li>
+                        <li>Provide interactive activities that enable residents to foster connections with nature; </li>
+                        <li>Ensuring local interests and needs of Brampton’s population and demographics are reflected; </li>
+                        <li>Help empower and build a community around the Natural Heritage System by connecting people with similar interests.  </li>
                     </ul>
                     <h3>Objective/Solution </h3>
-                    <p>How do we promote City of Brampton's legacy through an interactive system, building connections and engaging residents to explore, learn, and maintain a sustainable and resilient community?</p>
+                    <p>How do we promote City of Brampton's legacy through an interactive system, building connections and engaging residents to explore and learn city's natural system, and maintain a sustainable and resilient community? </p>
                     <ul>
-                        <li>Gamification such as Treasure Hunt, Quest, Social Media Contest.</li>
-                        <li>Improve social media presence by linking available platforms.</li>
-                        <li>Sharing clips about their experiences.</li>
-                        <li>Increase awareness about community events organized within the city to foster connections with nature.</li>
-                        <li>Promote healthy living and active lifestyle by giving rewards for walking.</li>
+                        <li>Gamification such as Treasure Hunt, Quest, Social Media Contest </li>
+                        <li>Improve social media presence by linking available platforms </li>
+                        <li>Sharing clips about their experiences </li>
+                        <li>Educate the community about the natural heritage landmarks </li>
+                        <li>Increase awareness about community events organized within the city to foster connections with nature</li> 
+                        <li>Promote healthy living and active lifestyle by giving rewards for walking </li>
                     </ul>
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
-                    <p>Dataset from City of Brampton : <a class="has-text-green is-underlined" href="https://seneca-my.sharepoint.com/:w:/g/personal/vagrawal2_myseneca_ca/ERJtkSTnK0NJtJG9k2l43Y0BDRks0ojpHVqf7GcFB1aINA?e=KlWi6w" target="_blank">click here.</a></p>
+                    <p>Dataset from City of Brampton : <a class="has-text-green is-underlined" href="https://seneca-my.sharepoint.com/:w:/g/personal/vagrawal2_myseneca_ca/ERJtkSTnK0NJtJG9k2l43Y0BDRks0ojpHVqf7GcFB1aINA?e=KlWi6w" target="_blank">Click here.</a></p>
                     <h3>FAQ</h3>
                     <p class="has-text-weight-bold">What is the expected solution out of this app?</p>
                     <ul>
@@ -728,9 +807,9 @@ const ChallengeSetsDetails = ({id}) => {
                     </ul>
                     <p class="has-text-weight-bold">How does the data provided help and how will it build towards building an app?</p>
                     <ul>
-                        <li>Identifying nature and consumption from the data provided by the City of Brampton will help to analyze the natural landmarks and demographic patterns of the community by the data provided. This data will help to build an app highlighting the city’s Natural Heritage System by connecting people with nature responsibly by integrating gamification.</b></li>
+                        <li>Identifying nature and consumption from the data provided by the City of Brampton will help to analyze the natural landmarks and demographic patterns of the community by the data provided. This data will help to build an app highlighting the city’s Natural Heritage System by connecting people with nature responsibly by integrating gamification. </li>
                     </ul>
-                    <p class="has-text-weight-bold">What are a few of the most important and/or prominent features that the sponsors are looking for?</p>
+                    <p class="has-text-weight-bold">What are a few of the most important and/or prominent features that the sponsors are looking for? </p>
                     <p>The solution needs to be interactive. Few of them talked about features that we are looking forward to would be: </p>
                     <ul>
                         <li>Gamification (Hint: Treasure Hunt)</li>
@@ -832,46 +911,37 @@ const ChallengeSetsDetails = ({id}) => {
                     info: 
                     `
                     <h3>Background and Context</h3>
-                    <p>There are challenges in sustaining and expanding the urban forest, with the use of AI and modern technologies, we can help bring possible solutions. Artificial Intelligence and deep analytics are keys to successful and efficient forecasting, planning, and making strategic decisions. Structured data gathered over time is an invaluable resource that can help us provide solutions that will help mitigate the impacts of climate change. <br><br>Moreover, Toronto’s ravine system has a unique charm that brings enjoyment and protection to surrounding neighborhoods and the city. With increased knowledge about these natural areas, we build a healthier environment and community, connected with nature and ready to explore. </p>
+                    <p>There are challenges in sustaining and expanding the urban forest. These include forest health threats, climate change impacts, and balancing urbanization impacts. With the use of AI and modern technologies, we can help bring possible solutions.  </p>
+                    <p>Artificial Intelligence and deep analytics are keys to successful and efficient forecasting, planning, and making strategic decisions. We can use this information to increase canopy cover in strategic areas, such as those close to schools and communities. These data are also helpful in building resiliency, increasing biodiversity to reduce vulnerability to infestations and invasive species, and mitigating the impacts of climate change. </p>
+                    <p>Moreover, Toronto’s ravine system has a unique charm that brings enjoyment and protection to surrounding neighborhoods and the city. Trees bring more shade to gathering areas, and promote better health, especially to students participating in active play. Outdoor environments help promote learning and offer green spaces to relax and rejuvenate. With increased access and knowledge about these natural areas, we build a healthier environment and community, connected with nature and ready to explore.  </p>
+                   
                     <h3>Objective/Solution</h3>
-                    <p class="has-text-weight-bold">How can we leverage existing technologies to help in rewilding the school grounds, tree planting, increasing biodiversity, and in identifying areas with high potential to connect schools and neighborhoods to nearby green spaces?</p>
-                    <p>Create a design or plan a recommender system that can be used to increase canopy cover and enhance resiliency. You can also combine data sets for use in improving accessibility and knowledge of Toronto’s ravine system to connect school grounds and nearby communities.</p>
-                    <p>Possible solutions could focus on:</p>
+                    <p class="has-text-weight-bold">How can we leverage existing technologies to help in rewilding the school grounds, tree planting, increasing biodiversity, and in identifying areas with high potential to connect schools and neighborhoods to nearby green spaces? </p>
+                    <p>Create a design or plan a recommender system that can be used to increase canopy cover and enhance resiliency. You can also combine data sets for use in improving accessibility and knowledge of Toronto’s ravine system to connect school grounds and nearby communities. </p>
+                    <p class="has-text-weight-bold">Possible solutions could focus on: </p>
                     <ul>
-                        <li>Using mapping, geomatics, and visualization tools to model possible strategies and applying deep analytics to present a data set for use in resiliency projects.</li>
-                        <li>Providing recommendations on the best species / variety of trees that will thrive in a land area.</li>
-                        <li>Providing recommendations on viable locations where we can increase accessibility, familiarity, safety, and knowledge of these green spaces.</li>
-                        <li>Gamification to increase awareness and exploration, and promote maintenance and care of school grounds</li>
+                        <li>Using mapping, geomatics, and visualization tools to model possible strategies and applying deep analytics to present a data set for use in resiliency projects </li>
+
+                        <li>Providing recommendations on the best species / variety of trees that will thrive in a land area  </li>
+                        
+                        <li>Providing recommendations on viable locations where we can increase accessibility, familiarity, safety, and knowledge of these green spaces </li>
+                        
+                        <li>Gamification to increase awareness and exploration, and promote maintenance and care of schoolgrounds </li>
                     </ul>
-                    <p>What you will submit:</p>
-                    <ul>
+                    <p class="has-text-weight-bold">What you will submit:</p>
+                    <ol>
                         <li>Design Document / Plan</li>
                         <li>Code (if needed) via GitHub</li>
                         <li>A 4 to 5-minute mp4 video of your plan ready for YouTube.</li>
-                    </ul>
+                    </ol>
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <ul>
-                        <li><a class="has-text-green is-underlined" href="https://drive.google.com/file/d/1naquN5C1A5SIJDgQ7lHvgkesinS5_xql/view" target="_blank">Evergreen: Landscape and Child Development</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://drive.google.com/file/d/1EO5_Cm1wlZbFyo2FwBVSsMCQv5t-CW8d/view" target="_blank">Research paper: Tree cover and composition effects on academic performance on primary students</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://drive.google.com/file/d/1OJp424jwcKRD4akXcn5s3Yu5NFaBPN10/view" target="_blank">TDSB Urban Forest Management Plan</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://drive.google.com/file/d/1uZbVTA_gX2oOfDLrbuu8HGtx1CFFJdeW/view" target="_blank">City of Toronto: Strategic Forest Management Plan</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://drive.google.com/file/d/1E6lMh7nCOHj9walhDfE_TU8i6LmtfFve/view" target="_blank">Research Paper: Shade trees in schoolyards: their role in protection from ultraviolet radiation and improving childhood learning </a></li>
-                        <li><a class="has-text-green is-underlined" href="https://can-plant.ca/" target="_blank">CAN Plant: Native Plant Database</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://d3n8a8pro7vhmx.cloudfront.net/toenviro/pages/1886/attachments/original/1473877871/Heat_Vulnerability_Map.JPG?1473877871" target="_blank">City of Toronto: Heat Vulnerability Data - Link 1</a></li>
-                        <li><a class="has-text-green is-underlined" href="http://www.torontohealthprofiles.ca/a_documents/aboutTheData/9_1_QandA_HeatVulner_HV_2010.pdf " target="_blank">City of Toronto: Heat Vulnerability Data - Link 2</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/legdocs/mmis/2020/ie/bgrd/backgroundfile-141367.pdf" target="_blank">City of Toronto: Tree Canopy Data - Link 1</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/data/parks/pdf/trees/sustaining-expanding-urban-forest-management-plan.pdf" target="_blank">City of Toronto: Tree Canopy Data - Link 2</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.publichealthontario.ca/-/media/documents/o/2016/ohp-trap.pdf?sc_lang=en" target="_blank">Public Health Ontario: Traffic & Air Pollution</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.tdsb.on.ca/environment/Home/actions/revitalizing-school-grounds" target="_blank">TDSB Environment, Energy and Climate Action</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.tdsb.on.ca/environment/Home/leadership/guiding-documents" target="_blank">TDSB Environment, Energy and Climate Action - Guiding Documents</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://open.canada.ca/data/en/dataset/122a9dec-e521-457b-bce8-4e7154096371" target="_blank">Ontario Forest Biomonitoring</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://open.canada.ca/data/en/dataset/6889a142-7a14-4998-9095-5332bac40703" target="_blank">Report on forest management: annual summary of Ontario’s forest management activities</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://open.canada.ca/data/en/dataset/08335b65-9857-4656-b7d5-14c91663126d" target="_blank">Forest Disease Damage Event</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://docs.google.com/spreadsheets/d/1gdlJcdsgfnieJttkomt4MyvRW-xED5stxpfg9rjLtSs/edit#gid=0" target="_blank">Seneca Sustainability Hackathon 2022 - TDSB Challenge Set - DATA SET </a></li>
                     </ul>
                     <h3>FAQ</h3>
-                    <p class="has-text-weight-bold">What are the key considerations when building the challenge set?</p>
-                    <p>What are the key considerations when building the challenge set?</p>
+                    <p class="has-text-weight-bold">What are the key considerations when building the challenge set? </p>
+                    <p>The key considerations when building the challenge set are: </p>
                     <ul>
                         <li>Re-wilding TDSB school grounds.</li>
                         <li>How TDSB school grounds can connect and enhance Toronto's ravine system.</li>
@@ -882,20 +952,21 @@ const ChallengeSetsDetails = ({id}) => {
                                 <li>1. Double the size of the TDSB’s large tree planting program.</li>
                             </ul>
                         </li>
-                        <li>Double the size of the TDSB’s large tree planting program.
+                        <li>City of Toronto Strategic Forest Management objectives 
                             <ul>
                                 <li>1. Increase canopy cover.</li>
                                 <li>2. Achieve equitable distribution</li>
                                 <li>3. Increase biodiversity</li>
                                 <li>4. Increase awareness</li>
                                 <li>5. Promote stewardship</li>
-                                <li>6. Promote stewardship</li>
+                                <li>6. Improve monitoring </li>
                             </ul>
                         </li>
                     </ul>
-                    <p class="has-text-weight-bold">What is the importance of connecting the school grounds and neighborhoods to surrounding green spaces?</p>
-                    <p>School grounds is the extension of the classroom, where kids can learn, play, experience and interact with nature. We can help make these untapped green spaces a safe and exciting place for kids to learn, and people living nearby enjoy doing recreational activities and relaxation, promoting mental and physical health.</p>
-                    <p class="has-text-weight-bold">What are the challenges to sustaining and expanding Toronto’s urban forest?</p>
+                    <p class="has-text-weight-bold">What is the importance of connecting the school grounds and neighborhoods to surrounding green spaces? </p>
+                    <p>School grounds is the extension of the classroom, where kids can learn, play, experience and interact with nature. We can help make these untapped green spaces a safe and exciting place for kids to learn, and people living nearby enjoy doing recreational activities and relaxation, promoting mental and physical health. </p>
+
+                    <p class="has-text-weight-bold">What are the challenges to sustaining and expanding Toronto’s urban forest? </p>
                     <p>Six (6) key challenges:</p>
                     <ul>
                         <li>1. Forest Health Threats</li>
