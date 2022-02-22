@@ -270,7 +270,7 @@ const ChallengeSetsDetails = ({id}) => {
                     `
                 },
                 {
-                    title: 'Sustainable Development Goals',
+                    title: '[PRME] Sustainable Development Goals',
                     info: 
                     `
                     <h3>Background and Context</h3>
