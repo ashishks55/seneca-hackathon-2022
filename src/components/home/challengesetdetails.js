@@ -113,8 +113,8 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>Your team’s solution should encompass one of the following: </li>
                         <li><b>Sustainability Insights:</b> Based on the OECD data, can your team find insights that reveal a potential healthcare sustainability issue(s) in Canada. What would your team’s recommendation be on a potential area(s) that needs a healthcare sustainability initiative?  </li>
                         <ul>
-                            <li>Solutions should be able to clearly explain the rationale on why a selected area(s) was chosen  </li>
-                            <li>Identifying an area for a healthcare sustainability initiative would already be a good solution, but if your team is feeling ambitious, teams are welcome to propose ideas to address any sustainability challenges uncovered </li>
+                            <li>1. Solutions should be able to clearly explain the rationale on why a selected area(s) was chosen  </li>
+                            <li>2. Identifying an area for a healthcare sustainability initiative would already be a good solution, but if your team is feeling ambitious, teams are welcome to propose ideas to address any sustainability challenges uncovered </li>
                         </ul>
                         <li><b>Tool Development:</b> Can we build a data tool to more easily identify and extract insights from the OECD data set? This tool should be able to help easily flag potential healthcare sustainability issues from the data set. </li>
                         <li>Teams are welcome to include both insights and tool development in their solutions, but this is not an expectation due to time limitations </li>
@@ -135,7 +135,7 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>
                     Includes statistics around Health Expenditure and Financing, Health Care Resources, Health Care Utilization, Health Care Quality Indicators, Pharmaceutical Market, Long-term Care Resources and Utilization and others 
                     <ul>
-                        <li>Data Dictionary: <a class="has-text-green is-underlined" href="https://www.oecd.org/els/health-systems/Table-of-Content-Metadata-OECD-Health-Statistics-2021.pdf" target="_blank">https://www.oecd.org/els/health-systems/Table-of-Content-Metadata-OECD-Health-Statistics-2021.pdf</a> </li>
+                        <li>1. Data Dictionary: <a class="has-text-green is-underlined" href="https://www.oecd.org/els/health-systems/Table-of-Content-Metadata-OECD-Health-Statistics-2021.pdf" target="_blank">https://www.oecd.org/els/health-systems/Table-of-Content-Metadata-OECD-Health-Statistics-2021.pdf</a> </li>
                     </ul>
                     </p>
                     `
@@ -148,29 +148,29 @@ const ChallengeSetsDetails = ({id}) => {
                     `
                     <h3>Background & Context</h3>
                     <ul>
-                        <li>The Electronic Products Recycling Association of Canada reports that there is 1,000,000 metric tons of e-waste is landfilled every year. [1]</li>
-                        <li>In 2019 only 17.4% of e-waste was recycled. [2]</li>
-                        <li>Lead and Mercury in e-waste can lead to anemia, nausea, and other diseases to humans and other organisms.[1]</li>
+                        <li>1. The Electronic Products Recycling Association of Canada reports that there is 1,000,000 metric tons of e-waste is landfilled every year. [1]</li>
+                        <li>2. In 2019 only 17.4% of e-waste was recycled. [2]</li>
+                        <li>3. Lead and Mercury in e-waste can lead to anemia, nausea, and other diseases to humans and other organisms.[1]</li>
                     </ul>
                     <p>Key Question: How to recycle the e-waste in a sustainable manner by developing a design system?</p>
                     <h3>Solutions</h3>
                     <p>The solution must contain the following:</p>
                     <ul>
-                        <li>The team must provide a model that can be used to recycle e-waste in a sustainable manner.</li>
-                        <li>The team must implement that idea in the form of a design system which will make it easier to recycle electronics at end of life.</li>
-                        <li>The solution must include a dashboard that quantifies and show the number of landfills and carbon emissions that it has saved by using the proposed design system.</li>
+                        <li>1. The team must provide a model that can be used to recycle e-waste in a sustainable manner.</li>
+                        <li>2. The team must implement that idea in the form of a design system which will make it easier to recycle electronics at end of life.</li>
+                        <li>3. The solution must include a dashboard that quantifies and show the number of landfills and carbon emissions that it has saved by using the proposed design system.</li>
                     </ul>
                     <p class="has-text-weight-bold">Thought starters:</p>
                     <ul>
-                        <li>What are the recycling methods used at present?</li>
-                        <li>What are the electronic design principles and best practices that allows for more efficient recycling at end of life?</li>
-                        <li>What about the 'right to repair' this could be suggested policy framework?</li>
-                        <li>What is leading the process of e-waste recycling to be a threat to the environment?</li>
-                        <li>What are the side-effects/consequences of the current recycling process?</li>
-                        <li>How can we get rid of the side-effects/consequences caused by the current recycling process?</li>
-                        <li>How can we quantify the number of landfills and carbon emissions that is being prevented by the proposed system?</li>
-                        <li>How can we recycle e-waste sustainably?</li>
-                        <li>Is there a way to fold this into a public awareness campaign?</li>
+                        <li>1. What are the recycling methods used at present?</li>
+                        <li>2. What are the electronic design principles and best practices that allows for more efficient recycling at end of life?</li>
+                        <li>3. What about the 'right to repair' this could be suggested policy framework?</li>
+                        <li>4. What is leading the process of e-waste recycling to be a threat to the environment?</li>
+                        <li>5. What are the side-effects/consequences of the current recycling process?</li>
+                        <li>6. How can we get rid of the side-effects/consequences caused by the current recycling process?</li>
+                        <li>7. How can we quantify the number of landfills and carbon emissions that is being prevented by the proposed system?</li>
+                        <li>8. How can we recycle e-waste sustainably?</li>
+                        <li>9. Is there a way to fold this into a public awareness campaign?</li>
                     </ul>
                     <h3>References</h3>
                     <p>[1] <i>The story of Canada's Digital Dumping Ground.</i> The story of Canada's digital dumping ground | Open Case Studies. (n.d.). Retrieved January 27, 2022, from <a class="has-text-green is-underlined" href="https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15" target="_blank">https://cases.open.ubc.ca/w17t2cons200-26/#cite_note-VanderPol-15</a></p>
@@ -187,15 +187,15 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>From the latest CDP report  managing impacts from the supply chain is now the ONLY way to leverage change at the scale required (to prevent catastrophic climate change) From the report - the biggest takeaway is that the necessary cascade of action down the supply chain is not happening. With the majority of impacts (Climate Water Forests Biodiversity) lying in a company’s supply chian it is a key indicator of the efficacy of a company’s environmental strategies. The 2020 HP carbon footprint report shows that 64% of the carbon emissions are in the Supply Chain . ​</p>
                     <p><b>HP’s sustainable Impact Goals: ​</b></p>
                     <ul>
-                        <li>Reduce first-tier production supplier and product transportation-related GHG emissions intensity by 10% by 2025, compared to 2015.</li>
-                        <li>Help suppliers cut 2 million tonnes of CO2e by 2025​</li>
-                        <li>Reach 75% circularity for products and packaging by 2030.​</li>
-                        <li>Reduce absolute value chain GHG emissions by 50% by 2030​.</li>
+                        <li>1. Reduce first-tier production supplier and product transportation-related GHG emissions intensity by 10% by 2025, compared to 2015.</li>
+                        <li>2. Help suppliers cut 2 million tonnes of CO2e by 2025​</li>
+                        <li>3. Reach 75% circularity for products and packaging by 2030.​</li>
+                        <li>4. Reduce absolute value chain GHG emissions by 50% by 2030​.</li>
                     </ul>
                     <p><b>​Current Goal Progress:</b> Through December 2019 (the most recent year data is available),</p>
                     <ul>
-                        <li>GHG emissions intensity decreased 3%, compared to 2015.​</li>
-                        <li>Suppliers avoided 1.38 million tonnes of CO2e ​</li>
+                        <li>1. GHG emissions intensity decreased 3%, compared to 2015.​</li>
+                        <li>2. Suppliers avoided 1.38 million tonnes of CO2e ​</li>
                     </ul>
                     <p><b>Key Question:​</b></p>
                     <ul>
@@ -204,8 +204,8 @@ const ChallengeSetsDetails = ({id}) => {
                     </ul>
                     <p><b>Barriers to Overcome:​</b></p>
                     <ul>
-                        <li>Getting products back & recovering parts economically enough?​</li>
-                        <li>Circular models disrupts the status quo and new business models can destroy or cannibalize an existing value proposition.​</li>
+                        <li>1. Getting products back & recovering parts economically enough?​</li>
+                        <li>2. Circular models disrupts the status quo and new business models can destroy or cannibalize an existing value proposition.​</li>
                     </ul>
                     <h3>References</h3>
                     <ul>
@@ -230,8 +230,8 @@ const ChallengeSetsDetails = ({id}) => {
                     <p><b>NOTE:</b> The solution need not be a technology. It can be a business model as well that aims at circularity.</p>
                     <p><b>Barriers to Overcome:​</b></p>
                     <ul>
-                        <li>Virgin plastic is typically cheaper than PCR. Why would the customer want to pay extra for the post-consumer plastic products?​​</li>
-                        <li>Material quality is essential to ensure technical performance in the Circular Economy​​</li>
+                        <li>1. Virgin plastic is typically cheaper than PCR. Why would the customer want to pay extra for the post-consumer plastic products?​​</li>
+                        <li>2. Material quality is essential to ensure technical performance in the Circular Economy​​</li>
                     </ul>
                     <h3>References</h3>
                     <ul>
@@ -253,9 +253,9 @@ const ChallengeSetsDetails = ({id}) => {
                     <p><b>NOTE:</b> The solution need not be a technology. It can be a business model as well that aims at circularity.​</p>
                     <p><b>Barriers to Overcome:​</b></p>
                     <ul>
-                        <li>Retail channels and salesforces are traditionally incentivized to sell products not services.​</li>
-                        <li>Will customers buy refurbished products?​​</li>
-                        <li>Customers typically want to own products & business finance systems are not flexible when shifting to a service (Capex moving to Opex) . (Capital expenditures (CAPEX) are major purchases a company makes that are designed to be used over the long term. Operating expenses (OPEX) are the day-to-day expenses a company incurs to keep its business operational)​</li>
+                        <li>1. Retail channels and salesforces are traditionally incentivized to sell products not services.​</li>
+                        <li>2. Will customers buy refurbished products?​​</li>
+                        <li>3. Customers typically want to own products & business finance systems are not flexible when shifting to a service (Capex moving to Opex) . (Capital expenditures (CAPEX) are major purchases a company makes that are designed to be used over the long term. Operating expenses (OPEX) are the day-to-day expenses a company incurs to keep its business operational)​</li>
                     </ul>
                     <h3>References</h3>
                     <ul>
@@ -284,33 +284,33 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>Thought Starters</h3>  
                     <p>Some of the thought starters for developing the application are: </p>
                     <ul>
-                        <li>When it comes to addiction, users should not be comparing themselves to their friends, family, or their social circle, but the general population as most of these habits are influenced indirectly by their behavioral patterns. Could a self-help application be developed which would help users identify addictions, and their level by showing a visual representation of the results compared to population normal distribution?</li>
-                        <li>What kind of materials and information could be shared via application educate the users about the nature of gambling and social media addition? Will this be in the form of a blog, or games? </li>
-                        <li>Could we develop an application which would have a game feature to keep the users motivated – such as daily goals, challenges, and rewards. What more could be offered to them that helps them reduce their addiction? </li>
-                        <li>Would creating a healthy and competitive community via application support the users to prevent and control their addiction at earlier stages? – A user-based forum to ask questions, share progress with other users and talk about problems. Connecting with people facing similar issues? </li>
+                        <li>1. When it comes to addiction, users should not be comparing themselves to their friends, family, or their social circle, but the general population as most of these habits are influenced indirectly by their behavioral patterns. Could a self-help application be developed which would help users identify addictions, and their level by showing a visual representation of the results compared to population normal distribution?</li>
+                        <li>2. What kind of materials and information could be shared via application educate the users about the nature of gambling and social media addition? Will this be in the form of a blog, or games? </li>
+                        <li>3. Could we develop an application which would have a game feature to keep the users motivated – such as daily goals, challenges, and rewards. What more could be offered to them that helps them reduce their addiction? </li>
+                        <li>4. Would creating a healthy and competitive community via application support the users to prevent and control their addiction at earlier stages? – A user-based forum to ask questions, share progress with other users and talk about problems. Connecting with people facing similar issues? </li>
                     </ul>
                     <h3>Objective</h3>  
                     <p>How could we leverage gamified software applications to promote self-realization to one’s addiction, and support them to control & prevent it to increase human sustainability in Canada?</p>
                     <h3>Solution</h3>  
                     <p>Developing a mobile application that would help users to identify their gambling and social media addiction issues and level of its impact.</p>
                     <ul>
-                        <li>The application should offer them self-help solutions and methods such as an alternative breathing technique or a sport / activities suggestion which would help the users control their urge towards their addiction?</li>
-                        <li>Feature where users can set their daily goals and challenges should be offered along with some healthy wager and incentive to keep them motivated throughout the process.</li>
-                        <li>Design an application feature of community space and area for them to connect with people going through a similar issue?</li>
+                        <li>1. The application should offer them self-help solutions and methods such as an alternative breathing technique or a sport / activities suggestion which would help the users control their urge towards their addiction?</li>
+                        <li>2. Feature where users can set their daily goals and challenges should be offered along with some healthy wager and incentive to keep them motivated throughout the process.</li>
+                        <li>3. Design an application feature of community space and area for them to connect with people going through a similar issue?</li>
                     </ul>
                     <p>Use Machine Learning to learn about the patterns and timings at which patients experience urges. Could AI (Artificial Intelligence) then be leveraged to warn the users about an upcoming trigger and suggest alternatives like:</p>
                     <ul>
-                        <li>Practice meditating using the 4-7-8 breathing method or any other sport or activity.</li>
-                        <li>Activities such as the user’s hobbies or show motivational videos/images.</li>
-                        <li>An option to connect with AI chat bot or a representative to talk to while experiencing urge.</li>
+                        <li>1. Practice meditating using the 4-7-8 breathing method or any other sport or activity.</li>
+                        <li>2. Activities such as the user’s hobbies or show motivational videos/images.</li>
+                        <li>3. An option to connect with AI chat bot or a representative to talk to while experiencing urge.</li>
                     </ul>
                     <p>Groups could create an application to provide recovery resources and focus on two key areas:</p>
                     <ul>
-                        <li>Making software which is cross-platform so that it is available to a wide range of users.</li>
-                        <li>Heavy focus on UI and UX of the application as patients need to be able to use the application efficiently and the application should be fun to use.</li>
-                        <li>Offer informational resources and articles for the users.</li>
-                        <li>Gamify the application – offer challenges to users, users could set personal goals and offer healthy wager to the users to keep them motivated.</li>
-                        <li>One option of scheduling an appointment with CAMH team but the application should be more of Self-Help Application.</li>
+                        <li>1. Making software which is cross-platform so that it is available to a wide range of users.</li>
+                        <li>2. Heavy focus on UI and UX of the application as patients need to be able to use the application efficiently and the application should be fun to use.</li>
+                        <li>3. Offer informational resources and articles for the users.</li>
+                        <li>4. Gamify the application – offer challenges to users, users could set personal goals and offer healthy wager to the users to keep them motivated.</li>
+                        <li>5. One option of scheduling an appointment with CAMH team but the application should be more of Self-Help Application.</li>
                     </ul>
                     <h3>Resources/Data</h3>  
                     <ul>
@@ -335,8 +335,8 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>Fortunately, the prevalence of sustainability topics in courses has seen an increase in the last few years. As education becomes more accessible, initiatives become more common, and we move closer to a sustainable future.</p>
                     <p>“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” - Malcolm X</p>
                     <h3>Objective</h3>
-                    <p>Integrate sustainability into the curriculum regardless of area of study.</p>
-                    <p>This is a broad topic and has many solutions.</p>
+                    <p>1. Integrate sustainability into the curriculum regardless of area of study.</p>
+                    <p>2. This is a broad topic and has many solutions.</p>
                     <h3>Solution</h3>
                     <p>1. Map to core literacy: Developing a module for Sustainability course in Seneca for each classroom to create awareness about sustainable goals.</p>
                     <p>2. Assessment: Carrying out surveys to check the level of understanding among students regarding Seneca’s sustainable goals. </p>
@@ -354,7 +354,7 @@ const ChallengeSetsDetails = ({id}) => {
                     <p class="has-text-weight-bold">What are Seneca’s sustainability goals?</p>
                     <p>Seneca is committed to stewarding, conserving and protecting our environment — both on our campuses and in our broader communities. This is being done in help with the Sustainable Seneca Committee which takes initiatives such as: </p>
                     <ul>
-                        <li>encouraging, celebrating and advocating for excellence in environmental sustainability</li>
+                        <li>1. encouraging, celebrating and advocating for excellence in environmental sustainability</li>
                     </ul>
                     `
                 },
@@ -365,8 +365,8 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>Background and Context</h3>
                     <p>The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future. At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries - developed and developing - in a global partnership. They recognize that ending poverty and other deprivations must go hand-in-hand with strategies that improve health and education, reduce inequality, and spur economic growth – all while tackling climate change and working to preserve our oceans and forests.</p>
                     <h3>Objective/Solution</h3>
-                    <p>Choose one of the United Nations’ Sustainable Development Goals and try to implement it on a local level.</p>
-                    <p>Open challenge set with many possible solutions.</p>
+                    <p>1. Choose one of the United Nations’ Sustainable Development Goals and try to implement it on a local level.</p>
+                    <p>2. Open challenge set with many possible solutions.</p>
                     <h3>Resources/Data</h3>
                     <p><a class="has-text-green is-underlined" href="https://sdgs.un.org/goals" target="_blank">THE 17 GOALS</a></p>
                     <p><a class="has-text-green is-underlined" href="https://sdgs.un.org/2030agenda" target="_blank">Transforming our world: the 2030 Agenda for Sustainable Development</a></p>
@@ -408,15 +408,15 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>Our objective is to use technological innovations to create an ecosystem that could mitigate if not eliminate the inefficiencies and misalignments amongst stakeholders. As the Province commits to create 1.5 million housing units in the next 10 years to fulfill the latent and projected demand, our solution intends to serve as a platform that support this cause. We intend to create more meaningful partnerships, and therefore the creation of more housing units.</p>
                     <p>We are challenging you to create an ecosystem that may incorporate some of the following: blockchain technologies, NFTs, machine learning and data intelligence, with the following objectives in mind:</p>
                     <ul>
-                        <li>Facilitate the formation of lasting partnerships among stakeholders</li>
-                        <li>Incorporate different housing stakeholders into this solution</li>
-                        <li>Reduce misaligned incentives among stakeholders</li>
-                        <li>Streamline the affordable home finding and application processes</li>
-                        <li>Improve transparency of the affordable housing allocation and lifecycle tracking processes</li>
-                        <li>Create Long term impacts to housing affordability</li>
-                        <li>Attract new ideas and resources from members of the ecosystem</li>
-                        <li>Empower marginalized and racialized communities in the decision-making process.</li>
-                        <li>Consider the needs of all stakeholders, particularly those who will be most affected by this solution</li>
+                        <li>1. Facilitate the formation of lasting partnerships among stakeholders</li>
+                        <li>2. Incorporate different housing stakeholders into this solution</li>
+                        <li>3. Reduce misaligned incentives among stakeholders</li>
+                        <li>4. Streamline the affordable home finding and application processes</li>
+                        <li>5. Improve transparency of the affordable housing allocation and lifecycle tracking processes</li>
+                        <li>6. Create Long term impacts to housing affordability</li>
+                        <li>7. Attract new ideas and resources from members of the ecosystem</li>
+                        <li>8. Empower marginalized and racialized communities in the decision-making process.</li>
+                        <li>9. Consider the needs of all stakeholders, particularly those who will be most affected by this solution</li>
                     </ul>
                     <p>The final product will be a no-code working prototype created using Bubble.io. We will provide you with access.</p>
                     <p>Be creative!</p>
@@ -463,9 +463,9 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>Recommender systems for individual travelers to help them select chose most sustainable travel plans.</p>
                     <p>Carbon footprint data aggregator, reward system, and credit management.</p>
                     <ul>
-                        <li>System which provides the amount of carbon emission, travelers helped them to reduce. </li>
-                        <li>Reward system, rewarding people to help reduce the carbon footprint. </li>
-                        <li>A system GPCanada can use to organize data related to fan travel.</li>
+                        <li>1. System which provides the amount of carbon emission, travelers helped them to reduce. </li>
+                        <li>2. Reward system, rewarding people to help reduce the carbon footprint. </li>
+                        <li>3. A system GPCanada can use to organize data related to fan travel.</li>
                     </ul>
                     <p>Example – No. of participants, origin of their city/state/country and many more.</p>
                     `
@@ -480,9 +480,9 @@ const ChallengeSetsDetails = ({id}) => {
                     <h4>What we need to do </h4>
                     <p>To make the event eco-friendly and sustainable, bring new ways to reduce food wastage and build a platform which will make people aware about the possible ways to reduce it and reward them.</p>
                     <ul>
-                        <li>Awareness and research. </li>
-                        <li>Recommender and reward systems. </li>
-                        <li>System which will help them to gather food logs as well as use that data to calculate food waste and help decrease it.</li>
+                        <li>1. Awareness and research. </li>
+                        <li>2. Recommender and reward systems. </li>
+                        <li>3. System which will help them to gather food logs as well as use that data to calculate food waste and help decrease it.</li>
                     </ul>
                     `
                 },
@@ -506,17 +506,17 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>Background and Context</h3>
                     <h4>ABOUT FUTURETEL</h4>
                     <ul>
-                        <li>Since 1998, Authorized Electronics Service Center.</li>
-                        <li>Troubleshoot and fixing/refurbishment of cellular handsets, smartphones, laptops, tablets, and other portable data devices.</li>
-                        <li>Long Term Value-Fast Quality Service for providing consumer, retail, and business-to-business solutions.</li>
-                        <li>It is a small-scale business for refurbishment and repurpose and the e-waste generated are processed through a third-party organization.</li>
-                        <li>They are looking for a Carbon friendly service that can be provided to their customers.</li>
+                        <li>1. Since 1998, Authorized Electronics Service Center.</li>
+                        <li>2. Troubleshoot and fixing/refurbishment of cellular handsets, smartphones, laptops, tablets, and other portable data devices.</li>
+                        <li>3. Long Term Value-Fast Quality Service for providing consumer, retail, and business-to-business solutions.</li>
+                        <li>4. It is a small-scale business for refurbishment and repurpose and the e-waste generated are processed through a third-party organization.</li>
+                        <li>5. They are looking for a Carbon friendly service that can be provided to their customers.</li>
                     </ul>
                     <h4>PROBLEMS</h4>
                     <ul>
-                        <li>Latest and Upgrade version of new devices release every year.</li>
-                        <li>Transportation/ Delivery of devices to the branch from all over Canada through different delivery methods.</li>
-                        <li>Less financial support for such small-scale organizations to collect all unused devices to repurpose or dispose of.</li>
+                        <li>1. Latest and Upgrade version of new devices release every year.</li>
+                        <li>2. Transportation/ Delivery of devices to the branch from all over Canada through different delivery methods.</li>
+                        <li>3. Less financial support for such small-scale organizations to collect all unused devices to repurpose or dispose of.</li>
                     </ul>
                     <h3>Objective</h3>
                     <p>The focus of this challenge set is to provide a one stop solution to solve the above-mentioned problems. It depends on which part of the problem we are dealing with. There are several ways to get the solution and one of these is One Stop E-Waste Bank. This E-Waste Bank will be able to contribute to sustainability.</p>
@@ -524,30 +524,30 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>One stop E-waste Bank will have three modules incorporated. Firstly, it will collect the E-waste either in working or non-working conditions. It can either act as a donation or collection centres. Secondly, a Consumer awareness program will guide consumers towards sustainable electronic consumption methods and finally, a redesign analysis will support the longevity of technology. Let's discuss each module functionality in detail.</p>
                     <p><b>E-waste Bank (EB)</b></p>
                     <ul>
-                        <li>Collection of E-waste like cell phones, laptops, hard-drives etc.</li>
-                        <li>Organizing Repair/ Refurbish Via FutureTel.</li>
-                        <li>Distribute Repaired/ Refurbished products within Canada.</li>
-                        <li>Distribute Repaired/ Refurbished products outside Canada with the help of another organization.</li>
-                        <li>E-waste bank can be created to provide consumers for FutureTel.</li>
+                        <li>1. Collection of E-waste like cell phones, laptops, hard-drives etc.</li>
+                        <li>2. Organizing Repair/ Refurbish Via FutureTel.</li>
+                        <li>3. Distribute Repaired/ Refurbished products within Canada.</li>
+                        <li>4. Distribute Repaired/ Refurbished products outside Canada with the help of another organization.</li>
+                        <li>5. E-waste bank can be created to provide consumers for FutureTel.</li>
                     </ul>
                     <p><b>Note:</b> It will require project proposal, physical and IT (Information Technology) components.</p>
                     <p><b>Consumer Awareness Program (CAP)</b></p>
                     <ul>
-                        <li>Promoting consumers not to replace electronic devices unless it is necessary.</li>
-                        <li>Educate them with the benefits of eco-friendly concept.</li>
-                        <li>Add sustainability/eco-friendly in your leaflets and service center outlets.</li>
+                        <li>1. Promoting consumers not to replace electronic devices unless it is necessary.</li>
+                        <li>2. Educate them with the benefits of eco-friendly concept.</li>
+                        <li>3. Add sustainability/eco-friendly in your leaflets and service center outlets.</li>
                     </ul>
                     <p><b>Note:</b> It will require research proposal and IT components.</p>
                     <p><b>Redesign Analysis (RD)</b></p>
                     <ul>
-                        <li>Enhancing the quality and longevity of the existing product with minor modification.</li>
-                        <li>Once the device is collected by E-waste Bank in Working/Non-working conditions a detailed analysis report is required to compute the cost and feasibility to redesign the product.</li>
-                        <li>This will require lots of physical analysis of the device component and answer that question that is it feasible to repair device.</li>
+                        <li>1. Enhancing the quality and longevity of the existing product with minor modification.</li>
+                        <li>2. Once the device is collected by E-waste Bank in Working/Non-working conditions a detailed analysis report is required to compute the cost and feasibility to redesign the product.</li>
+                        <li>3. This will require lots of physical analysis of the device component and answer that question that is it feasible to repair device.</li>
                     </ul>
                     <h3>Resources/Data</h3>
                     <ul>
-                        <li><a class="has-text-green is-underlined" href="https://www.futuretel.ca/" target="_blank">FutureTel</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://green.harvard.edu/news/exploring-three-r%E2%80%99s-e-waste-refurbish-redesign-and-repurpose" target="_blank">Exploring the Three R’s of E-Waste: Refurbish, Redesign, and Repurpose | Sustainability at Harvard </a></li>
+                        <li>1. <a class="has-text-green is-underlined" href="https://www.futuretel.ca/" target="_blank">FutureTel</a></li>
+                        <li>2. <a class="has-text-green is-underlined" href="https://green.harvard.edu/news/exploring-three-r%E2%80%99s-e-waste-refurbish-redesign-and-repurpose" target="_blank">Exploring the Three R’s of E-Waste: Refurbish, Redesign, and Repurpose | Sustainability at Harvard </a></li>
                     </ul>
                     <h3>FAQ</h3>
                     <p>What are the 3 Rs of E-Waste?</p>
@@ -585,26 +585,26 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>Challenge Statement</h3>
                     <p>Rapid, efficient, automated processes required for:</p>
                     <ul>
-                        <li>identity and vehicle verification to ensure data provided by users about themselves and their cars is authentic, is consistent/matches other data, meets RideAlike screening requirements and facilitates creation of profiles used for risk scoring.  Data used for verification can include:
+                        <li>1. Identity and vehicle verification to ensure data provided by users about themselves and their cars is authentic, is consistent/matches other data, meets RideAlike screening requirements and facilitates creation of profiles used for risk scoring.  Data used for verification can include:
                             <ul>
-                                <li>1. Name, email, phone number, drivers license provided, facial photo, vehicle make/model, mileage, age, value, VIN, ownership certificate, insurance certificate, multiple photos of vehicle provided by user.</li>
-                                <li>2. Location, MTO driving record, vehicle value, social media profiles pulled from location based services, APIs, government databases, social media sites etc.</li>
+                                <li>a. Name, email, phone number, drivers license provided, facial photo, vehicle make/model, mileage, age, value, VIN, ownership certificate, insurance certificate, multiple photos of vehicle provided by user.</li>
+                                <li>b. Location, MTO driving record, vehicle value, social media profiles pulled from location based services, APIs, government databases, social media sites etc.</li>
                             </ul>
                         </li>
-                        <li>Location, MTO driving record, vehicle value, social media profiles pulled from location based services, APIs, government databases, social media sites etc
+                        <li>2. Location, MTO driving record, vehicle value, social media profiles pulled from location based services, APIs, government databases, social media sites etc
                             <ul>
-                                <li>1. Mileage</li>
-                                <li>2. Fuel (gas/charge) level</li>
-                                <li>3. Interior damage</li>
-                                <li>4. Interior cleanliness</li>
-                                <li>5. Exterior damage</li>
-                                <li>6. Exterior cleanliness</li>
-                                <li>7. Time of Scheduled Pick up/return</li>
-                                <li>8. Time of Actual Pick up/return</li>
-                                <li>9. Use of correct fuel type substantiated by fuel receipts</li>
+                                <li>a. Mileage</li>
+                                <li>b. Fuel (gas/charge) level</li>
+                                <li>c. Interior damage</li>
+                                <li>d. Interior cleanliness</li>
+                                <li>e. Exterior damage</li>
+                                <li>f. Exterior cleanliness</li>
+                                <li>g. Time of Scheduled Pick up/return</li>
+                                <li>h. Time of Actual Pick up/return</li>
+                                <li>i. Use of correct fuel type substantiated by fuel receipts</li>
                             </ul>
                         </li>
-                        <li>post trip claims such as parking tickets and tolls, damage not identified at return, etc.  Data would include scanned tickets, additional photos, etc.</li>
+                        <li>3. Post trip claims such as parking tickets and tolls, damage not identified at return, etc.  Data would include scanned tickets, additional photos, etc.</li>
                         <p>For more details, please visit: <a class="has-text-green is-underlined" href="https://faq.ridealike.com/" target="_blank">https://faq.ridealike.com/</a></p>
                     </ul>
                     `
@@ -632,10 +632,10 @@ const ChallengeSetsDetails = ({id}) => {
                     </ul>
                     <h3>Resources /Data</h3>
                     <ul>
-                        <li><a class="has-text-green is-underlined" href="https://d1wqtxts1xzle7.cloudfront.net/68421536/V10I7202117-with-cover-page-v2.pdf?Expires=1645168718&Signature=GVBh-ioirwl6y0XDuAVr2ydW2DCIAE75Ui2HWLgG9VnPCEnRrZh8UPzYhRUZdRUYjnIuIE5NBTA9sxzfvrE9pr~x7KPFLEMpgo3kovaMb2aXMFNhBSlBUfq18c4OWt8LZxvM1NehKQMcP67e1yJHd7a98NPjFO0IX4AUqhEFyTPxU-qYOUT8B-CkrSVNo5pWfxwJSrMfvJh65LqgoQMCVsmzzVGu1V4hIbdfFo-D7kgofF~6kn0B0aDnVwUAYlVpuNInRT1z6U-GSe60GAoCcKcB~m~SgVlcGxOgrXdHmqmaZKbPQu9WWK51XJVb~Qay6kurDrZfGU2NFR13BFMMZQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" target="_blank">MACHINE LEARNING BASED SEARCH ENGINE WITH CRAWLING, INDEXING AND RANKING </a></li>
-                        <li><a class="has-text-green is-underlined" href="https://link.springer.com/article/10.1007/s12525-021-00475-2" target="_blank">Machine learning and deep learning</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://oceanservice.noaa.gov/facts/lidar.html" target="_blank">What is lidar?</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://coast.noaa.gov/data/digitalcoast/pdf/lidar-101.pdf" target="_blank">Lidar 101:  An Introduction to Lidar Technology,   Data, and Applications</a></li>
+                        <li>1. <a class="has-text-green is-underlined" href="https://d1wqtxts1xzle7.cloudfront.net/68421536/V10I7202117-with-cover-page-v2.pdf?Expires=1645168718&Signature=GVBh-ioirwl6y0XDuAVr2ydW2DCIAE75Ui2HWLgG9VnPCEnRrZh8UPzYhRUZdRUYjnIuIE5NBTA9sxzfvrE9pr~x7KPFLEMpgo3kovaMb2aXMFNhBSlBUfq18c4OWt8LZxvM1NehKQMcP67e1yJHd7a98NPjFO0IX4AUqhEFyTPxU-qYOUT8B-CkrSVNo5pWfxwJSrMfvJh65LqgoQMCVsmzzVGu1V4hIbdfFo-D7kgofF~6kn0B0aDnVwUAYlVpuNInRT1z6U-GSe60GAoCcKcB~m~SgVlcGxOgrXdHmqmaZKbPQu9WWK51XJVb~Qay6kurDrZfGU2NFR13BFMMZQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" target="_blank">MACHINE LEARNING BASED SEARCH ENGINE WITH CRAWLING, INDEXING AND RANKING </a></li>
+                        <li>2. <a class="has-text-green is-underlined" href="https://link.springer.com/article/10.1007/s12525-021-00475-2" target="_blank">Machine learning and deep learning</a></li>
+                        <li>3. <a class="has-text-green is-underlined" href="https://oceanservice.noaa.gov/facts/lidar.html" target="_blank">What is lidar?</a></li>
+                        <li>4. <a class="has-text-green is-underlined" href="https://coast.noaa.gov/data/digitalcoast/pdf/lidar-101.pdf" target="_blank">Lidar 101:  An Introduction to Lidar Technology,   Data, and Applications</a></li>
                     </ul>
                     `
                 },
@@ -656,10 +656,10 @@ const ChallengeSetsDetails = ({id}) => {
                     <p class="has-text-weight-bold">Possible approaches:</p>
                     <p>A number of approaches can be applied in order to identify the canopy coverage, tree types and ages.</p>
                     <ul>
-                        <li><b>Carbon Offsets:</b> in addition to identifying objects with the images, the amount of carbon offset happening due to the presence of the identified species can be calculated and reported for further analysis.</li>
-                        <li><b>Machine Learning:</b> This approach can include the use of machine learning to implement a training algorithm to identify the requested objects. Google Cloud has provided participants with access to machine learning workshops to familiarize themselves with the new technology surrounding it.  </li>
-                        <li><b>AppEngine:</b> This platform can be used to run the final version of your application. </li>
-                        <li><b>Google Cloud</b> has provided participants with recordings of related workshops.</li>
+                        <li><b>1. Carbon Offsets:</b> in addition to identifying objects with the images, the amount of carbon offset happening due to the presence of the identified species can be calculated and reported for further analysis.</li>
+                        <li><b>2. Machine Learning:</b> This approach can include the use of machine learning to implement a training algorithm to identify the requested objects. Google Cloud has provided participants with access to machine learning workshops to familiarize themselves with the new technology surrounding it.  </li>
+                        <li><b>3. AppEngine:</b> This platform can be used to run the final version of your application. </li>
+                        <li><b>4. Google Cloud</b> has provided participants with recordings of related workshops.</li>
                     </ul>
                     <h3>Resources/Data </h3>
                     <p>Carbon Budget model <a class="has-text-green is-underlined" href="https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 " target="_blank">https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 </a></p>
@@ -695,36 +695,36 @@ const ChallengeSetsDetails = ({id}) => {
                     <ul>
                         <li>1. Climate Data
                             <ul>
-                                <li><a class="has-text-green is-underlined" href="https://services.pacificclimate.org/wx-files/app/" target="_blank">Wx Files (pacificclimate.org) </a></li>
-                                <li><a class="has-text-green is-underlined" href="https://climate.weather.gc.ca/prods_servs/engineering_e.html" target="_blank">Engineering Climate Datasets - Climate - Environment and Climate Change Canada (weather.gc.ca)  </a></li>
-                                <li><a class="has-text-green is-underlined" href="https://www.worldclim.org/data/cmip6/cmip6climate.html" target="_blank">Future climate data — WorldClim 1 documentation </a></li>
-                                <li><a class="has-text-green is-underlined" href="https://climatedata.ca/download/" target="_blank">Download — Climate Data Canada </a></li>
-                                <li><a class="has-text-green is-underlined" href="https://climate.onebuilding.org/WMO_Region_4_North_and_Central_America/CAN_Canada/" target="_blank">\climatewebsite\WMO_Region_4_North_and_Central_America\CAN_Canada (onebuilding.org) </a></li>
-                                <li><a class="has-text-green is-underlined" href="https://www.climate.gov/maps-data/all?listingMain=datasetgallery" target="_blank">Dataset Gallery | NOAA Climate.gov </a></li>
-                                <li><a class="has-text-green is-underlined" href="https://learn.arcgis.com/en/projects/explore-future-climate-projections/" target="_blank">Explore future climate projections | Learn ArcGIS  </a></li>
+                                <li>a. <a class="has-text-green is-underlined" href="https://services.pacificclimate.org/wx-files/app/" target="_blank">Wx Files (pacificclimate.org) </a></li>
+                                <li>b. <a class="has-text-green is-underlined" href="https://climate.weather.gc.ca/prods_servs/engineering_e.html" target="_blank">Engineering Climate Datasets - Climate - Environment and Climate Change Canada (weather.gc.ca)  </a></li>
+                                <li>c. <a class="has-text-green is-underlined" href="https://www.worldclim.org/data/cmip6/cmip6climate.html" target="_blank">Future climate data — WorldClim 1 documentation </a></li>
+                                <li>d. <a class="has-text-green is-underlined" href="https://climatedata.ca/download/" target="_blank">Download — Climate Data Canada </a></li>
+                                <li>e. <a class="has-text-green is-underlined" href="https://climate.onebuilding.org/WMO_Region_4_North_and_Central_America/CAN_Canada/" target="_blank">\climatewebsite\WMO_Region_4_North_and_Central_America\CAN_Canada (onebuilding.org) </a></li>
+                                <li>f. <a class="has-text-green is-underlined" href="https://www.climate.gov/maps-data/all?listingMain=datasetgallery" target="_blank">Dataset Gallery | NOAA Climate.gov </a></li>
+                                <li>g. <a class="has-text-green is-underlined" href="https://learn.arcgis.com/en/projects/explore-future-climate-projections/" target="_blank">Explore future climate projections | Learn ArcGIS  </a></li>
                             </ul>
                         </li>
                         <li>2. Canada Green Building Council Data 
                             <ul>
-                                <li><a class="has-text-green is-underlined" href="https://www.cagbc.org/CAGBC/projects/case_studies/CAGBC/Resources/Green_Building_Case_Studies.aspx?hkey=acde052d-fafd-4cce-9b41-cec06498e6bf" target="_blank">Green Building Case Studies (cagbc.org) </a></li>
-                                <li><a class="has-text-green is-underlined" href="https://leed.cagbc.org/LEED/projectprofile_EN.aspx" target="_blank">Canada Green Building Council – Project Database </a></li>
+                                <li>a. <a class="has-text-green is-underlined" href="https://www.cagbc.org/CAGBC/projects/case_studies/CAGBC/Resources/Green_Building_Case_Studies.aspx?hkey=acde052d-fafd-4cce-9b41-cec06498e6bf" target="_blank">Green Building Case Studies (cagbc.org) </a></li>
+                                <li>b. <a class="has-text-green is-underlined" href="https://leed.cagbc.org/LEED/projectprofile_EN.aspx" target="_blank">Canada Green Building Council – Project Database </a></li>
                             </ul>
                         </li>
                         <li>3. Waterfront Toronto Resilience and Innovation Framework for Sustainability 
                             <ul>
-                                <li><a class="has-text-green is-underlined" href="https://waterfrontoronto.ca/nbe/wcm/connect/waterfront/4a8f0eea-ad2c-44f6-85f8-0024c70dada2/WTRI-+Framework.20171013+FINAL.pdf?MOD=AJPERES" target="_blank">Framework </a></li>
-                                <li><a class="has-text-green is-underlined" href="https://waterfrontoronto.ca/nbe/wcm/connect/waterfront/fc11156b-5cad-4d96-95ed-b13f66e4a5d2/Resilience+and+Innovation+Framework+for+Sustainability+Action+Plan+-+September+2019.pdf?MOD=AJPERES" target="_blank">Action Plan </a></li>
+                                <li>a. <a class="has-text-green is-underlined" href="https://waterfrontoronto.ca/nbe/wcm/connect/waterfront/4a8f0eea-ad2c-44f6-85f8-0024c70dada2/WTRI-+Framework.20171013+FINAL.pdf?MOD=AJPERES" target="_blank">Framework </a></li>
+                                <li>b. <a class="has-text-green is-underlined" href="https://waterfrontoronto.ca/nbe/wcm/connect/waterfront/fc11156b-5cad-4d96-95ed-b13f66e4a5d2/Resilience+and+Innovation+Framework+for+Sustainability+Action+Plan+-+September+2019.pdf?MOD=AJPERES" target="_blank">Action Plan </a></li>
                             </ul>
                         </li>
                         <li>4. Green Living 
                             <ul>
-                                <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/city-government/planning-development/official-plan-guidelines/toronto-green-standard/toronto-green-standard-version-3/mid-to-high-rise-residential-all-non-residential-version-3/" target="_blank">Mid to High-Rise Residential & all Non-Residential Version 3 – City of Toronto  </a></li>
-                                <li><a class="has-text-green is-underlined" href="https://waterfrontoronto.ca/nbe/wcm/connect/waterfront/db7b12c6-3155-4f55-a545-9ae0f24869f2/Waterfront+Toronto+Green+Building+Requirements+%28GBR%29+Version+3.0+-+January+2021.pdf?MOD=AJPERES" target="_blank">Waterfront Toronto Green Building Requirements (GBR) Version 3.0 - January 2021 (waterfrontoronto.ca)  </a></li>
+                                <li>a. <a class="has-text-green is-underlined" href="https://www.toronto.ca/city-government/planning-development/official-plan-guidelines/toronto-green-standard/toronto-green-standard-version-3/mid-to-high-rise-residential-all-non-residential-version-3/" target="_blank">Mid to High-Rise Residential & all Non-Residential Version 3 – City of Toronto  </a></li>
+                                <li>b. <a class="has-text-green is-underlined" href="https://waterfrontoronto.ca/nbe/wcm/connect/waterfront/db7b12c6-3155-4f55-a545-9ae0f24869f2/Waterfront+Toronto+Green+Building+Requirements+%28GBR%29+Version+3.0+-+January+2021.pdf?MOD=AJPERES" target="_blank">Waterfront Toronto Green Building Requirements (GBR) Version 3.0 - January 2021 (waterfrontoronto.ca)  </a></li>
                             </ul>
                         </li>
                         <li>5. Waterfront Toronto Annual Reports and Strategic Plans 
                             <ul>
-                                <li><a class="has-text-green is-underlined" href="https://www.waterfrontoronto.ca/nbe/portal/waterfront/bannerlinks/docs/documents/annual%20reports/annual%20reports/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOL9DF1cDQ39DbwNXF2MDBydfSyc_DxDjAyNjfQLsh0VAbwbhwQ!/?category=Waterfront_Content_Library/Waterfront%20Home/document%20library/documents/Annual%20Reports" target="_blank">Document Library (waterfrontoronto.ca) </a></li>
+                                <li>a. <a class="has-text-green is-underlined" href="https://www.waterfrontoronto.ca/nbe/portal/waterfront/bannerlinks/docs/documents/annual%20reports/annual%20reports/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOL9DF1cDQ39DbwNXF2MDBydfSyc_DxDjAyNjfQLsh0VAbwbhwQ!/?category=Waterfront_Content_Library/Waterfront%20Home/document%20library/documents/Annual%20Reports" target="_blank">Document Library (waterfrontoronto.ca) </a></li>
                             </ul>
                         </li>
                     </ul>
@@ -781,21 +781,21 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>To do so, Developing an innovative app that creates an interactive experience to encourage residents to explore, learn and connect with Brampton’s NHS.</p>
                     <p>This app should increase residents' connection to Brampton’s NHS by:</p>
                     <ul>
-                        <li>Promoting various trails, sites and unique features in Brampton’s Natural Heritage System and green spaces;</li>
-                        <li>Educate residents on the benefits of Brampton’s natural areas and features;</li>
-                        <li>Provide interactive activities that enable residents to foster connections with nature; </li>
-                        <li>Ensuring local interests and needs of Brampton’s population and demographics are reflected; </li>
-                        <li>Help empower and build a community around the Natural Heritage System by connecting people with similar interests.  </li>
+                        <li>1. Promoting various trails, sites and unique features in Brampton’s Natural Heritage System and green spaces;</li>
+                        <li>2. Educate residents on the benefits of Brampton’s natural areas and features;</li>
+                        <li>3. Provide interactive activities that enable residents to foster connections with nature; </li>
+                        <li>4. Ensuring local interests and needs of Brampton’s population and demographics are reflected; </li>
+                        <li>5. Help empower and build a community around the Natural Heritage System by connecting people with similar interests.  </li>
                     </ul>
                     <h3>Objective/Solution </h3>
                     <p>How do we promote City of Brampton's legacy through an interactive system, building connections and engaging residents to explore and learn city's natural system, and maintain a sustainable and resilient community? </p>
                     <ul>
-                        <li>Gamification such as Treasure Hunt, Quest, Social Media Contest </li>
-                        <li>Improve social media presence by linking available platforms </li>
-                        <li>Sharing clips about their experiences </li>
-                        <li>Educate the community about the natural heritage landmarks </li>
-                        <li>Increase awareness about community events organized within the city to foster connections with nature</li> 
-                        <li>Promote healthy living and active lifestyle by giving rewards for walking </li>
+                        <li>1. Gamification such as Treasure Hunt, Quest, Social Media Contest </li>
+                        <li>2. Improve social media presence by linking available platforms </li>
+                        <li>3. Sharing clips about their experiences </li>
+                        <li>4. Educate the community about the natural heritage landmarks </li>
+                        <li>5. Increase awareness about community events organized within the city to foster connections with nature</li> 
+                        <li>6. Promote healthy living and active lifestyle by giving rewards for walking </li>
                     </ul>
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
@@ -812,10 +812,10 @@ const ChallengeSetsDetails = ({id}) => {
                     <p class="has-text-weight-bold">What are a few of the most important and/or prominent features that the sponsors are looking for? </p>
                     <p>The solution needs to be interactive. Few of them talked about features that we are looking forward to would be: </p>
                     <ul>
-                        <li>Gamification (Hint: Treasure Hunt)</li>
-                        <li>Social media integration</li>
-                        <li>Discussion Boards</li>
-                        <li>Check-in rewards</li>
+                        <li>1. Gamification (Hint: Treasure Hunt)</li>
+                        <li>2. Social media integration</li>
+                        <li>3. Discussion Boards</li>
+                        <li>4. Check-in rewards</li>
                     </ul>
                     <p>These are a few ideas. The application must not be limited to these features.</p>
                     <p class="has-text-weight-bold">Am I allowed to share the datasets with other contributors? </p>
@@ -839,9 +839,9 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <ul>
-                        <li><a class="has-text-green is-underlined" href="https://vaughancloud-my.sharepoint.com/personal/alison_munro_vaughan_ca/_layouts" target="_blank">Dataset from City of Vaughan</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.satpalda.com/blogs/water-conservation-planning-and-management" target="_blank">WATER - CONSERVATION, PLANNING AND MANAGEMENT</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.epa.gov/waterdata/waters-geospatial-data-downloads" target="_blank">WATERS Geospatial Data Downloads</a></li>
+                        <li>1. <a class="has-text-green is-underlined" href="https://vaughancloud-my.sharepoint.com/personal/alison_munro_vaughan_ca/_layouts" target="_blank">Dataset from City of Vaughan</a></li>
+                        <li>2. <a class="has-text-green is-underlined" href="https://www.satpalda.com/blogs/water-conservation-planning-and-management" target="_blank">WATER - CONSERVATION, PLANNING AND MANAGEMENT</a></li>
+                        <li>3. <a class="has-text-green is-underlined" href="https://www.epa.gov/waterdata/waters-geospatial-data-downloads" target="_blank">WATERS Geospatial Data Downloads</a></li>
                     </ul>
                     <h3>FAQ</h3>
                     <p class="has-text-weight-bold">What is the expected solution out of this analysis?</p>
@@ -872,8 +872,8 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <ul>
-                        <li>Dataset from City of Vaughan</li>
-                        <li><a class="has-text-green is-underlined" href="https://www.smatstraffic.com/" target="_blank">Collect, Analyze, & Interpret Traffic Data</a></li>
+                        <li>1. Dataset from City of Vaughan</li>
+                        <li>2. <a class="has-text-green is-underlined" href="https://www.smatstraffic.com/" target="_blank">Collect, Analyze, & Interpret Traffic Data</a></li>
                     </ul>
                     <h3>FAQ</h3>
                     <p class="has-text-weight-bold">What is the expected solution out of this analysis? </p>
@@ -900,7 +900,7 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <ul>
-                        <li>Dataset from City of Vaughan</li>
+                        <li>1. Dataset from City of Vaughan</li>
                     </ul>
                     `
                 },
@@ -920,13 +920,13 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>Create a design or plan a recommender system that can be used to increase canopy cover and enhance resiliency. You can also combine data sets for use in improving accessibility and knowledge of Toronto’s ravine system to connect school grounds and nearby communities. </p>
                     <p class="has-text-weight-bold">Possible solutions could focus on: </p>
                     <ul>
-                        <li>Using mapping, geomatics, and visualization tools to model possible strategies and applying deep analytics to present a data set for use in resiliency projects </li>
+                        <li>1. Using mapping, geomatics, and visualization tools to model possible strategies and applying deep analytics to present a data set for use in resiliency projects </li>
 
-                        <li>Providing recommendations on the best species / variety of trees that will thrive in a land area  </li>
+                        <li>2. Providing recommendations on the best species / variety of trees that will thrive in a land area  </li>
                         
-                        <li>Providing recommendations on viable locations where we can increase accessibility, familiarity, safety, and knowledge of these green spaces </li>
+                        <li>3. Providing recommendations on viable locations where we can increase accessibility, familiarity, safety, and knowledge of these green spaces </li>
                         
-                        <li>Gamification to increase awareness and exploration, and promote maintenance and care of schoolgrounds </li>
+                        <li>4. Gamification to increase awareness and exploration, and promote maintenance and care of schoolgrounds </li>
                     </ul>
                     <p class="has-text-weight-bold">What you will submit:</p>
                     <ol>
@@ -937,29 +937,29 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <ul>
-                        <li><a class="has-text-green is-underlined" href="https://docs.google.com/spreadsheets/d/1gdlJcdsgfnieJttkomt4MyvRW-xED5stxpfg9rjLtSs/edit#gid=0" target="_blank">Seneca Sustainability Hackathon 2022 - TDSB Challenge Set - DATA SET </a></li>
+                        <li>1. <a class="has-text-green is-underlined" href="https://docs.google.com/spreadsheets/d/1gdlJcdsgfnieJttkomt4MyvRW-xED5stxpfg9rjLtSs/edit#gid=0" target="_blank">Seneca Sustainability Hackathon 2022 - TDSB Challenge Set - DATA SET </a></li>
                     </ul>
                     <h3>FAQ</h3>
                     <p class="has-text-weight-bold">What are the key considerations when building the challenge set? </p>
                     <p>The key considerations when building the challenge set are: </p>
                     <ul>
-                        <li>Re-wilding TDSB school grounds.</li>
-                        <li>How TDSB school grounds can connect and enhance Toronto's ravine system.</li>
-                        <li>Objective of increasing biodiversity and mitigating climate change impacts.</li>
+                        <li>1. Re-wilding TDSB school grounds.</li>
+                        <li>2. How TDSB school grounds can connect and enhance Toronto's ravine system.</li>
+                        <li>3. Objective of increasing biodiversity and mitigating climate change impacts.</li>
                         <li>
-                        TDSB’s Action Item regarding Urban Forest.
+                        4. TDSB’s Action Item regarding Urban Forest.
                             <ul>
-                                <li>1. Double the size of the TDSB’s large tree planting program.</li>
+                                <li>a. Double the size of the TDSB’s large tree planting program.</li>
                             </ul>
                         </li>
-                        <li>City of Toronto Strategic Forest Management objectives 
+                        <li>5. City of Toronto Strategic Forest Management objectives 
                             <ul>
-                                <li>1. Increase canopy cover.</li>
-                                <li>2. Achieve equitable distribution</li>
-                                <li>3. Increase biodiversity</li>
-                                <li>4. Increase awareness</li>
-                                <li>5. Promote stewardship</li>
-                                <li>6. Improve monitoring </li>
+                                <li>a. Increase canopy cover.</li>
+                                <li>b. Achieve equitable distribution</li>
+                                <li>c. Increase biodiversity</li>
+                                <li>d. Increase awareness</li>
+                                <li>e. Promote stewardship</li>
+                                <li>f. Improve monitoring </li>
                             </ul>
                         </li>
                     </ul>
