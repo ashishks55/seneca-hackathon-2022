@@ -1454,3 +1454,7 @@ div.sponsor-list:last-child {
 .inline-img-cc{
   max-width: 800px;
 }
+
+.footer-links{
+    font-size:0.9rem;
+}
