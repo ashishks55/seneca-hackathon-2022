@@ -111,31 +111,31 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>Objective/Solutions</h3>
                     <ul>
                         <li>Your team’s solution should encompass one of the following: </li>
-                        <li><b>Sustainability Insights:</b> Based on the OECD data, can your team find insights that reveal a potential healthcare sustainability issue(s) in Canada. What would your team’s recommendation be on a potential area(s) that needs a healthcare sustainability initiative?  </li>
+                        <li><b>1. Sustainability Insights:</b> Based on the OECD data, can your team find insights that reveal a potential healthcare sustainability issue(s) in Canada. What would your team’s recommendation be on a potential area(s) that needs a healthcare sustainability initiative?  </li>
                         <ul>
-                            <li>1. Solutions should be able to clearly explain the rationale on why a selected area(s) was chosen  </li>
-                            <li>2. Identifying an area for a healthcare sustainability initiative would already be a good solution, but if your team is feeling ambitious, teams are welcome to propose ideas to address any sustainability challenges uncovered </li>
+                            <li>a. Solutions should be able to clearly explain the rationale on why a selected area(s) was chosen  </li>
+                            <li>b. Identifying an area for a healthcare sustainability initiative would already be a good solution, but if your team is feeling ambitious, teams are welcome to propose ideas to address any sustainability challenges uncovered </li>
                         </ul>
-                        <li><b>Tool Development:</b> Can we build a data tool to more easily identify and extract insights from the OECD data set? This tool should be able to help easily flag potential healthcare sustainability issues from the data set. </li>
-                        <li>Teams are welcome to include both insights and tool development in their solutions, but this is not an expectation due to time limitations </li>
+                        <li><b>2. Tool Development:</b> Can we build a data tool to more easily identify and extract insights from the OECD data set? This tool should be able to help easily flag potential healthcare sustainability issues from the data set. </li>
+                        <li>3. Teams are welcome to include both insights and tool development in their solutions, but this is not an expectation due to time limitations </li>
                     </ul>
                     <h4>Thought starters:</h4>
                     <ul>
-                        <li>Can we identify trends in the data that might pose a sustainability issue (e.g. hospital bed numbers going down, decreasing long term care workers for the older population)?</li>
-                        <li>Can we identify correlations between different healthcare statistics that signify a potential sustainability issue in the healthcare system (e.g. Hospital average length of stay for cataract increasing while number of cataract surgeries are also increasing)?</li>
-                        <li>Are there data trends that highlight challenges in our healthcare system to sustainability manage potential future waves of COVID-19?</li>
-                        <li>Does the data from other countries help reveal sustainability issues in Canada’s healthcare system?</li>
-                        <li>Are there any improvements that can be made to better visualize and analyze the available OECD data?</li>
-                        <li>Feel free to explore public examples on how the OECD data (in health and other areas) has been used. For example, Canadian Institute for Health Information (CIHI)’s interactive web tool: <a class="has-text-green is-underlined" href="https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons" target="_blank">https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons</a></li>
-                        <li>Teams are also welcome to explore other topics in the OECD data set if helpful (e.g. environment, demography and population etc.): <a class="has-text-green is-underlined" href="https://stats.oecd.org/" target="_blank">https://stats.oecd.org/</a> </li>
+                        <li>1. Can we identify trends in the data that might pose a sustainability issue (e.g. hospital bed numbers going down, decreasing long term care workers for the older population)?</li>
+                        <li>2. Can we identify correlations between different healthcare statistics that signify a potential sustainability issue in the healthcare system (e.g. Hospital average length of stay for cataract increasing while number of cataract surgeries are also increasing)?</li>
+                        <li>3. Are there data trends that highlight challenges in our healthcare system to sustainability manage potential future waves of COVID-19?</li>
+                        <li>4. Does the data from other countries help reveal sustainability issues in Canada’s healthcare system?</li>
+                        <li>5. Are there any improvements that can be made to better visualize and analyze the available OECD data?</li>
+                        <li>6. Feel free to explore public examples on how the OECD data (in health and other areas) has been used. For example, Canadian Institute for Health Information (CIHI)’s interactive web tool: <a class="has-text-green is-underlined" href="https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons" target="_blank">https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons</a></li>
+                        <li>7. Teams are also welcome to explore other topics in the OECD data set if helpful (e.g. environment, demography and population etc.): <a class="has-text-green is-underlined" href="https://stats.oecd.org/" target="_blank">https://stats.oecd.org/</a> </li>
                     </ul>
                     <h3>Resources/Data</h3>
                     <p><a class="has-text-green is-underlined" href="https://stats.oecd.org/Index.aspx?ThemeTreeId=9" target="_blank">Click here</a> for resources/data.</p>
-                    <p>The OECD Health Database is comprehensive source of comparable statistics on health and health systems across OECD countries </p>
+                    <p>1. The OECD Health Database is comprehensive source of comparable statistics on health and health systems across OECD countries. </p>
                     <p>
-                    Includes statistics around Health Expenditure and Financing, Health Care Resources, Health Care Utilization, Health Care Quality Indicators, Pharmaceutical Market, Long-term Care Resources and Utilization and others 
+                    2. Includes statistics around Health Expenditure and Financing, Health Care Resources, Health Care Utilization, Health Care Quality Indicators, Pharmaceutical Market, Long-term Care Resources and Utilization and others 
                     <ul>
-                        <li>1. Data Dictionary: <a class="has-text-green is-underlined" href="https://www.oecd.org/els/health-systems/Table-of-Content-Metadata-OECD-Health-Statistics-2021.pdf" target="_blank">https://www.oecd.org/els/health-systems/Table-of-Content-Metadata-OECD-Health-Statistics-2021.pdf</a> </li>
+                        <li>a. Data Dictionary: <a class="has-text-green is-underlined" href="https://www.oecd.org/els/health-systems/Table-of-Content-Metadata-OECD-Health-Statistics-2021.pdf" target="_blank">https://www.oecd.org/els/health-systems/Table-of-Content-Metadata-OECD-Health-Statistics-2021.pdf</a> </li>
                     </ul>
                     </p>
                     `
@@ -199,7 +199,7 @@ const ChallengeSetsDetails = ({id}) => {
                     </ul>
                     <p><b>Key Question:​</b></p>
                     <ul>
-                        <li>Implement a circular innovative solution that can help reduce the carbon emissions during the supply chain phase based on net zero carbon and circular economy baselines.</li>
+                        <li>1. Implement a circular innovative solution that can help reduce the carbon emissions during the supply chain phase based on net zero carbon and circular economy baselines.</li>
                         <li><b>NOTE:</b> The solution need not be a technology. It can be a business model as well that aims at circularity.​</li>
                     </ul>
                     <p><b>Barriers to Overcome:​</b></p>
@@ -209,10 +209,10 @@ const ChallengeSetsDetails = ({id}) => {
                     </ul>
                     <h3>References</h3>
                     <ul>
-                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c04945685.pdf" target="_blank">HP’s Supply Chain Responsibility</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.cdp.net/en/research/global-reports/engaging-the-chain" target="_blank">Engaging the chain: driving speed and scale​</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c04797682.pdf" target="_blank">HP Supply Chain Social and Environmental Responsibility Policy​</a></li>
+                        <li>1. <a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c04945685.pdf" target="_blank">HP’s Supply Chain Responsibility</a></li>
+                        <li>2. <a class="has-text-green is-underlined" href="https://www.cdp.net/en/research/global-reports/engaging-the-chain" target="_blank">Engaging the chain: driving speed and scale​</a></li>
+                        <li>3. <a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020</a></li>
+                        <li>4. <a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c04797682.pdf" target="_blank">HP Supply Chain Social and Environmental Responsibility Policy​</a></li>
                     </ul>
                     `
                 },
@@ -235,9 +235,9 @@ const ChallengeSetsDetails = ({id}) => {
                     </ul>
                     <h3>References</h3>
                     <ul>
-                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c06614535.pdf" target="_blank">The battle against Plastic Pollution​</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020​</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.greenbiz.com/article/plastic-pollution-bad-how-exactly-it-linked-climate-change?utm_medium=email&utm_source=newsletter&utm_campaign=newsletter-template&utm_content=02-18-2022%20Circularity%20Weekly&mkt_tok=MjExLU5KWS0xNjUAAAGCrBwsRIEXB-z9JWPeAsz_x-DRxqsjjB7i92FpOrtoIFLxUS-I6hYRwsA_mj8rdEC_2frpnMNKlDG6KRbk9faKsgdpHXiqMVLlDp-W41HF" target="_blank">Plastic pollution is bad, but how exactly is it linked to climate change?</a></li>
+                        <li>1. <a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c06614535.pdf" target="_blank">The battle against Plastic Pollution​</a></li>
+                        <li>2. <a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020​</a></li>
+                        <li>3. <a class="has-text-green is-underlined" href="https://www.greenbiz.com/article/plastic-pollution-bad-how-exactly-it-linked-climate-change?utm_medium=email&utm_source=newsletter&utm_campaign=newsletter-template&utm_content=02-18-2022%20Circularity%20Weekly&mkt_tok=MjExLU5KWS0xNjUAAAGCrBwsRIEXB-z9JWPeAsz_x-DRxqsjjB7i92FpOrtoIFLxUS-I6hYRwsA_mj8rdEC_2frpnMNKlDG6KRbk9faKsgdpHXiqMVLlDp-W41HF" target="_blank">Plastic pollution is bad, but how exactly is it linked to climate change?</a></li>
                     </ul>
                     `
                 },
@@ -259,9 +259,9 @@ const ChallengeSetsDetails = ({id}) => {
                     </ul>
                     <h3>References</h3>
                     <ul>
-                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c06646300.pdf" target="_blank">Assessment Shows Service-based Models Deliver Positive Environmental Impact​</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020​</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/4AA7-1229ENW.pdf" target="_blank">Take the hassle out of device management​</a></li>
+                        <li>1. <a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c06646300.pdf" target="_blank">Assessment Shows Service-based Models Deliver Positive Environmental Impact​</a></li>
+                        <li>2. <a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020​</a></li>
+                        <li>3. <a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/4AA7-1229ENW.pdf" target="_blank">Take the hassle out of device management​</a></li>
                     </ul>
                     `
                 }
@@ -314,10 +314,10 @@ const ChallengeSetsDetails = ({id}) => {
                     </ul>
                     <h3>Resources/Data</h3>  
                     <ul>
-                        <li><a class="has-text-green is-underlined" href="https://canadasafetycouncil.org/gambling-addiction/" target="_blank">Gambling Addiction</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.tandfonline.com/doi/full/10.1080/10550887.2021.1897064" target="_blank">Exploring the public’s perception of gambling addiction on Twitter during the COVID-19 pandemic: Topic modelling and sentiment analysis</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://link.springer.com/article/10.1007/s10899-021-10089-0" target="_blank">Longitudinal Assessment of a Manualized Group Treatment Program for Gambling Disorder: The Ohio Problem Gambling Treatment Model for Adults with Co-Occurring Disorders</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.liebertpub.com/doi/full/10.1089/cyber.2021.0188" target="_blank">Social Media Use and Its Link to Physical Health Indicators</a></li>
+                        <li>1. <a class="has-text-green is-underlined" href="https://canadasafetycouncil.org/gambling-addiction/" target="_blank">Gambling Addiction</a></li>
+                        <li>2. <a class="has-text-green is-underlined" href="https://www.tandfonline.com/doi/full/10.1080/10550887.2021.1897064" target="_blank">Exploring the public’s perception of gambling addiction on Twitter during the COVID-19 pandemic: Topic modelling and sentiment analysis</a></li>
+                        <li>3. <a class="has-text-green is-underlined" href="https://link.springer.com/article/10.1007/s10899-021-10089-0" target="_blank">Longitudinal Assessment of a Manualized Group Treatment Program for Gambling Disorder: The Ohio Problem Gambling Treatment Model for Adults with Co-Occurring Disorders</a></li>
+                        <li>4. <a class="has-text-green is-underlined" href="https://www.liebertpub.com/doi/full/10.1089/cyber.2021.0188" target="_blank">Social Media Use and Its Link to Physical Health Indicators</a></li>
                     </ul>
                     <h3>FAQ</h3>  
                     <p>SSOs and PEOs, what were your questions when you were starting out on this challenge set development journey? What answers have you found? What do students need to know before they get started?</p>
@@ -344,10 +344,10 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>4. Building community: Creating a Seneca student club with primary target to get students engaged in environmentally sustainable activities like sapling plantations, rainwater harvesting, etc.</p>
                     <h3>Resources/Data</h3>
                     <ul>
-                        <li><a class="has-text-green is-underlined" href="https://www.senecacollege.ca/about/reports/a-reports/Seneca-College-2019-CDM-Plan.pdf" target="_blank">Seneca’s Conservation and Demand Management (CDM) Plan</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://sustainabilityknowledgegroup.com/sustainability-and-the-sdgs-to-become-part-of-the-primary-and-secondary-school-curriculum-a-next-step/" target="_blank">Sustainability and the SDGs to become part of the Primary and Secondary School Curriculum: A Next Step?</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.mdpi.com/2071-1050/13/5/2779/htm" target="_blank">An Analysis of Sustainability Integration in Business School Curricula: Evidence from Korea</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.tandfonline.com/doi/abs/10.1080/13504509.2021.1880983" target="_blank">Impact of sustainability-focused learning intervention on teachers’ agency to teach for sustainable development</a></li>
+                        <li>1. <a class="has-text-green is-underlined" href="https://www.senecacollege.ca/about/reports/a-reports/Seneca-College-2019-CDM-Plan.pdf" target="_blank">Seneca’s Conservation and Demand Management (CDM) Plan</a></li>
+                        <li>2. <a class="has-text-green is-underlined" href="https://sustainabilityknowledgegroup.com/sustainability-and-the-sdgs-to-become-part-of-the-primary-and-secondary-school-curriculum-a-next-step/" target="_blank">Sustainability and the SDGs to become part of the Primary and Secondary School Curriculum: A Next Step?</a></li>
+                        <li>3. <a class="has-text-green is-underlined" href="https://www.mdpi.com/2071-1050/13/5/2779/htm" target="_blank">An Analysis of Sustainability Integration in Business School Curricula: Evidence from Korea</a></li>
+                        <li>4. <a class="has-text-green is-underlined" href="https://www.tandfonline.com/doi/abs/10.1080/13504509.2021.1880983" target="_blank">Impact of sustainability-focused learning intervention on teachers’ agency to teach for sustainable development</a></li>
                     </ul>
                     <h3>FAQ</h3>
                     <p>SSOs and PEOs, what were your questions when you were starting out on this challenge set development journey? What answers have you found? What do students need to know before they get started?</p>
@@ -368,8 +368,8 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>1. Choose one of the United Nations’ Sustainable Development Goals and try to implement it on a local level.</p>
                     <p>2. Open challenge set with many possible solutions.</p>
                     <h3>Resources/Data</h3>
-                    <p><a class="has-text-green is-underlined" href="https://sdgs.un.org/goals" target="_blank">THE 17 GOALS</a></p>
-                    <p><a class="has-text-green is-underlined" href="https://sdgs.un.org/2030agenda" target="_blank">Transforming our world: the 2030 Agenda for Sustainable Development</a></p>
+                    <p>1. <a class="has-text-green is-underlined" href="https://sdgs.un.org/goals" target="_blank">THE 17 GOALS</a></p>
+                    <p>2. <a class="has-text-green is-underlined" href="https://sdgs.un.org/2030agenda" target="_blank">Transforming our world: the 2030 Agenda for Sustainable Development</a></p>
                     <h3>FAQ</h3>
                     <p>SSOs and PEOs, what were your questions when you were starting out on this challenge set development journey? What answers have you found? What do students need to know before they get started?</p>
                     `
@@ -422,17 +422,17 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>Be creative!</p>
                     <h3>Resources/Data</h3>
                     <ul>
-                        <li><a class="has-text-green is-underlined" href="https://sdgs.un.org/topics/sustainable-cities-and-human-settlements" target="_blank">Goal 11</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.housing.housing-note.housing-note--may-12-2021-.html" target="_blank">Background Study on the Scale of Housing Affordability Crisis in Canada Scotia Bank – Estimating the Structural Housing Shortage in Canada: Are we 100 Thousand or Nearly 2 Million Units Short</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://files.ontario.ca/mmah-housing-affordability-task-force-report-en-2022-02-07-v2.pdf" target="_blank">Background Study on Most Recent Update about Ontario’s Housing Affordability and the Task Force’s Recommendations: Report of the Ontario Housing Affordability Task Force</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/wp-content/uploads/2020/04/94f0-housing-to-2020-2030-action-plan-housing-secretariat.pdf" target="_blank">Background Study on City of Toronto’s Housing Affordability Vision and Plans for This Decade: City of Toronto – Housing TO 2020 – 2030 Action Plan</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://eppdscrmssa01.blob.core.windows.net/cmhcprodcontainer/sf/project/placetocallhome/pdfs/canada-national-housing-strategy.pdf" target="_blank">Background Study on the Federal Government’s Housing Policy Vision and Plans: Government of Canada – National Housing Strategy</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.placetocallhome.ca/stories#sort=relevancy" target="_blank">Reference on Projects that are Selected by CMHC: Projects Funded through CMHC Affordable Housing Innovation Fund</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/legdocs/mmis/2021/ph/bgrd/backgroundfile-165633.pdf" target="_blank">Reference on the Digital Access System to be Created by the City of Toronto: Creation of a Fair and Streamlined Access System for Affordable Housing</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://canurb.org//wp-content/uploads/CUIPublication.ScalingUpAffordableHousingGTA.2017.pdf" target="_blank">Reference on Funding Program Models Offered by Non-Profit Organizations: P.19 – P.23 of Canadian Urban Institute’s Report on Scaling Up Affordable Ownership Housing in the GTA </a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.usebraintrust.com/hubfs/%5BWhitepaper%5D%20Braintrust_The_Decentralized_Talent_Network_9_2_21.pdf" target="_blank">Example of a Network Marketplace for the Talent Acquisition Space: Braintrust White Paper</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://decentraland.org/whitepaper.pdf" target="_blank">Example of a Decentralized Property Ownership Ledger for Digital Land: Decentraland White Paper </a></li>
-                        <li><a class="has-text-green is-underlined" href="https://whitepaper.io/document/623/flow-dapper-labs-whitepaper" target="_blank">Example of a Decentralized and Open-Source Blockchain: Flow White Paper </a></li>
+                        <li>1. <a class="has-text-green is-underlined" href="https://sdgs.un.org/topics/sustainable-cities-and-human-settlements" target="_blank">Goal 11</a></li>
+                        <li>2. <a class="has-text-green is-underlined" href="https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.housing.housing-note.housing-note--may-12-2021-.html" target="_blank">Background Study on the Scale of Housing Affordability Crisis in Canada Scotia Bank – Estimating the Structural Housing Shortage in Canada: Are we 100 Thousand or Nearly 2 Million Units Short</a></li>
+                        <li>3. <a class="has-text-green is-underlined" href="https://files.ontario.ca/mmah-housing-affordability-task-force-report-en-2022-02-07-v2.pdf" target="_blank">Background Study on Most Recent Update about Ontario’s Housing Affordability and the Task Force’s Recommendations: Report of the Ontario Housing Affordability Task Force</a></li>
+                        <li>4. <a class="has-text-green is-underlined" href="https://www.toronto.ca/wp-content/uploads/2020/04/94f0-housing-to-2020-2030-action-plan-housing-secretariat.pdf" target="_blank">Background Study on City of Toronto’s Housing Affordability Vision and Plans for This Decade: City of Toronto – Housing TO 2020 – 2030 Action Plan</a></li>
+                        <li>5. <a class="has-text-green is-underlined" href="https://eppdscrmssa01.blob.core.windows.net/cmhcprodcontainer/sf/project/placetocallhome/pdfs/canada-national-housing-strategy.pdf" target="_blank">Background Study on the Federal Government’s Housing Policy Vision and Plans: Government of Canada – National Housing Strategy</a></li>
+                        <li>6. <a class="has-text-green is-underlined" href="https://www.placetocallhome.ca/stories#sort=relevancy" target="_blank">Reference on Projects that are Selected by CMHC: Projects Funded through CMHC Affordable Housing Innovation Fund</a></li>
+                        <li>7. <a class="has-text-green is-underlined" href="https://www.toronto.ca/legdocs/mmis/2021/ph/bgrd/backgroundfile-165633.pdf" target="_blank">Reference on the Digital Access System to be Created by the City of Toronto: Creation of a Fair and Streamlined Access System for Affordable Housing</a></li>
+                        <li>8. <a class="has-text-green is-underlined" href="https://canurb.org//wp-content/uploads/CUIPublication.ScalingUpAffordableHousingGTA.2017.pdf" target="_blank">Reference on Funding Program Models Offered by Non-Profit Organizations: P.19 – P.23 of Canadian Urban Institute’s Report on Scaling Up Affordable Ownership Housing in the GTA </a></li>
+                        <li>9. <a class="has-text-green is-underlined" href="https://www.usebraintrust.com/hubfs/%5BWhitepaper%5D%20Braintrust_The_Decentralized_Talent_Network_9_2_21.pdf" target="_blank">Example of a Network Marketplace for the Talent Acquisition Space: Braintrust White Paper</a></li>
+                        <li>10. <a class="has-text-green is-underlined" href="https://decentraland.org/whitepaper.pdf" target="_blank">Example of a Decentralized Property Ownership Ledger for Digital Land: Decentraland White Paper </a></li>
+                        <li>11. <a class="has-text-green is-underlined" href="https://whitepaper.io/document/623/flow-dapper-labs-whitepaper" target="_blank">Example of a Decentralized and Open-Source Blockchain: Flow White Paper </a></li>
                     </ul>
                     <h3>FAQ</h3>
                     <p>What were your questions when you were starting out on this challenge set development journey? What answers have you found? What do students need to know before they get started?</p>
@@ -552,9 +552,9 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>FAQ</h3>
                     <p>What are the 3 Rs of E-Waste?</p>
                     <ul>
-                        <li><b>Refurbish</b>: Solving/fixing the issues of existing devices by replacing the same type or similar components. - Cost saving, reliable, eco-friendly, certified testing.</li>
-                        <li><b>Redesign</b>: Utilizing the same product or parts of the product for another purpose.</li>
-                        <li><b>Repurpose</b>: Utilizing the same product or parts of the product for another purpose.</li>
+                        <li><b>1. Refurbish</b>: Solving/fixing the issues of existing devices by replacing the same type or similar components. - Cost saving, reliable, eco-friendly, certified testing.</li>
+                        <li><b>2. Redesign</b>: Utilizing the same product or parts of the product for another purpose.</li>
+                        <li><b>3. Repurpose</b>: Utilizing the same product or parts of the product for another purpose.</li>
                     </ul>
                     `
                 },
@@ -730,42 +730,42 @@ const ChallengeSetsDetails = ({id}) => {
                     </ul>
 
                     <h3>FAQ</h3>
-                    <p class="has-text-weight-bold">What is Urban Resilience? </p>
+                    <p class="has-text-weight-bold">1. What is Urban Resilience? </p>
                     <ul>
                         <li>Urban resilience is the capacity of a city’s systems, businesses, institutions, communities, and individuals to survive, adapt, and grow, no matter what chronic stresses (such as recurrent flooding, high unemployment, limited social safety nets) and acute shocks (i.e., sudden, intense events that threaten a community, such as earthquakes, hurricanes) they experience. Urban resilience responds to three converging global megatrends: climate change, urbanization, and globalization.  </li>
                     </ul>
 
-                    <p class="has-text-weight-bold">What are the factors that contribute to higher degree of Urban Resilience? </p>
+                    <p class="has-text-weight-bold">2. What are the factors that contribute to higher degree of Urban Resilience? </p>
                     <ul>
                         <li>Urban Resilience is assessed on multiple dimensions like Health & Wellbeing, Economy & Society, Infrastructure & Ecosystems, and Leadership & Strategy.  </li>
                     </ul>
 
-                    <p class="has-text-weight-bold">Is this Challenge set for Computer programmers only? </p>
+                    <p class="has-text-weight-bold">3. Is this Challenge set for Computer programmers only? </p>
                     <ul>
                         <li>No. Student(s) from any academic background can participate in the challenge set. </li>
                     </ul>
 
-                    <p class="has-text-weight-bold">Does the final deliverable have to be a software or computer program? </p>
+                    <p class="has-text-weight-bold">4. Does the final deliverable have to be a software or computer program? </p>
                     <ul>
                         <li>No. The final deliverable can be anything that covers a detailed solution to the said challenge of quantifying/measuring the degree of urban resilience. It can be as simple as a descriptive checklist with a precise scoring mechanism or as complex as preparing a model/prototype and demonstrating resilience to various natural/man-made problems. </li>
                     </ul>
 
-                    <p class="has-text-weight-bold">Do we need to confine our research based on just the data inputs made available with the challenge set? </p>
+                    <p class="has-text-weight-bold">5. Do we need to confine our research based on just the data inputs made available with the challenge set? </p>
                     <ul>
                         <li>Not at all. In fact, the teams are expected to take this up as an exploratory work to bring on the table better ideas. At the same time, the datasets used must be relevant and verifiable. </li>
                     </ul>
 
-                    <p class="has-text-weight-bold">Do we need to compulsorily address both the dimensions: Urban Resilience as well as Green Building Requirements (GBR) compliance? </p>
+                    <p class="has-text-weight-bold">6. Do we need to compulsorily address both the dimensions: Urban Resilience as well as Green Building Requirements (GBR) compliance? </p>
                     <ul>
                         <li>Despite both the topics overlapping up to certain extent, Urban Resilience must be addressed while GBR is optional to cover. </li>
                     </ul>
 
-                    <p class="has-text-weight-bold">Can we model our response in the context of some other city/area for which more public data is available? </p>
+                    <p class="has-text-weight-bold">7. Can we model our response in the context of some other city/area for which more public data is available? </p>
                     <ul>
                         <li>We understand the scarcity of public data specific to the designated waterfront area of Toronto. Hence, you may choose to make submission by applying the model to a different city/area. However, the model must be reusable without many modifications for the waterfront area provided required data is made accessible. Also, it must be ensured that the chosen city/area resembles the geological conditions around Toronto Waterfront; for example, the fact that it is located at the shore of a large water body – Lake Ontario presents the requirement to mitigate situations like flooding. </li>
                     </ul>
 
-                    <p class="has-text-weight-bold">Is there any rubric against which the submission will be assessed? </p>
+                    <p class="has-text-weight-bold">8. Is there any rubric against which the submission will be assessed? </p>
                     <ul>
                         <li>While it can be a non-exhaustive list, some of the aspects to keep in mind are understanding of the problem statement, thoroughness of research done, relevance of the solution proposed, and feasibility and affordability in terms of real-world implementation. </li>
                     </ul>
@@ -801,15 +801,15 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <p>Dataset from City of Brampton : <a class="has-text-green is-underlined" href="https://seneca-my.sharepoint.com/:w:/g/personal/vagrawal2_myseneca_ca/ERJtkSTnK0NJtJG9k2l43Y0BDRks0ojpHVqf7GcFB1aINA?e=KlWi6w" target="_blank">Click here.</a></p>
                     <h3>FAQ</h3>
-                    <p class="has-text-weight-bold">What is the expected solution out of this app?</p>
+                    <p class="has-text-weight-bold">1. What is the expected solution out of this app?</p>
                     <ul>
                         <li>To Provide a solution with an interactive app for the community that will help them explore more natural heritage sites, including a <b>security feature by integrating GIS (Geographic Information Systems) which maps data.</b></li>
                     </ul>
-                    <p class="has-text-weight-bold">How does the data provided help and how will it build towards building an app?</p>
+                    <p class="has-text-weight-bold">2. How does the data provided help and how will it build towards building an app?</p>
                     <ul>
                         <li>Identifying nature and consumption from the data provided by the City of Brampton will help to analyze the natural landmarks and demographic patterns of the community by the data provided. This data will help to build an app highlighting the city’s Natural Heritage System by connecting people with nature responsibly by integrating gamification. </li>
                     </ul>
-                    <p class="has-text-weight-bold">What are a few of the most important and/or prominent features that the sponsors are looking for? </p>
+                    <p class="has-text-weight-bold">3. What are a few of the most important and/or prominent features that the sponsors are looking for? </p>
                     <p>The solution needs to be interactive. Few of them talked about features that we are looking forward to would be: </p>
                     <ul>
                         <li>1. Gamification (Hint: Treasure Hunt)</li>
@@ -818,7 +818,7 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>4. Check-in rewards</li>
                     </ul>
                     <p>These are a few ideas. The application must not be limited to these features.</p>
-                    <p class="has-text-weight-bold">Am I allowed to share the datasets with other contributors? </p>
+                    <p class="has-text-weight-bold">4. Am I allowed to share the datasets with other contributors? </p>
                     <ul>
                         <li>No. These datasets must only be used by the group members participating in the City of Brampton challenge set.</li>
                     </ul>
@@ -844,15 +844,15 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>3. <a class="has-text-green is-underlined" href="https://www.epa.gov/waterdata/waters-geospatial-data-downloads" target="_blank">WATERS Geospatial Data Downloads</a></li>
                     </ul>
                     <h3>FAQ</h3>
-                    <p class="has-text-weight-bold">What is the expected solution out of this analysis?</p>
+                    <p class="has-text-weight-bold">1. What is the expected solution out of this analysis?</p>
                     <ul>
                         <li>The analysis should provide reasoning on how and where water consumption is going above the limits. Is it genuine water consumption or is it due to water leakage.</li>
                     </ul>
-                    <p class="has-text-weight-bold">How does the data provided help and how will it build towards analysis?</p>
+                    <p class="has-text-weight-bold">2. How does the data provided help and how will it build towards analysis?</p>
                     <ul>
                         <li>Identifying the nature of consumers from the data provided by the City of Vaughan will help to analyze the pattern of consumption over the periodic data provided. The solution can state how the consumption has increased or decreased over the period and what could be reason for increase or decrease in consumer billing data.</li>
                     </ul>
-                    <p class="has-text-weight-bold">Combination of geospatial data and water consumption data to analyze the data and its advantages? </p>
+                    <p class="has-text-weight-bold">3. Combination of geospatial data and water consumption data to analyze the data and its advantages? </p>
                     <ul>
                         <li>The geospatial data will addon the nature of analysis by providing more information of the terrain and the resident. Considering that the consumer is a domestic resident or a factory or a person with farmlands using the water for their respective nature of consumption. </li>
                     </ul>
@@ -876,11 +876,11 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>2. <a class="has-text-green is-underlined" href="https://www.smatstraffic.com/" target="_blank">Collect, Analyze, & Interpret Traffic Data</a></li>
                     </ul>
                     <h3>FAQ</h3>
-                    <p class="has-text-weight-bold">What is the expected solution out of this analysis? </p>
+                    <p class="has-text-weight-bold">1. What is the expected solution out of this analysis? </p>
                     <ul>
                         <li>The traffic data analysis to improve road traffic management and bring solutions for improved traffic efficiency, quicker emergency response time, or preventing traffic congestion.</li>
                     </ul>
-                    <p class="has-text-weight-bold">How does the data provided help and how will it build towards analysis?</p>
+                    <p class="has-text-weight-bold">2. How does the data provided help and how will it build towards analysis?</p>
                     <ul>
                         <li>Focusing on the peak hours, nature of travel, estimated congestion time, geolocations of the traffic load and analyzing the data should make you focus on these points that should output an analysis report on points to improve the road traffic management.</li>
                     </ul>
@@ -940,7 +940,7 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>1. <a class="has-text-green is-underlined" href="https://docs.google.com/spreadsheets/d/1gdlJcdsgfnieJttkomt4MyvRW-xED5stxpfg9rjLtSs/edit#gid=0" target="_blank">Seneca Sustainability Hackathon 2022 - TDSB Challenge Set - DATA SET </a></li>
                     </ul>
                     <h3>FAQ</h3>
-                    <p class="has-text-weight-bold">What are the key considerations when building the challenge set? </p>
+                    <p class="has-text-weight-bold">1. What are the key considerations when building the challenge set? </p>
                     <p>The key considerations when building the challenge set are: </p>
                     <ul>
                         <li>1. Re-wilding TDSB school grounds.</li>
@@ -963,10 +963,10 @@ const ChallengeSetsDetails = ({id}) => {
                             </ul>
                         </li>
                     </ul>
-                    <p class="has-text-weight-bold">What is the importance of connecting the school grounds and neighborhoods to surrounding green spaces? </p>
+                    <p class="has-text-weight-bold">2. What is the importance of connecting the school grounds and neighborhoods to surrounding green spaces? </p>
                     <p>School grounds is the extension of the classroom, where kids can learn, play, experience and interact with nature. We can help make these untapped green spaces a safe and exciting place for kids to learn, and people living nearby enjoy doing recreational activities and relaxation, promoting mental and physical health. </p>
 
-                    <p class="has-text-weight-bold">What are the challenges to sustaining and expanding Toronto’s urban forest? </p>
+                    <p class="has-text-weight-bold">3. What are the challenges to sustaining and expanding Toronto’s urban forest? </p>
                     <p>Six (6) key challenges:</p>
                     <ul>
                         <li>1. Forest Health Threats</li>
@@ -977,7 +977,7 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>6. Increasing Public Awareness of the Value and Sensitivity of the Urban Forest</li>
                     </ul>
                     <p>(Source: Toronto’s Strategic Forest Management Plan 2012-2022)</p>
-                    <p class="has-text-weight-bold">What types of data sets are available for use?</p>
+                    <p class="has-text-weight-bold">4. What types of data sets are available for use?</p>
                     <ul>
                         <li>1. Articles</li>
                         <li>2. Maps</li>
