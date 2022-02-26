@@ -1458,3 +1458,11 @@ div.sponsor-list:last-child {
 .footer-links{
     font-size:0.9rem;
 }
+.email-icon{
+  margin-left: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.email-icon svg{
+  vertical-align: middle;
+}

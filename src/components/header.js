@@ -46,7 +46,7 @@ const Header = () => {
     },
     {
       title: 'Organizers',
-      link: '/#organizers',
+      link: '/organizers',
       is_selected: false
     },
     {
