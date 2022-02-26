@@ -65,8 +65,8 @@ const Organizers = () => {
             image: gabriela
         },
         {
-            name: 'Neha',
-            linkedin_url: 'https://www.linkedin.com/in/kartiksorathiya/',
+            name: 'Neha Dsouza',
+            linkedin_url: 'https://www.linkedin.com/in/nehaxdsouza/',
             email: 'nldsouza2@gmail.com',
             title: 'IT Manager/Team Lead (Information Technology)',
             image: neha
