@@ -847,6 +847,7 @@ const ChallengeSetsDetails = ({id}) => {
                 {
                     title: 'Building Connections for Brampton',
                     sponsor_logo: cm_2,
+                    video_link: 'https://youtu.be/LlNV2jkZYp4',
                     info: 
                     `
                     <h3>Background & Context</h3>
