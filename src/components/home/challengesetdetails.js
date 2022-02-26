@@ -500,7 +500,7 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>Use data publicly available from the Cities and Municipalities nearby as well as using satellite data like GIS (Geographic Information System). </p>
                     `
                 },
-                {
+                /* {
                     title: 'One Stop E-Waste Bank',
                     sponsor_logo: nzc_1,
                     logo_height: '40px',
@@ -560,7 +560,7 @@ const ChallengeSetsDetails = ({id}) => {
                         <li><b>3. Repurpose</b>: Utilizing the same product or parts of the product for another purpose.</li>
                     </ul>
                     `
-                },
+                }, */
                 {
                     title: 'Restaurant Food Waste – Management and Reduction.',
                     sponsor_logo: nzc_3,
