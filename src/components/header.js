@@ -26,7 +26,7 @@ const Header = () => {
       },
       {
           title: 'Prizes',
-          link: '#prizes',
+          link: '/#prizes',
           is_selected: false
       },
     {

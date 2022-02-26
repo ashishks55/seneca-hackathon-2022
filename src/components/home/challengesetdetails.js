@@ -200,10 +200,10 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>2. Suppliers avoided 1.38 million tonnes of CO2e ​</li>
                     </ul>
                     <p><b>Key Question:​</b></p>
-                    <ul>
-                        <li>1. Implement a circular innovative solution that can help reduce the carbon emissions during the supply chain phase based on net zero carbon and circular economy baselines.</li>
-                        <li><b>NOTE:</b> The solution need not be a technology. It can be a business model as well that aims at circularity.​</li>
-                    </ul>
+                    <ol>
+                        <li>Implement a circular innovative solution that can help reduce the carbon emissions during the supply chain phase based on net zero carbon and circular economy baselines.<br/>
+                        <b>NOTE:</b> The solution need not be a technology. It can be a business model as well that aims at circularity.​</li>
+                    </ol>
                     <p><b>Barriers to Overcome:​</b></p>
                     <ul>
                         <li>1. Getting products back & recovering parts economically enough?​</li>
@@ -254,17 +254,17 @@ const ChallengeSetsDetails = ({id}) => {
                     <p><b>Key Question:</b> Propose an innovative solution that can help enhance the usage of XaaS ( Everything as a service).</p>
                     <p><b>NOTE:</b> The solution need not be a technology. It can be a business model as well that aims at circularity.​</p>
                     <p><b>Barriers to Overcome:​</b></p>
-                    <ul>
-                        <li>1. Retail channels and salesforces are traditionally incentivized to sell products not services.​</li>
-                        <li>2. Will customers buy refurbished products?​​</li>
-                        <li>3. Customers typically want to own products & business finance systems are not flexible when shifting to a service (Capex moving to Opex) . (Capital expenditures (CAPEX) are major purchases a company makes that are designed to be used over the long term. Operating expenses (OPEX) are the day-to-day expenses a company incurs to keep its business operational)​</li>
-                    </ul>
+                    <ol>
+                        <li>Retail channels and salesforces are traditionally incentivized to sell products not services.​</li>
+                        <li>Will customers buy refurbished products?​​</li>
+                        <li>Customers typically want to own products & business finance systems are not flexible when shifting to a service (Capex moving to Opex) . (Capital expenditures (CAPEX) are major purchases a company makes that are designed to be used over the long term. Operating expenses (OPEX) are the day-to-day expenses a company incurs to keep its business operational)​</li>
+                    </ol>
                     <h3>References</h3>
-                    <ul>
-                        <li>1. <a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c06646300.pdf" target="_blank">Assessment Shows Service-based Models Deliver Positive Environmental Impact​</a></li>
-                        <li>2. <a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020​</a></li>
-                        <li>3. <a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/4AA7-1229ENW.pdf" target="_blank">Take the hassle out of device management​</a></li>
-                    </ul>
+                    <ol>
+                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c06646300.pdf" target="_blank">Assessment Shows Service-based Models Deliver Positive Environmental Impact​</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020​</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/4AA7-1229ENW.pdf" target="_blank">Take the hassle out of device management​</a></li>
+                    </ol>
                     `
                 }
             ]
@@ -340,24 +340,26 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>1. Integrate sustainability into the curriculum regardless of area of study.</p>
                     <p>2. This is a broad topic and has many solutions.</p>
                     <h3>Solution</h3>
-                    <p>1. Map to core literacy: Developing a module for Sustainability course in Seneca for each classroom to create awareness about sustainable goals.</p>
-                    <p>2. Assessment: Carrying out surveys to check the level of understanding among students regarding Seneca’s sustainable goals. </p>
-                    <p>3. Curriculum development: Assisting the staff at Seneca to develop a graded course focused on sustainability goals and their implementation.</p>
-                    <p>4. Building community: Creating a Seneca student club with primary target to get students engaged in environmentally sustainable activities like sapling plantations, rainwater harvesting, etc.</p>
+                    <ol>
+                    <li><b>Map to core literacy:</b> Developing a module for Sustainability course in Seneca for each classroom to create awareness about sustainable goals.</li>
+                    <li><b>Assessment:</b> Carrying out surveys to check the level of understanding among students regarding Seneca’s sustainable goals. </li>
+                    <li><b>Curriculum development:</b> Assisting the staff at Seneca to develop a graded course focused on sustainability goals and their implementation.</li>
+                    <li><b>Building community:</b> Creating a Seneca student club with primary target to get students engaged in environmentally sustainable activities like sapling plantations, rainwater harvesting, etc.</li>
+                    </ol>
                     <h3>Resources/Data</h3>
-                    <ul>
-                        <li>1. <a class="has-text-green is-underlined" href="https://www.senecacollege.ca/about/reports/a-reports/Seneca-College-2019-CDM-Plan.pdf" target="_blank">Seneca’s Conservation and Demand Management (CDM) Plan</a></li>
-                        <li>2. <a class="has-text-green is-underlined" href="https://sustainabilityknowledgegroup.com/sustainability-and-the-sdgs-to-become-part-of-the-primary-and-secondary-school-curriculum-a-next-step/" target="_blank">Sustainability and the SDGs to become part of the Primary and Secondary School Curriculum: A Next Step?</a></li>
-                        <li>3. <a class="has-text-green is-underlined" href="https://www.mdpi.com/2071-1050/13/5/2779/htm" target="_blank">An Analysis of Sustainability Integration in Business School Curricula: Evidence from Korea</a></li>
-                        <li>4. <a class="has-text-green is-underlined" href="https://www.tandfonline.com/doi/abs/10.1080/13504509.2021.1880983" target="_blank">Impact of sustainability-focused learning intervention on teachers’ agency to teach for sustainable development</a></li>
-                    </ul>
+                    <ol>
+                        <li><a class="has-text-green is-underlined" href="https://www.senecacollege.ca/about/reports/a-reports/Seneca-College-2019-CDM-Plan.pdf" target="_blank">Seneca’s Conservation and Demand Management (CDM) Plan</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://sustainabilityknowledgegroup.com/sustainability-and-the-sdgs-to-become-part-of-the-primary-and-secondary-school-curriculum-a-next-step/" target="_blank">Sustainability and the SDGs to become part of the Primary and Secondary School Curriculum: A Next Step?</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://www.mdpi.com/2071-1050/13/5/2779/htm" target="_blank">An Analysis of Sustainability Integration in Business School Curricula: Evidence from Korea</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://www.tandfonline.com/doi/abs/10.1080/13504509.2021.1880983" target="_blank">Impact of sustainability-focused learning intervention on teachers’ agency to teach for sustainable development</a></li>
+                    </ol>
                     <h3>FAQ</h3>
+                    
                     <p>SSOs and PEOs, what were your questions when you were starting out on this challenge set development journey? What answers have you found? What do students need to know before they get started?</p>
-                    <p class="has-text-weight-bold">What are Seneca’s sustainability goals?</p>
-                    <p>Seneca is committed to stewarding, conserving and protecting our environment — both on our campuses and in our broader communities. This is being done in help with the Sustainable Seneca Committee which takes initiatives such as: </p>
-                    <ul>
-                        <li>1. encouraging, celebrating and advocating for excellence in environmental sustainability</li>
-                    </ul>
+                    <ol>
+                    <li><b>What are Seneca’s sustainability goals?</b></li>
+                    <ul><li>Seneca is committed to stewarding, conserving and protecting our environment — both on our campuses and in our broader communities. This is being done in help with the Sustainable Seneca Committee which takes initiatives such as: <br/>- encouraging, celebrating and advocating for excellence in environmental sustainability</li></ul>
+                    
                     `
                 },
                 {
