@@ -42,6 +42,7 @@ const Organizers = () => {
         {
             name: 'Shirlene Phyllis Lee-Feliciano',
             linkedin_url: 'https://www.linkedin.com/in/splfeliciano/',
+            email: 'shirlene-phyllis-lee.feliciano@senecacollege.ca',
             title: 'Chief of Staff',
             image: shirlene
         },
