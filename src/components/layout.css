@@ -356,6 +356,11 @@ ul {
   list-style-position: outside;
   list-style-image: none;
 }
+
+ul.cs1 {list-style-type: disc;}
+ul.cs3 {list-style-type: square;}
+ul.cs4 {list-style-type: circle;}
+ol.cs2 {list-style-type: lower-alpha;}
 ol {
   margin-left: 1.45rem;
   margin-right: 0;
