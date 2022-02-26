@@ -120,13 +120,13 @@ const Organizers = () => {
             title: 'Registrations Manager (Registration)',
             image: clairol
         },
-        {
-            name: 'Mohammed Ismail Azher Siddiqui',
-            linkedin_url: '',
-            email: 'miazher-siddiqui@myseneca.ca',
-            title: 'SSO (Student Success Officer) (Hackathon)',
-            image: azher
-        },
+        // {
+        //     name: 'Mohammed Ismail Azher Siddiqui',
+        //     linkedin_url: '',
+        //     email: 'miazher-siddiqui@myseneca.ca',
+        //     title: 'SSO (Student Success Officer) (Hackathon)',
+        //     image: azher
+        // },
         {
             name: 'Jan Danielle Bukiran',
             linkedin_url: '',
@@ -134,13 +134,13 @@ const Organizers = () => {
             title: 'Event Information Manager (Registration)',
             image: jan
         },
-        {
-            name: 'Arjan Singh Bajwa',
-            linkedin_url: '',
-            email: 'asbajwa10@myseneca.ca',
-            title: 'Student Success Officer for HP Canada (Challenge Set)',
-            image: arjan
-        }
+        // {
+        //     name: 'Arjan Singh Bajwa',
+        //     linkedin_url: '',
+        //     email: 'asbajwa10@myseneca.ca',
+        //     title: 'Student Success Officer for HP Canada (Challenge Set)',
+        //     image: arjan
+        // }
     ]
 
     const challenge_set_people = [
@@ -488,12 +488,13 @@ const Organizers = () => {
                                 <div className="columns flex-wrap">
                                     {
                                         challenge.people_details.map(people_data => (
-                                            <div className="sponsor-item column is-12-mobile is-6-tablet is-4-desktop is-flex is-align-items-center">
-                                                <div className="sponsor-image">{people_data.is_string ? people_data.sponsor : <img src={people_data.sponsor} alt="sponsor" width={people_data.width}/>}</div>
-                                                <div className="is-flex is-flex-direction-column people-list">
+                                            <div className="sponsor-item column is-12-mobile is-12-tablet is-4-desktop columns is-align-items-center">
+                                                <div className="column is-4 is-paddingless is-marginless sponsor-image">{people_data.is_string ? people_data.sponsor : <img src={people_data.sponsor} alt="sponsor" width={people_data.width}/>}</div>
+                                                <div className="column is-paddingless is-flex is-flex-direction-column people-list">
                                                 {
                                                     people_data.people.map(people => (
                                                         <div className="people-item">
+                                                            <br className="is-hidden-desktop"/>
                                                             <p className="name">{people.name}</p>
                                                             <p className="desig">{people.title} {people.email ? <a target='_blank' rel="noopener noreferrer" href={`mailto:${people.email}`} className='email-icon'><FontAwesomeIcon icon={faEnvelope}/></a> : null}</p>
                                                         </div>
