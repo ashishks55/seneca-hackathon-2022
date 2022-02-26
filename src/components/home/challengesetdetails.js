@@ -1114,7 +1114,7 @@ const ChallengeSetsDetails = ({id}) => {
                         </li>
                         <li>
                             <b>Do we need to submit a working program as our entry? </b>
-                            <ul><li>No. The deliverables can be a design document or a project plan containing the details of your solution. Your submission can range from a document, a plan, or a prototype. </li></ul>
+                            <ul><li>No. The deliverable can be a design document or a plan containing the details of your solution. Your submission can range from a document, presentation, business case, to a prototype. You will also submit a video to “pitch” your project.</li></ul>
                         </li>
                         <li>
                             <b>What are the key considerations when building the challenge set? </b>
