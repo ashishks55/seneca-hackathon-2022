@@ -41,6 +41,12 @@ import nzc_5 from '../../images/logos/nzc-5.svg'
 import nzc_6 from '../../images/logos/nzc-6.jpg'
 import nzc_7 from '../../images/logos/nzc-7.png'
 
+import ts_1 from '../../images/logos/ts-1.png'
+import ts_2 from '../../images/logos/ts-2.png'
+import ts_3 from '../../images/logos/ts-3.png'
+import ts_4 from '../../images/logos/ts-4.png'
+import ts_5 from '../../images/logos/ts-5.png'
+
 const Organizers = () => {
 
     const organizers = [
@@ -152,14 +158,19 @@ const Organizers = () => {
                     width: '130px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Mohammed Ismail Azher Siddiqui',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: 'miazher-siddiqui@myseneca.ca'
                         },
-                         {
+                        {
                             name: 'Nishant Adekar',
                             title: 'Student Success Officer',
                             email: 'nadekar@myseneca.ca'
+                        },
+                        {
+                            name: 'Chandni Patel',
+                            title: 'Partner experience officer',
+                            email: 'cspatel11@myseneca.ca'
                         }
                     ]
                 },
@@ -168,19 +179,19 @@ const Organizers = () => {
                     width: '100px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Arjan Bajwa',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: 'asbajwa10@myseneca.ca'
                         },
                         {
-                            name: 'Nishant Adekar',
+                            name: 'Karamvir Grewal',
                             title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            email: 'kgrewal23@myseneca.ca'
                         },
                         {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Palak Chalana',
+                            title: 'Partner experience officer',
+                            email: 'pchalana@myseneca.ca'
                         }
                     ]
                 },
@@ -189,14 +200,14 @@ const Organizers = () => {
                     width: '130px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Shubra Verma',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: 'sverma91@myseneca.ca'
                         },
-                         {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                        {
+                            name: 'Vishnu Prasanth Suresh Kumar',
+                            title: 'Partner experience officer',
+                            email: 'vpsuresh-kumar@myseneca.ca'
                         }
                     ]
                 }
@@ -210,14 +221,14 @@ const Organizers = () => {
                     width: '130px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Akriti Singh',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: 'asingh947@myseneca.ca'
                         },
                          {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Jeffrey George Pinto',
+                            title: 'Partner experience officer',
+                            email: 'jgpinto@myseneca.ca'
                         }
                     ]
                 },
@@ -226,14 +237,14 @@ const Organizers = () => {
                     width: '130px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Kanchan',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: 'k39@myseneca.ca'
                         },
                          {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Vrinda Agrawal',
+                            title: 'Partner experience Officer',
+                            email: 'vagrawal2@myseneca.ca'
                         }
                     ]
                 },
@@ -242,14 +253,14 @@ const Organizers = () => {
                     width: '100px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Navjyot Singh Sawhney',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: 'nssawhney@myseneca.ca'
                         },
                          {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Gautam Kumar Lalan Prasad Singh',
+                            title: 'Partner experience Officer',
+                            email: 'gklpsingh@myseneca.ca'
                         }
                     ]
                 },
@@ -258,14 +269,14 @@ const Organizers = () => {
                     width: '100px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Shlok Vijay Salunke',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: 'svsalunke@myseneca.ca'
                         },
                          {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Emily Sapitan',
+                            title: 'Partner experience Officer',
+                            email: 'esapitan@myseneca.ca'
                         }
                     ]
                 }
@@ -285,9 +296,9 @@ const Organizers = () => {
                             email: 'ssharma470@myseneca.ca'
                         },
                          {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Annalyn Bislig',
+                            title: 'Partner experience Officer',
+                            email: 'adbislig@myseneca.ca'
                         }
                     ]
                 },
@@ -296,14 +307,14 @@ const Organizers = () => {
                     width: '100px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Shivika Adhwaryu',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: ''
                         },
                          {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Neha',
+                            title: 'Partner experience Officer',
+                            email: 'n52@myseneca.ca'
                         }
                     ]
                 },
@@ -312,14 +323,9 @@ const Organizers = () => {
                     width: '100px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
-                            title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
-                        },
-                         {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Karishma Patel',
+                            title: 'Student Success Officer, Partner experience Officer',
+                            email: 'kpatel394@myseneca.ca'
                         }
                     ]
                 },
@@ -328,14 +334,9 @@ const Organizers = () => {
                     width: '100px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
-                            title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
-                        },
-                         {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Neha Badhran',
+                            title: 'Student Success Officer, Partner experience Officer',
+                            email: 'nbadhran@myseneca.ca'
                         }
                     ]
                 },
@@ -344,14 +345,9 @@ const Organizers = () => {
                     width: '100px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
-                            title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
-                        },
-                         {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Benjamin Ruiz-Sarinana',
+                            title: 'Partner experience Officer',
+                            email: 'bruiz2@myseneca.ca'
                         }
                     ]
                 }
@@ -361,18 +357,34 @@ const Organizers = () => {
             category: 'Net-Zero Goals',
             people_details: [
                 {
+                    sponsor: nzc_1,
+                    width: '100px',
+                    people: [
+                        {
+                            name: 'Emon Kaur',
+                            title: 'Student Success Officer',
+                            email: 'ekaur11@myseneca.ca'
+                        },
+                         {
+                            name: 'Hiralkumari Priyan Solanki  ',
+                            title: 'Partner Experience Officer',
+                            email: 'hpsolanki@myseneca.ca '
+                        }
+                    ]
+                },
+                {
                     sponsor: nzc_2,
                     width: '100px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Ankush Bansal',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: 'abansal18@myseneca.ca'
                         },
                          {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Abhishek Zala',
+                            title: 'Partner Experience Officer',
+                            email: 'apzala@myseneca.ca'
                         }
                     ]
                 },
@@ -381,14 +393,14 @@ const Organizers = () => {
                     width: '100px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Gurpreet Ghataura',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: 'gkghataura@myseneca.ca'
                         },
                          {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Muhammad Saifur Rahman',
+                            title: 'Partner Experience Officer',
+                            email: 'msrahman34@myseneca.ca'
                         }
                     ]
                 },
@@ -397,14 +409,14 @@ const Organizers = () => {
                     width: '100px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Sanchit Aggarwal',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: 'saggarwal14@myseneca.ca'
                         },
                          {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Richa Pavankumar Bhatia',
+                            title: 'Partner Experience Officer',
+                            email: 'rpbhatia@myseneca.ca'
                         }
                     ]
                 },
@@ -413,17 +425,12 @@ const Organizers = () => {
                     width: '60px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
-                            title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
-                        },
-                         {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Avlika Kathrotiya',
+                            title: 'Student Success Officer, Partner Experience Officer',
+                            email: 'amkathrotiya@myseneca.ca'
                         }
                     ]
-                },
+                }/* ,
                 {
                     sponsor: nzc_7,
                     width: '60px',
@@ -437,6 +444,54 @@ const Organizers = () => {
                             name: 'Nishant Adekar',
                             title: 'Student Success Officer',
                             email: 'nadekar@myseneca.ca'
+                        }
+                    ]
+                } */
+            ]
+        },
+        {
+            category: 'Solution Technologies',
+            people_details: [
+                {
+                    sponsor: ts_3,
+                    width: '100px',
+                    people: [
+                         {
+                            name: 'Pratik Khatri',
+                            title: 'Partner Experience Officer',
+                            email: 'pkkhatri@myseneca.ca'
+                        }
+                    ]
+                },
+                {
+                    sponsor: ts_2,
+                    width: '100px',
+                    people: [
+                        {
+                            name: 'Shalmal Soni',
+                            title: 'Student Success Officer',
+                            email: 'scsoni1@myseneca.ca'
+                        },
+                         {
+                            name: 'Gopalakrishnan Vilwadri',
+                            title: 'Partner Experience Officer',
+                            email: 'gopalakrishnan-vilwa@myseneca.ca'
+                        }
+                    ]
+                },
+                {
+                    sponsor: nzc_7,
+                    width: '100px',
+                    people: [
+                        {
+                            name: 'Ana Maria Rojas',
+                            title: 'Student Success Officer',
+                            email: 'amavendano-rojas@myseneca.ca'
+                        },
+                         {
+                            name: 'Kaveh Eshraghian',
+                            title: 'Partner Experience Officer',
+                            email: ''
                         }
                     ]
                 }
