@@ -109,28 +109,28 @@ const ChallengeSetsDetails = ({id}) => {
                     `
                     <h3>Background & Context</h3>
                     <p>The Organisation for Economic Co-operation and Development (OECD) maintains a comprehensive database of health and health systems statistics across many different countries (including Canada). These statistics relate to health care expenditure, resources, utilization, quality indicators and many others. This extensive database has the potential to reveal parts of the health system where sustainability efforts could be impactful. There is an opportunity for us to better use this data to improve the sustainability of the Canadian Healthcare System.</p>
-                    <p>Key Question: How can we best use the OECD Health Data to help inform healthcare sustainability initiatives in Canada? </p>
+                    <p><b>Key Question:</b> How can we best use the OECD Health Data to help inform healthcare sustainability initiatives in Canada? </p>
                     <h3>Objective/Solutions</h3>
-                    <ul>
+                    <ol>
                         <li>Your team’s solution should encompass one of the following: </li>
-                        <li><b>1. Sustainability Insights:</b> Based on the OECD data, can your team find insights that reveal a potential healthcare sustainability issue(s) in Canada. What would your team’s recommendation be on a potential area(s) that needs a healthcare sustainability initiative?  </li>
+                        <li><b>Sustainability Insights:</b> Based on the OECD data, can your team find insights that reveal a potential healthcare sustainability issue(s) in Canada. What would your team’s recommendation be on a potential area(s) that needs a healthcare sustainability initiative?  </li>
                         <ul>
                             <li>a. Solutions should be able to clearly explain the rationale on why a selected area(s) was chosen  </li>
                             <li>b. Identifying an area for a healthcare sustainability initiative would already be a good solution, but if your team is feeling ambitious, teams are welcome to propose ideas to address any sustainability challenges uncovered </li>
                         </ul>
-                        <li><b>2. Tool Development:</b> Can we build a data tool to more easily identify and extract insights from the OECD data set? This tool should be able to help easily flag potential healthcare sustainability issues from the data set. </li>
-                        <li>3. Teams are welcome to include both insights and tool development in their solutions, but this is not an expectation due to time limitations </li>
-                    </ul>
+                        <li><b>Tool Development:</b> Can we build a data tool to more easily identify and extract insights from the OECD data set? This tool should be able to help easily flag potential healthcare sustainability issues from the data set. </li>
+                        <li>Teams are welcome to include both insights and tool development in their solutions, but this is not an expectation due to time limitations </li>
+                    </ol>
                     <h4>Thought starters:</h4>
-                    <ul>
-                        <li>1. Can we identify trends in the data that might pose a sustainability issue (e.g. hospital bed numbers going down, decreasing long term care workers for the older population)?</li>
-                        <li>2. Can we identify correlations between different healthcare statistics that signify a potential sustainability issue in the healthcare system (e.g. Hospital average length of stay for cataract increasing while number of cataract surgeries are also increasing)?</li>
-                        <li>3. Are there data trends that highlight challenges in our healthcare system to sustainability manage potential future waves of COVID-19?</li>
-                        <li>4. Does the data from other countries help reveal sustainability issues in Canada’s healthcare system?</li>
-                        <li>5. Are there any improvements that can be made to better visualize and analyze the available OECD data?</li>
-                        <li>6. Feel free to explore public examples on how the OECD data (in health and other areas) has been used. For example, Canadian Institute for Health Information (CIHI)’s interactive web tool: <a class="has-text-green is-underlined" href="https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons" target="_blank">https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons</a></li>
-                        <li>7. Teams are also welcome to explore other topics in the OECD data set if helpful (e.g. environment, demography and population etc.): <a class="has-text-green is-underlined" href="https://stats.oecd.org/" target="_blank">https://stats.oecd.org/</a> </li>
-                    </ul>
+                    <ol>
+                        <li>Can we identify trends in the data that might pose a sustainability issue (e.g. hospital bed numbers going down, decreasing long term care workers for the older population)?</li>
+                        <li>Can we identify correlations between different healthcare statistics that signify a potential sustainability issue in the healthcare system (e.g. Hospital average length of stay for cataract increasing while number of cataract surgeries are also increasing)?</li>
+                        <li>Are there data trends that highlight challenges in our healthcare system to sustainability manage potential future waves of COVID-19?</li>
+                        <li>Does the data from other countries help reveal sustainability issues in Canada’s healthcare system?</li>
+                        <li>Are there any improvements that can be made to better visualize and analyze the available OECD data?</li>
+                        <li>Feel free to explore public examples on how the OECD data (in health and other areas) has been used. For example, Canadian Institute for Health Information (CIHI)’s interactive web tool: <a class="has-text-green is-underlined" href="https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons" target="_blank">https://www.cihi.ca/en/oecd-interactive-tool-international-comparisons</a></li>
+                        <li>Teams are also welcome to explore other topics in the OECD data set if helpful (e.g. environment, demography and population etc.): <a class="has-text-green is-underlined" href="https://stats.oecd.org/" target="_blank">https://stats.oecd.org/</a> </li>
+                    </ol>
                     <h3>Resources/Data</h3>
                     <p><a class="has-text-green is-underlined" href="https://stats.oecd.org/Index.aspx?ThemeTreeId=9" target="_blank">Click here</a> for resources/data.</p>
                     <p>1. The OECD Health Database is comprehensive source of comparable statistics on health and health systems across OECD countries. </p>
@@ -143,7 +143,7 @@ const ChallengeSetsDetails = ({id}) => {
                     `
                 },
                 {
-                    title: 'Develop a design system which can be used to recycle the e-waste in a sustainable manner.',
+                    title: 'Develop a design system which can be used to recycle the e-waste in a sustainable manner',
                     sponsor_logo: csr_3,
                     logo_height: '20px',
                     info: 
@@ -154,7 +154,7 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>2. In 2019 only 17.4% of e-waste was recycled. [2]</li>
                         <li>3. Lead and Mercury in e-waste can lead to anemia, nausea, and other diseases to humans and other organisms.[1]</li>
                     </ul>
-                    <p>Key Question: How to recycle the e-waste in a sustainable manner by developing a design system?</p>
+                    <p><b>Key Question:</b> How to recycle the e-waste in a sustainable manner by developing a design system?</p>
                     <h3>Solutions</h3>
                     <p>The solution must contain the following:</p>
                     <ul>
@@ -423,19 +423,19 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>The final product will be a no-code working prototype created using Bubble.io. We will provide you with access.</p>
                     <p>Be creative!</p>
                     <h3>Resources/Data</h3>
-                    <ul>
-                        <li>1. <a class="has-text-green is-underlined" href="https://sdgs.un.org/topics/sustainable-cities-and-human-settlements" target="_blank">Goal 11</a></li>
-                        <li>2. <a class="has-text-green is-underlined" href="https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.housing.housing-note.housing-note--may-12-2021-.html" target="_blank">Background Study on the Scale of Housing Affordability Crisis in Canada Scotia Bank – Estimating the Structural Housing Shortage in Canada: Are we 100 Thousand or Nearly 2 Million Units Short</a></li>
-                        <li>3. <a class="has-text-green is-underlined" href="https://files.ontario.ca/mmah-housing-affordability-task-force-report-en-2022-02-07-v2.pdf" target="_blank">Background Study on Most Recent Update about Ontario’s Housing Affordability and the Task Force’s Recommendations: Report of the Ontario Housing Affordability Task Force</a></li>
-                        <li>4. <a class="has-text-green is-underlined" href="https://www.toronto.ca/wp-content/uploads/2020/04/94f0-housing-to-2020-2030-action-plan-housing-secretariat.pdf" target="_blank">Background Study on City of Toronto’s Housing Affordability Vision and Plans for This Decade: City of Toronto – Housing TO 2020 – 2030 Action Plan</a></li>
-                        <li>5. <a class="has-text-green is-underlined" href="https://eppdscrmssa01.blob.core.windows.net/cmhcprodcontainer/sf/project/placetocallhome/pdfs/canada-national-housing-strategy.pdf" target="_blank">Background Study on the Federal Government’s Housing Policy Vision and Plans: Government of Canada – National Housing Strategy</a></li>
-                        <li>6. <a class="has-text-green is-underlined" href="https://www.placetocallhome.ca/stories#sort=relevancy" target="_blank">Reference on Projects that are Selected by CMHC: Projects Funded through CMHC Affordable Housing Innovation Fund</a></li>
-                        <li>7. <a class="has-text-green is-underlined" href="https://www.toronto.ca/legdocs/mmis/2021/ph/bgrd/backgroundfile-165633.pdf" target="_blank">Reference on the Digital Access System to be Created by the City of Toronto: Creation of a Fair and Streamlined Access System for Affordable Housing</a></li>
-                        <li>8. <a class="has-text-green is-underlined" href="https://canurb.org//wp-content/uploads/CUIPublication.ScalingUpAffordableHousingGTA.2017.pdf" target="_blank">Reference on Funding Program Models Offered by Non-Profit Organizations: P.19 – P.23 of Canadian Urban Institute’s Report on Scaling Up Affordable Ownership Housing in the GTA </a></li>
-                        <li>9. <a class="has-text-green is-underlined" href="https://www.usebraintrust.com/hubfs/%5BWhitepaper%5D%20Braintrust_The_Decentralized_Talent_Network_9_2_21.pdf" target="_blank">Example of a Network Marketplace for the Talent Acquisition Space: Braintrust White Paper</a></li>
-                        <li>10. <a class="has-text-green is-underlined" href="https://decentraland.org/whitepaper.pdf" target="_blank">Example of a Decentralized Property Ownership Ledger for Digital Land: Decentraland White Paper </a></li>
-                        <li>11. <a class="has-text-green is-underlined" href="https://whitepaper.io/document/623/flow-dapper-labs-whitepaper" target="_blank">Example of a Decentralized and Open-Source Blockchain: Flow White Paper </a></li>
-                    </ul>
+                    <ol>
+                        <li><a class="has-text-green is-underlined" href="https://sdgs.un.org/topics/sustainable-cities-and-human-settlements" target="_blank">Goal 11</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.housing.housing-note.housing-note--may-12-2021-.html" target="_blank">Background Study on the Scale of Housing Affordability Crisis in Canada Scotia Bank – Estimating the Structural Housing Shortage in Canada: Are we 100 Thousand or Nearly 2 Million Units Short</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://files.ontario.ca/mmah-housing-affordability-task-force-report-en-2022-02-07-v2.pdf" target="_blank">Background Study on Most Recent Update about Ontario’s Housing Affordability and the Task Force’s Recommendations: Report of the Ontario Housing Affordability Task Force</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/wp-content/uploads/2020/04/94f0-housing-to-2020-2030-action-plan-housing-secretariat.pdf" target="_blank">Background Study on City of Toronto’s Housing Affordability Vision and Plans for This Decade: City of Toronto – Housing TO 2020 – 2030 Action Plan</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://eppdscrmssa01.blob.core.windows.net/cmhcprodcontainer/sf/project/placetocallhome/pdfs/canada-national-housing-strategy.pdf" target="_blank">Background Study on the Federal Government’s Housing Policy Vision and Plans: Government of Canada – National Housing Strategy</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://www.placetocallhome.ca/stories#sort=relevancy" target="_blank">Reference on Projects that are Selected by CMHC: Projects Funded through CMHC Affordable Housing Innovation Fund</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/legdocs/mmis/2021/ph/bgrd/backgroundfile-165633.pdf" target="_blank">Reference on the Digital Access System to be Created by the City of Toronto: Creation of a Fair and Streamlined Access System for Affordable Housing</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://canurb.org//wp-content/uploads/CUIPublication.ScalingUpAffordableHousingGTA.2017.pdf" target="_blank">Reference on Funding Program Models Offered by Non-Profit Organizations: P.19 – P.23 of Canadian Urban Institute’s Report on Scaling Up Affordable Ownership Housing in the GTA </a></li>
+                        <li><a class="has-text-green is-underlined" href="https://www.usebraintrust.com/hubfs/%5BWhitepaper%5D%20Braintrust_The_Decentralized_Talent_Network_9_2_21.pdf" target="_blank">Example of a Network Marketplace for the Talent Acquisition Space: Braintrust White Paper</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://decentraland.org/whitepaper.pdf" target="_blank">Example of a Decentralized Property Ownership Ledger for Digital Land: Decentraland White Paper </a></li>
+                        <li><a class="has-text-green is-underlined" href="https://whitepaper.io/document/623/flow-dapper-labs-whitepaper" target="_blank">Example of a Decentralized and Open-Source Blockchain: Flow White Paper </a></li>
+                    </ol>
                     <h3>FAQ</h3>
                     <p>What were your questions when you were starting out on this challenge set development journey? What answers have you found? What do students need to know before they get started?</p>
                     <p>Q: How did we come up with the Challenge Topic?</p>
@@ -945,10 +945,10 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>Analyzing the datasets to identify the peak hours, nature of travel, estimated congestion time, geolocations of the traffic load and producing reliable solutions or recommendations on the analysis performed to improve the road traffic management or the emergency response management in the City of Vaughan.</p>
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
-                    <ul>
-                        <li>1. Dataset from City of Vaughan</li>
-                        <li>2. <a class="has-text-green is-underlined" href="https://www.smatstraffic.com/" target="_blank">Collect, Analyze, & Interpret Traffic Data</a></li>
-                    </ul>
+                    <ol>
+                        <li><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/EuqSlAjMRadDrv9h8GSoRMgBW5uKMUkLdWu3KSmvsfm0Ew?e=UNZrux" target="_blank">Dataset from City of Vaughan</a></li>
+                        <li><a class="has-text-green is-underlined" href="https://www.smatstraffic.com/" target="_blank">Collect, Analyze, & Interpret Traffic Data</a></li>
+                    </ol>
                     <h3>FAQ</h3>
                     <p class="has-text-weight-bold">1. What is the expected solution out of this analysis? </p>
                     <ul>
