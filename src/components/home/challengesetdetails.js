@@ -372,15 +372,17 @@ const ChallengeSetsDetails = ({id}) => {
                     info: 
                     `
                     <h3>Background and Context</h3>
-                    <p>The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future. At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries - developed and developing - in a global partnership. They recognize that ending poverty and other deprivations must go hand-in-hand with strategies that improve health and education, reduce inequality, and spur economic growth – all while tackling climate change and working to preserve our oceans and forests. </p>
+                    <p>The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, provides a shared blueprint for peace and prosperity for people and the planet, now and into the future. At its heart are the 17 Sustainable Development Goals (SDGs), which are an urgent call for action by all countries - developed and developing - in a global partnership. They recognize that ending poverty and other deprivations must go hand-in-hand with strategies that improve health and education, reduce inequality, and spur economic growth – all while tackling climate change and working to preserve our oceans and forests.</p>
                     <h3>Objective/Solution</h3>
-                    <p>Choose one of the United Nations’ Sustainable Development Goals and try to implement it on a local level.</p>
-                    <p>Open challenge set with many possible solutions.</p>
+                    <p>Choose one of the United Nations’ Sustainable Development Goals and try to implement it on a local level. </p>
+                    <p>Open challenge set with many possible solutions. </p>
                     <h3>Resources/Data</h3>
-                    <p>1. <a class="has-text-green is-underlined" href="https://sdgs.un.org/goals" target="_blank">THE 17 GOALS</a></p>
-                    <p>2. <a class="has-text-green is-underlined" href="https://sdgs.un.org/2030agenda" target="_blank">Transforming our world: the 2030 Agenda for Sustainable Development</a></p>
+                    <ol>
+                    <li><a class="has-text-green is-underlined" href="https://sdgs.un.org/goals" target="_blank">THE 17 GOALS</a></li>
+                    <li><a class="has-text-green is-underlined" href="https://sdgs.un.org/2030agenda" target="_blank">Transforming our world: the 2030 Agenda for Sustainable Development</a></li>
+                    </ol>
                     <h3>FAQ</h3>
-                    <p>SSOs and PEOs, what were your questions when you were starting out on this challenge set development journey? What answers have you found? What do students need to know before they get started?</p>
+                    <p>SSOs and PEOs, what were your questions when you were starting out on this challenge set development journey? What answers have you found? What do students need to know before they get started? </p>
                     `
                 },
                 {
@@ -717,34 +719,59 @@ const ChallengeSetsDetails = ({id}) => {
                     `
                 },
                 {
-                    title: 'Drones, Satellite scans and image processing',
+                    title: 'Saving Trees to Save Lives',
                     sponsor_logo: nzc_7,
                     logo_height: '40px',
                     info: `
                     <h3>Background</h3>
-                    <p>Kingbridge is building a forest accelerator program linked to data collection and analytics to overcome some of the challenges in achieving the 2 billion tree goal.</p>
-                    <p>With an ambitious federal goal of planting 2 Billion trees, the challenges of supply chains, protecting native species and finding cost efficient ways to plant trees at scale, in areas other than northern and remote communities, there are many opportunities for innovation.</p>
-                    <p>They have developed a Forest Management plan for the 55+ acres of forested land onsite and is in the process of obtaining a Managed Forest designation with the Province of Ontario.</p>
+                    <p>A typical tree can absorb around 21 kilograms of carbon dioxide (CO2) per year; however this figure is only achieved when the tree is fully grown - saplings will absorb significantly less than this. Over a lifetime of 100 years, one tree could absorb around a ton of CO2.</p>
+                    <p>Kingbridge is building a forest accelerator program with an ambitious federal goal of planting 2 billion trees. With the challenges of supply chains, protecting native species and finding cost efficient ways to plant trees at scale, in areas other than northern and remote communities, there are many opportunities for innovation. </p>
                     <h3>Objective & Solution </h3>
-                    <p>A typical tree can absorb around 21 kilograms of carbon dioxide (CO2) per year, however this figure is only achieved when the tree is fully grown - saplings will absorb significantly less than this. Over a lifetime of 100 years, one tree could absorb around a ton of CO2.</p>
-                    <p>On this account, our focus will be identifying opportunities of tree planting and areas in most need of it. Therefore, below challenge set has been introduced to tackle the challenge of scanning and presenting Kingbridge with suitable areas.</p>
-                    <p class="has-text-weight-bold">Challenge Set:</p>
-                    <p class="has-text-weight-bold">Image processing using drone and satellite images, as well as publicly available data, to identify canopy coverage, tree types and ages. </p>
-                    <p class="has-text-weight-bold">Possible approaches:</p>
-                    <p>A number of approaches can be applied in order to identify the canopy coverage, tree types and ages.</p>
+                    <p>Simplify the data collection processes and carbon credit estimate calculations to empower private landowners to manage their forests, and to support citizen-enabled mapping of individual trees in urban areas. Using existing software tools, algorithms and data sets, the team will design a prototype database driven application that can be expanded to support future data sets and workflows. </p>
+                    
+                    <h4>Challenge Set:</h4>
+                    <p class="has-text-weight-bold">Savings trees to save the planet - Prototyping a new model to make it easy for citizens and land owners to collect and submit data to an application that calculates the amount of carbon sequestered and projects the financial rewards of carbon credits. Existing software and algorithms provide the base structure for the prototype. </p>
+
+                    <h4>Solutions</h4>
                     <ul class="cs1">
-                        <li><b>Carbon Offsets:</b> in addition to identifying objects with the images, the amount of carbon offset happening due to the presence of the identified species can be calculated and reported for further analysis.</li>
-                        <li><b>Machine Learning:</b> This approach can include the use of machine learning to implement a training algorithm to identify the requested objects. Google Cloud has provided participants with access to machine learning workshops to familiarize themselves with the new technology surrounding it.  </li>
-                        <li><b>AppEngine:</b> This platform can be used to run the final version of your application. </li>
-                        <li><b>Google Cloud</b> has provided participants with recordings of related workshops.</li>
+                        <li>Build on existing CBM software that calculates biomass by species and climate variables) into an expanded database structure.</li>
+                        <li>Develop the capability of integrating new forest and individual tree data from image analysis and sensor data from drones, handhelds (GPS, species identification;  crown/height).</li>
+                        <li>Enable citizens/landowners to easily capture and input diameter of tree trunk at breast height (DBH) – by prototyping an app on phone/tablet Allow for identification of "Mother Trees" - to be verified (ultimate goal of protecting biodiversity through old-growth trees). </li>
+                        <li>Using the biomass and carbon sequestered data in the CBM software, develop an algorithm for estimating the dollar value of carbon credits – at 1 year, 5, years, 10 years. </li>
+                        <li>Model an auditable verification/validation process in the online workflow, which, when enabled, would allow for connections to a 3rd party verifier and to a carbon credit exchange or broker. </li>
                     </ul>
+
+                    <h4>Future work</h4>
+                    <ul class="cs1">
+                    <li>Expand data tables in the database to capture inventories of mushrooms / mychorrizal networks, wildlife, understory plants, insects etc, from the Ontario Managed Forest Plan structure.</li> 
+                    <li>Expand data tables in the database for collection of soil data and estimation of carbon sequestration by soil type. </li>
+                    <li>Develop an algorithm to capture degree of biodiversity of the forest and/or trees based on inventories; enable a baseline comparison at 5-year intervals. </li>
+                    </ul>
+
                     <h3>Resources/Data </h3>
-                    <p>Carbon Budget model <a class="has-text-green is-underlined" href="https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 " target="_blank">https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 </a></p>
+                    <ol>
+                        <li>
+                            <b>On-site drones</b><br/>
+                            <p>Kingbridge has provided access to their on-site drone facility center , Altex, to enable students to gather the data they need to create their solutions. </p>
+                        </li>
+                        <li><b>Carbon Budget model</b> <br/><a class="has-text-green is-underlined" href="https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 " target="_blank">https://www.nrcan.gc.ca/climate-change-adapting-impacts-and-reducing-emissions/climate-change-impacts-forests/carbon-accounting/carbon-budget-model/13107 </a></li>
+                    </ol>
+                    
                     <h3>FAQ</h3>
-                    <p><b>1. What type of data will be used for image processing?</b> <br><br>Image of drones, satellite images and publicly available data will be used for image processing. </p>
-                    <p><b>2. Where Can we find the images?</b> <br><br>The dataset is publicly available through the link provided. A simple registration is needed to access the data. Other resources may be added to the database from providers such as Esri.</p>
-                    <p><b>3. How should be approach the image processing technic?</b> <br><br>You are open to different approaches to implement your idea, as long as it serves towards the same objective.</p>
-                    `
+                    <ol>
+                        <li>
+                            <b>What type of data will be used for image processing? </b><br/>
+                            <p>Image of drones, satellite images and publicly available data will be used for image processing. </p>
+                        </li>
+                        <li>
+                            <b>Where can we find the images?</b><br/>
+                            <p>The dataset is publicly available through the link provided. A simple registration is needed to access the data. Other resources may be added to the database from providers such as Esri. In addition, students can access the drone center to gather data related to their solution. </p>
+                        </li>
+                        <li>
+                            <b>How should be approach the image processing technic?</b><br/>
+                            <p>You are open to different approaches to implement your idea, as long as it serves towards the same objective.</p>
+                        </li>
+                    </ol>`
                 }
             ]
         },
@@ -1042,7 +1069,7 @@ const ChallengeSetsDetails = ({id}) => {
                     info: 
                     `
                     <h3>Background and Context</h3>
-                    <p>Physically exploring a place and enjoying the natural ecosystem is almost vanishing these days. Especially since the time, Covid has come in people have been restricted and later they have been reluctant to go out and explore. Identifying a system that improves the experience of exploring nature using gamification or rewards is going to help people explore and educate better. How can we integrate data mapping, a visualization tool, AI (Artificial Intelligence), and GIS (Geographic Information Systems) to develop a possible model.</p>
+                    <p>Physically exploring a place and enjoying the natural ecosystem is almost vanishing these days. Especially since the time, Covid has come in people have been restricted and later they have been reluctant to go out and explore. Identifying a system that improves the experience of exploring nature using gamification or rewards is going to help people explore and educate better. How can we integrate data mapping, a visualization tool, AI (Artificial Intelligence), and GIS (Geographic Information Systems) to develop a possible model? </p>
                     <h3>Objective/Solution</h3>
                     <p>How can we integrate data mapping, a visualization tool, AI, and GIS to develop a model for promoting the natural heritage and tourism of the City of Vaughan?</p>
                     <p>Creating a mobile application or creating a prototype use case solution of this challenge set on how the user experience can be enhanced while they are exploring the city’s natural heritage. This can focus on various aspects of gamification and rewards mechanism or usability of AR (Augmented Reality) and VR (Virtual Reality).</p>
@@ -1053,7 +1080,6 @@ const ChallengeSetsDetails = ({id}) => {
                     </ol>
                     <h3>FAQ</h3>
                     <ol>
-                        <li>What is the expected solution out of this analysis? </li>
                         <li>How does the data provided help and how will it build towards analysis? <br/><br/>
                         <p>Focusing on the peak hours, nature of travel, estimated congestion time, geolocations of the traffic load and analyzing the data should make you focus on these points that should output an analysis report on points to improve the road traffic management. </p></li>
                     </ol>
