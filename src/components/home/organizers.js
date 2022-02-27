@@ -491,6 +491,7 @@ const Organizers = () => {
     ]
 
     const [isFlipped, setFlipped] = useState(false);
+    const [isFlipped2, setFlipped2] = useState(false);
 
     return (
         <section className="hero is-medium is-white">
@@ -571,8 +572,8 @@ const Organizers = () => {
                     <div className='column is-10 is-offset-1'>
                         <div className='organizers-list'>
                             <div className='accordion-item'>
-                                <p onClick={() => {setFlipped(!isFlipped)}} className='faq-title pointer'><h1 className="title">Challenge Set Organizers</h1><span><FontAwesomeIcon icon={isFlipped ? faChevronDown : faChevronRight} /></span></p>
-                                {isFlipped ? <p className='a-info'>
+                                <p onClick={() => {setFlipped2(!isFlipped2)}} className='faq-title pointer'><h1 className="title">Challenge Set Organizers</h1><span><FontAwesomeIcon icon={isFlipped2 ? faChevronDown : faChevronRight} /></span></p>
+                                {isFlipped2 ? <p className='a-info'>
                                     {
                                         challenge_set_people.map(challenge => (
                                             <div className="challenge-container">
