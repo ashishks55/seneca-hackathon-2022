@@ -1,4 +1,9 @@
-import React from 'react';
+//import React from 'react';
+import React, { useState } from 'react';
+import { faChevronRight, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import parse from 'html-react-parser'
+
+
 import mark from '../../images/people/mark.jpg';
 import josh from '../../images/people/josh.jpg';
 import david from '../../images/people/david.jpg';
@@ -48,7 +53,6 @@ import ts_4 from '../../images/logos/ts-4.png'
 import ts_5 from '../../images/logos/ts-5.png'
 
 const Organizers = () => {
-
     const organizers = [
         {
             name: 'Mark Buchner',
@@ -61,7 +65,10 @@ const Organizers = () => {
             linkedin_url: 'https://www.linkedin.com/in/joshsblee/',
             title: 'Hackathon Vice Chair',
             image: josh
-        },
+        }
+    ]
+
+    const directors = [
         {
             name: 'David Jeong',
             linkedin_url: 'https://www.linkedin.com/in/david-jeong/',
@@ -483,14 +490,16 @@ const Organizers = () => {
         }
     ]
 
+    const [isFlipped, setFlipped] = useState(false);
+
     return (
         <section className="hero is-medium is-white">
             <div className="hero-body hero-body-2">
                 <div className='columns'>
                     <div className='column is-10 is-offset-1'>
-                    <br/>
-                    <br/>
-                    <h1 className="title">Meet Our Organizers</h1><br/><br/>
+                        <br/>
+                        <br/>
+                        <h1 className="title" style={{textAlign: "center"}}>Meet Our Organizers</h1><br/><br/>
                         <div className='organizers columns flex-wrap'>
                             {
                                 organizers.map((organizer, index) => (
@@ -517,37 +526,90 @@ const Organizers = () => {
                             }
                         </div>
                     </div>
-                </div>
-                <div className='column is-10 is-offset-1'>
-                    <h1 className="title">Challenge Set Organizers</h1>
-                    {
-                        challenge_set_people.map(challenge => (
-                            <div className="challenge-container">
-                                <h1 className="subtitle">{challenge.category}</h1><br/>
-                                <div className="columns flex-wrap">
+                </div> 
+                
+                <div className='columns'>
+                    <div className='column is-10 is-offset-1'>
+                        <div className='organizers-list'>
+                            <div className='accordion-item'>
+                                <p onClick={() => {setFlipped(!isFlipped)}} className='faq-title pointer'><h1 className="title">Directors</h1><span><FontAwesomeIcon icon={isFlipped ? faChevronDown : faChevronRight} /></span></p>
+                                {isFlipped ? <p className='a-info'>
                                     {
-                                        challenge.people_details.map(people_data => (
-                                            <div className="sponsor-item column is-12-mobile is-12-tablet is-4-desktop columns is-align-items-center">
-                                                <div className="column is-4 is-paddingless is-marginless sponsor-image">{people_data.is_string ? people_data.sponsor : <img src={people_data.sponsor} alt="sponsor" width={people_data.width}/>}</div>
-                                                <div className="column is-paddingless is-flex is-flex-direction-column people-list">
-                                                {
-                                                    people_data.people.map(people => (
-                                                        <div className="people-item">
-                                                            <br className="is-hidden-desktop"/>
-                                                            <p className="name">{people.name}</p>
-                                                            <p className="desig">{people.title} {people.email ? <a target='_blank' rel="noopener noreferrer" href={`mailto:${people.email}`} className='email-icon'><FontAwesomeIcon icon={faEnvelope}/></a> : null}</p>
+                                        <div className='organizers columns flex-wrap'>
+                                        {
+                                            directors.map((dir, index) => (
+                                                <div key={index} className='column is-4-tablet is-2-5-desktop'>
+                                                    <div className="card card-3">
+                                                        <div className="card-image is-rounded-container">
+                                                            <figure className="image is-1by1">
+                                                                <img src={dir.image} alt="organizer"/>
+                                                            </figure>
                                                         </div>
-                                                    ))
-                                                }
+                                                        <div className="card-content">
+                                                            <div className="content organizer-card-content">
+                                                                <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{dir.name}</p>
+                                                                <p className='subtitle designation is-size-6 has-text-weight-normal line-height-1'>
+                                                                    {dir.title}
+                                                                    {dir.linkedin_url ? <a target='_blank' rel="noopener noreferrer" href={dir.linkedin_url}><img src={linkedin_icon} alt="linkedin" className='linkedin-icon-inline'/></a> : null}
+                                                                    {dir.email ? <a target='_blank' rel="noopener noreferrer" href={`mailto:${dir.email}`} className='email-icon'><FontAwesomeIcon icon={faEnvelope}/></a> : null}
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            ))
+                                        }
+                                    </div>
+                                    }
+                                </p>: null}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='columns'>
+                    <div className='column is-10 is-offset-1'>
+                        <div className='organizers-list'>
+                            <div className='accordion-item'>
+                                <p onClick={() => {setFlipped(!isFlipped)}} className='faq-title pointer'><h1 className="title">Challenge Set Organizers</h1><span><FontAwesomeIcon icon={isFlipped ? faChevronDown : faChevronRight} /></span></p>
+                                {isFlipped ? <p className='a-info'>
+                                    {
+                                        challenge_set_people.map(challenge => (
+                                            <div className="challenge-container">
+                                                <h1 className="subtitle">{challenge.category}</h1><br/>
+                                                <div className="columns flex-wrap">
+                                                    {
+                                                        challenge.people_details.map(people_data => (
+                                                            <div className="sponsor-item column is-12-mobile is-12-tablet is-4-desktop columns is-align-items-center">
+                                                                <div className="column is-4 is-paddingless is-marginless sponsor-image">{people_data.is_string ? people_data.sponsor : <img src={people_data.sponsor} alt="sponsor" width={people_data.width}/>}</div>
+                                                                <div className="column is-paddingless is-flex is-flex-direction-column people-list">
+                                                                {
+                                                                    people_data.people.map(people => (
+                                                                        <div className="people-item">
+                                                                            <br className="is-hidden-desktop"/>
+                                                                            <p className="name">{people.name}</p>
+                                                                            <p className="desig">{people.title} {people.email ? <a target='_blank' rel="noopener noreferrer" href={`mailto:${people.email}`} className='email-icon'><FontAwesomeIcon icon={faEnvelope}/></a> : null}</p>
+                                                                        </div>
+                                                                    ))
+                                                                }
+                                                                </div>
+                                                            </div>
+                                                        ))
+                                                    }
                                                 </div>
                                             </div>
-                                        ))
+                                        )) 
                                     }
-                                </div>
+                                </p>: null}
                             </div>
-                        ))  
-                    }
+                        </div>
+                    </div>
                 </div>
+
+                
+            
+
+            
             </div>
         </section>
     );
