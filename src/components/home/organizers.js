@@ -430,23 +430,23 @@ const Organizers = () => {
                             email: 'amkathrotiya@myseneca.ca'
                         }
                     ]
-                }/* ,
+                },
                 {
                     sponsor: nzc_7,
-                    width: '60px',
+                    width: '100px',
                     people: [
                         {
-                            name: 'Shubham Sharma',
+                            name: 'Ana Maria Rojas',
                             title: 'Student Success Officer',
-                            email: 'ssharma470@myseneca.ca'
+                            email: 'amavendano-rojas@myseneca.ca'
                         },
                          {
-                            name: 'Nishant Adekar',
-                            title: 'Student Success Officer',
-                            email: 'nadekar@myseneca.ca'
+                            name: 'Kaveh Eshraghian',
+                            title: 'Partner Experience Officer',
+                            email: ''
                         }
                     ]
-                } */
+                }
             ]
         },
         {
@@ -476,22 +476,6 @@ const Organizers = () => {
                             name: 'Gopalakrishnan Vilwadri',
                             title: 'Partner Experience Officer',
                             email: 'gopalakrishnan-vilwa@myseneca.ca'
-                        }
-                    ]
-                },
-                {
-                    sponsor: nzc_7,
-                    width: '100px',
-                    people: [
-                        {
-                            name: 'Ana Maria Rojas',
-                            title: 'Student Success Officer',
-                            email: 'amavendano-rojas@myseneca.ca'
-                        },
-                         {
-                            name: 'Kaveh Eshraghian',
-                            title: 'Partner Experience Officer',
-                            email: ''
                         }
                     ]
                 }
