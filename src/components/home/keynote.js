@@ -6,18 +6,14 @@ import { faPlayCircle } from '@fortawesome/free-solid-svg-icons'
 
 const Keynote = () => {
 
-    const keynotes = [
-        {
-            title : 'Challenge Sets Strategy',
-            link: 'https://www.youtube.com/watch?v=6JUx9QfOj9o'
+    const keynotes = [    
+         {
+            title: 'Welcome Speech from Seneca College President David Agnew',
+             link: 'https://www.youtube.com/watch?v=Gd3nOZy2gLU'
         },
-        {
-            title : 'Students and Organizers answer: What is Sustainable Hackathon',
-            link: 'https://www.youtube.com/watch?v=3jFy11Mn9Vk'
-        },
-        {
-            title : '2022 Sustainability Hackathon Overview',
-            link: 'https://www.youtube.com/watch?v=yFmsSgDN6-E'
+          {
+              title: 'Keynote Video by Sandrine Garneau F1 GPCanada 1',
+              link: 'https://www.youtube.com/watch?v=FPJutXVGgHg'
         }
     ]
 
@@ -31,7 +27,7 @@ const Keynote = () => {
             <div className="hero-body hero-body-2">
                 <div className='columns'>
                     <div className='column is-10 is-offset-1'>
-                        <h1 className="title is-marginless">Videos</h1>
+                        <h1 className="title is-marginless">Keynotes</h1>
                         <div className='keynotes'>
                             <div className='main-video'>
                                 <ReactPlayer
