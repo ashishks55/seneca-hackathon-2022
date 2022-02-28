@@ -47,6 +47,9 @@ const hero = () => {
                         <p className="subtitle is-size-8 mg-top-1 has-text-green">
                             <b>February 28th - March 4th | ONLINE</b>
                         </p>
+                        <p className="subtitle is-size-8 mg-top-1 has-text-green">
+                            <a href="https://onedrive.live.com/?authkey=%21AE%5Fhci7DI8BNPC8&cid=BCF558DD07C75935&id=BCF558DD07C75935%21119&parId=BCF558DD07C75935%21117&o=OneUp" target="_blank"><b><u>Hackathon Guidelines</u></b></a>
+                        </p>
                         <Countdown
                             date={date}
                             renderer={renderer}

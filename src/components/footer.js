@@ -38,7 +38,7 @@ const Footer = () => {
             }}>
                 <p className='has-text-centered has-text-weight-semibold'>Contact us at <a href='mailto:info@senecahackathon.com' rel="noopener noreferrer" target="_blank" className='has-text-green is-underlined'>info@senecahackathon.com</a></p>
                 <p className='has-text-centered has-text-green has-text-weight-semibold'>Copyright © Seneca Hackathon {new Date().getFullYear()}. All rights reserved.</p>
-                <p className='has-text-centered'><a href="https://1drv.ms/b/s!AjVZxwfdWPW8b7WQaRuqrmjMdyM" className='has-text-green footer-links has-text-weight-semibold is-underlined'>Rules and Regulations</a><br /><br /></p>
+                <p className='has-text-centered'><a target="_blank" href="https://onedrive.live.com/?authkey=%21AA2kcvXYUfU%2DR38&cid=BCF558DD07C75935&id=BCF558DD07C75935%21111&parId=BCF558DD07C75935%21117&o=OneUp" className='has-text-green footer-links has-text-weight-semibold is-underlined'>Rules and Regulations</a><br /><br /></p>
             </div>
         </footer>
     );
