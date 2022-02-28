@@ -19,6 +19,16 @@ import benjamin from '../../images/people/benjamin.jpg';
 import arjan from '../../images/people/arjan.jpg';
 import clairol from '../../images/people/clairol.jpeg';
 import azher from '../../images/people/azher.jpeg';
+
+import Ashish from '../../images/people/Ashish.jpg';
+import Greeshma from '../../images/people/GREESHMA.jpeg';
+import HemLata from '../../images/people/HemLata.jpeg';
+import Mini from '../../images/people/Mini.jpeg';
+import Nisha from '../../images/people/Nisha.jpeg';
+import Rugma from '../../images/people/Rugma.jpg';
+import Thrishya from '../../images/people/Thrishya.jpeg';
+import Viren from '../../images/people/Viren.jpg';
+
 import linkedin_icon from '../../images/linkedin.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -490,8 +500,66 @@ const Organizers = () => {
         }
     ]
 
+    const it_team = [
+        {
+            name: 'Neha Dsouza',
+            email: 'nldsouza2@gmail.com',
+            title: 'IT Manager/Team Lead',
+            image: neha
+        },
+        {
+            name: 'Thrishya Nagarajan Karthikeyan',
+            email: 'tnagarajan-karthikey@myseneca.ca',
+            title: 'UX/UI Designer',
+            image: Thrishya
+        },
+        {
+            name: 'Ashish Kanwar Singh',
+            email: 'aksingh27@myseneca.ca',
+            title: 'Developer',
+            image: Ashish
+        },
+        {
+            name: 'Nisha Magnani',
+            email: 'npmagnani@myseneca.ca',
+            title: 'Full Stack Developer',
+            image: Nisha
+        },
+        {
+            name: 'Mini Krishnankutty',
+            email: 'mkrishnankutty@myseneca.ca',
+            title: 'Developer',
+            image: Mini
+        },
+        {
+            name: 'Rugma Muraleedharan Sandhya',
+            email: 'rmuraleedharan-sandh@myseneca.ca',
+            title: 'Developer',
+            image: Rugma
+        },
+        {
+            name: 'Viren Dhingra',
+            email: 'vdhingra1@myseneca.ca',
+            title: 'Quality Analyst Lead',
+            image: Viren
+        },
+        {
+            name: 'Greeshma Gopal',
+            email: 'ggopal2@myseneca.ca',
+            title: 'Quality Analyst',
+            image: Greeshma
+        },
+        {
+            name: 'Hem Lata',
+            email: 'hlata@myseneca.ca',
+            title: 'Quality Analyst',
+            image: HemLata
+        }
+    ]
+
     const [isFlipped, setFlipped] = useState(false);
     const [isFlipped2, setFlipped2] = useState(false);
+    const [isFlipped3, setFlipped3] = useState(false);
 
     return (
         <section className="hero is-medium is-white">
@@ -607,7 +675,44 @@ const Organizers = () => {
                     </div>
                 </div>
 
-                
+                <div className='columns'>
+                    <div className='column is-10 is-offset-1'>
+                        <div className='organizers-list'>
+                            <div className='accordion-item'>
+                                <p onClick={() => {setFlipped3(!isFlipped3)}} className='faq-title pointer'><h1 className="title">IT Team</h1><span><FontAwesomeIcon icon={isFlipped3 ? faChevronDown : faChevronRight} /></span></p>
+                                {isFlipped3 ? <p className='a-info'>
+                                    {
+                                        <div className='organizers columns flex-wrap'>
+                                        {
+                                            it_team.map((it, index) => (
+                                                <div key={index} className='column is-4-tablet is-2-5-desktop'>
+                                                    <div className="card card-3">
+                                                        <div className="card-image is-rounded-container">
+                                                            <figure className="image is-1by1">
+                                                                <img src={it.image} alt="organizer"/>
+                                                            </figure>
+                                                        </div>
+                                                        <div className="card-content">
+                                                            <div className="content organizer-card-content">
+                                                                <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{it.name}</p>
+                                                                <p className='subtitle designation is-size-6 has-text-weight-normal line-height-1'>
+                                                                    {it.title}
+                                                                    {it.linkedin_url ? <a target='_blank' rel="noopener noreferrer" href={it.linkedin_url}><img src={linkedin_icon} alt="linkedin" className='linkedin-icon-inline'/></a> : null}
+                                                                    {it.email ? <a target='_blank' rel="noopener noreferrer" href={`mailto:${it.email}`} className='email-icon'><FontAwesomeIcon icon={faEnvelope}/></a> : null}
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            ))
+                                        }
+                                    </div>
+                                    }
+                                </p>: null}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             
 
             
