@@ -367,22 +367,22 @@ const Organizers = () => {
          {
             category: 'Net-Zero Goals',
             people_details: [
-                {
-                    sponsor: nzc_1,
-                    width: '100px',
-                    people: [
-                        {
-                            name: 'Emon Kaur',
-                            title: 'Student Success Officer',
-                            email: 'ekaur11@myseneca.ca'
-                        },
-                        {
-                            name: 'Hiralkumari Priyan Solanki  ',
-                            title: 'Partner Experience Officer',
-                            email: 'hpsolanki@myseneca.ca '
-                        }
-                    ]
-                },
+                // {
+                //     sponsor: nzc_1,
+                //     width: '100px',
+                //     people: [
+                //         {
+                //             name: 'Emon Kaur',
+                //             title: 'Student Success Officer',
+                //             email: 'ekaur11@myseneca.ca'
+                //         },
+                //          {
+                //             name: 'Hiralkumari Priyan Solanki  ',
+                //             title: 'Partner Experience Officer',
+                //             email: 'hpsolanki@myseneca.ca '
+                //         }
+                //     ]
+                // },
                 {
                     sponsor: nzc_2,
                     width: '100px',
