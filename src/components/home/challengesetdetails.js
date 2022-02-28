@@ -408,54 +408,126 @@ const ChallengeSetsDetails = ({id}) => {
                     `
                 },
                 {
-                    title: 'Goal 11',
+                    title: 'Improving Affordable Housing Supply and Allocation Processes Through Technologies',
                     sponsor_logo: gco_3,
                     logo_height: '30px',
                     info: 
                     `
                     <h3>Background and Context </h3>
-                    <p>While housing affordability is a key element in building sustainable urban places, Canada’s largest cities have been facing a chronic housing crisis just like their international counterparts. The affordability crisis has since spilled over to rural and smaller communities in recent years.  Marginalized and racialized communities impacted particularly hard by the crisis as decades of systemic racism has deeply entrenched in housing arrangement. The increasing cost of homeownership push these communities away from achieving positive health, social, education and career outcomes.</p>
-                    <p>Traditionally, tackling housing affordability is perceived to be the government and non-profit sectors’ jurisdictions. However, we should recognize the far-reaching impact of the housing crisis, the need for prompt responses, as well as the capacities from the private sector that could be leveraged.  Historically, governments focus on demand-side solutions that aim to cool down the property market. The trend for home prices demonstrated that these measures are insufficient as population growth continues to outpace the supply of new homes. It is important to recognize that demand-side solutions are as effective as the numbers of units available in the market. Unless more housing units are being created, our society will continue to be impacted by the negative outcomes from the housing affordability crisis.</p>
-                    <p>There are a number of other issues that the housing sector also needs to tackle. There are misaligned interest amongst housing stakeholders (e.g., developers, new-homebuyers, existing homeowners, governments, non-profit organizations, consultants and contractors etc.) that slows down or prevent sufficient supply of housing. Developing affordable homes is particularly difficult because of the financial and feasibility constraints. The system is also fragmented and lack transparency as affordable home seekers do not have a centralized and easy to navigate channel to find and apply for affordable housing units / programs. Lastly, marginalized and racialized communities are often neglected in the decision-making process for housing policies. These inefficiencies further add to the difficulties in providing equitable access to affordable homes.</p>
+                    <p>Building affordable housing has proven to be a complicated process, not only for the government but also for those who are practicing in the housing sector (e.g., developers, consultants, contractors, NPOs, service agencies). There is a misalignment of interest amongst different groups of stakeholders (including potential homebuyers, tenants, and existing home occupants) that slows down or prevents sufficient supply of housing. Developing affordable homes is particularly difficult compared to market rate counterparts because of the financial and feasibility constraints.  </p>
+                    <p>The home-finding system is also fragmented, and lacks transparency as affordable home seekers do not have a centralized and easy-to-navigate channel to find and apply for affordable housing units & programs.  </p>
+                    <p>Lastly, marginalized and racialized communities are often neglected in the decision-making process for housing policies. These inefficiencies further add to the difficulties in providing equitable access to affordable homes. </p>
+                    <p><b>Key Question:</b> How can technological innovations be implemented to promote affordable housing supply, enhance stakeholder relationships, and to improve the housing allocation process? </p>
+
                     <h3>Objective/Solution</h3>
-                    <p>Our objective is to use technological innovations to create an ecosystem that could mitigate if not eliminate the inefficiencies and misalignments amongst stakeholders. As the Province commits to create 1.5 million housing units in the next 10 years to fulfill the latent and projected demand, our solution intends to serve as a platform that support this cause. We intend to create more meaningful partnerships, and therefore the creation of more housing units.</p>
-                    <p>We are challenging you to create an ecosystem that may incorporate some of the following: blockchain technologies, NFTs, machine learning and data intelligence, with the following objectives in mind:</p>
+                    <p>How can we leverage technological innovations to promote affordable housing supply by mitigating the drawbacks on the current affordable housing processes? </p>
+                    <p>We are challenging you to create a solution that may incorporate some of the following elements: </p>
                     <ul class="cs1">
-                        <li>Facilitate the formation of lasting partnerships among stakeholders</li>
-                        <li>Incorporate different housing stakeholders into this solution</li>
-                        <li>Reduce misaligned incentives among stakeholders</li>
-                        <li>Streamline the affordable home finding and application processes</li>
-                        <li>Improve transparency of the affordable housing allocation and lifecycle tracking processes</li>
-                        <li>Create Long term impacts to housing affordability</li>
-                        <li>Attract new ideas and resources from members of the ecosystem</li>
-                        <li>Empower marginalized and racialized communities in the decision-making process.</li>
-                        <li>Consider the needs of all stakeholders, particularly those who will be most affected by this solution</li>
+                        <li>Blockchain Technologies </li>
+
+                        <li>NFTs </li>
+                        
+                        <li>Web 3.0 </li>
+                        
+                        <li>GIS Data Visualization / Mapping </li>
+                        
+                        <li>Data Intelligence </li>
+                        
+                        <li>Machine Learning </li>
                     </ul>
-                    <p>The final product will be a no-code working prototype created using Bubble.io. We will provide you with access.</p>
-                    <p>Be creative!</p>
+                    <p>Your solution should focus on several of the following objectives: </p>
+                    <ul class="cs1">
+                    <li>Facilitate the formation of lasting partnerships amongst stakeholders </li> 
+
+                    <li>Reduce misaligned incentives amongst stakeholders </li>
+
+                    <li>Streamline the affordable home finding and application processes  </li>
+
+                    <li>Improve transparency of the affordable housing allocation and lifecycle tracking processes </li>
+
+                    <li>Create Long term impacts to housing affordability </li>
+
+                    <li>Attract new ideas and resources from different housing stakeholders </li>
+
+                    <li>Empower marginalized and racialized communities in the decision-making process </li>
+                    </ul>
+
+                    <p>You will submit the following items: </p>
+                    <ul class="cs1">
+                    <li>A no-code prototype using Bubble.io  </li>
+                    
+                    <li>A design document plan  </li>
+                    
+                    <li>A presentation decks  </li>
+                    
+                    <li>A 5-minute presentation video of your plan  </li>
+                    </ul>
                     <h3>Resources/Data</h3>
                     <ol>
-                        <li><a class="has-text-green is-underlined" href="https://sdgs.un.org/topics/sustainable-cities-and-human-settlements" target="_blank">Goal 11</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.housing.housing-note.housing-note--may-12-2021-.html" target="_blank">Background Study on the Scale of Housing Affordability Crisis in Canada Scotia Bank – Estimating the Structural Housing Shortage in Canada: Are we 100 Thousand or Nearly 2 Million Units Short</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://files.ontario.ca/mmah-housing-affordability-task-force-report-en-2022-02-07-v2.pdf" target="_blank">Background Study on Most Recent Update about Ontario’s Housing Affordability and the Task Force’s Recommendations: Report of the Ontario Housing Affordability Task Force</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/wp-content/uploads/2020/04/94f0-housing-to-2020-2030-action-plan-housing-secretariat.pdf" target="_blank">Background Study on City of Toronto’s Housing Affordability Vision and Plans for This Decade: City of Toronto – Housing TO 2020 – 2030 Action Plan</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://eppdscrmssa01.blob.core.windows.net/cmhcprodcontainer/sf/project/placetocallhome/pdfs/canada-national-housing-strategy.pdf" target="_blank">Background Study on the Federal Government’s Housing Policy Vision and Plans: Government of Canada – National Housing Strategy</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.placetocallhome.ca/stories#sort=relevancy" target="_blank">Reference on Projects that are Selected by CMHC: Projects Funded through CMHC Affordable Housing Innovation Fund</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/legdocs/mmis/2021/ph/bgrd/backgroundfile-165633.pdf" target="_blank">Reference on the Digital Access System to be Created by the City of Toronto: Creation of a Fair and Streamlined Access System for Affordable Housing</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://canurb.org//wp-content/uploads/CUIPublication.ScalingUpAffordableHousingGTA.2017.pdf" target="_blank">Reference on Funding Program Models Offered by Non-Profit Organizations: P.19 – P.23 of Canadian Urban Institute’s Report on Scaling Up Affordable Ownership Housing in the GTA </a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.usebraintrust.com/hubfs/%5BWhitepaper%5D%20Braintrust_The_Decentralized_Talent_Network_9_2_21.pdf" target="_blank">Example of a Network Marketplace for the Talent Acquisition Space: Braintrust White Paper</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://decentraland.org/whitepaper.pdf" target="_blank">Example of a Decentralized Property Ownership Ledger for Digital Land: Decentraland White Paper </a></li>
-                        <li><a class="has-text-green is-underlined" href="https://whitepaper.io/document/623/flow-dapper-labs-whitepaper" target="_blank">Example of a Decentralized and Open-Source Blockchain: Flow White Paper </a></li>
+                        <li>
+                        <p><b>Background Study on the Scale of Housing Affordability Crisis in Canada</b> Scotia Bank – Estimating the Structural Housing Shortage in Canada: Are we 100 Thousand or Nearly 2 Million Units Short </p>
+                        <a class="has-text-green is-underlined" href="https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.housing.housing-note.housing-note--may-12-2021-.html " target="_blank">https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.housing.housing-note.housing-note--may-12-2021-.html </a></li>
+
+                        <li>
+                        <p><b>Background Study on Most Recent Update about Ontario’s Housing Affordability and the Task Force’s Recommendations:</b> Report of the Ontario Housing Affordability Task Force </p>
+                        <a class="has-text-green is-underlined" href="https://files.ontario.ca/mmah-housing-affordability-task-force-report-en-2022-02-07-v2.pdf  " target="_blank">https://files.ontario.ca/mmah-housing-affordability-task-force-report-en-2022-02-07-v2.pdf  </a></li>
+
+                        <li>
+                        <p><b>Background Study on City of Toronto’s Housing Affordability Vision and Plans for This Decade:</b> City of Toronto – Housing TO 2020 – 2030 Action Plan</p>
+                        <a class="has-text-green is-underlined" href="https://www.toronto.ca/wp-content/uploads/2020/04/94f0-housing-to-2020-2030-action-plan-housing-secretariat.pdf " target="_blank">https://www.toronto.ca/wp-content/uploads/2020/04/94f0-housing-to-2020-2030-action-plan-housing-secretariat.pdf </a></li>
+
+                        <li>
+                        <p><b>Background Study on the Federal Government’s Housing Policy Vision and Plans:</b> Government of Canada – National Housing Strategy </p>
+                        <a class="has-text-green is-underlined" href="https://eppdscrmssa01.blob.core.windows.net/cmhcprodcontainer/sf/project/placetocallhome/pdfs/canada-national-housing-strategy.pdf  " target="_blank">https://eppdscrmssa01.blob.core.windows.net/cmhcprodcontainer/sf/project/placetocallhome/pdfs/canada-national-housing-strategy.pdf </a></li>
+
+                        <li>
+                        <p><b>Reference on Projects that are Selected by CMHC:</b> Projects Funded through CMHC Affordable Housing Innovation Fund </p>
+                        <a class="has-text-green is-underlined" href="https://www.placetocallhome.ca/stories#sort=relevancy " target="_blank">https://www.placetocallhome.ca/stories#sort=relevancy  </a></li>
+
+                        <li>
+                        <p><b>Reference on the Digital Access System to be Created by the City of Toronto:</b> Creation of a Fair and Streamlined Access System for Affordable Housing </p>
+                        <a class="has-text-green is-underlined" href="https://www.toronto.ca/legdocs/mmis/2021/ph/bgrd/backgroundfile-165633.pdf " target="_blank">https://www.toronto.ca/legdocs/mmis/2021/ph/bgrd/backgroundfile-165633.pdf </a></li>
+
+                        <li>
+                        <p><b>Reference on Funding Program Models Offered by Non-Profit Organizations:</b> P.19 – P.23 of Canadian Urban Institute’s Report on Scaling Up Affordable Ownership Housing in the GTA</p>
+                        <a class="has-text-green is-underlined" href="https://canurb.org//wp-content/uploads/CUIPublication.ScalingUpAffordableHousingGTA.2017.pdf " target="_blank">https://canurb.org//wp-content/uploads/CUIPublication.ScalingUpAffordableHousingGTA.2017.pdf </a></li>
+
+                        <li>
+                        <p><b>Example of a Network Marketplace for the Talent Acquisition Space:</b> Braintrust White Paper </p>
+                        <a class="has-text-green is-underlined" href="https://www.usebraintrust.com/hubfs/%5BWhitepaper%5D%20Braintrust_The_Decentralized_Talent_Network_9_2_21.pdf  " target="_blank">https://www.usebraintrust.com/hubfs/%5BWhitepaper%5D%20Braintrust_The_Decentralized_Talent_Network_9_2_21.pdf </a></li>
+
+                        <li>
+                        <p><b>Example of a Decentralized Property Ownership Ledger for Digital Land:</b> Decentraland White Paper  </p>
+                        <a class="has-text-green is-underlined" href="https://decentraland.org/whitepaper.pdf " target="_blank">https://decentraland.org/whitepaper.pdf </a></li>
+
+                        <li>
+                        <p><b>Example of a Decentralized and Open-Source Blockchain: </b> Flow White Paper  </p>
+                        <a class="has-text-green is-underlined" href="https://whitepaper.io/document/623/flow-dapper-labs-whitepaper " target="_blank">https://whitepaper.io/document/623/flow-dapper-labs-whitepaper </a></li>
                     </ol>
                     <h3>FAQ</h3>
-                    <p>What were your questions when you were starting out on this challenge set development journey? What answers have you found? What do students need to know before they get started?</p>
+                    
                     <ol>
-                    <li>How did we come up with the Challenge Topic?</li>
-                    <li>What is housing affordability? </li>
-                    <li>What is affordable housing? </li>
-                    <li>What is demand-side and supply-side solutions?</li>
-                    <li>Why doesn’t the solution aim to directly create more units?</li>
-                    <li>What benefits are there to participating in this challenge?  </li>
+                    <li><p><b>What is Affordably’s background?</b></p>
+                    <p>Members of Affordably’s team have strong domain knowledge in different aspects of the real estate sector. Through practicing in the real estate and finance industry, we have witnessed the inefficiencies in the housing sector as well as the challenges in creating of affordable housing. As the team shares a vision of solving the issue with innovations, we decided to form Affordably to contribute to the cause. </p></li>
+                    
+                    <li><p><b>How did we come up with the Challenge Topic?</b></p>
+                    <p>We recognize the power of technology and innovation in other sectors (such as finance and shared economy) and believe that the Topic can contribute to improving the affordable housing sector as well. </p></li>
+
+                    <li><p><b>What is affordable housing & housing affordability?</b></p>
+                    <p>Although they are often used synonymously, they are related to very different ideas respectively. Affordable housing refers to financially supporting housing, whereas housing affordability refers to the relationship between home prices and household incomes. </p></li>
+
+                    <li><p><b>Which concept is desired for this Challenge?</b></p>
+                    <p>You may incorporate one or both concepts in your solution. </p></li>
+
+                    <li><p><b>Why doesn’t the solution aim to directly create more units? </b></p>
+                    <p>Affordably’s position and expertise can be best leveraged to facilitate building the capacity of affordable housing stakeholders to form meaningful partnerships when it comes to creating more housing supply. There are other stakeholders such as the CMHC, the lending industry, and the developer industry, that are better suited in focusing on the direct creation of units.  </p></li>
+
+                    <li><p><b>Who can participate in this challenge?  </b></p>
+                    <p>We welcome participants from all backgrounds to participate.</p></li>
+
+                    <li><p><b>Are there any support resources?</b></p>
+                    <p>The participating teams may access bubble.io with the costs fronted by Affordably. Participants may also access training materials for bubble.io on premise. (Public health and safety protocols must be followed at all times when participant is on premise) </p></li>
+
                     </ol>
                     `
                 },
@@ -719,7 +791,7 @@ const ChallengeSetsDetails = ({id}) => {
                     `
                 },
                 {
-                    title: 'Saving Trees to Save Lives',
+                    title: 'Saving Trees to Save The Planet',
                     sponsor_logo: nzc_7,
                     logo_height: '40px',
                     info: `
@@ -977,15 +1049,17 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <p>Dataset from City of Brampton : <a class="has-text-green is-underlined" href="https://seneca-my.sharepoint.com/:w:/g/personal/vagrawal2_myseneca_ca/ERJtkSTnK0NJtJG9k2l43Y0BDRks0ojpHVqf7GcFB1aINA?e=KlWi6w" target="_blank">Click here.</a></p>
                     <h3>FAQ</h3>
-                    <p class="has-text-weight-bold">1. What is the expected solution out of this app?</p>
-                    <ul>
-                        <li>To Provide a solution with an interactive app for the community that will help them explore more natural heritage sites, including a <b>security feature by integrating GIS (Geographic Information Systems) which maps data.</b></li>
-                    </ul>
-                    <p class="has-text-weight-bold">2. How does the data provided help and how will it build towards building an app?</p>
-                    <ul>
-                        <li>Identifying nature and consumption from the data provided by the City of Brampton will help to analyze the natural landmarks and demographic patterns of the community by the data provided. This data will help to build an app highlighting the city’s Natural Heritage System by connecting people with nature responsibly by integrating gamification. </li>
-                    </ul>
-                    <p class="has-text-weight-bold">3. What are a few of the most important and/or prominent features that the sponsors are looking for? </p>
+                    <ol>
+                    <li><p class="has-text-weight-bold">What are the advantages of promoting Natural Heritage System? </p>
+                    <p>Nearly 20% of Brampton’s landscape is its natural heritage, which is its woodlands, wetlands, meadows, parks and trails; however, majority of the community members are unaware of all that the city has to offer. By promoting this NHS, we can increase the footfall around the landscape and connect communities with one another. </p></li>
+
+                    <li><p class="has-text-weight-bold">What is the expected solution out of this app? </p>
+                    <p>To Provide a solution with an interactive app for the community that will help them explore more natural heritage sites, including a security feature by integrating GIS (Geographic Information Systems) which maps data. </p></li>
+                   
+                    <li><p class="has-text-weight-bold">How does the data provided help and how will it build towards building an app? </p>
+                    <p>Identifying nature and consumption from the data provided by the City of Brampton will help to analyze the natural landmarks and demographic patterns of the community by the data provided. This data will help to build an app highlighting the city’s Natural Heritage System by connecting people with nature responsibly by integrating gamification.  </p></li>
+
+                    <li><p class="has-text-weight-bold">What are a few of the most important and/or prominent features that the sponsors are looking for? </p>
                     <p>The solution needs to be interactive. Few of them talked about features that we are looking forward to would be: </p>
                     <ul class="cs1">
                         <li>Gamification (Hint: Treasure Hunt)</li>
@@ -993,11 +1067,21 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>Discussion Boards</li>
                         <li>Check-in rewards</li>
                     </ul>
-                    <p>These are a few ideas. The application must not be limited to these features.</p>
-                    <p class="has-text-weight-bold">4. Am I allowed to share the datasets with other contributors? </p>
-                    <ul>
-                        <li>No. These datasets must only be used by the group members participating in the City of Brampton challenge set.</li>
-                    </ul>
+                    <p>These are a few ideas. The application must not be limited to these features.</p></li>
+
+                    <li><p class="has-text-weight-bold">What data is being provided for possible solutions and where can I find it? </p>
+                    <p>Our sponsors have provided us with over 18 groups of datasets in CSV, KML and geoJSON which will be made available to you on the first day of the event.  </p></li>
+
+                    <li><p class="has-text-weight-bold">Should my solution be limited to the datasets provided only? </p>
+                    <p>There is no limitation on only using the datasets that have been provided. You are free to research, explore and use any relevant data available on the web. </p></li>
+
+                    <li><p class="has-text-weight-bold">Am I allowed to share the datasets with other contributors? </p>
+                    <p>No. These datasets must only be used by the group members participating in the City of Brampton challenge set.  </p></li>
+
+                    <li><p class="has-text-weight-bold">How will the winner be chosen? </p>
+                    <p>To win this event, you first need to pass the qualifiers. There is no set rubric for grading the submission. The most unique idea with the most practical approach, which is best as per the sponsor’s requirements, will win.</p></li>
+                    
+                    </ol>
                     `
                 },
                 {
@@ -1006,32 +1090,39 @@ const ChallengeSetsDetails = ({id}) => {
                     logo_height: '60px',
                     info: 
                     `
+                    <h3>About the City of Vaughan</h3>
+                    <p>The City of Vaughan is one of Canada's fastest growing cities with a population of more than 341,600. Incorporated in 1991, Vaughan includes the communities of Concord, Kleinburg, Maple, Thornhill and Woodbridge. This culturally diverse municipality is located in the heart of York Region and the Greater Toronto Area. The City of Vaughan continues to be an emerging world-class place to raise a family, start a business and enjoy many attractions and amenities. It is anticipated that by 2031, Vaughan will grow to more than 416,000 people and 266,000 jobs. It is home to more than 12,000 businesses that employ more than 222,000 people. The quality of life is unrivalled. In fact, the results from the 2018 Citizen Satisfaction Survey reveal 97 per cent of residents agree the quality of life is good here. The majority of citizens also cite a strong sense of community and belonging, with 92 per cent saying they are proud to be from Vaughan and 91 per cent saying it is a welcoming city. </p>
+
                     <h3>Background and Context</h3>
-                    <p>The process of identifying patterns and problems in the complete water provision and circulation life cycle and differentiate between issues such as excessive use of water and any possible leakage of water which could result in the waste of millions of gallons of water.</p>
-                    <p>How can we use water consumption data from the city and analyze the data to identify the specific areas of water wastage? Creating innovative technology and applied science to improve water utilization and minimizing water wastage. Tracking of water theft is an added feature using geospatial data and other technologies from open water bodies.</p>
+                    <p>The process of identifying patterns and problems in the complete water provision and circulation life cycle and differentiate between issues such as excessive use of water and any possible leakage of water which could result in the waste of millions of gallons of water. </p>
+
+                    <p> How can we use water consumption data from the city and analyze the data to identify the specific areas of water wastage? Creating innovative technology and applied science to improve water utilization and minimizing water wastage. Tracking of water theft is an added feature using geospatial data and other technologies from open water bodies.  </p>
+
                     <h3>Objective/Solution</h3>
-                    <p>How can we identify the properties and attributes in the city using geospatial data to locate water consumption, leakages, and water thefts from hydrants?</p>
-                    <p>Identify techniques/solutions or recommendations by analysing the water consumption data provided in the challenge set to build a framework solution addressing the factors of water wastage like excessing consumption for households, leakage of tanks, enclosed water bodies like swimming pools, water consumption, leakage at a factory and thefts from water hydrants.</p>
+                    <p>How can we identify the properties and attributes in the city using geospatial data to locate water consumption, leakages, and water thefts from hydrants?    </p>
+                    <p>Identify techniques/solutions or recommendations by analysing the water consumption data provided in the challenge set to build a framework solution addressing the factors of water wastage like excessing consumption for households, leakage of tanks, enclosed water bodies like swimming pools, water consumption, leakage at a factory and thefts from water hydrants.  </p>
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <ol>
-                        <li><a class="has-text-green is-underlined" href="https://vaughancloud-my.sharepoint.com/personal/alison_munro_vaughan_ca/_layouts" target="_blank">Dataset from City of Vaughan</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.satpalda.com/blogs/water-conservation-planning-and-management" target="_blank">WATER - CONSERVATION, PLANNING AND MANAGEMENT</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.epa.gov/waterdata/waters-geospatial-data-downloads" target="_blank">WATERS Geospatial Data Downloads</a></li>
+                        <li><p>Dataset from City of Vaughan</p><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/EgWROUNcHelBv1mh1xveuT8BcJOsJokUxmxW0K8JwLYJEw?e=t1Tnvd" target="_blank">https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/EgWROUNcHelBv1mh1xveuT8BcJOsJokUxmxW0K8JwLYJEw?e=t1Tnvd</a></li>
+                        <li><p>WATER - CONSERVATION, PLANNING AND MANAGEMENT </p><a class="has-text-green is-underlined" href="https://www.satpalda.com/blogs/water-conservation-planning-and-management" target="_blank">https://www.satpalda.com/blogs/water-conservation-planning-and-management</a></li>
+                        <li><p>WATERS Geospatial Data Downloads </p><a class="has-text-green is-underlined" href="https://www.epa.gov/waterdata/waters-geospatial-data-downloads" target="_blank">https://www.epa.gov/waterdata/waters-geospatial-data-downloads</a></li>
                     </ol>
                     <h3>FAQ</h3>
-                    <p class="has-text-weight-bold">1. What is the expected solution out of this analysis?</p>
-                    <ul>
-                        <li>The analysis should provide reasoning on how and where water consumption is going above the limits. Is it genuine water consumption or is it due to water leakage.</li>
-                    </ul>
-                    <p class="has-text-weight-bold">2. How does the data provided help and how will it build towards analysis?</p>
-                    <ul>
-                        <li>Identifying the nature of consumers from the data provided by the City of Vaughan will help to analyze the pattern of consumption over the periodic data provided. The solution can state how the consumption has increased or decreased over the period and what could be reason for increase or decrease in consumer billing data.</li>
-                    </ul>
-                    <p class="has-text-weight-bold">3. Combination of geospatial data and water consumption data to analyze the data and its advantages? </p>
-                    <ul>
-                        <li>The geospatial data will addon the nature of analysis by providing more information of the terrain and the resident. Considering that the consumer is a domestic resident or a factory or a person with farmlands using the water for their respective nature of consumption. </li>
-                    </ul>
+                    <ol>
+                    <li><p class="has-text-weight-bold">What is the expected solution out of this analysis?</p>
+                   
+                        <p>The analysis should provide reasoning on how and where water consumption is going above the limits. Is it genuine water consumption or is it due to water leakage. </p></li>
+                  
+                        <li><p class="has-text-weight-bold">How does the data provided help and how will it build towards analysis? </p>
+                   
+                        <p>Identifying the nature of consumers from the data provided by the City of Vaughan will help to analyze the pattern of consumption over the periodic data provided. The solution can state how the consumption has increased or decreased over the period and what could be reason for increase or decrease in consumer billing data </p></li>
+
+                        <li><p class="has-text-weight-bold">Combination of geospatial data and water consumption data to analyze the data and its advantages? </p>
+                   
+                        <p>The geospatial data will addon the nature of analysis by providing more information of the terrain and the resident. Considering that the consumer is a domestic resident or a factory or a person with farmlands using the water for their respective nature of consumption. </p></li>
+
+                    </ol>
                     `
                 },
                 {
@@ -1039,17 +1130,18 @@ const ChallengeSetsDetails = ({id}) => {
                     sponsor_logo: cm_1,
                     logo_height: '60px',
                     info: 
-                    `
+                    `<h3>About the City of Vaughan </h3>
+                    <p>The City of Vaughan is one of Canada's fastest growing cities with a population of more than 341,600. Incorporated in 1991, Vaughan includes the communities of Concord, Kleinburg, Maple, Thornhill and Woodbridge. This culturally diverse municipality is located in the heart of York Region and the Greater Toronto Area. The City of Vaughan continues to be an emerging world-class place to raise a family, start a business and enjoy many attractions and amenities. It is anticipated that by 2031, Vaughan will grow to more than 416,000 people and 266,000 jobs. It is home to more than 12,000 businesses that employ more than 222,000 people. The quality of life is unrivalled. In fact, the results from the 2018 Citizen Satisfaction Survey reveal 97 per cent of residents agree the quality of life is good here. The majority of citizens also cite a strong sense of community and belonging, with 92 per cent saying they are proud to be from Vaughan and 91 per cent saying it is a welcoming city. </p>
                     <h3>Background and Context</h3>
                     <p>By comparing the travel times during peak hours with those under free-flowing traffic conditions, traffic data can be used to identify congestion hotspots throughout the road network. Compare hotspots or bottlenecks, with each other and formulate actions and policies to reduce delays. The use of FCD (Floating Car Data) in this type of analysis makes it possible to assess all road categories throughout the entire road network. Real-time traffic data gathering and Traffic congestion prevention.</p>
                     <h3>Objective/Solution</h3>
                     <p>How to analyze the traffic data and produce viable solutions or recommendations to improve road traffic management or emergency response management within the City of Vaughan?</p>
-                    <p>Analyzing the datasets to identify the peak hours, nature of travel, estimated congestion time, geolocations of the traffic load and producing reliable solutions or recommendations on the analysis performed to improve the road traffic management or the emergency response management in the City of Vaughan.</p>
+                    <p>Analyzing the datasets to identify the peak hours, nature of travel, estimated congestion time, geolocations of the traffic load and producing reliable solutions or recommendations on the analysis performed to improve the road traffic management or the emergency response management in the City of Vaughan. </p>
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <ol>
-                        <li><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/EuqSlAjMRadDrv9h8GSoRMgBW5uKMUkLdWu3KSmvsfm0Ew?e=UNZrux" target="_blank">Dataset from City of Vaughan</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.smatstraffic.com/" target="_blank">Collect, Analyze, & Interpret Traffic Data</a></li>
+                        <li><p>Dataset from City of Vaughan</p><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/EuqSlAjMRadDrv9h8GSoRMgBW5uKMUkLdWu3KSmvsfm0Ew?e=UNZrux" target="_blank">https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/EuqSlAjMRadDrv9h8GSoRMgBW5uKMUkLdWu3KSmvsfm0Ew?e=UNZrux</a></li>
+                        <li><p>Collect, Analyze, & Interpret Traffic Data</p><a class="has-text-green is-underlined" href="https://www.smatstraffic.com/" target="_blank">https://www.smatstraffic.com/</a></li>
                     </ol>
                     <h3>FAQ</h3>
                     <p class="has-text-weight-bold">1. What is the expected solution out of this analysis? </p>
@@ -1067,7 +1159,8 @@ const ChallengeSetsDetails = ({id}) => {
                     sponsor_logo: cm_1,
                     logo_height: '60px',
                     info: 
-                    `
+                    `<h3>About the City of Vaughan </h3>
+                    <p>The City of Vaughan is one of Canada's fastest growing cities with a population of more than 341,600. Incorporated in 1991, Vaughan includes the communities of Concord, Kleinburg, Maple, Thornhill and Woodbridge. This culturally diverse municipality is located in the heart of York Region and the Greater Toronto Area. The City of Vaughan continues to be an emerging world-class place to raise a family, start a business and enjoy many attractions and amenities. It is anticipated that by 2031, Vaughan will grow to more than 416,000 people and 266,000 jobs. It is home to more than 12,000 businesses that employ more than 222,000 people. The quality of life is unrivalled. In fact, the results from the 2018 Citizen Satisfaction Survey reveal 97 per cent of residents agree the quality of life is good here. The majority of citizens also cite a strong sense of community and belonging, with 92 per cent saying they are proud to be from Vaughan and 91 per cent saying it is a welcoming city. </p>
                     <h3>Background and Context</h3>
                     <p>Physically exploring a place and enjoying the natural ecosystem is almost vanishing these days. Especially since the time, Covid has come in people have been restricted and later they have been reluctant to go out and explore. Identifying a system that improves the experience of exploring nature using gamification or rewards is going to help people explore and educate better. How can we integrate data mapping, a visualization tool, AI (Artificial Intelligence), and GIS (Geographic Information Systems) to develop a possible model? </p>
                     <h3>Objective/Solution</h3>
@@ -1076,7 +1169,7 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <ol>
-                        <li><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/Ehglgy9lZPFChtyWtjsR0LQB6yDkrP9VysIr6bxt0uCrCQ?e=3ficHU" target="_blank">Dataset from City of Vaughan</a></li>
+                        <li><p>Dataset from City of Vaughan</p><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/Ehglgy9lZPFChtyWtjsR0LQB6yDkrP9VysIr6bxt0uCrCQ?e=3ficHU" target="_blank">https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/Ehglgy9lZPFChtyWtjsR0LQB6yDkrP9VysIr6bxt0uCrCQ?e=3ficHU</a></li>
                     </ol>
                     <h3>FAQ</h3>
                     <ol>

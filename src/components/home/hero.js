@@ -47,6 +47,7 @@ const hero = () => {
                         <p className="subtitle is-size-8 mg-top-1 has-text-green">
                             <b>February 28th - March 4th | ONLINE</b>
                         </p>
+                        <p className="subtitle is-size-6 has-text-green"><a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><b><u>Submission Guidelines and Evaluation</u></b></a></p>                       
                         <Countdown
                             date={date}
                             renderer={renderer}
