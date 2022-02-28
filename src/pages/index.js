@@ -12,6 +12,7 @@ import FAQ from "../components/home/faq"
 import SectionBreak from "../components/reusable/sectionbreak"
 import Seo from "../components/seo"
 import Prizes from "../components/home/prizes"
+import SolutionTechnologies from "../components/home/solutiontechnologies"
 
 const IndexPage = () => (
   <Layout>
@@ -23,9 +24,11 @@ const IndexPage = () => (
     <Timeline/>
     <SectionBreak id={'challengesets'}/> 
     <Challengesets />
+    <SectionBreak id={'solutiontechnologies'} />
+    <SolutionTechnologies />
     <SectionBreak id={'prizes'} />
     <Prizes />
-    <SectionBreak id={'videos'} />
+    <SectionBreak id={'keynotes'} />
     <KeyNotes />
     <SectionBreak id={'sponsors'}/>
     <Sponsors/>

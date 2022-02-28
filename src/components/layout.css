@@ -254,6 +254,11 @@ textarea {
 *:after {
   box-sizing: inherit;
 }
+h3.org-title{
+  color: #1C444C !important;
+  margin-bottom: 0;
+  font-weight: 600;
+}
 h2 {
   margin-left: 0;
   margin-right: 0;
@@ -850,7 +855,7 @@ div.sponsor-list:last-child {
 
 .name{
   margin-bottom: 5px !important;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .organizer-card-content .subtitle{
@@ -1137,6 +1142,13 @@ div.sponsor-list:last-child {
   margin-bottom: 1rem;
 }
 
+.organizers-list .accordion-item{
+  border-bottom: 2px solid #1C444C;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
 .accordion-item h3{
   font-size: 20px;
 }
@@ -1314,6 +1326,18 @@ div.sponsor-list:last-child {
         width: 100% !important;
         margin-left: 0 !important;
         display: flex !important;
+    }
+    .technologyImage {
+        width: 70% !important;
+        margin-top:5% !important;
+    }
+
+    .w3-container h2{
+        margin-bottom: 0 !important;
+    }
+
+    .w3-container p {
+        margin-bottom:0 !important;
     }
 }
 
@@ -1515,3 +1539,56 @@ div.sponsor-list:last-child {
 .people-list{
   height: 100%;
 }
+
+.w3-container:after, .w3-container:before, .w3-row:after, .w3-row:before {
+    content: '';
+    display: table;
+    clear: both;
+    width: 83.333%;
+}
+
+.w3-container p{
+    font-size:1.2rem !important;
+}
+
+.w3-third {
+    padding: 0 8px;
+    float: left;
+    width: 100%;
+    font-size: 1.3rem !important;
+}
+
+@media (min-width:601px){
+    .w3-third {
+        width: 33.33333%
+    }
+}
+
+.w3-bottombar {
+    border-bottom: 6px solid #ccc !important
+}
+
+.w3-hover-light-grey:hover
+{
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+.w3-padding {
+    padding: 8px 16px !important
+}
+
+.tabMenu {
+    padding-left: 8.333%;
+    width: 83.333%;
+}
+
+.w3-border-green {
+    border-color: #01354D !important
+}
+
+.technologyImage {
+    width: 20%;
+    margin-top: 2%;
+}
+

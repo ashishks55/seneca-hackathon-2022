@@ -25,13 +25,18 @@ const Header = () => {
        is_selected: false
       },
       {
+          title: 'Solution Technologies',
+          link: '/#solutiontechnologies',
+          is_selected: false
+      },
+      {
           title: 'Prizes',
           link: '/#prizes',
           is_selected: false
       },
     {
-        title: 'Videos',
-        link: '/#videos',
+        title: 'Keynotes',
+        link: '/#keynotes',
         is_selected: false
     },
     {
