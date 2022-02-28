@@ -1090,6 +1090,9 @@ const ChallengeSetsDetails = ({id}) => {
                     logo_height: '60px',
                     info: 
                     `
+                    <h3>About the City of Vaughan</h3>
+                    <p>The City of Vaughan is one of Canada's fastest growing cities with a population of more than 341,600. Incorporated in 1991, Vaughan includes the communities of Concord, Kleinburg, Maple, Thornhill and Woodbridge. This culturally diverse municipality is located in the heart of York Region and the Greater Toronto Area. The City of Vaughan continues to be an emerging world-class place to raise a family, start a business and enjoy many attractions and amenities. It is anticipated that by 2031, Vaughan will grow to more than 416,000 people and 266,000 jobs. It is home to more than 12,000 businesses that employ more than 222,000 people. The quality of life is unrivalled. In fact, the results from the 2018 Citizen Satisfaction Survey reveal 97 per cent of residents agree the quality of life is good here. The majority of citizens also cite a strong sense of community and belonging, with 92 per cent saying they are proud to be from Vaughan and 91 per cent saying it is a welcoming city. </p>
+
                     <h3>Background and Context</h3>
                     <p>The process of identifying patterns and problems in the complete water provision and circulation life cycle and differentiate between issues such as excessive use of water and any possible leakage of water which could result in the waste of millions of gallons of water. </p>
 
@@ -1127,7 +1130,8 @@ const ChallengeSetsDetails = ({id}) => {
                     sponsor_logo: cm_1,
                     logo_height: '60px',
                     info: 
-                    `
+                    `<h3>About the City of Vaughan </h3>
+                    <p>The City of Vaughan is one of Canada's fastest growing cities with a population of more than 341,600. Incorporated in 1991, Vaughan includes the communities of Concord, Kleinburg, Maple, Thornhill and Woodbridge. This culturally diverse municipality is located in the heart of York Region and the Greater Toronto Area. The City of Vaughan continues to be an emerging world-class place to raise a family, start a business and enjoy many attractions and amenities. It is anticipated that by 2031, Vaughan will grow to more than 416,000 people and 266,000 jobs. It is home to more than 12,000 businesses that employ more than 222,000 people. The quality of life is unrivalled. In fact, the results from the 2018 Citizen Satisfaction Survey reveal 97 per cent of residents agree the quality of life is good here. The majority of citizens also cite a strong sense of community and belonging, with 92 per cent saying they are proud to be from Vaughan and 91 per cent saying it is a welcoming city. </p>
                     <h3>Background and Context</h3>
                     <p>By comparing the travel times during peak hours with those under free-flowing traffic conditions, traffic data can be used to identify congestion hotspots throughout the road network. Compare hotspots or bottlenecks, with each other and formulate actions and policies to reduce delays. The use of FCD (Floating Car Data) in this type of analysis makes it possible to assess all road categories throughout the entire road network. Real-time traffic data gathering and Traffic congestion prevention.</p>
                     <h3>Objective/Solution</h3>
@@ -1155,7 +1159,8 @@ const ChallengeSetsDetails = ({id}) => {
                     sponsor_logo: cm_1,
                     logo_height: '60px',
                     info: 
-                    `
+                    `<h3>About the City of Vaughan </h3>
+                    <p>The City of Vaughan is one of Canada's fastest growing cities with a population of more than 341,600. Incorporated in 1991, Vaughan includes the communities of Concord, Kleinburg, Maple, Thornhill and Woodbridge. This culturally diverse municipality is located in the heart of York Region and the Greater Toronto Area. The City of Vaughan continues to be an emerging world-class place to raise a family, start a business and enjoy many attractions and amenities. It is anticipated that by 2031, Vaughan will grow to more than 416,000 people and 266,000 jobs. It is home to more than 12,000 businesses that employ more than 222,000 people. The quality of life is unrivalled. In fact, the results from the 2018 Citizen Satisfaction Survey reveal 97 per cent of residents agree the quality of life is good here. The majority of citizens also cite a strong sense of community and belonging, with 92 per cent saying they are proud to be from Vaughan and 91 per cent saying it is a welcoming city. </p>
                     <h3>Background and Context</h3>
                     <p>Physically exploring a place and enjoying the natural ecosystem is almost vanishing these days. Especially since the time, Covid has come in people have been restricted and later they have been reluctant to go out and explore. Identifying a system that improves the experience of exploring nature using gamification or rewards is going to help people explore and educate better. How can we integrate data mapping, a visualization tool, AI (Artificial Intelligence), and GIS (Geographic Information Systems) to develop a possible model? </p>
                     <h3>Objective/Solution</h3>
