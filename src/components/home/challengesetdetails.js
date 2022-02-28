@@ -408,54 +408,126 @@ const ChallengeSetsDetails = ({id}) => {
                     `
                 },
                 {
-                    title: 'Goal 11',
+                    title: 'Improving Affordable Housing Supply and Allocation Processes Through Technologies',
                     sponsor_logo: gco_3,
                     logo_height: '30px',
                     info: 
                     `
                     <h3>Background and Context </h3>
-                    <p>While housing affordability is a key element in building sustainable urban places, Canada’s largest cities have been facing a chronic housing crisis just like their international counterparts. The affordability crisis has since spilled over to rural and smaller communities in recent years.  Marginalized and racialized communities impacted particularly hard by the crisis as decades of systemic racism has deeply entrenched in housing arrangement. The increasing cost of homeownership push these communities away from achieving positive health, social, education and career outcomes.</p>
-                    <p>Traditionally, tackling housing affordability is perceived to be the government and non-profit sectors’ jurisdictions. However, we should recognize the far-reaching impact of the housing crisis, the need for prompt responses, as well as the capacities from the private sector that could be leveraged.  Historically, governments focus on demand-side solutions that aim to cool down the property market. The trend for home prices demonstrated that these measures are insufficient as population growth continues to outpace the supply of new homes. It is important to recognize that demand-side solutions are as effective as the numbers of units available in the market. Unless more housing units are being created, our society will continue to be impacted by the negative outcomes from the housing affordability crisis.</p>
-                    <p>There are a number of other issues that the housing sector also needs to tackle. There are misaligned interest amongst housing stakeholders (e.g., developers, new-homebuyers, existing homeowners, governments, non-profit organizations, consultants and contractors etc.) that slows down or prevent sufficient supply of housing. Developing affordable homes is particularly difficult because of the financial and feasibility constraints. The system is also fragmented and lack transparency as affordable home seekers do not have a centralized and easy to navigate channel to find and apply for affordable housing units / programs. Lastly, marginalized and racialized communities are often neglected in the decision-making process for housing policies. These inefficiencies further add to the difficulties in providing equitable access to affordable homes.</p>
+                    <p>Building affordable housing has proven to be a complicated process, not only for the government but also for those who are practicing in the housing sector (e.g., developers, consultants, contractors, NPOs, service agencies). There is a misalignment of interest amongst different groups of stakeholders (including potential homebuyers, tenants, and existing home occupants) that slows down or prevents sufficient supply of housing. Developing affordable homes is particularly difficult compared to market rate counterparts because of the financial and feasibility constraints.  </p>
+                    <p>The home-finding system is also fragmented, and lacks transparency as affordable home seekers do not have a centralized and easy-to-navigate channel to find and apply for affordable housing units & programs.  </p>
+                    <p>Lastly, marginalized and racialized communities are often neglected in the decision-making process for housing policies. These inefficiencies further add to the difficulties in providing equitable access to affordable homes. </p>
+                    <p><b>Key Question:</b> How can technological innovations be implemented to promote affordable housing supply, enhance stakeholder relationships, and to improve the housing allocation process? </p>
+
                     <h3>Objective/Solution</h3>
-                    <p>Our objective is to use technological innovations to create an ecosystem that could mitigate if not eliminate the inefficiencies and misalignments amongst stakeholders. As the Province commits to create 1.5 million housing units in the next 10 years to fulfill the latent and projected demand, our solution intends to serve as a platform that support this cause. We intend to create more meaningful partnerships, and therefore the creation of more housing units.</p>
-                    <p>We are challenging you to create an ecosystem that may incorporate some of the following: blockchain technologies, NFTs, machine learning and data intelligence, with the following objectives in mind:</p>
+                    <p>How can we leverage technological innovations to promote affordable housing supply by mitigating the drawbacks on the current affordable housing processes? </p>
+                    <p>We are challenging you to create a solution that may incorporate some of the following elements: </p>
                     <ul class="cs1">
-                        <li>Facilitate the formation of lasting partnerships among stakeholders</li>
-                        <li>Incorporate different housing stakeholders into this solution</li>
-                        <li>Reduce misaligned incentives among stakeholders</li>
-                        <li>Streamline the affordable home finding and application processes</li>
-                        <li>Improve transparency of the affordable housing allocation and lifecycle tracking processes</li>
-                        <li>Create Long term impacts to housing affordability</li>
-                        <li>Attract new ideas and resources from members of the ecosystem</li>
-                        <li>Empower marginalized and racialized communities in the decision-making process.</li>
-                        <li>Consider the needs of all stakeholders, particularly those who will be most affected by this solution</li>
+                        <li>Blockchain Technologies </li>
+
+                        <li>NFTs </li>
+                        
+                        <li>Web 3.0 </li>
+                        
+                        <li>GIS Data Visualization / Mapping </li>
+                        
+                        <li>Data Intelligence </li>
+                        
+                        <li>Machine Learning </li>
                     </ul>
-                    <p>The final product will be a no-code working prototype created using Bubble.io. We will provide you with access.</p>
-                    <p>Be creative!</p>
+                    <p>Your solution should focus on several of the following objectives: </p>
+                    <ul class="cs1">
+                    <li>Facilitate the formation of lasting partnerships amongst stakeholders </li> 
+
+                    <li>Reduce misaligned incentives amongst stakeholders </li>
+
+                    <li>Streamline the affordable home finding and application processes  </li>
+
+                    <li>Improve transparency of the affordable housing allocation and lifecycle tracking processes </li>
+
+                    <li>Create Long term impacts to housing affordability </li>
+
+                    <li>Attract new ideas and resources from different housing stakeholders </li>
+
+                    <li>Empower marginalized and racialized communities in the decision-making process </li>
+                    </ul>
+
+                    <p>You will submit the following items: </p>
+                    <ul class="cs1">
+                    <li>A no-code prototype using Bubble.io  </li>
+                    
+                    <li>A design document plan  </li>
+                    
+                    <li>A presentation decks  </li>
+                    
+                    <li>A 5-minute presentation video of your plan  </li>
+                    </ul>
                     <h3>Resources/Data</h3>
                     <ol>
-                        <li><a class="has-text-green is-underlined" href="https://sdgs.un.org/topics/sustainable-cities-and-human-settlements" target="_blank">Goal 11</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.housing.housing-note.housing-note--may-12-2021-.html" target="_blank">Background Study on the Scale of Housing Affordability Crisis in Canada Scotia Bank – Estimating the Structural Housing Shortage in Canada: Are we 100 Thousand or Nearly 2 Million Units Short</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://files.ontario.ca/mmah-housing-affordability-task-force-report-en-2022-02-07-v2.pdf" target="_blank">Background Study on Most Recent Update about Ontario’s Housing Affordability and the Task Force’s Recommendations: Report of the Ontario Housing Affordability Task Force</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/wp-content/uploads/2020/04/94f0-housing-to-2020-2030-action-plan-housing-secretariat.pdf" target="_blank">Background Study on City of Toronto’s Housing Affordability Vision and Plans for This Decade: City of Toronto – Housing TO 2020 – 2030 Action Plan</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://eppdscrmssa01.blob.core.windows.net/cmhcprodcontainer/sf/project/placetocallhome/pdfs/canada-national-housing-strategy.pdf" target="_blank">Background Study on the Federal Government’s Housing Policy Vision and Plans: Government of Canada – National Housing Strategy</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.placetocallhome.ca/stories#sort=relevancy" target="_blank">Reference on Projects that are Selected by CMHC: Projects Funded through CMHC Affordable Housing Innovation Fund</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.toronto.ca/legdocs/mmis/2021/ph/bgrd/backgroundfile-165633.pdf" target="_blank">Reference on the Digital Access System to be Created by the City of Toronto: Creation of a Fair and Streamlined Access System for Affordable Housing</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://canurb.org//wp-content/uploads/CUIPublication.ScalingUpAffordableHousingGTA.2017.pdf" target="_blank">Reference on Funding Program Models Offered by Non-Profit Organizations: P.19 – P.23 of Canadian Urban Institute’s Report on Scaling Up Affordable Ownership Housing in the GTA </a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.usebraintrust.com/hubfs/%5BWhitepaper%5D%20Braintrust_The_Decentralized_Talent_Network_9_2_21.pdf" target="_blank">Example of a Network Marketplace for the Talent Acquisition Space: Braintrust White Paper</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://decentraland.org/whitepaper.pdf" target="_blank">Example of a Decentralized Property Ownership Ledger for Digital Land: Decentraland White Paper </a></li>
-                        <li><a class="has-text-green is-underlined" href="https://whitepaper.io/document/623/flow-dapper-labs-whitepaper" target="_blank">Example of a Decentralized and Open-Source Blockchain: Flow White Paper </a></li>
+                        <li>
+                        <p><b>Background Study on the Scale of Housing Affordability Crisis in Canada</b> Scotia Bank – Estimating the Structural Housing Shortage in Canada: Are we 100 Thousand or Nearly 2 Million Units Short </p>
+                        <a class="has-text-green is-underlined" href="https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.housing.housing-note.housing-note--may-12-2021-.html " target="_blank">https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.housing.housing-note.housing-note--may-12-2021-.html </a></li>
+
+                        <li>
+                        <p><b>Background Study on Most Recent Update about Ontario’s Housing Affordability and the Task Force’s Recommendations:</b> Report of the Ontario Housing Affordability Task Force </p>
+                        <a class="has-text-green is-underlined" href="https://files.ontario.ca/mmah-housing-affordability-task-force-report-en-2022-02-07-v2.pdf  " target="_blank">https://files.ontario.ca/mmah-housing-affordability-task-force-report-en-2022-02-07-v2.pdf  </a></li>
+
+                        <li>
+                        <p><b>Background Study on City of Toronto’s Housing Affordability Vision and Plans for This Decade:</b> City of Toronto – Housing TO 2020 – 2030 Action Plan</p>
+                        <a class="has-text-green is-underlined" href="https://www.toronto.ca/wp-content/uploads/2020/04/94f0-housing-to-2020-2030-action-plan-housing-secretariat.pdf " target="_blank">https://www.toronto.ca/wp-content/uploads/2020/04/94f0-housing-to-2020-2030-action-plan-housing-secretariat.pdf </a></li>
+
+                        <li>
+                        <p><b>Background Study on the Federal Government’s Housing Policy Vision and Plans:</b> Government of Canada – National Housing Strategy </p>
+                        <a class="has-text-green is-underlined" href="https://eppdscrmssa01.blob.core.windows.net/cmhcprodcontainer/sf/project/placetocallhome/pdfs/canada-national-housing-strategy.pdf  " target="_blank">https://eppdscrmssa01.blob.core.windows.net/cmhcprodcontainer/sf/project/placetocallhome/pdfs/canada-national-housing-strategy.pdf </a></li>
+
+                        <li>
+                        <p><b>Reference on Projects that are Selected by CMHC:</b> Projects Funded through CMHC Affordable Housing Innovation Fund </p>
+                        <a class="has-text-green is-underlined" href="https://www.placetocallhome.ca/stories#sort=relevancy " target="_blank">https://www.placetocallhome.ca/stories#sort=relevancy  </a></li>
+
+                        <li>
+                        <p><b>Reference on the Digital Access System to be Created by the City of Toronto:</b> Creation of a Fair and Streamlined Access System for Affordable Housing </p>
+                        <a class="has-text-green is-underlined" href="https://www.toronto.ca/legdocs/mmis/2021/ph/bgrd/backgroundfile-165633.pdf " target="_blank">https://www.toronto.ca/legdocs/mmis/2021/ph/bgrd/backgroundfile-165633.pdf </a></li>
+
+                        <li>
+                        <p><b>Reference on Funding Program Models Offered by Non-Profit Organizations:</b> P.19 – P.23 of Canadian Urban Institute’s Report on Scaling Up Affordable Ownership Housing in the GTA</p>
+                        <a class="has-text-green is-underlined" href="https://canurb.org//wp-content/uploads/CUIPublication.ScalingUpAffordableHousingGTA.2017.pdf " target="_blank">https://canurb.org//wp-content/uploads/CUIPublication.ScalingUpAffordableHousingGTA.2017.pdf </a></li>
+
+                        <li>
+                        <p><b>Example of a Network Marketplace for the Talent Acquisition Space:</b> Braintrust White Paper </p>
+                        <a class="has-text-green is-underlined" href="https://www.usebraintrust.com/hubfs/%5BWhitepaper%5D%20Braintrust_The_Decentralized_Talent_Network_9_2_21.pdf  " target="_blank">https://www.usebraintrust.com/hubfs/%5BWhitepaper%5D%20Braintrust_The_Decentralized_Talent_Network_9_2_21.pdf </a></li>
+
+                        <li>
+                        <p><b>Example of a Decentralized Property Ownership Ledger for Digital Land:</b> Decentraland White Paper  </p>
+                        <a class="has-text-green is-underlined" href="https://decentraland.org/whitepaper.pdf " target="_blank">https://decentraland.org/whitepaper.pdf </a></li>
+
+                        <li>
+                        <p><b>Example of a Decentralized and Open-Source Blockchain: </b> Flow White Paper  </p>
+                        <a class="has-text-green is-underlined" href="https://whitepaper.io/document/623/flow-dapper-labs-whitepaper " target="_blank">https://whitepaper.io/document/623/flow-dapper-labs-whitepaper </a></li>
                     </ol>
                     <h3>FAQ</h3>
-                    <p>What were your questions when you were starting out on this challenge set development journey? What answers have you found? What do students need to know before they get started?</p>
+                    
                     <ol>
-                    <li>How did we come up with the Challenge Topic?</li>
-                    <li>What is housing affordability? </li>
-                    <li>What is affordable housing? </li>
-                    <li>What is demand-side and supply-side solutions?</li>
-                    <li>Why doesn’t the solution aim to directly create more units?</li>
-                    <li>What benefits are there to participating in this challenge?  </li>
+                    <li><p><b>What is Affordably’s background?</b></p>
+                    <p>Members of Affordably’s team have strong domain knowledge in different aspects of the real estate sector. Through practicing in the real estate and finance industry, we have witnessed the inefficiencies in the housing sector as well as the challenges in creating of affordable housing. As the team shares a vision of solving the issue with innovations, we decided to form Affordably to contribute to the cause. </p></li>
+                    
+                    <li><p><b>How did we come up with the Challenge Topic?</b></p>
+                    <p>We recognize the power of technology and innovation in other sectors (such as finance and shared economy) and believe that the Topic can contribute to improving the affordable housing sector as well. </p></li>
+
+                    <li><p><b>What is affordable housing & housing affordability?</b></p>
+                    <p>Although they are often used synonymously, they are related to very different ideas respectively. Affordable housing refers to financially supporting housing, whereas housing affordability refers to the relationship between home prices and household incomes. </p></li>
+
+                    <li><p><b>Which concept is desired for this Challenge?</b></p>
+                    <p>You may incorporate one or both concepts in your solution. </p></li>
+
+                    <li><p><b>Why doesn’t the solution aim to directly create more units? </b></p>
+                    <p>Affordably’s position and expertise can be best leveraged to facilitate building the capacity of affordable housing stakeholders to form meaningful partnerships when it comes to creating more housing supply. There are other stakeholders such as the CMHC, the lending industry, and the developer industry, that are better suited in focusing on the direct creation of units.  </p></li>
+
+                    <li><p><b>Who can participate in this challenge?  </b></p>
+                    <p>We welcome participants from all backgrounds to participate.</p></li>
+
+                    <li><p><b>Are there any support resources?</b></p>
+                    <p>The participating teams may access bubble.io with the costs fronted by Affordably. Participants may also access training materials for bubble.io on premise. (Public health and safety protocols must be followed at all times when participant is on premise) </p></li>
+
                     </ol>
                     `
                 },
@@ -719,7 +791,7 @@ const ChallengeSetsDetails = ({id}) => {
                     `
                 },
                 {
-                    title: 'Saving Trees to Save Lives',
+                    title: 'Saving Trees to Save The Planet',
                     sponsor_logo: nzc_7,
                     logo_height: '40px',
                     info: `
@@ -977,15 +1049,17 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <p>Dataset from City of Brampton : <a class="has-text-green is-underlined" href="https://seneca-my.sharepoint.com/:w:/g/personal/vagrawal2_myseneca_ca/ERJtkSTnK0NJtJG9k2l43Y0BDRks0ojpHVqf7GcFB1aINA?e=KlWi6w" target="_blank">Click here.</a></p>
                     <h3>FAQ</h3>
-                    <p class="has-text-weight-bold">1. What is the expected solution out of this app?</p>
-                    <ul>
-                        <li>To Provide a solution with an interactive app for the community that will help them explore more natural heritage sites, including a <b>security feature by integrating GIS (Geographic Information Systems) which maps data.</b></li>
-                    </ul>
-                    <p class="has-text-weight-bold">2. How does the data provided help and how will it build towards building an app?</p>
-                    <ul>
-                        <li>Identifying nature and consumption from the data provided by the City of Brampton will help to analyze the natural landmarks and demographic patterns of the community by the data provided. This data will help to build an app highlighting the city’s Natural Heritage System by connecting people with nature responsibly by integrating gamification. </li>
-                    </ul>
-                    <p class="has-text-weight-bold">3. What are a few of the most important and/or prominent features that the sponsors are looking for? </p>
+                    <ol>
+                    <li><p class="has-text-weight-bold">What are the advantages of promoting Natural Heritage System? </p>
+                    <p>Nearly 20% of Brampton’s landscape is its natural heritage, which is its woodlands, wetlands, meadows, parks and trails; however, majority of the community members are unaware of all that the city has to offer. By promoting this NHS, we can increase the footfall around the landscape and connect communities with one another. </p></li>
+
+                    <li><p class="has-text-weight-bold">What is the expected solution out of this app? </p>
+                    <p>To Provide a solution with an interactive app for the community that will help them explore more natural heritage sites, including a security feature by integrating GIS (Geographic Information Systems) which maps data. </p></li>
+                   
+                    <li><p class="has-text-weight-bold">How does the data provided help and how will it build towards building an app? </p>
+                    <p>Identifying nature and consumption from the data provided by the City of Brampton will help to analyze the natural landmarks and demographic patterns of the community by the data provided. This data will help to build an app highlighting the city’s Natural Heritage System by connecting people with nature responsibly by integrating gamification.  </p></li>
+
+                    <li><p class="has-text-weight-bold">What are a few of the most important and/or prominent features that the sponsors are looking for? </p>
                     <p>The solution needs to be interactive. Few of them talked about features that we are looking forward to would be: </p>
                     <ul class="cs1">
                         <li>Gamification (Hint: Treasure Hunt)</li>
@@ -993,11 +1067,21 @@ const ChallengeSetsDetails = ({id}) => {
                         <li>Discussion Boards</li>
                         <li>Check-in rewards</li>
                     </ul>
-                    <p>These are a few ideas. The application must not be limited to these features.</p>
-                    <p class="has-text-weight-bold">4. Am I allowed to share the datasets with other contributors? </p>
-                    <ul>
-                        <li>No. These datasets must only be used by the group members participating in the City of Brampton challenge set.</li>
-                    </ul>
+                    <p>These are a few ideas. The application must not be limited to these features.</p></li>
+
+                    <li><p class="has-text-weight-bold">What data is being provided for possible solutions and where can I find it? </p>
+                    <p>Our sponsors have provided us with over 18 groups of datasets in CSV, KML and geoJSON which will be made available to you on the first day of the event.  </p></li>
+
+                    <li><p class="has-text-weight-bold">Should my solution be limited to the datasets provided only? </p>
+                    <p>There is no limitation on only using the datasets that have been provided. You are free to research, explore and use any relevant data available on the web. </p></li>
+
+                    <li><p class="has-text-weight-bold">Am I allowed to share the datasets with other contributors? </p>
+                    <p>No. These datasets must only be used by the group members participating in the City of Brampton challenge set.  </p></li>
+
+                    <li><p class="has-text-weight-bold">How will the winner be chosen? </p>
+                    <p>To win this event, you first need to pass the qualifiers. There is no set rubric for grading the submission. The most unique idea with the most practical approach, which is best as per the sponsor’s requirements, will win.</p></li>
+                    
+                    </ol>
                     `
                 },
                 {
