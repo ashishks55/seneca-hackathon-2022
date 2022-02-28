@@ -1091,31 +1091,35 @@ const ChallengeSetsDetails = ({id}) => {
                     info: 
                     `
                     <h3>Background and Context</h3>
-                    <p>The process of identifying patterns and problems in the complete water provision and circulation life cycle and differentiate between issues such as excessive use of water and any possible leakage of water which could result in the waste of millions of gallons of water.</p>
-                    <p>How can we use water consumption data from the city and analyze the data to identify the specific areas of water wastage? Creating innovative technology and applied science to improve water utilization and minimizing water wastage. Tracking of water theft is an added feature using geospatial data and other technologies from open water bodies.</p>
+                    <p>The process of identifying patterns and problems in the complete water provision and circulation life cycle and differentiate between issues such as excessive use of water and any possible leakage of water which could result in the waste of millions of gallons of water. </p>
+
+                    <p> How can we use water consumption data from the city and analyze the data to identify the specific areas of water wastage? Creating innovative technology and applied science to improve water utilization and minimizing water wastage. Tracking of water theft is an added feature using geospatial data and other technologies from open water bodies.  </p>
+
                     <h3>Objective/Solution</h3>
-                    <p>How can we identify the properties and attributes in the city using geospatial data to locate water consumption, leakages, and water thefts from hydrants?</p>
-                    <p>Identify techniques/solutions or recommendations by analysing the water consumption data provided in the challenge set to build a framework solution addressing the factors of water wastage like excessing consumption for households, leakage of tanks, enclosed water bodies like swimming pools, water consumption, leakage at a factory and thefts from water hydrants.</p>
+                    <p>How can we identify the properties and attributes in the city using geospatial data to locate water consumption, leakages, and water thefts from hydrants?    </p>
+                    <p>Identify techniques/solutions or recommendations by analysing the water consumption data provided in the challenge set to build a framework solution addressing the factors of water wastage like excessing consumption for households, leakage of tanks, enclosed water bodies like swimming pools, water consumption, leakage at a factory and thefts from water hydrants.  </p>
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <ol>
-                        <li><a class="has-text-green is-underlined" href="https://vaughancloud-my.sharepoint.com/personal/alison_munro_vaughan_ca/_layouts" target="_blank">Dataset from City of Vaughan</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.satpalda.com/blogs/water-conservation-planning-and-management" target="_blank">WATER - CONSERVATION, PLANNING AND MANAGEMENT</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.epa.gov/waterdata/waters-geospatial-data-downloads" target="_blank">WATERS Geospatial Data Downloads</a></li>
+                        <li><p>Dataset from City of Vaughan</p><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/EgWROUNcHelBv1mh1xveuT8BcJOsJokUxmxW0K8JwLYJEw?e=t1Tnvd" target="_blank">https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/EgWROUNcHelBv1mh1xveuT8BcJOsJokUxmxW0K8JwLYJEw?e=t1Tnvd</a></li>
+                        <li><p>WATER - CONSERVATION, PLANNING AND MANAGEMENT </p><a class="has-text-green is-underlined" href="https://www.satpalda.com/blogs/water-conservation-planning-and-management" target="_blank">https://www.satpalda.com/blogs/water-conservation-planning-and-management</a></li>
+                        <li><p>WATERS Geospatial Data Downloads </p><a class="has-text-green is-underlined" href="https://www.epa.gov/waterdata/waters-geospatial-data-downloads" target="_blank">https://www.epa.gov/waterdata/waters-geospatial-data-downloads</a></li>
                     </ol>
                     <h3>FAQ</h3>
-                    <p class="has-text-weight-bold">1. What is the expected solution out of this analysis?</p>
-                    <ul>
-                        <li>The analysis should provide reasoning on how and where water consumption is going above the limits. Is it genuine water consumption or is it due to water leakage.</li>
-                    </ul>
-                    <p class="has-text-weight-bold">2. How does the data provided help and how will it build towards analysis?</p>
-                    <ul>
-                        <li>Identifying the nature of consumers from the data provided by the City of Vaughan will help to analyze the pattern of consumption over the periodic data provided. The solution can state how the consumption has increased or decreased over the period and what could be reason for increase or decrease in consumer billing data.</li>
-                    </ul>
-                    <p class="has-text-weight-bold">3. Combination of geospatial data and water consumption data to analyze the data and its advantages? </p>
-                    <ul>
-                        <li>The geospatial data will addon the nature of analysis by providing more information of the terrain and the resident. Considering that the consumer is a domestic resident or a factory or a person with farmlands using the water for their respective nature of consumption. </li>
-                    </ul>
+                    <ol>
+                    <li><p class="has-text-weight-bold">What is the expected solution out of this analysis?</p>
+                   
+                        <p>The analysis should provide reasoning on how and where water consumption is going above the limits. Is it genuine water consumption or is it due to water leakage. </p></li>
+                  
+                        <li><p class="has-text-weight-bold">How does the data provided help and how will it build towards analysis? </p>
+                   
+                        <p>Identifying the nature of consumers from the data provided by the City of Vaughan will help to analyze the pattern of consumption over the periodic data provided. The solution can state how the consumption has increased or decreased over the period and what could be reason for increase or decrease in consumer billing data </p></li>
+
+                        <li><p class="has-text-weight-bold">Combination of geospatial data and water consumption data to analyze the data and its advantages? </p>
+                   
+                        <p>The geospatial data will addon the nature of analysis by providing more information of the terrain and the resident. Considering that the consumer is a domestic resident or a factory or a person with farmlands using the water for their respective nature of consumption. </p></li>
+
+                    </ol>
                     `
                 },
                 {
@@ -1128,12 +1132,12 @@ const ChallengeSetsDetails = ({id}) => {
                     <p>By comparing the travel times during peak hours with those under free-flowing traffic conditions, traffic data can be used to identify congestion hotspots throughout the road network. Compare hotspots or bottlenecks, with each other and formulate actions and policies to reduce delays. The use of FCD (Floating Car Data) in this type of analysis makes it possible to assess all road categories throughout the entire road network. Real-time traffic data gathering and Traffic congestion prevention.</p>
                     <h3>Objective/Solution</h3>
                     <p>How to analyze the traffic data and produce viable solutions or recommendations to improve road traffic management or emergency response management within the City of Vaughan?</p>
-                    <p>Analyzing the datasets to identify the peak hours, nature of travel, estimated congestion time, geolocations of the traffic load and producing reliable solutions or recommendations on the analysis performed to improve the road traffic management or the emergency response management in the City of Vaughan.</p>
+                    <p>Analyzing the datasets to identify the peak hours, nature of travel, estimated congestion time, geolocations of the traffic load and producing reliable solutions or recommendations on the analysis performed to improve the road traffic management or the emergency response management in the City of Vaughan. </p>
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <ol>
-                        <li><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/EuqSlAjMRadDrv9h8GSoRMgBW5uKMUkLdWu3KSmvsfm0Ew?e=UNZrux" target="_blank">Dataset from City of Vaughan</a></li>
-                        <li><a class="has-text-green is-underlined" href="https://www.smatstraffic.com/" target="_blank">Collect, Analyze, & Interpret Traffic Data</a></li>
+                        <li><p>Dataset from City of Vaughan</p><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/EuqSlAjMRadDrv9h8GSoRMgBW5uKMUkLdWu3KSmvsfm0Ew?e=UNZrux" target="_blank">https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/EuqSlAjMRadDrv9h8GSoRMgBW5uKMUkLdWu3KSmvsfm0Ew?e=UNZrux</a></li>
+                        <li><p>Collect, Analyze, & Interpret Traffic Data</p><a class="has-text-green is-underlined" href="https://www.smatstraffic.com/" target="_blank">https://www.smatstraffic.com/</a></li>
                     </ol>
                     <h3>FAQ</h3>
                     <p class="has-text-weight-bold">1. What is the expected solution out of this analysis? </p>
@@ -1160,7 +1164,7 @@ const ChallengeSetsDetails = ({id}) => {
                     <h3>Resources/Data</h3>
                     <p>Links to papers, research, databases, and instructions on how to make best use of them.</p>
                     <ol>
-                        <li><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/Ehglgy9lZPFChtyWtjsR0LQB6yDkrP9VysIr6bxt0uCrCQ?e=3ficHU" target="_blank">Dataset from City of Vaughan</a></li>
+                        <li><p>Dataset from City of Vaughan</p><a class="has-text-green is-underlined" href="https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/Ehglgy9lZPFChtyWtjsR0LQB6yDkrP9VysIr6bxt0uCrCQ?e=3ficHU" target="_blank">https://seneca.sharepoint.com/:f:/s/SustainabilityHackathon2022/Ehglgy9lZPFChtyWtjsR0LQB6yDkrP9VysIr6bxt0uCrCQ?e=3ficHU</a></li>
                     </ol>
                     <h3>FAQ</h3>
                     <ol>
