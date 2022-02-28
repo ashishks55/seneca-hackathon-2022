@@ -3,6 +3,7 @@ import ReactPlayer from "react-player"
 import Countdown from 'react-countdown'
 import hero_logo from '../../images/hero-banner.svg'
 import home_image from '../../images/home_image.png'
+import day1 from '../../images/day1.png'
 
 const hero = () => {
 
@@ -52,14 +53,15 @@ const hero = () => {
                         />
                     </div>
                     <div className='column hero-img'>
-                        <ReactPlayer
+                        {/* <ReactPlayer
                             url="https://www.youtube.com/embed/ytPY3CRvmO8"
                             controls={true}
                             width="100%"
                             height="355px"
                             playing={false}
                             style={{ marginTop: '16px' }}
-                        />
+                        /> */}
+                        <div className="has-text-centered"><img src={day1} width="90%" alt="day1"/></div>
                     </div>
                 </div>
             </div>
