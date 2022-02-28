@@ -114,7 +114,7 @@ const Organizers = () => {
             name: 'Neha Dsouza',
             linkedin_url: 'https://www.linkedin.com/in/nehaxdsouza/',
             email: 'nldsouza2@gmail.com',
-            title: 'IT Manager/Team Lead (Information Technology)',
+            title: 'Director (Information Technology)',
             image: neha
         },
         {
@@ -128,7 +128,10 @@ const Organizers = () => {
             linkedin_url: 'https://www.linkedin.com/in/ruiz-sarinana-benjamin/',
             title: 'Director (Social Media)',
             image: benjamin
-        },
+        }
+    ]
+
+    const registration = [
         {
             name: 'Jamie',
             linkedin_url: '',
@@ -143,27 +146,13 @@ const Organizers = () => {
             title: 'Registrations Manager (Registration)',
             image: clairol
         },
-        // {
-        //     name: 'Mohammed Ismail Azher Siddiqui',
-        //     linkedin_url: '',
-        //     email: 'miazher-siddiqui@myseneca.ca',
-        //     title: 'SSO (Student Success Officer) (Hackathon)',
-        //     image: azher
-        // },
         {
             name: 'Jan Danielle Bukiran',
             linkedin_url: '',
             email: 'jdbukiran@myseneca.ca',
             title: 'Event Information Manager (Registration)',
             image: jan
-        },
-        // {
-        //     name: 'Arjan Singh Bajwa',
-        //     linkedin_url: '',
-        //     email: 'asbajwa10@myseneca.ca',
-        //     title: 'Student Success Officer for HP Canada (Challenge Set)',
-        //     image: arjan
-        // }
+        }
     ]
 
     const challenge_set_people = [
@@ -564,6 +553,7 @@ const Organizers = () => {
     const [isFlipped, setFlipped] = useState(false);
     const [isFlipped2, setFlipped2] = useState(false);
     const [isFlipped3, setFlipped3] = useState(false);
+    const [isFlipped4, setFlipped4] = useState(false);
 
     return (
         <section className="hero is-medium is-white">
@@ -572,7 +562,7 @@ const Organizers = () => {
                     <div className='column is-10 is-offset-1'>
                         <br/>
                         <br/>
-                        <h1 className="title" style={{textAlign: "center"}}>MEET OUR ORGANIZERS</h1><br/><br/>
+                        <h1 className="title" style={{textAlign: "center"}}>MEET OUR ORGANIZERS</h1>
                         <div className='organizers columns flex-wrap'>
                             {
                                 organizers.map((organizer, index) => (
@@ -625,6 +615,45 @@ const Organizers = () => {
                                                                     {dir.title}
                                                                     {dir.linkedin_url ? <a target='_blank' rel="noopener noreferrer" href={dir.linkedin_url}><img src={linkedin_icon} alt="linkedin" className='linkedin-icon-inline'/></a> : null}
                                                                     {dir.email ? <a target='_blank' rel="noopener noreferrer" href={`mailto:${dir.email}`} className='email-icon'><FontAwesomeIcon icon={faEnvelope}/></a> : null}
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            ))
+                                        }
+                                    </div>
+                                    }
+                                </p>: null}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='columns'>
+                    <div className='column is-10 is-offset-1'>
+                        <div className='organizers-list'>
+                            <div className='accordion-item'>
+                                <p onClick={() => {setFlipped4(!isFlipped4)}} className='faq-title pointer'><h3 className="org-title">REGISTRATION TEAM</h3><span><FontAwesomeIcon icon={isFlipped4 ? faChevronDown : faChevronRight} /></span></p>
+                                {isFlipped4 ? <p className='a-info'>
+                                    {
+                                        <div className='organizers columns flex-wrap'>
+                                        {
+                                            registration.map((reg, index) => (
+                                                <div key={index} className='column is-4-tablet is-2-5-desktop'>
+                                                    <div className="card card-3">
+                                                        <div className="card-image is-rounded-container">
+                                                            <figure className="image is-1by1">
+                                                                <img src={reg.image} alt="organizer"/>
+                                                            </figure>
+                                                        </div>
+                                                        <div className="card-content">
+                                                            <div className="content organizer-card-content">
+                                                                <p className='subtitle name is-size-6 has-text-weight-bold line-height-1'>{reg.name}</p>
+                                                                <p className='subtitle designation is-size-6 has-text-weight-normal line-height-1'>
+                                                                    {reg.title}
+                                                                    {reg.linkedin_url ? <a target='_blank' rel="noopener noreferrer" href={reg.linkedin_url}><img src={linkedin_icon} alt="linkedin" className='linkedin-icon-inline'/></a> : null}
+                                                                    {reg.email ? <a target='_blank' rel="noopener noreferrer" href={`mailto:${reg.email}`} className='email-icon'><FontAwesomeIcon icon={faEnvelope}/></a> : null}
                                                                 </p>
                                                             </div>
                                                         </div>
