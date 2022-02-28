@@ -362,6 +362,11 @@ const Organizers = () => {
                     width: '100px',
                     people: [
                         {
+                            name: 'Navjyot Singh Sawhney',
+                            title: 'Student Success Officer',
+                            email: 'nssawhney@myseneca.ca'
+                        },
+                        {
                             name: 'Benjamin Ruiz-Sarinana',
                             title: 'Partner experience Officer',
                             email: 'bruiz2@myseneca.ca'
@@ -382,7 +387,7 @@ const Organizers = () => {
                             title: 'Student Success Officer',
                             email: 'ekaur11@myseneca.ca'
                         },
-                         {
+                        {
                             name: 'Hiralkumari Priyan Solanki  ',
                             title: 'Partner Experience Officer',
                             email: 'hpsolanki@myseneca.ca '
@@ -442,8 +447,13 @@ const Organizers = () => {
                     width: '60px',
                     people: [
                         {
+                            name: 'Hiralkumari Priyan Solanki  ',
+                            title: 'Student Success Officer',
+                            email: 'hpsolanki@myseneca.ca '
+                        },
+                        {
                             name: 'Avlika Kathrotiya',
-                            title: 'Student Success Officer, Partner Experience Officer',
+                            title: 'Partner Experience Officer',
                             email: 'amkathrotiya@myseneca.ca'
                         }
                     ]
@@ -501,12 +511,6 @@ const Organizers = () => {
     ]
 
     const it_team = [
-        {
-            name: 'Neha Dsouza',
-            email: 'nldsouza2@gmail.com',
-            title: 'IT Manager/Team Lead',
-            image: neha
-        },
         {
             name: 'Thrishya Nagarajan Karthikeyan',
             email: 'tnagarajan-karthikey@myseneca.ca',
@@ -568,7 +572,7 @@ const Organizers = () => {
                     <div className='column is-10 is-offset-1'>
                         <br/>
                         <br/>
-                        <h1 className="title" style={{textAlign: "center"}}>Meet Our Organizers</h1><br/><br/>
+                        <h1 className="title" style={{textAlign: "center"}}>MEET OUR ORGANIZERS</h1><br/><br/>
                         <div className='organizers columns flex-wrap'>
                             {
                                 organizers.map((organizer, index) => (
@@ -601,7 +605,7 @@ const Organizers = () => {
                     <div className='column is-10 is-offset-1'>
                         <div className='organizers-list'>
                             <div className='accordion-item'>
-                                <p onClick={() => {setFlipped(!isFlipped)}} className='faq-title pointer'><h1 className="title">Directors</h1><span><FontAwesomeIcon icon={isFlipped ? faChevronDown : faChevronRight} /></span></p>
+                                <p onClick={() => {setFlipped(!isFlipped)}} className='faq-title pointer'><h3 className="org-title">DIRECTORS</h3><span><FontAwesomeIcon icon={isFlipped ? faChevronDown : faChevronRight} /></span></p>
                                 {isFlipped ? <p className='a-info'>
                                     {
                                         <div className='organizers columns flex-wrap'>
@@ -640,7 +644,7 @@ const Organizers = () => {
                     <div className='column is-10 is-offset-1'>
                         <div className='organizers-list'>
                             <div className='accordion-item'>
-                                <p onClick={() => {setFlipped2(!isFlipped2)}} className='faq-title pointer'><h1 className="title">Challenge Set Organizers</h1><span><FontAwesomeIcon icon={isFlipped2 ? faChevronDown : faChevronRight} /></span></p>
+                                <p onClick={() => {setFlipped2(!isFlipped2)}} className='faq-title pointer'><h3 className="org-title">CHALLENGE SET ORGANIZERS</h3><span><FontAwesomeIcon icon={isFlipped2 ? faChevronDown : faChevronRight} /></span></p>
                                 {isFlipped2 ? <p className='a-info'>
                                     {
                                         challenge_set_people.map(challenge => (
@@ -679,7 +683,7 @@ const Organizers = () => {
                     <div className='column is-10 is-offset-1'>
                         <div className='organizers-list'>
                             <div className='accordion-item'>
-                                <p onClick={() => {setFlipped3(!isFlipped3)}} className='faq-title pointer'><h1 className="title">IT Team</h1><span><FontAwesomeIcon icon={isFlipped3 ? faChevronDown : faChevronRight} /></span></p>
+                                <p onClick={() => {setFlipped3(!isFlipped3)}} className='faq-title pointer'><h3 className="org-title">IT TEAM</h3><span><FontAwesomeIcon icon={isFlipped3 ? faChevronDown : faChevronRight} /></span></p>
                                 {isFlipped3 ? <p className='a-info'>
                                     {
                                         <div className='organizers columns flex-wrap'>

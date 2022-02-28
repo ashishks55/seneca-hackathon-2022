@@ -254,6 +254,11 @@ textarea {
 *:after {
   box-sizing: inherit;
 }
+h3.org-title{
+  color: #1C444C !important;
+  margin-bottom: 0;
+  font-weight: 600;
+}
 h2 {
   margin-left: 0;
   margin-right: 0;
@@ -850,7 +855,7 @@ div.sponsor-list:last-child {
 
 .name{
   margin-bottom: 5px !important;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .organizer-card-content .subtitle{
