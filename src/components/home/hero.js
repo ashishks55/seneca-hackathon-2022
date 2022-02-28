@@ -43,8 +43,8 @@ const hero = () => {
                                 <span>Register here</span>
                             </a>
                         </p>
-                        <p className="subtitle is-size-6 mg-top-1 has-text-weight-semibold">
-                            Last day to register is in
+                        <p className="subtitle is-size-8 mg-top-1 has-text-green">
+                            <b>February 28th - March 4th | ONLINE</b>
                         </p>
                         <Countdown
                             date={date}
