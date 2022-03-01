@@ -220,7 +220,9 @@ const ChallengeSetsDetails = ({id}) => {
                         <li><a class="has-text-green is-underlined" href="https://www.cdp.net/en/research/global-reports/engaging-the-chain" target="_blank">Engaging the chain: driving speed and scale​</a></li>
                         <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020</a></li>
                         <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c04797682.pdf" target="_blank">HP Supply Chain Social and Environmental Responsibility Policy​</a></li>
-                    </ool>
+                    </ol>
+                    <h3>Resources</h3>
+                    <p><a class="has-text-green is-underlined" href="https://seneca-my.sharepoint.com/personal/david_jeong_senecacollege_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdavid%5Fjeong%5Fsenecacollege%5Fca%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FSeneca%20CE%20solving%20design%20challenges%20%28HP%29%2Epdf&parent=%2Fpersonal%2Fdavid%5Fjeong%5Fsenecacollege%5Fca%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ct=1646150211178&or=Teams%2DHL" target="_blank">Seneca CE solving design challenges (HP)</a></p>
                     `
                 },
                 {
@@ -246,6 +248,8 @@ const ChallengeSetsDetails = ({id}) => {
                         <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020​</a></li>
                         <li><a class="has-text-green is-underlined" href="https://www.greenbiz.com/article/plastic-pollution-bad-how-exactly-it-linked-climate-change?utm_medium=email&utm_source=newsletter&utm_campaign=newsletter-template&utm_content=02-18-2022%20Circularity%20Weekly&mkt_tok=MjExLU5KWS0xNjUAAAGCrBwsRIEXB-z9JWPeAsz_x-DRxqsjjB7i92FpOrtoIFLxUS-I6hYRwsA_mj8rdEC_2frpnMNKlDG6KRbk9faKsgdpHXiqMVLlDp-W41HF" target="_blank">Plastic pollution is bad, but how exactly is it linked to climate change?</a></li>
                     </ol>
+                    <h3>Resources</h3>
+                    <p><a class="has-text-green is-underlined" href="https://seneca-my.sharepoint.com/personal/david_jeong_senecacollege_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdavid%5Fjeong%5Fsenecacollege%5Fca%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FSeneca%20CE%20solving%20design%20challenges%20%28HP%29%2Epdf&parent=%2Fpersonal%2Fdavid%5Fjeong%5Fsenecacollege%5Fca%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ct=1646150211178&or=Teams%2DHL" target="_blank">Seneca CE solving design challenges (HP)</a></p>
                     `
                 },
                 {
@@ -270,6 +274,8 @@ const ChallengeSetsDetails = ({id}) => {
                         <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/c07539064.pdf" target="_blank">HP’s Sustainable Impact Report – 2020​</a></li>
                         <li><a class="has-text-green is-underlined" href="https://h20195.www2.hp.com/v2/getpdf.aspx/4AA7-1229ENW.pdf" target="_blank">Take the hassle out of device management​</a></li>
                     </ol>
+                    <h3>Resources</h3>
+                    <p><a class="has-text-green is-underlined" href="https://seneca-my.sharepoint.com/personal/david_jeong_senecacollege_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdavid%5Fjeong%5Fsenecacollege%5Fca%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FSeneca%20CE%20solving%20design%20challenges%20%28HP%29%2Epdf&parent=%2Fpersonal%2Fdavid%5Fjeong%5Fsenecacollege%5Fca%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ct=1646150211178&or=Teams%2DHL" target="_blank">Seneca CE solving design challenges (HP)</a></p>
                     `
                 }
             ]
