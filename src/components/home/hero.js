@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ReactPlayer from "react-player"
 import Countdown from 'react-countdown'
 import hero_logo from '../../images/hero-banner.svg'
 import home_image from '../../images/home_image.png'
-import day1 from '../../images/day1.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
-const hero = () => {
+const Hero = () => {
 
-    const date = new Date("February 26, 2022 23:59:59");
+    const date = new Date("March 2, 2022 11:59:59");
+    const [timer_done, setTimerDone] = useState(false);
 
-    const renderer = (time_left) => {
+    const Renderer = (time_left) => {
         if(time_left.completed){
             return '';
         }
@@ -19,6 +21,7 @@ const hero = () => {
             <span className='value'>{time_left.minutes}<br/><span className='unit'>Mins</span></span>
             <span className='value'>{time_left.seconds}<br/><span className='unit'>Secs</span></span>
         </div>;
+        setTimerDone(timer_done)
     };
 
     return (
@@ -39,30 +42,36 @@ const hero = () => {
                         <p className="title">
                            <span className='has-text-green-light'>Sustainable Planet</span>
                         </p>
-                        <p className="title">
-                            <a className='button is-success' target='_blank' rel="noopener noreferrer" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277'>
-                                <span>Register here</span>
-                            </a>
-                        </p>
                         <p className="subtitle is-size-8 mg-top-1 has-text-green">
                             <b>February 28th - March 4th | ONLINE</b>
                         </p>
-                        <p className="subtitle is-size-6 has-text-green"><a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><b><u>Submission Guidelines and Evaluation</u></b></a></p>                       
+                        <p className="title">
+                            {/* <a className='button is-success' target='_blank' rel="noopener noreferrer" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277'>
+                                <span>Register here</span>
+                            </a> */}
+                            <p className="subtitle is-size-6 has-text-green"><a href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' target="_blank"><b>To participate, <u>Register now</u>    <FontAwesomeIcon icon={faExternalLinkAlt} /></b></a></p>
+                        </p>
+                        <br/>
+                        {timer_done ? null :<p className="title">
+                            <a className='button is-primary' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
+                                <span>Submit Entry</span>
+                            </a>
+                        </p>}
+                        <p className="subtitle is-size-6 has-text-green submit-info has-text-weight-bold">Submission <a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><u>Guidelines and Evaluation.</u></a> <br/>Last day to submit in:</p>     
                         <Countdown
                             date={date}
-                            renderer={renderer}
+                            renderer={Renderer}
                         />
                     </div>
                     <div className='column hero-img'>
-                        {/* <ReactPlayer
+                        <ReactPlayer
                             url="https://www.youtube.com/embed/ytPY3CRvmO8"
                             controls={true}
                             width="100%"
                             height="355px"
                             playing={false}
                             style={{ marginTop: '16px' }}
-                        /> */}
-                        <div className="has-text-centered"><img src={day1} width="90%" alt="day1"/></div>
+                        />
                     </div>
                 </div>
             </div>
@@ -70,4 +79,4 @@ const hero = () => {
   );
 };
 
-export default hero;
+export default Hero;

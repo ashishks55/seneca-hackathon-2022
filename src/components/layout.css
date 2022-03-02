@@ -679,7 +679,7 @@ body, html{
 }
 
 .hero-body-3 .button{
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .hero-body .subtitle{
@@ -692,6 +692,10 @@ body, html{
 
 .button.is-success, .button.is-success:hover, .button.is-success.is-hovered{
   background-color: #1C444C;
+}
+
+.button.is-primary, .button.is-primary:hover, .button.is-primary.is-hovered{
+  background-color: #277a09;
 }
 
 .line-height-1{
@@ -739,6 +743,11 @@ body, html{
 
 .flex-wrap{
   flex-wrap: wrap;
+}
+
+.submit-info{
+  margin-top: 1rem !important;
+  line-height: 2rem;
 }
 
 .about-questions{

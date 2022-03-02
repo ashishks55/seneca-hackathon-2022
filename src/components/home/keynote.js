@@ -7,19 +7,14 @@ import { faPlayCircle } from '@fortawesome/free-solid-svg-icons'
 const Keynote = () => {
 
     const keynotes = [    
-         {
-            title: 'Welcome Speech from Seneca College President David Agnew',
-             link: 'https://www.youtube.com/watch?v=Gd3nOZy2gLU'
-        },
-          {
-              title: 'Keynote Video by Sandrine Garneau F1 GPCanada 1',
-              link: 'https://www.youtube.com/watch?v=FPJutXVGgHg'
-        },
         {
             title: 'Sustainability Hackathon 2022 Opening Session-20220228 1345-1Password: DikwQDs8',
-            link: ' https://seneca.webex.com/seneca/ldr.php?RCID=aa38b9ce510bf09a47e6ac74065a2f11'
+            link: 'https://www.youtube.com/watch?v=ILd8skVVp5c'
+        },
+        {
+              title: 'Keynote Video by Sandrine Garneau F1 GPCanada 1',
+              link: 'https://www.youtube.com/watch?v=FPJutXVGgHg'
         }
-
     ]
 
     const [selectedIndex, setVideoIndex] = useState(0);
