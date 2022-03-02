@@ -12,6 +12,7 @@ const HeroNew = () => {
     const [timer_done, setTimerDone] = useState(false);
 
     const Renderer = (time_left) => {
+        setTimerDone(time_left.completed)
         if(time_left.completed){
             return '';
         }
@@ -21,7 +22,6 @@ const HeroNew = () => {
             <span className='value'>{time_left.minutes}<br/><span className='unit'>Mins</span></span>
             <span className='value'>{time_left.seconds}<br/><span className='unit'>Secs</span></span>
         </div>;
-        setTimerDone(time_left.completed)
     };
 
     return (
