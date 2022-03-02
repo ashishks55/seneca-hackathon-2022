@@ -8,7 +8,7 @@ const Keynote = () => {
 
     const keynotes = [    
         {
-            title: 'Sustainability Hackathon 2022 Opening Session-20220228 1345-1Password: DikwQDs8',
+            title: 'Sustainability Hackathon 2022 Opening',
             link: 'https://www.youtube.com/watch?v=ILd8skVVp5c'
         },
         {

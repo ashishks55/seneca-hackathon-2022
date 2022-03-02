@@ -52,7 +52,8 @@ const Hero = () => {
                             <p className="subtitle is-size-6 has-text-green"><a href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' target="_blank"><b>To participate, <u>Register now</u>    <FontAwesomeIcon icon={faExternalLinkAlt} /></b></a></p>
                         </p>
                         <br/>
-                        {timer_done ? null :<p className="title">
+                        {timer_done ? null :
+                        <p className="title">
                             <a className='button is-primary' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
                                 <span>Submit Entry</span>
                             </a>

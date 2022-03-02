@@ -695,7 +695,7 @@ body, html{
 }
 
 .button.is-primary, .button.is-primary:hover, .button.is-primary.is-hovered{
-  background-color: #277a09;
+  background-color: #277a09 !important;
 }
 
 .line-height-1{
