@@ -54,7 +54,7 @@ const Hero = () => {
                         <br/>
                         {timer_done ? null :
                         <p className="title">
-                            <a className='button is-success' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
+                            <a className='button is-success submit-button' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
                                 <span>Submit Entry</span>
                             </a>
                         </p>}
