@@ -52,12 +52,12 @@ const HeroNew = () => {
                             <br/>
                             {timer_done ? null :
                                 <p>
-                                    <a className='button is-success submit-button has-text-weight-bold' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
+                                    <button disabled={true} className='button is-success submit-button has-text-weight-bold'>
                                         <span>Submit Entry</span>
-                                    </a>
+                                    </button>
                                 </p>
                             }
-                            <p className="subtitle is-size-6 has-text-green submit-info has-text-weight-bold">Submission <a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><u>Guidelines and Evaluation.</u></a> <br/>Last day to submit in:</p>     
+                            <p className="subtitle is-size-6 has-text-green submit-info has-text-weight-bold">Submission <a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><u>Guidelines and Evaluation.</u></a></p>     
                             <Countdown
                                 date={date}
                                 renderer={Renderer}

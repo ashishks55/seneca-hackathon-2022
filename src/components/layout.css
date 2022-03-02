@@ -694,6 +694,10 @@ body, html{
   background-color: #1C444C;
 }
 
+.button.is-success[disabled], fieldset[disabled] .button.is-success{
+  background-color: #1C444C;
+}
+
 .button.is-primary, .button.is-primary:hover, .button.is-primary.is-hovered{
   background-color: #277a09 !important;
 }
