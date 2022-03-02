@@ -55,7 +55,7 @@ const hero = () => {
                                 <span>Submit Entry</span>
                             </a>
                         </p>
-                        <p className="subtitle is-size-6 has-text-green submit-info has-text-weight-bold">Submission <a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><u>Guidelines and Evaluation.</u></a> <br/>Last day to submit in:</p>     
+                        <p className="subtitle is-size-6 has-text-green submit-info has-text-weight-bold">Submission <a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><u>Guidelines and Evaluation.</u></a> <br/>Last day to submit is in:</p>     
                         <Countdown
                             date={date}
                             renderer={renderer}
