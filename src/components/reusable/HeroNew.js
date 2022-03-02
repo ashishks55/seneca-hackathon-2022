@@ -8,7 +8,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
 const HeroNew = () => {
 
-    const date = new Date("March 2, 2022 11:59:59");
+    const date = new Date("March 2, 2022 12:59:59");
     const [timer_done, setTimerDone] = useState(false);
 
     const Renderer = (time_left) => {
@@ -21,7 +21,7 @@ const HeroNew = () => {
             <span className='value'>{time_left.minutes}<br/><span className='unit'>Mins</span></span>
             <span className='value'>{time_left.seconds}<br/><span className='unit'>Secs</span></span>
         </div>;
-        setTimerDone(timer_done)
+        setTimerDone(time_left.completed)
     };
 
     return (
@@ -50,11 +50,17 @@ const HeroNew = () => {
                         </p>
                         <div className="submit-task">
                             <br/>
-                            {timer_done ? null :
+                            {timer_done ? 
                                 <p>
                                     <button disabled={true} className='button is-success submit-button has-text-weight-bold'>
                                         <span>Submit Entry</span>
                                     </button>
+                                </p>
+                             :
+                                <p>
+                                    <a className='button is-success submit-button has-text-weight-bold' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
+                                        <span>Submit Entry</span>
+                                    </a>
                                 </p>
                             }
                             <p className="subtitle is-size-6 has-text-green submit-info has-text-weight-bold">Submission <a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><u>Guidelines and Evaluation.</u></a></p>     
