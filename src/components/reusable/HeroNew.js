@@ -6,7 +6,7 @@ import home_image from '../../images/home_image.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
-const Hero = () => {
+const HeroNew = () => {
 
     const date = new Date("March 2, 2022 11:59:59");
     const [timer_done, setTimerDone] = useState(false);
@@ -48,19 +48,21 @@ const Hero = () => {
                         <p className="title">
                             <p className="subtitle is-size-6 has-text-green"><a href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' target="_blank"><b>To participate, <u>Register now</u>    <FontAwesomeIcon icon={faExternalLinkAlt} /></b></a></p>
                         </p>
-                        <br/>
-                        {timer_done ? null :
-                            <p>
-                                <a className='button is-success submit-button has-text-weight-bold' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
-                                    <span>Submit Entry</span>
-                                </a>
-                            </p>
-                        }
-                        <p className="subtitle is-size-6 has-text-green submit-info has-text-weight-bold">Submission <a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><u>Guidelines and Evaluation.</u></a> <br/>Last day to submit in:</p>     
-                        <Countdown
-                            date={date}
-                            renderer={Renderer}
-                        />
+                        <div className="submit-task">
+                            <br/>
+                            {timer_done ? null :
+                                <p>
+                                    <a className='button is-success submit-button has-text-weight-bold' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
+                                        <span>Submit Entry</span>
+                                    </a>
+                                </p>
+                            }
+                            <p className="subtitle is-size-6 has-text-green submit-info has-text-weight-bold">Submission <a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><u>Guidelines and Evaluation.</u></a> <br/>Last day to submit in:</p>     
+                            <Countdown
+                                date={date}
+                                renderer={Renderer}
+                            />
+                        </div>
                     </div>
                     <div className='column hero-img'>
                         <ReactPlayer
@@ -78,4 +80,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroNew;

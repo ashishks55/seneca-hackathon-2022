@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import Hero2 from "../components/home/hero"
+import HeroNew from "../components/reusable/HeroNew"
 import About from "../components/home/about"
 import KeyNotes from "../components/home/keynote"
 import Timeline from "../components/home/timeline"
@@ -17,7 +17,7 @@ import SolutionTechnologies from "../components/home/solutiontechnologies"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <Hero2/>
+    <HeroNew/>
     <SectionBreak id={'about'}/>
     <About />
     <SectionBreak id={'timeline'}/>
