@@ -5,7 +5,7 @@ import hero_logo from '../../images/hero-banner.svg'
 import home_image from '../../images/home_image.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
-import day1 from '../../images/day1.png'
+import day2 from '../../images/day1.png'
 
 const HeroNew = () => {
 
@@ -49,6 +49,7 @@ const HeroNew = () => {
                         <p className="title">
                             <p className="subtitle is-size-6 has-text-green"><a href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' target="_blank"><b>To participate, <u>Register now</u>    <FontAwesomeIcon icon={faExternalLinkAlt} /></b></a></p>
                         </p>
+                        <div>
                                     <div className="submit-task-2">
                                         <br/>
                                         {timer_done ? 
@@ -70,9 +71,12 @@ const HeroNew = () => {
                                             renderer={Renderer}
                                         />
                                     </div>
+                        </div>
                     </div>
-                    <div className='column has-text-centered abc'>
-                        <img src={day1} width="90%"/>
+                    <div className='column has-text-centered'>
+                        <div>
+                            <img src={day2} width="90%"/>
+                        </div>
                     </div>
                     {/* <div className='column hero-img'>
                         <ReactPlayer
