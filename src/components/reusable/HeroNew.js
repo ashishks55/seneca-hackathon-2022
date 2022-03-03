@@ -5,6 +5,7 @@ import hero_logo from '../../images/hero-banner.svg'
 import home_image from '../../images/home_image.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import day1 from '../../images/day1.png'
 
 const HeroNew = () => {
 
@@ -70,7 +71,7 @@ const HeroNew = () => {
                             />
                         </div>
                     </div>
-                    <div className='column hero-img'>
+                    {/* <div className='column hero-img'>
                         <ReactPlayer
                             url="https://www.youtube.com/embed/ytPY3CRvmO8"
                             controls={true}
@@ -79,6 +80,9 @@ const HeroNew = () => {
                             playing={false}
                             style={{ marginTop: '16px' }}
                         />
+                    </div> */}
+                    <div className='column has-text-centered'>
+                        <img src={day1} width="90%"/>
                     </div>
                 </div>
             </div>
