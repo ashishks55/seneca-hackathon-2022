@@ -49,27 +49,30 @@ const HeroNew = () => {
                         <p className="title">
                             <p className="subtitle is-size-6 has-text-green"><a href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' target="_blank"><b>To participate, <u>Register now</u>    <FontAwesomeIcon icon={faExternalLinkAlt} /></b></a></p>
                         </p>
-                        <div className="submit-task">
-                            <br/>
-                            {timer_done ? 
-                                <p>
-                                    <button disabled={true} className='button is-primary submit-button has-text-weight-bold'>
-                                        <span>Final submission</span>
-                                    </button>
-                                </p>
-                             :
-                                <p>
-                                    <a className='button is-primary submit-button has-text-weight-bold' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
-                                        <span>Final submission</span>
-                                    </a>
-                                </p>
-                            }
-                            <p className="subtitle is-size-6 has-text-green submit-info has-text-weight-bold">Submission <a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><u>Guidelines and Evaluation.</u></a></p>     
-                            <Countdown
-                                date={date}
-                                renderer={Renderer}
-                            />
-                        </div>
+                                    <div className="submit-task-2">
+                                        <br/>
+                                        {timer_done ? 
+                                            <p>
+                                                <button disabled={true} className='button is-primary submit-button has-text-weight-bold'>
+                                                    <span>Final submission</span>
+                                                </button>
+                                            </p>
+                                        :
+                                            <p>
+                                                <a className='button is-primary submit-button has-text-weight-bold' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
+                                                    <span>Final submission</span>
+                                                </a>
+                                            </p>
+                                        }
+                                        <p className="subtitle is-size-6 has-text-green submit-info has-text-weight-bold">Submission <a href='https://1drv.ms/b/s!AjVZxwfdWPW8dz2tFk57Fj8uGao?e=WAAbpQ' target="_blank"><u>Guidelines and Evaluation.</u></a></p>     
+                                        <Countdown
+                                            date={date}
+                                            renderer={Renderer}
+                                        />
+                                    </div>
+                    </div>
+                    <div className='column has-text-centered abc'>
+                        <img src={day1} width="90%"/>
                     </div>
                     {/* <div className='column hero-img'>
                         <ReactPlayer
@@ -81,9 +84,6 @@ const HeroNew = () => {
                             style={{ marginTop: '16px' }}
                         />
                     </div> */}
-                    <div className='column has-text-centered'>
-                        <img src={day1} width="90%"/>
-                    </div>
                 </div>
             </div>
         </section>

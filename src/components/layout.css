@@ -702,6 +702,10 @@ body, html{
   background-color: #066526 !important;
 }
 
+.button.is-primary[disabled], fieldset[disabled] .button.is-primary{
+  background-color: #066526;
+}
+
 .line-height-1{
   line-height: 1.5rem;
 }
