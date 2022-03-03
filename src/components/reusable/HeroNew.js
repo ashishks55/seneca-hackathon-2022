@@ -8,7 +8,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
 const HeroNew = () => {
 
-    const date = new Date("March 2, 2022 12:59:59");
+    const date = new Date("March 4, 2022 10:59:59");
     const [timer_done, setTimerDone] = useState(false);
 
     const Renderer = (time_left) => {
@@ -52,14 +52,14 @@ const HeroNew = () => {
                             <br/>
                             {timer_done ? 
                                 <p>
-                                    <button disabled={true} className='button is-success submit-button has-text-weight-bold'>
-                                        <span>Submit Entry</span>
+                                    <button disabled={true} className='button is-primary submit-button has-text-weight-bold'>
+                                        <span>Final submission</span>
                                     </button>
                                 </p>
                              :
                                 <p>
-                                    <a className='button is-success submit-button has-text-weight-bold' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
-                                        <span>Submit Entry</span>
+                                    <a className='button is-primary submit-button has-text-weight-bold' target='_blank' rel="noopener noreferrer" href='https://script.google.com/macros/s/AKfycbxXi8dyz-6sUbT-h-bMsfgaV9RUFu5YMgkObRHzcvZwV1dFoo8/exec'>
+                                        <span>Final submission</span>
                                     </a>
                                 </p>
                             }
