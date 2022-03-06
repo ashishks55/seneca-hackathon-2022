@@ -17,25 +17,25 @@ const Winners = () => {
             title: 'Cities and Municipalities',
             description: 'Richmond Hill Cats',
             email: 'hyu99@myseneca.ca',
-            video_link: ''
+            video_link: 'https://www.youtube.com/embed/ytPY3CRvmO8'
         },
         {
             title: 'Corporate Social Responsibility',
             description: 'AKR3',
             email: 'achan167@myseneca.ca',
-            video_link: ''
+            video_link: 'https://www.youtube.com/embed/ytPY3CRvmO8'
         },
         {
             title: 'NetZero',
             description: 'HighFive',
             email: 'rwu30@myseneca.ca',
-            video_link: ''
+            video_link: 'https://www.youtube.com/embed/ytPY3CRvmO8'
         },
         {
             title: 'Global Causes',
             description: 'Hack it Up',
             email: 'vgparmar@myseneca.ca',
-            video_link: ''
+            video_link: 'https://www.youtube.com/embed/ytPY3CRvmO8'
         }
     ]
     const [activeItemIndex, setActiveItemIndex] = useState(0);
@@ -62,12 +62,12 @@ const Winners = () => {
                                         winners.map((winner, index) => (
                                             <div className='winner-item columns' style={{ padding: `15px ${chevronWidth}px` }} key={index}>
                                                 <div className='column columns winner-details-2' >
-                                                    <div classes="column">
+                                                    <div classes="column is-4">
                                                         <h2>{winner.title}</h2>
                                                         <h3><FontAwesomeIcon icon={faTrophy}/> {winner.description}</h3>
                                                         <p><FontAwesomeIcon icon={faEnvelope}/>  {winner.email}</p>
                                                     </div>
-                                                    <div className='column'>
+                                                    <div className='column video-winner'>
                                                         <ReactPlayer url={winner.video_link} controls={true} width="100%" playing={false} />
                                                     </div>
                                                 </div>

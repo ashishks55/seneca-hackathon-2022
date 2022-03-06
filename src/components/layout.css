@@ -1090,6 +1090,10 @@ div.sponsor-list:last-child {
   color: #459888;
 }
 
+.video-winner{
+  margin: 0 1rem;
+}
+
 .winner-details-2 h3{
   text-align: center;
   color: #1C444C;
