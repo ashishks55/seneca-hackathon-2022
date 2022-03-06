@@ -45,6 +45,11 @@ const Header = () => {
       is_selected: false
     },
     {
+      title: 'Winners',
+      link: '/#winners',
+      is_selected: false
+    },
+    {
       title: 'Spotlight',
       link: '/#spotlight',
       is_selected: false
