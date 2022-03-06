@@ -47,10 +47,10 @@ const HeroNew = () => {
                             <b>February 28th - March 4th | ONLINE</b>
                         </p>
                         <p className="title">
-                            <p className="subtitle is-size-6 has-text-green"><a href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' target="_blank"><b>To participate, <u>Register now</u>    <FontAwesomeIcon icon={faExternalLinkAlt} /></b></a></p>
+                            <p className="subtitle is-size-6 has-text-green"><b>To participate,</b> <br/><br/> <a className="button is-success" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' target="_blank"><span><b>Register now</b></span>   <span className="icon"><FontAwesomeIcon icon={faExternalLinkAlt} /></span></a></p>
                         </p>
                         <div>
-                                    <div className="submit-task-2">
+                                    {/* <div className="submit-task-2">
                                         <br/>
                                         {timer_done ? 
                                             <p>
@@ -70,15 +70,15 @@ const HeroNew = () => {
                                             date={date}
                                             renderer={Renderer}
                                         />
-                                    </div>
+                                    </div> */}
                         </div>
                     </div>
-                    <div className='column has-text-centered'>
+                    {/* <div className='column has-text-centered'>
                         <div>
                             <img src={day2} width="90%"/>
                         </div>
-                    </div>
-                    {/* <div className='column hero-img'>
+                    </div> */}
+                    <div className='column hero-img'>
                         <ReactPlayer
                             url="https://www.youtube.com/embed/ytPY3CRvmO8"
                             controls={true}
@@ -87,7 +87,7 @@ const HeroNew = () => {
                             playing={false}
                             style={{ marginTop: '16px' }}
                         />
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </section>
