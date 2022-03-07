@@ -1640,3 +1640,62 @@ div.sponsor-list:last-child {
     width: 20%;
     margin-top: 2%;
 }
+
+.winners-container {
+  display: flex;
+  flex-direction: row;
+  /* font-size: 30px;
+  text-align: center; */
+}
+
+.winners-item-left {
+  margin-left: 15px;
+  flex: 30%;
+  padding-top: 5rem;
+}
+
+.winners-item-right {
+  margin-right: 15px;
+  flex: 70%;
+}
+
+.winners-desc{
+  padding: 15px;
+  background: white;
+  border-radius: 15px 0px 0px 15px;
+  border: solid thin #000;
+  border-right: none;
+}
+
+@media (max-width: 800px) {
+  .winners-container {
+    flex-direction: column;
+  }
+
+  .winners-desc{
+    padding: 15px;
+    background: white;
+    border-radius: 15px 15px 0px 0px;
+    border: solid thin #000;
+  }
+
+  .winners-item-left {
+    margin: 0px 5px;
+  }
+  
+  .winners-item-right {
+    margin: 0px 5px;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1182px) {
+  .winners-item-left {
+    padding-top: 3rem;
+  }
+}
+
+@media (min-width: 1183px) and (max-width: 1226px) {
+  .winners-item-left {
+    padding-top: 4rem;
+  }
+}

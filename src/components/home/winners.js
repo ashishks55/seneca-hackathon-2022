@@ -54,7 +54,7 @@ const Winners = () => {
                                 >
                                     {
                                         winners.map((winner, index) => (
-                                            <div className='winner-item columns' style={{ padding: `15px ${chevronWidth}px` }} key={index}>
+                                            /* <div className='winner-item columns' style={{ padding: `15px ${chevronWidth}px` }} key={index}>
                                                 <div className='column columns winner-details-2' >
                                                     <div classes="column is-4">
                                                         <h2>{winner.title}</h2>
@@ -64,6 +64,20 @@ const Winners = () => {
                                                     <div className='column video-winner'>
                                                         <ReactPlayer url={winner.video_link} controls={true} width="100%" playing={false} />
                                                     </div>
+                                                </div>
+                                            </div> */
+
+                                            <div class="winners-container">
+                                                <div class="winners-item-left">
+                                                    <div class="winners-desc">
+                                                        <h2>{winner.title}</h2>
+                                                        <h3><FontAwesomeIcon icon={faTrophy}/> {winner.description}</h3>
+                                                        <p><FontAwesomeIcon icon={faEnvelope}/>  {winner.email}</p>  
+                                                    </div>
+                                                      
+                                                </div>
+                                                <div class="winners-item-right">
+                                                <ReactPlayer url={winner.video_link} controls={true} width="100%" playing={false} />
                                                 </div>
                                             </div>
                                         ))
