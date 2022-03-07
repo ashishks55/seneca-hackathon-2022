@@ -12,6 +12,7 @@ import FAQ from "../components/home/faq"
 import SectionBreak from "../components/reusable/sectionbreak"
 import Seo from "../components/seo"
 import Prizes from "../components/home/prizes"
+import Winners from '../components/home/winners'
 import SolutionTechnologies from "../components/home/solutiontechnologies"
 
 const IndexPage = () => (
@@ -32,10 +33,10 @@ const IndexPage = () => (
     <KeyNotes />
     <SectionBreak id={'sponsors'}/>
     <Sponsors/>
+    <SectionBreak id={'winners'}/>
+    <Winners/>
     <SectionBreak id={'spotlight'}/>
     <Spotlight/>
-    {/* <SectionBreak id={'organizers'}/>
-    <Organizers/> */}
     <SectionBreak id={'faq'}/>
     <FAQ/>
   </Layout>

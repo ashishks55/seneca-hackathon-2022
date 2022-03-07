@@ -1072,6 +1072,38 @@ div.sponsor-list:last-child {
   text-align: center;
 }
 
+.carousel-1 .winner-details-2{
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: white;
+  min-height: 450px;
+  margin-top: 2rem;
+  padding: 2rem;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.winner-details-2 h2{
+  margin-top: 30px;
+  text-align: center;
+  color: #459888;
+}
+
+.video-winner{
+  margin: 0 1rem;
+}
+
+.winner-details-2 h3{
+  text-align: center;
+  color: #1C444C;
+  line-height: 2rem;
+}
+
+.winner-details-2 p{
+  text-align: center;
+}
+
 .carousel-1 .winner-image{
   padding-left: 0px;
   display: flex;
@@ -1608,4 +1640,3 @@ div.sponsor-list:last-child {
     width: 20%;
     margin-top: 2%;
 }
-
