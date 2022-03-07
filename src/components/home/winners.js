@@ -1,15 +1,9 @@
 import React, { useState } from 'react';
 import ItemsCarousel from 'react-items-carousel';
-import winner_img from '../../images/winners.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faTrophy } from '@fortawesome/free-solid-svg-icons'
 import ReactPlayer from "react-player"
-
-// import cm from 'https://drive.google.com/file/d/1qZ3MyJi-b2UJaDiFi5-nuRnlkAUA9e_L/view';
-// import csr from 'https://drive.google.com/file/d/1EpwcXnLi55GpyoOqZckbdDRnaxi6NU9O/view';
-// import netzero from 'https://drive.google.com/file/d/1GzV3pq9EGoS2_PpPkhD2BmoW7jxX6teu/view';
-// import global from 'https://drive.google.com/file/d/1hwlqesvto33vPHcExGaeKBk06GqlTNiy/view';
 
 const Winners = () => {
     const winners = [
@@ -17,25 +11,25 @@ const Winners = () => {
             title: 'Cities and Municipalities',
             description: 'Richmond Hill Cats',
             email: 'hyu99@myseneca.ca',
-            video_link: 'https://www.youtube.com/embed/ytPY3CRvmO8'
+            video_link: 'https://youtu.be/UVWP-B1sMjc'
         },
         {
             title: 'Corporate Social Responsibility',
             description: 'AKR3',
             email: 'achan167@myseneca.ca',
-            video_link: 'https://www.youtube.com/embed/ytPY3CRvmO8'
+            video_link: 'https://youtu.be/zVTwj7oSswI'
         },
         {
             title: 'NetZero',
             description: 'HighFive',
             email: 'rwu30@myseneca.ca',
-            video_link: 'https://www.youtube.com/embed/ytPY3CRvmO8'
+            video_link: 'https://youtu.be/v43Thw9M-t4'
         },
         {
             title: 'Global Causes',
             description: 'Hack it Up',
             email: 'vgparmar@myseneca.ca',
-            video_link: 'https://www.youtube.com/embed/ytPY3CRvmO8'
+            video_link: 'https://youtu.be/FREwxtXQylo'
         }
     ]
     const [activeItemIndex, setActiveItemIndex] = useState(0);
