@@ -47,7 +47,7 @@ const HeroNew = () => {
                             <b>February 28th - March 4th | ONLINE</b>
                         </p>
                         <p className="title">
-                            <p className="subtitle is-size-6 has-text-green"><b>To participate,</b> <br/><br/> <a className="button is-success" href='https://www.eventbrite.ca/e/senecas-sustainability-hackathon-2022-registration-205162405277' target="_blank"><span><b>Register now</b></span>   <span className="icon"><FontAwesomeIcon icon={faExternalLinkAlt} /></span></a></p>
+                            <p className="subtitle is-size-6 has-text-green line-height-1"><b>Thank you for your participation and <br/>Congratulations to all Winners. <br/><br/><a href="#winners"><u>Click here</u></a> to see the Winners list.</b></p>
                         </p>
                         <div>
                                     {/* <div className="submit-task-2">
