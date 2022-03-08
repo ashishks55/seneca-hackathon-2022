@@ -47,7 +47,7 @@ const HeroNew = () => {
                             <b>February 28th - March 4th | ONLINE</b>
                         </p>
                         <p className="title">
-                            <p className="subtitle is-size-6 has-text-green line-height-1"><b>Thank you for your participation and <br/>Congratulations to all Winners. <br/><br/><a href="#winners"><u>Click here</u></a> to see the Winners list.</b></p>
+                            <p className="subtitle is-size-6 has-text-green line-height-1"><b>Thank you for your participation and <br/>congratulations to all Winners. <br/><br/><a href="#winners"><u>Click here</u></a> to see the Winners list.</b></p>
                         </p>
                         <div>
                                     {/* <div className="submit-task-2">
