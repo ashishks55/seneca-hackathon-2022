@@ -14,7 +14,11 @@ const Keynote = () => {
         {
               title: 'Keynote Video by Sandrine Garneau F1 GPCanada 1',
               link: 'https://www.youtube.com/watch?v=FPJutXVGgHg'
-        }
+        },
+        {
+            title: 'Closing Ceremony - Seneca Sustainability Hackathon 2022',
+            link: 'https://www.youtube.com/watch?v=w9h9FQ84IF4'
+      }
     ]
 
     const [selectedIndex, setVideoIndex] = useState(0);

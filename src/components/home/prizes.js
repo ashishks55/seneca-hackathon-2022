@@ -66,7 +66,7 @@ const prizes = () => {
                         <td className='f1-car-td-red'></td>
                     </tr>
                 </table>
-                <div className='columns' id='main-prize-div' style={{ backgroundImage: 'url(' + blurredConfetti + ')' }}>
+                <div className='columns' id='main-prize-div'>
                 <div className='rows is-12-tablet is-12-desktop hero-content has-text-dark-green'>                   
                     <div className='row prizes-trophy-left-div'>
                         <p className='width-60 prize-trophy-section'>

@@ -80,12 +80,12 @@ const HeroNew = () => {
                     </div> */}
                     <div className='column hero-img'>
                         <ReactPlayer
-                            url="https://www.youtube.com/embed/ytPY3CRvmO8"
+                            url="https://www.youtube.com/watch?v=MbP5XRT5F9E"
                             controls={true}
                             width="100%"
                             height="355px"
                             playing={false}
-                            style={{ marginTop: '16px' }}
+                            style={{ marginTop: '-16px' }}
                         />
                     </div>
                 </div>
