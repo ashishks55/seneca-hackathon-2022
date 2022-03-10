@@ -977,6 +977,11 @@ div.sponsor-list:last-child {
   margin-top: 0.5rem !important;
 }
 
+.mg-bottom-1{
+  margin-bottom: 1rem !important;
+}
+
+
 .card-front img{
   width: 70px;
   margin-top: 40px;
@@ -1052,8 +1057,30 @@ div.sponsor-list:last-child {
   border-radius: 15px;
   background-color: white;
   min-height: 450px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 2rem;
+}
+
+.carousel-1 .winner-details-3{
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: white;
+  min-height: 450px;
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+.hero.is-white .tabs.is-boxed li.is-active a, .hero.is-white .tabs.is-boxed li.is-active a:hover, .hero.is-white .tabs.is-toggle li.is-active a, .hero.is-white .tabs.is-toggle li.is-active a:hover{
+  background-color: #01354D;
+}
+
+.winner-tabs {
+  margin-bottom: 0px !important;
+  margin-top: 2rem;
+}
+
+.winner-tabs li{
+  font-weight: 500;
 }
 
 .winner-details h2{
@@ -1070,6 +1097,31 @@ div.sponsor-list:last-child {
 
 .winner-details p{
   text-align: center;
+}
+
+.winner-details-3 h2{
+  text-align: center;
+  margin-bottom: 10px;
+  color: #459888;
+}
+
+.winner-details-3 h3{
+  text-align: center;
+  color: #1C444C;
+  line-height: 2rem;
+  margin-bottom: 10px;
+}
+
+.winner-details-3 p{
+  text-align: center;
+}
+
+.winner-details-3 li{
+  list-style-type: disc;
+}
+
+.winner-details-3 ul{
+  margin-left: 20px;
 }
 
 .carousel-1 .winner-details-2{
@@ -1108,7 +1160,7 @@ div.sponsor-list:last-child {
   padding-left: 0px;
   display: flex;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .carousel-1 .winner-image img{

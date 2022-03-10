@@ -33,9 +33,9 @@ const IndexPage = () => (
     <KeyNotes />
     <SectionBreak id={'sponsors'}/>
     <Sponsors/>
+    {/* <SectionBreak id={'winners'}/>
+    <Winners/> */}
     <SectionBreak id={'winners'}/>
-    <Winners/>
-    <SectionBreak id={'spotlight'}/>
     <Spotlight/>
     <SectionBreak id={'faq'}/>
     <FAQ/>

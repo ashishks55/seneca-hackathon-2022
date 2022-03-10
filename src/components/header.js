@@ -49,11 +49,11 @@ const Header = () => {
       link: '/#winners',
       is_selected: false
     },
-    {
-      title: 'Spotlight',
-      link: '/#spotlight',
-      is_selected: false
-    },
+    // {
+    //   title: 'Spotlight',
+    //   link: '/#spotlight',
+    //   is_selected: false
+    // },
     {
       title: 'Organizers',
       link: '/organizers',
