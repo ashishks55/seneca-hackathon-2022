@@ -14,6 +14,7 @@ import Seo from "../components/seo"
 import Prizes from "../components/home/prizes"
 import Winners from '../components/home/winners'
 import SolutionTechnologies from "../components/home/solutiontechnologies"
+import YogFrontSessions from "../components/home/yogfrontsessions"
 
 const IndexPage = () => (
   <Layout>
@@ -30,7 +31,9 @@ const IndexPage = () => (
     <SectionBreak id={'prizes'} />
     <Prizes />
     <SectionBreak id={'keynotes'} />
-    <KeyNotes />
+        <KeyNotes />
+        <SectionBreak id={'yog-front-sessions'} />
+        <YogFrontSessions />
     <SectionBreak id={'sponsors'}/>
     <Sponsors/>
     <SectionBreak id={'winners'}/>
