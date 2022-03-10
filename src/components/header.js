@@ -38,7 +38,12 @@ const Header = () => {
         title: 'Keynotes',
         link: '/#keynotes',
         is_selected: false
-    },
+      },
+      {
+          title: 'Yog Front Sessions',
+          link: '/#yog-front-sessions',
+          is_selected: false
+      },
     {
       title: 'Sponsors',
       link: '/#sponsors',
