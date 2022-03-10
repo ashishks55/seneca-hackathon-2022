@@ -58,7 +58,12 @@ const Header = () => {
       title: 'Organizers',
       link: '/organizers',
       is_selected: false
-    },
+      },
+      {
+          title: 'Yog Front Sessions',
+          link: '/yog-front-sessions',
+          is_selected: false
+      },
     {
       title: 'FAQ',
       link: '/#faq',
