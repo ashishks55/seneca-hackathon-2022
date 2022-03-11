@@ -59,14 +59,15 @@ const Spotlight = () => {
                 <p class="has-text-left"><b>Team Members</b></p>
                 <ul>
                     <li>Yu-Kai Wu</li>
-                    <li>Jexequiel Ravni Arador o Kayden Nguyen</li>
+                    <li>Jexequiel Ravni Arador</li>
+                    <li>Kayden Nguyen</li>
                     <li>Aaron Chan</li>
                     <li>Swati Chourey</li>
                 </ul>
             `,
         },
         {
-            heading: 'Category winner',
+            heading: 'Category winner - Cities and Municipalities',
             title: 'Team name - Richmond Hill Cats',
             video_link: 'https://www.youtube.com/watch?v=UVWP-B1sMjc',
             description: `
@@ -75,13 +76,12 @@ const Spotlight = () => {
                 <ul>
                     <li>Beth Sun</li>
                     <li>Hanyang Yu</li>
-                    <li>Aaron Chan</li>
                     <li>Shirley Gu</li>
                 </ul>
             `,
         },
         {
-            heading: 'Category winner',
+            heading: 'Category winner - Global Causes',
             title: 'Team name - Hack it up',
             video_link: 'https://www.youtube.com/watch?v=FREwxtXQylo',
             description: `
@@ -97,7 +97,7 @@ const Spotlight = () => {
             `,
         },
         {
-            heading: 'Category winner',
+            heading: 'Category winner - Net Zero',
             title: 'Team name - HighFive',
             video_link: 'https://www.youtube.com/watch?v=v43Thw9M-t4',
             description: `
