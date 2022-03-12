@@ -51,7 +51,7 @@ const Spotlight = () => {
 
     const winners_2022 = [
         {
-            heading: 'Grand winner',
+            heading: 'Grand Prize Winner',
             title: 'Team name - AKR3',
             video_link: 'https://www.youtube.com/watch?v=zVTwj7oSswI',
             description: `
@@ -67,7 +67,7 @@ const Spotlight = () => {
             `,
         },
         {
-            heading: 'Category winner - Cities and Municipalities',
+            heading: 'Cities and Municipalities',
             title: 'Team name - Richmond Hill Cats',
             video_link: 'https://www.youtube.com/watch?v=UVWP-B1sMjc',
             description: `
@@ -81,7 +81,7 @@ const Spotlight = () => {
             `,
         },
         {
-            heading: 'Category winner - Global Causes',
+            heading: 'Global Causes',
             title: 'Team name - Hack it up',
             video_link: 'https://www.youtube.com/watch?v=FREwxtXQylo',
             description: `
@@ -97,7 +97,7 @@ const Spotlight = () => {
             `,
         },
         {
-            heading: 'Category winner - Net Zero',
+            heading: 'Net Zero',
             title: 'Team name - HighFive',
             video_link: 'https://www.youtube.com/watch?v=v43Thw9M-t4',
             description: `
