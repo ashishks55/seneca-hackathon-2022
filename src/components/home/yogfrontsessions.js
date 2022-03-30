@@ -8,6 +8,18 @@ const Session = () => {
 
     const sessions = [
         {
+            title: 'Yog Front Seneca Hackathon video',
+            link: 'https://www.youtube.com/watch?v=lzkCPPh1ERI',
+            author: 'Yog Front Organization',
+            disable: false
+        },
+        {
+            title: 'Dr Rohini Gautam Presentation on Panch Kosha',
+            link: 'https://www.youtube.com/watch?v=jZptWuKgNcs',
+            author: 'Dr. Rohini Gautam',
+            disable: false
+        },
+        {
             title: 'Annamaya Kosha - Sustainability Program',
             link: 'https://www.youtube.com/embed/Tyn78ECtV6s',
             author: 'Yog Front Organization',
