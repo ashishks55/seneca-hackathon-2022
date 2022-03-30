@@ -80,7 +80,7 @@ const HeroNew = () => {
                     </div> */}
                     <div className='column hero-img'>
                         <ReactPlayer
-                            url="https://www.youtube.com/watch?v=MbP5XRT5F9E"
+                            url="https://www.youtube.com/watch?v=t3zNVHDMegY"
                             controls={true}
                             width="100%"
                             height="355px"
